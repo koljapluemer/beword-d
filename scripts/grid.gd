@@ -72,6 +72,7 @@ func swap_pieces(col, row, direction):
 	var second_pos = second_piece.position;
 	first_piece.move(second_pos);
 	second_piece.move(first_pos);
+	find_matches();
 
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
@@ -112,6 +113,7 @@ func make_2d_array():
 			arr[i].append(null);
 	return arr;
 
+
 func is_match_at(col, row, color):
 	# checking to the left
 	if col > 1:
@@ -124,3 +126,66 @@ func is_match_at(col, row, color):
 			if all_pieces[col][row-1].color == color and all_pieces[col][row-2].color == color:
 				return true;
 	return false;
+
+# Matches
+
+func find_matches():
+	for i in width:
+		for j in height:
+			var piece = all_pieces[i][j];
+			if piece != null:
+				var current_color = piece.color;
+				# check left and right
+				if i > 0 and i < width - 1:
+					var other_piece_1 = all_pieces[i-1][j];
+					var other_piece_2 = all_pieces[i+1][j];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();
+				# check up and down
+				if j > 0 and j < height - 1:
+					var other_piece_1 = all_pieces[i][j-1];
+					var other_piece_2 = all_pieces[i][j+1];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();
+				# check to the top
+				if i > 1:
+					var other_piece_1 = all_pieces[i-1][j];
+					var other_piece_2 = all_pieces[i-2][j];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();
+				# check to the bottom
+				if i < width - 2:
+					var other_piece_1 = all_pieces[i+1][j];
+					var other_piece_2 = all_pieces[i+2][j];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();
+				# check to the left
+				if j > 1:
+					var other_piece_1 = all_pieces[i][j-1];
+					var other_piece_2 = all_pieces[i][j-2];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();
+				# check to the right
+				if j < height - 2:
+					var other_piece_1 = all_pieces[i][j+1];
+					var other_piece_2 = all_pieces[i][j+2];
+					if other_piece_1 != null and other_piece_2 != null:
+						if other_piece_1.color == current_color and other_piece_2.color == current_color:
+							other_piece_1.set_matched();
+							other_piece_2.set_matched();
+							piece.set_matched();

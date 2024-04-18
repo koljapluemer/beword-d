@@ -2,10 +2,11 @@ extends Node2D
 
 @export var color: String
 var tween
-# Called when the node enters the scene tree for the first time.
+var matched = false
+
+
 func _ready():
 	pass
-	# tween movement (godot4)
 
 func move(target):
 	tween = get_tree().create_tween()	
@@ -18,3 +19,8 @@ func move(target):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+
+func set_matched():
+	matched = true
+	get_node("Sprite2D").modulate = Color(1, 1, 1, .3)
