@@ -18,15 +18,16 @@ var vocab = [
 var possible_colors = [
 	"blue",
 	"green",
-	"orange",
-	"pink",
+	#"orange",
+	#"pink",
 	"yellow",
-	"purple"
+	#"purple"
 ]
 
 var vocab_prefab_dict = {}
 
 var piece_prefab = preload("res://scenes/piece.tscn")
+var to_be_splashed = []
 
 # State Machine
 
@@ -94,6 +95,7 @@ func init_piece():
 	var word_node = piece.get_node("word");
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
+	# word_node.text = color
 	return piece;
 
 
@@ -209,6 +211,7 @@ func is_match_at(col, row, color):
 # Matches
 
 func find_matches():
+	to_be_splashed = [];
 	for i in width:
 		for j in height:
 			var piece = all_pieces[i][j];
@@ -223,6 +226,9 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i - 1, j])
+							to_be_splashed.append([i + 1, j])
 				# check up and down
 				if j > 0 and j < height - 1:
 					var other_piece_1 = all_pieces[i][j - 1];
@@ -232,6 +238,9 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i, j - 1])
+							to_be_splashed.append([i, j + 1])
 				# check to the top
 				if i > 1:
 					var other_piece_1 = all_pieces[i - 1][j];
@@ -241,6 +250,9 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i - 1, j])
+							to_be_splashed.append([i - 2, j])
 				# check to the bottom
 				if i < width - 2:
 					var other_piece_1 = all_pieces[i + 1][j];
@@ -250,6 +262,9 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i + 1, j])
+							to_be_splashed.append([i + 2, j])
 				# check to the left
 				if j > 1:
 					var other_piece_1 = all_pieces[i][j - 1];
@@ -259,6 +274,9 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i, j - 1])
+							to_be_splashed.append([i, j - 2])
 				# check to the right
 				if j < height - 2:
 					var other_piece_1 = all_pieces[i][j + 1];
@@ -268,6 +286,15 @@ func find_matches():
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+							to_be_splashed.append([i,j])
+							to_be_splashed.append([i, j + 1])
+							to_be_splashed.append([i, j + 2])
+	# immediately color the matched pieces
+	for pos in to_be_splashed:
+		var piece = all_pieces[pos[0]][pos[1]];
+		if piece != null:
+			piece.set_colorful();
+
 	get_parent().get_node("destroy_timer").start();
 
 func destroy_matched():
@@ -285,6 +312,19 @@ func destroy_matched():
 		get_parent().get_node("collapse_timer").start();
 	else: 
 		swap_back();
+	splash(to_be_splashed);
+
+func splash(to_be_splashed_from):
+	# randomly splash on pieces around the matched positions
+	for i in to_be_splashed_from:
+		var col = i[0];
+		var row = i[1];
+		# random offset from -2 to 2
+		var x_offset = randi() % 5 - 2;
+		var y_offset = randi() % 5 - 2;
+		if is_within_grid(col + x_offset, row + y_offset):
+			if all_pieces[col + x_offset][row + y_offset] != null:
+				all_pieces[col + x_offset][row + y_offset].set_colorful();
 
 func collapse_cols():
 	for i in width:
