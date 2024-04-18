@@ -61,6 +61,7 @@ func touch_input():
 		var grid_pos = pixel_to_grid(second_touch.x, second_touch.y);
 		if is_within_grid(grid_pos.x, grid_pos.y) and currently_controlling_piece:
 			touch_difference(pixel_to_grid(first_touch.x, first_touch.y), grid_pos);
+			currently_controlling_piece = false;
 
 func swap_pieces(col, row, direction):
 	var first_piece = all_pieces[col][row];
@@ -69,8 +70,8 @@ func swap_pieces(col, row, direction):
 	all_pieces[col + direction.x][row + direction.y] = first_piece;
 	var first_pos = first_piece.position;
 	var second_pos = second_piece.position;
-	first_piece.position = second_pos;
-	second_piece.position = first_pos;
+	first_piece.move(second_pos);
+	second_piece.move(first_pos);
 
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
