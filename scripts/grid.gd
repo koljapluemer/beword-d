@@ -15,7 +15,18 @@ var vocab = [
 	["pea", "بـِسـِلّـَة", "bisilla"]
 ]
 
+var possible_colors = [
+	"blue",
+	"green",
+	"orange",
+	"pink",
+	"yellow",
+	"purple"
+]
+
 var vocab_prefab_dict = {}
+
+var piece_prefab = preload("res://scenes/piece.tscn")
 
 # State Machine
 
@@ -39,23 +50,7 @@ var move_checked = false;
 
 @export var drop_offset: int;
 
-# Pieces we can spawn
-var possible_pieces = [
-	preload ("res://scenes/blue_piece.tscn"),
-	preload ("res://scenes/green_piece.tscn"),
-	preload ("res://scenes/orange_piece.tscn"),
-	preload ("res://scenes/pink_piece.tscn"),
-	preload ("res://scenes/yellow_piece.tscn"),
-	preload ("res://scenes/lime_piece.tscn"),
-]
-var possible_colors = [
-	"blue",
-	"green",
-	"orange",
-	"pink",
-	"yellow",
-	"lime"
-]
+
 # actual grid of pieces
 var all_pieces: Array = [];
 # Touch Variables
@@ -78,21 +73,24 @@ func fill_prefab_dict():
 func spawn_pieces():
 	for i in width:
 		for j in height:
-			var piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
+			var piece = init_piece();
 			var loop_count = 0;
 			while is_match_at(i, j, piece.color) and loop_count < 100:
 				loop_count += 1;
 				piece.queue_free();
-				piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
+				piece = init_piece();
 			var pos = grid_to_pixel(i, j);
 			piece.position = pos;
 			all_pieces[i][j] = piece;
 			add_child(piece);
 
-func init_piece(prefab):
-	var piece = prefab.instantiate();
+func init_piece():
+	var piece = piece_prefab.instantiate();
+	var random_color_index = randi() % possible_colors.size();
+	var color = possible_colors[random_color_index];
+	piece.color = color;
 	# set text of "word" note to the corresponding word in the vocab array
-	var vocab_array = vocab_prefab_dict[piece.color];
+	var vocab_array = vocab_prefab_dict[color];
 	var word_node = piece.get_node("word");
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
@@ -306,7 +304,7 @@ func refill_columns():
 	for i in width:
 		for j in height:
 			if all_pieces[i][j] == null:
-				var piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
+				var piece = init_piece();
 				add_child(piece);
 				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));

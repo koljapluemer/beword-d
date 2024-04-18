@@ -1,12 +1,14 @@
 extends Node2D
 
-@export var color: String
+var color: String
 var tween
 var matched = false
 
 
 func _ready():
-	pass
+	# set Sprite2D to "res://assets/tutorials/Pieces/Grey.png"
+	get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
+	# get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/" + color + ".png")
 
 func move(target):
 	tween = get_tree().create_tween()	
