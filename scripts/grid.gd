@@ -10,9 +10,10 @@ var state
 @export var height: int;
 @export var x_start: int;
 @export var y_start: int;
-@export var offset: int;
-
+@export var x_offset: int;
 @export var y_offset: int;
+
+@export var drop_offset: int;
 
 # Pieces we can spawn
 var possible_pieces = [
@@ -92,6 +93,12 @@ func swap_pieces(col, row, direction):
 		second_piece.move(first_pos);
 		find_matches();
 
+func swap_back():
+	# swap pieces back that are not a match
+	state = move
+	pass
+
+
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
 	if abs(difference.x) > abs(difference.y):
@@ -108,13 +115,13 @@ func touch_difference(grid_1, grid_2):
 # Helper Functions
 
 func grid_to_pixel(col, row):
-	var x = x_start + col * offset;
-	var y = y_start + row * - offset;
+	var x = x_start + col * x_offset;
+	var y = y_start + row * - y_offset;
 	return Vector2(x, y);
 
 func pixel_to_grid(x, y):
-	var col = round((x - x_start) / offset);
-	var row = round((y - y_start) / - offset);
+	var col = round((x - x_start) / x_offset);
+	var row = round((y - y_start) / - y_offset);
 	return Vector2(col, row);
 
 func is_within_grid(col, row):
@@ -235,7 +242,7 @@ func refill_columns():
 			if all_pieces[i][j] == null:
 				var piece = possible_pieces[randi() % possible_pieces.size()].instantiate();
 				add_child(piece);
-				piece.position = grid_to_pixel(i, j + y_offset);
+				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));
 				all_pieces[i][j] = piece;
 	# get_parent().get_node("destroy_timer").start();

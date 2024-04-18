@@ -8,30 +8,39 @@
 [node name="game_window" type="Node2D"]
 
 [node name="bg" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_top = 576.0
+offset_right = 576.0
+offset_bottom = 1600.0
+rotation = -1.5708
 texture = ExtResource("1_h5scs")
 
 [node name="top_ui" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1024.0
+offset_bottom = 192.0
+scale = Vector2(1, 0.359999)
 texture = ExtResource("2_a3x6s")
 
 [node name="bottom_ui" type="TextureRect" parent="."]
-offset_top = 928.0
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = 484.0
 offset_right = 576.0
-offset_bottom = 1020.0
+offset_bottom = 576.0
+grow_vertical = 0
+scale = Vector2(1.775, 1.009)
 size_flags_horizontal = 10
 texture = ExtResource("3_ih2vn")
 
 [node name="grid" type="Node2D" parent="."]
 script = ExtResource("4_3cfgc")
 width = 8
-height = 10
+height = 6
 x_start = 64
-y_start = 800
-offset = 64
-y_offset = 3
+y_start = 435
+x_offset = 128
+y_offset = 64
+drop_offset = 3
 
 [node name="destroy_timer" type="Timer" parent="."]
 wait_time = 0.5
