@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://dgf0lv2xfjj62"]
 
 [ext_resource type="PackedScene" uid="uid://deyy6i17veryl" path="res://scenes/piece.tscn" id="1_dise4"]
-[ext_resource type="Texture2D" uid="uid://m2d03qd7xxkk" path="res://assets/Match 3 Assets/Pieces/Pink Piece 3.png" id="2_3v5b3"]
+[ext_resource type="Texture2D" uid="uid://dxll8eckfk2e8" path="res://assets/Match 3 Assets/Pieces/Pink Piece.png" id="2_l0qhc"]
 
 [node name="pink_piece" instance=ExtResource("1_dise4")]
 color = "pink"
 
 [node name="Sprite2D" parent="." index="0"]
-texture = ExtResource("2_3v5b3")
+texture = ExtResource("2_l0qhc")

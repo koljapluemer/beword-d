@@ -28,7 +28,8 @@ var possible_pieces = [
 	preload ("res://scenes/green_piece.tscn"),
 	preload ("res://scenes/orange_piece.tscn"),
 	preload ("res://scenes/pink_piece.tscn"),
-	preload ("res://scenes/yellow_piece.tscn")
+	preload ("res://scenes/yellow_piece.tscn"),
+	preload ("res://scenes/lime_piece.tscn"),
 ]
 # actual grid of pieces
 var all_pieces: Array = [];
@@ -109,11 +110,9 @@ func store_swap_info(first_piece, second_piece, place, direction):
 	last_direction = direction;
 
 func swap_back():
-	print("swapping back");
 	# swap pieces back that are not a match
 	if piece_1 != null and piece_2 != null:
 		swap_pieces(last_place.x, last_place.y, last_direction);
-		print("swapped back");
 	state = move
 	move_checked = false;
 
