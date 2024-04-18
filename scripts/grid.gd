@@ -59,9 +59,20 @@ func touch_input():
 	if Input.is_action_just_released("ui_touch"):
 		second_touch = get_global_mouse_position();
 		var grid_pos = pixel_to_grid(second_touch.x, second_touch.y);
-		if is_within_grid(grid_pos.x, grid_pos.y) and currently_controlling_piece:
-			touch_difference(pixel_to_grid(first_touch.x, first_touch.y), grid_pos);
-			currently_controlling_piece = false;
+		# check if there is a cell at the destination (even if it's not a neighbor )
+		# don't use the actual position as direction indication, but the "hovered" cell
+		var first_touched_cell = all_pieces[pixel_to_grid(first_touch.x, first_touch.y).x][pixel_to_grid(first_touch.x, first_touch.y).y];
+		var second_touched_cell = all_pieces[grid_pos.x][grid_pos.y];
+		# ignore moves on the same cell
+		if first_touched_cell != second_touched_cell:
+			# first_touched_cell.set_matched()
+			# second_touched_cell.set_matched()
+			if second_touched_cell != null and currently_controlling_piece:
+				var grid_1 = pixel_to_grid(first_touch.x, first_touch.y);
+				var grid_2 = pixel_to_grid(second_touch.x, second_touch.y);
+				touch_difference(grid_1, grid_2);
+		currently_controlling_piece = false;
+
 
 func swap_pieces(col, row, direction):
 	var first_piece = all_pieces[col][row];
@@ -76,7 +87,7 @@ func swap_pieces(col, row, direction):
 
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
-	if abs(difference.x) > 1 or abs(difference.y) > 1:
+	if abs(difference.x) > abs(difference.y):
 		if difference.x > 0:
 			swap_pieces(grid_1.x, grid_1.y, Vector2(1, 0));
 		elif difference.x < 0:
