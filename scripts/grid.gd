@@ -5,6 +5,13 @@ extends Node2D
 enum {wait, move}
 var state
 
+# Swapping Back
+var piece_1 = null;
+var piece_2 = null;
+var last_place = Vector2();
+var last_direction = Vector2();
+var move_checked = false;
+
 # Grid Variables for Main Game Grid
 @export var width: int;
 @export var height: int;
@@ -84,6 +91,7 @@ func swap_pieces(col, row, direction):
 	var second_piece = all_pieces[col + direction.x][row + direction.y];
 	# null check
 	if first_piece != null and second_piece != null:
+		store_swap_info(first_piece, second_piece, Vector2(col, row), direction);
 		state = wait;
 		all_pieces[col][row] = second_piece;
 		all_pieces[col + direction.x][row + direction.y] = first_piece;
@@ -91,12 +99,23 @@ func swap_pieces(col, row, direction):
 		var second_pos = second_piece.position;
 		first_piece.move(second_pos);
 		second_piece.move(first_pos);
-		find_matches();
+		if not move_checked:
+			find_matches();
+
+func store_swap_info(first_piece, second_piece, place, direction):
+	piece_1 = first_piece;
+	piece_2 = second_piece;
+	last_place = place;
+	last_direction = direction;
 
 func swap_back():
+	print("swapping back");
 	# swap pieces back that are not a match
+	if piece_1 != null and piece_2 != null:
+		swap_pieces(last_place.x, last_place.y, last_direction);
+		print("swapped back");
 	state = move
-	pass
+	move_checked = false;
 
 
 func touch_difference(grid_1, grid_2):
@@ -213,14 +232,20 @@ func find_matches():
 	get_parent().get_node("destroy_timer").start();
 
 func destroy_matched():
+	var was_matched = false;
 	for i in width:
 		for j in height:
 			var piece = all_pieces[i][j];
 			if piece != null:
 				if piece.matched:
+					was_matched = true;
 					piece.queue_free();
 					all_pieces[i][j] = null;
-	get_parent().get_node("collapse_timer").start();
+	move_checked = true;
+	if was_matched:
+		get_parent().get_node("collapse_timer").start();
+	else: 
+		swap_back();
 
 func collapse_cols():
 	for i in width:
@@ -258,6 +283,7 @@ func check_after_refill():
 					get_parent().get_node("destroy_timer").start();
 					return
 	state = move
+	move_checked = false;
 
 func _on_destroy_timer_timeout():
 	destroy_matched()
