@@ -7,6 +7,8 @@ extends Node2D
 @export var y_start: int;
 @export var offset: int;
 
+@export var y_offset: int;
+
 # Pieces we can spawn
 var possible_pieces = [
 	preload ("res://scenes/blue_piece.tscn"),
@@ -69,9 +71,12 @@ func touch_input():
 				touch_difference(grid_1, grid_2);
 		currently_controlling_piece = false;
 
-func swap_pieces(col, row, direction):
+func swap_pieces(col, row, direction):	
 	var first_piece = all_pieces[col][row];
 	var second_piece = all_pieces[col + direction.x][row + direction.y];
+	# null check
+	if first_piece == null or second_piece == null:
+		return;
 	all_pieces[col][row] = second_piece;
 	all_pieces[col + direction.x][row + direction.y] = first_piece;
 	var first_pos = first_piece.position;
@@ -201,6 +206,41 @@ func destroy_matched():
 				if piece.matched:
 					piece.queue_free();
 					all_pieces[i][j] = null;
+	get_parent().get_node("collapse_timer").start();
+
+func collapse_cols():
+	for i in width:
+		for j in height:
+			var piece = all_pieces[i][j];
+			if piece == null:
+				for k in range(j+1, height):
+					var other_piece = all_pieces[i][k];
+					if other_piece != null:
+						all_pieces[i][j] = other_piece;
+						all_pieces[i][k] = null;
+						other_piece.move(grid_to_pixel(i, j));
+						break;
+	get_parent().get_node("refill_timer").start();
+
+func refill_columns():
+	for i in width:
+		for j in height:
+			if all_pieces[i][j] == null:
+				var piece = possible_pieces[randi() % possible_pieces.size()].instantiate();
+				add_child(piece);
+				piece.position = grid_to_pixel(i, j + y_offset);
+				piece.move(grid_to_pixel(i, j));
+				all_pieces[i][j] = piece;
+	# get_parent().get_node("destroy_timer").start();
+
 
 func _on_destroy_timer_timeout():
 	destroy_matched()
+
+
+func _on_collapse_timer_timeout():
+	collapse_cols()
+
+
+func _on_refill_timer_timeout():
+	refill_columns()

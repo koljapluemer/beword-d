@@ -23,4 +23,4 @@ func _process(delta):
 
 func set_matched():
 	matched = true
-	get_node("Sprite2D").modulate = Color(1, 1, 1, .3)
+	# get_node("Sprite2D").modulate = Color(1, 1, 1, .3)
