@@ -10,7 +10,8 @@ func _ready():
 
 func move(target):
 	tween = get_tree().create_tween()	
-	tween.tween_property(self, "position", target, 0.3)
+	var random_time = randf_range(0.1, 0.35)
+	tween.tween_property(self, "position", target, random_time)
 	tween.set_ease(Tween.EASE_OUT)
 	tween.set_trans(Tween.TRANS_ELASTIC)
 
