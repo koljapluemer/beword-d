@@ -7,14 +7,13 @@ extends Node2D
 @export var y_start: int;
 @export var offset: int;
 
-
 # Pieces we can spawn
 var possible_pieces = [
-	preload("res://scenes/blue_piece.tscn"),
-	preload("res://scenes/green_piece.tscn"),
-	preload("res://scenes/orange_piece.tscn"),
-	preload("res://scenes/pink_piece.tscn"),
-	preload("res://scenes/yellow_piece.tscn")
+	preload ("res://scenes/blue_piece.tscn"),
+	preload ("res://scenes/green_piece.tscn"),
+	preload ("res://scenes/orange_piece.tscn"),
+	preload ("res://scenes/pink_piece.tscn"),
+	preload ("res://scenes/yellow_piece.tscn")
 ]
 # actual grid of pieces
 var all_pieces: Array = [];
@@ -23,11 +22,9 @@ var first_touch: Vector2 = Vector2();
 var second_touch: Vector2 = Vector2();
 var currently_controlling_piece: bool = false;
 
-
 func _ready():
 	all_pieces = make_2d_array();
 	spawn_pieces();
-
 
 func spawn_pieces():
 	for i in width:
@@ -45,7 +42,6 @@ func spawn_pieces():
 
 func _process(delta):
 	touch_input();
-
 
 # Touch
 
@@ -73,7 +69,6 @@ func touch_input():
 				touch_difference(grid_1, grid_2);
 		currently_controlling_piece = false;
 
-
 func swap_pieces(col, row, direction):
 	var first_piece = all_pieces[col][row];
 	var second_piece = all_pieces[col + direction.x][row + direction.y];
@@ -91,30 +86,27 @@ func touch_difference(grid_1, grid_2):
 		if difference.x > 0:
 			swap_pieces(grid_1.x, grid_1.y, Vector2(1, 0));
 		elif difference.x < 0:
-			swap_pieces(grid_1.x, grid_1.y, Vector2(-1, 0));
+			swap_pieces(grid_1.x, grid_1.y, Vector2( - 1, 0));
 	elif abs(difference.y) > abs(difference.x):
 		if difference.y > 0:
 			swap_pieces(grid_1.x, grid_1.y, Vector2(0, 1));
 		elif difference.y < 0:
-			swap_pieces(grid_1.x, grid_1.y, Vector2(0, -1));		
-
-
+			swap_pieces(grid_1.x, grid_1.y, Vector2(0, -1));
 
 # Helper Functions
 
 func grid_to_pixel(col, row):
 	var x = x_start + col * offset;
-	var y = y_start + row * -offset;
+	var y = y_start + row * - offset;
 	return Vector2(x, y);
 
 func pixel_to_grid(x, y):
 	var col = round((x - x_start) / offset);
-	var row = round((y - y_start) / -offset);
+	var row = round((y - y_start) / - offset);
 	return Vector2(col, row);
 
 func is_within_grid(col, row):
 	return col >= 0 and col < width and row >= 0 and row < height;
-
 
 func make_2d_array():
 	var arr = [];
@@ -124,17 +116,16 @@ func make_2d_array():
 			arr[i].append(null);
 	return arr;
 
-
 func is_match_at(col, row, color):
 	# checking to the left
 	if col > 1:
-		if all_pieces[col-1][row] != null and all_pieces[col-2][row] != null:
-			if all_pieces[col-1][row].color == color and all_pieces[col-2][row].color == color:
+		if all_pieces[col - 1][row] != null and all_pieces[col - 2][row] != null:
+			if all_pieces[col - 1][row].color == color and all_pieces[col - 2][row].color == color:
 				return true;
 	# checking down
 	if row > 1:
-		if all_pieces[col][row-1] != null and all_pieces[col][row-2] != null:
-			if all_pieces[col][row-1].color == color and all_pieces[col][row-2].color == color:
+		if all_pieces[col][row - 1] != null and all_pieces[col][row - 2] != null:
+			if all_pieces[col][row - 1].color == color and all_pieces[col][row - 2].color == color:
 				return true;
 	return false;
 
@@ -148,8 +139,8 @@ func find_matches():
 				var current_color = piece.color;
 				# check left and right
 				if i > 0 and i < width - 1:
-					var other_piece_1 = all_pieces[i-1][j];
-					var other_piece_2 = all_pieces[i+1][j];
+					var other_piece_1 = all_pieces[i - 1][j];
+					var other_piece_2 = all_pieces[i + 1][j];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -157,8 +148,8 @@ func find_matches():
 							piece.set_matched();
 				# check up and down
 				if j > 0 and j < height - 1:
-					var other_piece_1 = all_pieces[i][j-1];
-					var other_piece_2 = all_pieces[i][j+1];
+					var other_piece_1 = all_pieces[i][j - 1];
+					var other_piece_2 = all_pieces[i][j + 1];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -166,8 +157,8 @@ func find_matches():
 							piece.set_matched();
 				# check to the top
 				if i > 1:
-					var other_piece_1 = all_pieces[i-1][j];
-					var other_piece_2 = all_pieces[i-2][j];
+					var other_piece_1 = all_pieces[i - 1][j];
+					var other_piece_2 = all_pieces[i - 2][j];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -175,8 +166,8 @@ func find_matches():
 							piece.set_matched();
 				# check to the bottom
 				if i < width - 2:
-					var other_piece_1 = all_pieces[i+1][j];
-					var other_piece_2 = all_pieces[i+2][j];
+					var other_piece_1 = all_pieces[i + 1][j];
+					var other_piece_2 = all_pieces[i + 2][j];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -184,8 +175,8 @@ func find_matches():
 							piece.set_matched();
 				# check to the left
 				if j > 1:
-					var other_piece_1 = all_pieces[i][j-1];
-					var other_piece_2 = all_pieces[i][j-2];
+					var other_piece_1 = all_pieces[i][j - 1];
+					var other_piece_2 = all_pieces[i][j - 2];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -193,10 +184,23 @@ func find_matches():
 							piece.set_matched();
 				# check to the right
 				if j < height - 2:
-					var other_piece_1 = all_pieces[i][j+1];
-					var other_piece_2 = all_pieces[i][j+2];
+					var other_piece_1 = all_pieces[i][j + 1];
+					var other_piece_2 = all_pieces[i][j + 2];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
 							other_piece_2.set_matched();
 							piece.set_matched();
+	get_parent().get_node("destroy_timer").start();
+
+func destroy_matched():
+	for i in width:
+		for j in height:
+			var piece = all_pieces[i][j];
+			if piece != null:
+				if piece.matched:
+					piece.queue_free();
+					all_pieces[i][j] = null;
+
+func _on_destroy_timer_timeout():
+	destroy_matched()
