@@ -1,5 +1,10 @@
 extends Node2D
 
+# State Machine
+
+enum {wait, move}
+var state
+
 # Grid Variables for Main Game Grid
 @export var width: int;
 @export var height: int;
@@ -25,6 +30,7 @@ var second_touch: Vector2 = Vector2();
 var currently_controlling_piece: bool = false;
 
 func _ready():
+	state = move;
 	all_pieces = make_2d_array();
 	spawn_pieces();
 
@@ -43,7 +49,8 @@ func spawn_pieces():
 			add_child(piece);
 
 func _process(delta):
-	touch_input();
+	if state == move:
+		touch_input();		
 
 # Touch
 
@@ -71,19 +78,19 @@ func touch_input():
 				touch_difference(grid_1, grid_2);
 		currently_controlling_piece = false;
 
-func swap_pieces(col, row, direction):	
+func swap_pieces(col, row, direction):
 	var first_piece = all_pieces[col][row];
 	var second_piece = all_pieces[col + direction.x][row + direction.y];
 	# null check
-	if first_piece == null or second_piece == null:
-		return;
-	all_pieces[col][row] = second_piece;
-	all_pieces[col + direction.x][row + direction.y] = first_piece;
-	var first_pos = first_piece.position;
-	var second_pos = second_piece.position;
-	first_piece.move(second_pos);
-	second_piece.move(first_pos);
-	find_matches();
+	if first_piece != null and second_piece != null:
+		state = wait;
+		all_pieces[col][row] = second_piece;
+		all_pieces[col + direction.x][row + direction.y] = first_piece;
+		var first_pos = first_piece.position;
+		var second_pos = second_piece.position;
+		first_piece.move(second_pos);
+		second_piece.move(first_pos);
+		find_matches();
 
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
@@ -213,13 +220,13 @@ func collapse_cols():
 		for j in height:
 			var piece = all_pieces[i][j];
 			if piece == null:
-				for k in range(j+1, height):
+				for k in range(j + 1, height):
 					var other_piece = all_pieces[i][k];
 					if other_piece != null:
 						all_pieces[i][j] = other_piece;
 						all_pieces[i][k] = null;
 						other_piece.move(grid_to_pixel(i, j));
-						break;
+						break ;
 	get_parent().get_node("refill_timer").start();
 
 func refill_columns():
@@ -232,15 +239,24 @@ func refill_columns():
 				piece.move(grid_to_pixel(i, j));
 				all_pieces[i][j] = piece;
 	# get_parent().get_node("destroy_timer").start();
+	check_after_refill();
 
+func check_after_refill():
+	for i in width:
+		for j in height:
+			var piece = all_pieces[i][j];
+			if piece != null:
+				if is_match_at(i, j, piece.color):
+					find_matches();
+					get_parent().get_node("destroy_timer").start();
+					return
+	state = move
 
 func _on_destroy_timer_timeout():
 	destroy_matched()
 
-
 func _on_collapse_timer_timeout():
 	collapse_cols()
-
 
 func _on_refill_timer_timeout():
 	refill_columns()
