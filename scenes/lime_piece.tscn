@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bor27v5af0n5c" path="res://assets/Match 3 Assets/Pieces/Light Green Piece.png" id="2_dxxlq"]
 
 [node name="piece" instance=ExtResource("1_q5vi8")]
-color = "limie"
+color = "lime"
 
 [node name="Sprite2D" parent="." index="0"]
 texture = ExtResource("2_dxxlq")

@@ -1,5 +1,22 @@
 extends Node2D
 
+# The Language Stuff
+var vocab = [
+	["beetroot", "بـَنجـَر", "bangar"],
+	["cabbage", " كـُر ُنب", "kurunb"],
+	["carrot", " جـَز َر", "gazar"],
+	["cauliflower", "قـَرنـَبيط", "arnabeet"],
+	["celery", " كـَر َفس", "karafs"],
+	["cucumber", "خـِيا", "chiyaar"],
+	["eggplant", " بـِتـِنجا َن", "bitingaen"],
+	["okra", " با َميـَة", "bamya"],
+	["olive", " ز َيتون", "zaytoon"],
+	["onion", " بـَصـَل", "basal"],
+	["pea", "بـِسـِلّـَة", "bisilla"]
+]
+
+var vocab_prefab_dict = {}
+
 # State Machine
 
 enum {wait, move}
@@ -31,6 +48,14 @@ var possible_pieces = [
 	preload ("res://scenes/yellow_piece.tscn"),
 	preload ("res://scenes/lime_piece.tscn"),
 ]
+var possible_colors = [
+	"blue",
+	"green",
+	"orange",
+	"pink",
+	"yellow",
+	"lime"
+]
 # actual grid of pieces
 var all_pieces: Array = [];
 # Touch Variables
@@ -41,21 +66,38 @@ var currently_controlling_piece: bool = false;
 func _ready():
 	state = move;
 	all_pieces = make_2d_array();
+	fill_prefab_dict();
 	spawn_pieces();
+
+func fill_prefab_dict():
+	# randomly assign each color to a vocab array
+	for i in range(possible_colors.size()):
+		var vocab_index = randi() % vocab.size();
+		vocab_prefab_dict[possible_colors[i]] = vocab[vocab_index];
 
 func spawn_pieces():
 	for i in width:
 		for j in height:
-			var piece = possible_pieces[randi() % possible_pieces.size()].instantiate();
+			var piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
 			var loop_count = 0;
 			while is_match_at(i, j, piece.color) and loop_count < 100:
 				loop_count += 1;
 				piece.queue_free();
-				piece = possible_pieces[randi() % possible_pieces.size()].instantiate();
+				piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
 			var pos = grid_to_pixel(i, j);
 			piece.position = pos;
 			all_pieces[i][j] = piece;
 			add_child(piece);
+
+func init_piece(prefab):
+	var piece = prefab.instantiate();
+	# set text of "word" note to the corresponding word in the vocab array
+	var vocab_array = vocab_prefab_dict[piece.color];
+	var word_node = piece.get_node("word");
+	var random_index = randi() % vocab_array.size();
+	word_node.text = vocab_array[random_index];
+	return piece;
+
 
 func _process(delta):
 	if state == move:
@@ -264,7 +306,7 @@ func refill_columns():
 	for i in width:
 		for j in height:
 			if all_pieces[i][j] == null:
-				var piece = possible_pieces[randi() % possible_pieces.size()].instantiate();
+				var piece = init_piece(possible_pieces[randi() % possible_pieces.size()]);
 				add_child(piece);
 				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));
