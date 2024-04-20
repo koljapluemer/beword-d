@@ -41,6 +41,7 @@ y_start = 435
 x_offset = 128
 y_offset = 64
 drop_offset = 3
+empty_spaces = PackedVector2Array(0, 0, 0, 5, 7, 5, 7, 0)
 
 [node name="destroy_timer" type="Timer" parent="."]
 wait_time = 0.5

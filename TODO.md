@@ -4,3 +4,5 @@
 - refactor 1 function
 - think about accessibility strategies
 - think about SEO strategies
+
+- see that vocabs aren't double picked

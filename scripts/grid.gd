@@ -1,7 +1,7 @@
 extends Node2D
 
 # The Language Stuff
-var vocab_egypt = [
+var vocab = [
 	["beetroot", "بـَنجـَر", "bangar"],
 	["cabbage", " كـُر ُنب", "kurunb"],
 	["carrot", " جـَز َر", "gazar"],
@@ -137,9 +137,9 @@ var possible_colors = [
 	"blue",
 	"green",
 	"orange",
-	#"pink",
+	"pink",
 	"yellow",
-	#"purple"
+	# "purple"
 ]
 
 var vocab_prefab_dict = {}
@@ -170,6 +170,9 @@ var move_checked = false;
 @export var drop_offset: int;
 
 
+# Obstacles
+@export var empty_spaces:PackedVector2Array
+
 # actual grid of pieces
 var all_pieces: Array = [];
 # Touch Variables
@@ -183,6 +186,15 @@ func _ready():
 	fill_prefab_dict();
 	spawn_pieces();
 
+# Obstacle Gen
+
+func is_movement_restricted(coord): 
+	for i in range(empty_spaces.size()):
+		if empty_spaces[i] == coord:
+			return true;
+	return false;
+
+
 func fill_prefab_dict():
 	# randomly assign each color to a vocab array
 	for i in range(possible_colors.size()):
@@ -192,16 +204,20 @@ func fill_prefab_dict():
 func spawn_pieces():
 	for i in width:
 		for j in height:
-			var piece = init_piece();
-			var loop_count = 0;
-			while is_match_at(i, j, piece.color) and loop_count < 100:
-				loop_count += 1;
-				piece.queue_free();
-				piece = init_piece();
-			var pos = grid_to_pixel(i, j);
-			piece.position = pos;
-			all_pieces[i][j] = piece;
-			add_child(piece);
+			if not is_movement_restricted(Vector2(i, j)):
+				var piece = init_piece();
+				var loop_count = 0;
+				while is_match_at(i, j, piece.color) and loop_count < 100:
+					loop_count += 1;
+					piece.queue_free();
+					piece = init_piece();
+				var pos = grid_to_pixel(i, j);
+				piece.position = pos;
+				all_pieces[i][j] = piece;
+				add_child(piece);
+				# with a chance, make the piece colorful
+				if randi() % 4 == 0:
+					piece.set_colorful();
 
 func init_piece():
 	var piece = piece_prefab.instantiate();
@@ -213,7 +229,9 @@ func init_piece():
 	var word_node = piece.get_node("word");
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
-	# word_node.text = color
+	# with 1/6 chance, make the piece colorful
+	if randi() % 6 == 0:
+		piece.set_colorful();
 	return piece;
 
 
@@ -236,15 +254,16 @@ func touch_input():
 		# check if there is a cell at the destination (even if it's not a neighbor )
 		# don't use the actual position as direction indication, but the "hovered" cell
 		var first_touched_cell = all_pieces[pixel_to_grid(first_touch.x, first_touch.y).x][pixel_to_grid(first_touch.x, first_touch.y).y];
-		var second_touched_cell = all_pieces[grid_pos.x][grid_pos.y];
-		# ignore moves on the same cell
-		if first_touched_cell != second_touched_cell:
-			# first_touched_cell.set_matched()
-			# second_touched_cell.set_matched()
-			if second_touched_cell != null and currently_controlling_piece:
-				var grid_1 = pixel_to_grid(first_touch.x, first_touch.y);
-				var grid_2 = pixel_to_grid(second_touch.x, second_touch.y);
-				touch_difference(grid_1, grid_2);
+		if is_within_grid(grid_pos.x, grid_pos.y):
+			var second_touched_cell = all_pieces[grid_pos.x][grid_pos.y];
+			# ignore moves on the same cell
+			if first_touched_cell != second_touched_cell:
+				# first_touched_cell.set_matched()
+				# second_touched_cell.set_matched()
+				if second_touched_cell != null and currently_controlling_piece:
+					var grid_1 = pixel_to_grid(first_touch.x, first_touch.y);
+					var grid_2 = pixel_to_grid(second_touch.x, second_touch.y);
+					touch_difference(grid_1, grid_2);
 		currently_controlling_piece = false;
 
 func swap_pieces(col, row, direction):
@@ -448,7 +467,7 @@ func collapse_cols():
 	for i in width:
 		for j in height:
 			var piece = all_pieces[i][j];
-			if piece == null:
+			if piece == null and not is_movement_restricted(Vector2(i, j)):
 				for k in range(j + 1, height):
 					var other_piece = all_pieces[i][k];
 					if other_piece != null:
@@ -461,7 +480,7 @@ func collapse_cols():
 func refill_columns():
 	for i in width:
 		for j in height:
-			if all_pieces[i][j] == null:
+			if all_pieces[i][j] == null and not is_movement_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				add_child(piece);
 				piece.position = grid_to_pixel(i, j + drop_offset);

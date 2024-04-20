@@ -8,6 +8,7 @@ var matched = false
 func _ready():
 	# set Sprite2D to "res://assets/tutorials/Pieces/Grey.png"
 	get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
+	# with chance 1/6 set the piece to be colorful
 
 func move(target):
 	tween = get_tree().create_tween()	
