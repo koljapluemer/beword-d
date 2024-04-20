@@ -137,8 +137,8 @@ var possible_colors = [
 	"blue",
 	"green",
 	"orange",
-	"pink",
-	"yellow",
+	# "pink",
+	# "yellow",
 	# "purple"
 ]
 
@@ -194,10 +194,15 @@ func _ready():
 
 # Obstacle Gen
 
-func is_movement_restricted(coord):
-	for i in range(empty_spaces.size()):
-		if empty_spaces[i] == coord:
+func is_in_array(arr, item):
+	for i in range(arr.size()):
+		if arr[i] == item:
 			return true;
+	return false;
+
+func is_fill_restricted(coord):
+	if is_in_array(empty_spaces, coord):
+		return true;
 	return false;
 
 # Spawning etc
@@ -211,7 +216,7 @@ func fill_prefab_dict():
 func spawn_pieces():
 	for i in width:
 		for j in height:
-			if not is_movement_restricted(Vector2(i, j)):
+			if not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				var loop_count = 0;
 				while is_match_at(i, j, piece.color) and loop_count < 100:
@@ -358,6 +363,8 @@ func is_match_at(col, row, color):
 
 # Matches
 
+
+
 func find_matches():
 	to_be_splashed = [];
 	for i in width:
@@ -389,54 +396,6 @@ func find_matches():
 							to_be_splashed.append([i, j])
 							to_be_splashed.append([i, j - 1])
 							to_be_splashed.append([i, j + 1])
-				# check to the top
-				if i > 1:
-					var other_piece_1 = all_pieces[i - 1][j];
-					var other_piece_2 = all_pieces[i - 2][j];
-					if other_piece_1 != null and other_piece_2 != null:
-						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i - 1, j])
-							to_be_splashed.append([i - 2, j])
-				# check to the bottom
-				if i < width - 2:
-					var other_piece_1 = all_pieces[i + 1][j];
-					var other_piece_2 = all_pieces[i + 2][j];
-					if other_piece_1 != null and other_piece_2 != null:
-						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i + 1, j])
-							to_be_splashed.append([i + 2, j])
-				# check to the left
-				if j > 1:
-					var other_piece_1 = all_pieces[i][j - 1];
-					var other_piece_2 = all_pieces[i][j - 2];
-					if other_piece_1 != null and other_piece_2 != null:
-						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i, j - 1])
-							to_be_splashed.append([i, j - 2])
-				# check to the right
-				if j < height - 2:
-					var other_piece_1 = all_pieces[i][j + 1];
-					var other_piece_2 = all_pieces[i][j + 2];
-					if other_piece_1 != null and other_piece_2 != null:
-						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i, j + 1])
-							to_be_splashed.append([i, j + 2])
 	# immediately color the matched pieces
 	for pos in to_be_splashed:
 		var piece = all_pieces[pos[0]][pos[1]];
@@ -479,7 +438,7 @@ func collapse_cols():
 	for i in width:
 		for j in height:
 			var piece = all_pieces[i][j];
-			if piece == null and not is_movement_restricted(Vector2(i, j)):
+			if piece == null and not is_fill_restricted(Vector2(i, j)):
 				for k in range(j + 1, height):
 					var other_piece = all_pieces[i][k];
 					if other_piece != null:
@@ -492,7 +451,7 @@ func collapse_cols():
 func refill_columns():
 	for i in width:
 		for j in height:
-			if all_pieces[i][j] == null and not is_movement_restricted(Vector2(i, j)):
+			if all_pieces[i][j] == null and not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				add_child(piece);
 				piece.position = grid_to_pixel(i, j + drop_offset);
