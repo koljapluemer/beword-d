@@ -7,7 +7,8 @@ var jelly = preload("res://scenes/piece_jelly.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	jelly_pieces = make_2d_array();
+	pass
+	# jelly_pieces = make_2d_array();
 
 func make_2d_array():
 	var arr = [];
@@ -26,10 +27,17 @@ func _on_grid_make_jelly(board_position, grid_position):
 		jelly_pieces = make_2d_array();
 	var current = jelly.instantiate();
 	current.position = board_position;
-	print("jelly pieces: ", jelly_pieces);
 	var x = grid_position.x;
 	var y = grid_position.y;
 	jelly_pieces[x][y] = current;
 	add_child(current);
-	print("jelly made at: ", board_position);
 		
+
+
+func _on_grid_damage_jelly(grid_position):
+	var jelly_piece = jelly_pieces[grid_position.x][grid_position.y];
+	if jelly_piece != null:
+		jelly_piece.take_damage(1);
+		if jelly_piece.health <= 0:
+			jelly_piece.queue_free();
+			jelly_pieces[grid_position.x][grid_position.y] = null;

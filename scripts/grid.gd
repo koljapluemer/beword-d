@@ -227,11 +227,9 @@ func spawn_pieces():
 					piece.set_colorful();
 
 func spawn_jelly_pieces():
-	print("spawning jelly pieces");
 	for i in jelly_spaces.size():
 		var board_position_x = jelly_spaces[i].x * x_offset + x_start;
 		var board_position_y = jelly_spaces[i].y * - y_offset + y_start;
-		print("spawning on grid: ", jelly_spaces[i])
 		emit_signal("make_jelly", Vector2(board_position_x, board_position_y), jelly_spaces[i]);
 
 func init_piece():
@@ -457,6 +455,7 @@ func destroy_matched():
 					was_matched = true;
 					piece.queue_free();
 					all_pieces[i][j] = null;
+					emit_signal("damage_jelly", Vector2(i, j));
 	move_checked = true;
 	if was_matched:
 		get_parent().get_node("collapse_timer").start();
