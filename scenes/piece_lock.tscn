@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bd1d2mavje5qg"]
+
+[ext_resource type="PackedScene" uid="uid://dvmumuiiobfd2" path="res://scenes/piece_jelly.tscn" id="1_0om2i"]
+[ext_resource type="Texture2D" uid="uid://beahuxadu0duf" path="res://assets/tutorials/Obstacles/Locks.png" id="2_y56ex"]
+
+[node name="piece_jelly" instance=ExtResource("1_0om2i")]
+modulate = Color(1, 1, 1, 0.545098)
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_y56ex")

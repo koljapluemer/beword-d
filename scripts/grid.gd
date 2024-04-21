@@ -137,8 +137,8 @@ var possible_colors = [
 	"blue",
 	"green",
 	"orange",
-	# "pink",
-	# "yellow",
+	  "pink",
+	#  "yellow",
 	# "purple"
 ]
 
@@ -172,11 +172,15 @@ var move_checked = false;
 # Obstacles
 @export var empty_spaces: PackedVector2Array
 @export var jelly_spaces: PackedVector2Array
+@export var lock_spaces: PackedVector2Array
 
 # Obstacle Signals
 
 signal damage_jelly
 signal make_jelly
+
+signal damage_lock
+signal make_lock
 
 # actual grid of pieces
 var all_pieces: Array = [];
@@ -191,6 +195,7 @@ func _ready():
 	fill_prefab_dict();
 	spawn_pieces();
 	spawn_jelly_pieces();
+	spawn_lock_pieces();
 
 # Obstacle Gen
 
@@ -202,6 +207,11 @@ func is_in_array(arr, item):
 
 func is_fill_restricted(coord):
 	if is_in_array(empty_spaces, coord):
+		return true;
+	return false;
+
+func is_move_restricted(coord):
+	if is_in_array(lock_spaces, coord):
 		return true;
 	return false;
 
@@ -236,6 +246,13 @@ func spawn_jelly_pieces():
 		var board_position_x = jelly_spaces[i].x * x_offset + x_start;
 		var board_position_y = jelly_spaces[i].y * - y_offset + y_start;
 		emit_signal("make_jelly", Vector2(board_position_x, board_position_y), jelly_spaces[i]);
+
+
+func spawn_lock_pieces():
+	for i in lock_spaces.size():
+		var board_position_x = lock_spaces[i].x * x_offset + x_start;
+		var board_position_y = lock_spaces[i].y * - y_offset + y_start;
+		emit_signal("make_lock", Vector2(board_position_x, board_position_y), lock_spaces[i]);
 
 func init_piece():
 	var piece = piece_prefab.instantiate();
@@ -288,6 +305,9 @@ func swap_pieces(col, row, direction):
 	var second_piece = all_pieces[col + direction.x][row + direction.y];
 	# null check
 	if first_piece != null and second_piece != null:
+		# check if the move is restricted
+		if is_move_restricted(Vector2(col, row)) or is_move_restricted(Vector2(col + direction.x, row + direction.y)):
+			return;
 		store_swap_info(first_piece, second_piece, Vector2(col, row), direction);
 		state = wait;
 		all_pieces[col][row] = second_piece;
@@ -415,6 +435,7 @@ func destroy_matched():
 					piece.queue_free();
 					all_pieces[i][j] = null;
 					emit_signal("damage_jelly", Vector2(i, j));
+					emit_signal("damage_lock", Vector2(i, j));
 	move_checked = true;
 	if was_matched:
 		get_parent().get_node("collapse_timer").start();
@@ -480,3 +501,10 @@ func _on_collapse_timer_timeout():
 
 func _on_refill_timer_timeout():
 	refill_columns()
+
+
+func _on_holder_lock_remove_lock(pos):
+	for i in range(lock_spaces.size() -1, -1, -1):
+		if lock_spaces[i] == pos:
+			lock_spaces.remove_at(i);
+			break;

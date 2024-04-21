@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://37racrrwxuti"]
+[gd_scene load_steps=7 format=3 uid="uid://37racrrwxuti"]
 
 [ext_resource type="Texture2D" uid="uid://dy3peuwpej171" path="res://assets/tutorials/UI/Backgrounds/background 2.png" id="1_h5scs"]
 [ext_resource type="Texture2D" uid="uid://pa1obxqcum4r" path="res://assets/tutorials/UI/Top UI v 2.png" id="2_a3x6s"]
 [ext_resource type="Texture2D" uid="uid://cehwbyldpyrlk" path="res://assets/tutorials/UI/Bottom UI v 2.png" id="3_ih2vn"]
 [ext_resource type="Script" path="res://scripts/grid.gd" id="4_3cfgc"]
 [ext_resource type="Script" path="res://scripts/special_grid.gd" id="5_s8l0m"]
+[ext_resource type="Script" path="res://scripts/holder_lock.gd" id="6_20di2"]
 
 [node name="game_window" type="Node2D"]
 
@@ -44,9 +45,13 @@ y_offset = 64
 drop_offset = 3
 empty_spaces = PackedVector2Array(0, 0, 0, 5, 7, 5, 7, 0)
 jelly_spaces = PackedVector2Array(2, 4, 3, 5, 6, 4, 4, 5, 5, 5, 1, 2, 2, 1, 3, 2)
+lock_spaces = PackedVector2Array(3, 3, 4, 4, 5, 5)
 
-[node name="special_grid" type="Node2D" parent="."]
+[node name="holder_jelly" type="Node2D" parent="."]
 script = ExtResource("5_s8l0m")
+
+[node name="holder_lock" type="Node2D" parent="."]
+script = ExtResource("6_20di2")
 
 [node name="destroy_timer" type="Timer" parent="."]
 wait_time = 0.5
@@ -60,8 +65,11 @@ one_shot = true
 wait_time = 0.25
 one_shot = true
 
-[connection signal="damage_jelly" from="grid" to="special_grid" method="_on_grid_damage_jelly"]
-[connection signal="make_jelly" from="grid" to="special_grid" method="_on_grid_make_jelly"]
+[connection signal="damage_jelly" from="grid" to="holder_jelly" method="_on_grid_damage_jelly"]
+[connection signal="damage_lock" from="grid" to="holder_lock" method="_on_grid_damage_lock"]
+[connection signal="make_jelly" from="grid" to="holder_jelly" method="_on_grid_make_jelly"]
+[connection signal="make_lock" from="grid" to="holder_lock" method="_on_grid_make_lock"]
+[connection signal="remove_lock" from="holder_lock" to="grid" method="_on_holder_lock_remove_lock"]
 [connection signal="timeout" from="destroy_timer" to="grid" method="_on_destroy_timer_timeout"]
 [connection signal="timeout" from="collapse_timer" to="grid" method="_on_collapse_timer_timeout"]
 [connection signal="timeout" from="refill_timer" to="grid" method="_on_refill_timer_timeout"]
