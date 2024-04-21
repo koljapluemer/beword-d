@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://gddqs6q7y1bl"]
+
+[ext_resource type="PackedScene" uid="uid://dvmumuiiobfd2" path="res://scenes/piece_jelly.tscn" id="1_ma1p5"]
+[ext_resource type="Texture2D" uid="uid://h7v6l5k76at" path="res://assets/tutorials/Obstacles/Concrete.png" id="2_35qja"]
+
+[node name="piece_jelly" instance=ExtResource("1_ma1p5")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_35qja")
