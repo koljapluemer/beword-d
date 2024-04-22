@@ -135,10 +135,10 @@ var vocab = [
 
 var possible_colors = [
 	"blue",
-	#"green",
-	# "orange",
-	  "pink",
-	#  "yellow",
+	"green",
+	"orange",
+	# "pink",
+	# "yellow",
 	# "purple"
 ]
 
@@ -188,6 +188,7 @@ signal make_stone
 
 # actual grid of pieces
 var all_pieces: Array = [];
+var current_matches: Array = [];
 # Touch Variables
 var first_touch: Vector2 = Vector2();
 var second_touch: Vector2 = Vector2();
@@ -393,6 +394,39 @@ func is_match_at(col, row, color):
 
 # Matches
 
+func find_bombs():
+	for i in current_matches.size():
+		# store value for this mathc
+		var current_column = current_matches[i].x;
+		var current_row = current_matches[i].y;
+		var current_color = all_pieces[current_column][current_row].color;
+		var col_match_count = 0;
+		var row_match_count = 0;
+		# iterate matches again
+		for j in current_matches.size():
+			var this_column = current_matches[j].x;
+			var this_row = current_matches[j].y;
+			var this_color = all_pieces[this_column][this_row].color;
+			if current_color == this_color:
+				if this_column == current_column and this_row != current_row:
+					col_match_count += 1;
+				if this_row == current_row and this_column != current_column:
+					row_match_count += 1;
+		if col_match_count >= 3 and row_match_count >= 3:
+			print("adjacent bomb");
+			continue;
+		if col_match_count == 4:
+			print("column bomb");
+			continue
+		if row_match_count == 4:
+			print("row bomb");
+			continue
+		if col_match_count == 5 or row_match_count == 5:
+			print("color bomb");
+			continue
+
+
+
 func find_matches():
 	to_be_splashed = [];
 	for i in width:
@@ -412,6 +446,9 @@ func find_matches():
 							to_be_splashed.append([i, j])
 							to_be_splashed.append([i - 1, j])
 							to_be_splashed.append([i + 1, j])
+							current_matches.append(Vector2(i, j));
+							current_matches.append(Vector2(i - 1, j));
+							current_matches.append(Vector2(i + 1, j));
 				# check up and down
 				if j > 0 and j < height - 1:
 					var other_piece_1 = all_pieces[i][j - 1];
@@ -424,6 +461,9 @@ func find_matches():
 							to_be_splashed.append([i, j])
 							to_be_splashed.append([i, j - 1])
 							to_be_splashed.append([i, j + 1])
+							current_matches.append(Vector2(i, j));
+							current_matches.append(Vector2(i, j - 1));
+							current_matches.append(Vector2(i, j + 1));
 	# immediately color the matched pieces
 	for pos in to_be_splashed:
 		var piece = all_pieces[pos[0]][pos[1]];
@@ -432,7 +472,9 @@ func find_matches():
 
 	get_parent().get_node("destroy_timer").start();
 
+
 func destroy_matched():
+	find_bombs();
 	var was_matched = false;
 	for i in width:
 		for j in height:
@@ -451,10 +493,9 @@ func destroy_matched():
 	else:
 		swap_back();
 	splash(to_be_splashed);
-
+	current_matches.clear();
 
 func check_for_stone_damage(col, row):
-	print("Checking for stone damage");
 	# Check Right
 	if col < width - 1:
 		emit_signal("damage_stone", Vector2(col + 1, row));
@@ -532,8 +573,6 @@ func _on_holder_lock_remove_lock(pos):
 		if lock_spaces[i] == pos:
 			lock_spaces.remove_at(i);
 			break ;
-
-
 
 func _on_holder_stone_remove_stone(pos):
 	for i in range(stone_spaces.size() - 1, -1, -1):
