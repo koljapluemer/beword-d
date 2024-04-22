@@ -413,19 +413,36 @@ func find_bombs():
 				if this_row == current_row and this_column != current_column:
 					row_match_count += 1;
 		if col_match_count >= 3 and row_match_count >= 3:
-			print("adjacent bomb");
+			make_bomb("adjacent", current_color)
 			continue;
 		if col_match_count == 4:
-			print("column bomb");
+			make_bomb("column", current_color)
 			continue
 		if row_match_count == 4:
-			print("row bomb");
+			make_bomb("row", current_color)
 			continue
 		if col_match_count == 5 or row_match_count == 5:
 			print("color bomb");
 			continue
 
+func make_bomb(bomb_type, color):
+	for i in current_matches.size():
+		var current_column = current_matches[i].x;
+		var current_row = current_matches[i].y;
+		if all_pieces[current_column][current_row] == piece_1 and piece_1.color == color:
+			piece_1.matched = false;
+			change_bomb(bomb_type, piece_1);
+		if all_pieces[current_column][current_row] == piece_2 and piece_2.color == color:
+			piece_2.matched = false;
+			change_bomb(bomb_type, piece_2);
 
+func change_bomb(bomb_type, piece):
+	if bomb_type == "adjacent":
+		piece.make_adjacent_bomb();
+	elif bomb_type == "column":
+		piece.make_column_bomb()
+	elif bomb_type == "row":
+		piece.make_row_bomb()
 
 func find_matches():
 	to_be_splashed = [];
@@ -469,8 +486,20 @@ func find_matches():
 		var piece = all_pieces[pos[0]][pos[1]];
 		if piece != null:
 			piece.set_colorful();
-
+	get_bombed_pieces();
 	get_parent().get_node("destroy_timer").start();
+
+
+func get_bombed_pieces():
+	for i in width:
+		for j in height:
+			var piece = all_pieces[i][j];
+			if piece != null:
+				if piece.matched:
+					if piece.is_column_bomb:
+						match_all_in_col(i);
+					elif piece.is_row_bomb:
+						match_all_in_row(j);
 
 
 func destroy_matched():
@@ -579,3 +608,15 @@ func _on_holder_stone_remove_stone(pos):
 		if stone_spaces[i] == pos:
 			stone_spaces.remove_at(i);
 			break ;
+
+func match_all_in_col(col):
+	for i in height:
+		var piece = all_pieces[col][i];
+		if piece != null:
+			piece.matched = true;
+
+func match_all_in_row(row):
+	for i in width:
+		var piece = all_pieces[i][row];
+		if piece != null:
+			piece.matched = true;
