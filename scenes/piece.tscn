@@ -1,11 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://deyy6i17veryl"]
+[gd_scene load_steps=5 format=3 uid="uid://deyy6i17veryl"]
 
 [ext_resource type="Script" path="res://scripts/piece.gd" id="1_h4d8a"]
+[ext_resource type="Texture2D" uid="uid://dg7k0a2f11l18" path="res://assets/tutorials/Pieces/row_overlay.png" id="2_0egw8"]
+[ext_resource type="Texture2D" uid="uid://dwymu263fhdqr" path="res://assets/tutorials/Pieces/col_overlay.png" id="3_o2ld1"]
+[ext_resource type="Texture2D" uid="uid://b4bh0537tayrd" path="res://assets/tutorials/Pieces/surround_overlay.png" id="4_jj3pg"]
 
 [node name="piece" type="Node2D"]
 script = ExtResource("1_h4d8a")
+row_texture = ExtResource("2_0egw8")
+column_texture = ExtResource("3_o2ld1")
+adjacent_texture = ExtResource("4_jj3pg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1, 0.5)
+
+[node name="Overlay" type="Sprite2D" parent="."]
 scale = Vector2(1, 0.5)
 
 [node name="word" type="Label" parent="."]

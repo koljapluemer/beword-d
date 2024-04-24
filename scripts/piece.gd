@@ -8,24 +8,22 @@ var matched = false
 @export var column_texture: Texture
 @export var adjacent_texture: Texture
 
+
 var is_row_bomb = false
 var is_column_bomb = false
 var is_adjacent_bomb = false
 
 func make_column_bomb():
 	is_column_bomb = true
-	get_node("Sprite2D").texture = column_texture
-	get_node("Sprite2D").modulate = Color(1, 1, 1, 1)
+	get_node("Overlay").texture = column_texture
 
 func make_row_bomb():
 	is_row_bomb = true
-	get_node("Sprite2D").texture = row_texture
-	get_node("Sprite2D").modulate = Color(1, 1, 1, 1)
+	get_node("Overlay").texture = row_texture
 
 func make_adjacent_bomb():
 	is_adjacent_bomb = true
-	get_node("Sprite2D").texture = adjacent_texture
-	get_node("Sprite2D").modulate = Color(1, 1, 1, 1)
+	get_node("Overlay").texture = adjacent_texture
 
 
 
