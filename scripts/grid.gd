@@ -428,7 +428,7 @@ func find_bombs():
 			make_bomb("row", current_color)
 			print("row bomb");
 			continue
-		if col_match_count == 5 or row_match_count == 5:
+		if col_match_count > 5 or row_match_count > 5:
 			print("color bomb");
 			continue
 		print("no bomb");
@@ -626,12 +626,19 @@ func match_all_in_col(col):
 		var piece = all_pieces[col][i];
 		if piece != null:
 			piece.matched = true;
+			if piece.is_row_bomb:
+				match_all_in_row(i);
+			if piece.is_adjacent_bomb:
+				find_adjacent_pieces(col, i);
 
 func match_all_in_row(row):
 	for i in width:
 		var piece = all_pieces[i][row];
 		if piece != null:
 			piece.matched = true;
+			if piece.is_column_bomb:
+				match_all_in_col(i);
+			if piece.is_adjacent_bomb:
 
 func find_adjacent_pieces(col, row):
 	for i in range(col - 1, col + 2):
@@ -640,3 +647,7 @@ func find_adjacent_pieces(col, row):
 				var piece = all_pieces[i][j];
 				if piece != null:
 					piece.matched = true;
+					if piece.is_column_bomb:
+						match_all_in_col(i);
+					if piece.is_row_bomb:
+						match_all_in_row(j);
