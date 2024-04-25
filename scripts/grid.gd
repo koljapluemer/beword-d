@@ -136,9 +136,9 @@ var vocab = [
 var possible_colors = [
 	"blue",
 	"green",
-	"orange",
+	# "orange",
 	# "pink",
-	# "yellow",
+	"yellow",
 	# "purple"
 ]
 
@@ -244,7 +244,7 @@ func spawn_pieces():
 				all_pieces[i][j] = piece;
 				add_child(piece);
 				# with a chance, make the piece colorful
-				if randi() % 4 == 0:
+				if randi() % 1 == 0:
 					piece.set_colorful();
 
 func spawn_jelly_pieces():
@@ -395,6 +395,7 @@ func is_match_at(col, row, color):
 # Matches
 
 func find_bombs():
+	print("------ finding bombs -----------");
 	for i in current_matches.size():
 		# store value for this mathc
 		var current_column = current_matches[i].x;
@@ -412,18 +413,26 @@ func find_bombs():
 					col_match_count += 1;
 				if this_row == current_row and this_column != current_column:
 					row_match_count += 1;
+		print("-------")	
+		print("col match count: " + str(col_match_count));
+		print("row match count: " + str(row_match_count));
 		if col_match_count >= 3 and row_match_count >= 3:
 			make_bomb("adjacent", current_color)
+			print("adjacent bomb");
 			continue;
 		if col_match_count == 4:
 			make_bomb("column", current_color)
+			print("column bomb");
 			continue
 		if row_match_count == 4:
 			make_bomb("row", current_color)
+			print("row bomb");
 			continue
 		if col_match_count == 5 or row_match_count == 5:
 			print("color bomb");
 			continue
+		print("no bomb");
+	print("------ bombs finding over -----------");
 
 func make_bomb(bomb_type, color):
 	for i in current_matches.size():
@@ -500,6 +509,8 @@ func get_bombed_pieces():
 						match_all_in_col(i);
 					elif piece.is_row_bomb:
 						match_all_in_row(j);
+					elif piece.is_adjacent_bomb:
+						find_adjacent_pieces(i, j);
 
 
 func destroy_matched():
@@ -569,6 +580,7 @@ func refill_columns():
 		for j in height:
 			if all_pieces[i][j] == null and not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
+				piece.set_colorful();
 				add_child(piece);
 				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));
@@ -620,3 +632,11 @@ func match_all_in_row(row):
 		var piece = all_pieces[i][row];
 		if piece != null:
 			piece.matched = true;
+
+func find_adjacent_pieces(col, row):
+	for i in range(col - 1, col + 2):
+		for j in range(row - 1, row + 2):
+			if is_within_grid(i, j):
+				var piece = all_pieces[i][j];
+				if piece != null:
+					piece.matched = true;
