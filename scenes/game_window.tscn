@@ -37,17 +37,17 @@ texture = ExtResource("3_ih2vn")
 
 [node name="grid" type="Node2D" parent="."]
 script = ExtResource("4_3cfgc")
-width = 8
-height = 6
+width = 16
+height = 12
 x_start = 64
 y_start = 435
-x_offset = 128
-y_offset = 64
+x_offset = 64
+y_offset = 32
 drop_offset = 3
-empty_spaces = PackedVector2Array(7, 5)
-jelly_spaces = PackedVector2Array(2, 4)
+empty_spaces = PackedVector2Array(3, 3)
+jelly_spaces = PackedVector2Array(4, 4)
 lock_spaces = PackedVector2Array(5, 5)
-stone_spaces = PackedVector2Array(2, 4)
+stone_spaces = PackedVector2Array(6, 6)
 
 [node name="holder_jelly" type="Node2D" parent="."]
 script = ExtResource("5_s8l0m")

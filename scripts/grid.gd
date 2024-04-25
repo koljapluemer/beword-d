@@ -136,8 +136,8 @@ var vocab = [
 var possible_colors = [
 	"blue",
 	"green",
-	# "orange",
-	# "pink",
+	"orange",
+	"pink",
 	"yellow",
 	# "purple"
 ]
@@ -580,8 +580,8 @@ func refill_columns():
 		for j in height:
 			if all_pieces[i][j] == null and not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
-				piece.set_colorful();
 				add_child(piece);
+				piece.set_colorful();
 				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));
 				all_pieces[i][j] = piece;
@@ -621,26 +621,33 @@ func _on_holder_stone_remove_stone(pos):
 			stone_spaces.remove_at(i);
 			break ;
 
-func match_all_in_col(col):
+func match_all_in_col(col, depth = 0):
+	if depth > 5:
+		return ;
 	for i in height:
 		var piece = all_pieces[col][i];
 		if piece != null:
 			piece.matched = true;
 			if piece.is_row_bomb:
-				match_all_in_row(i);
+				match_all_in_row(i, depth + 1);
 			if piece.is_adjacent_bomb:
-				find_adjacent_pieces(col, i);
+				find_adjacent_pieces(col, i, depth + 1);
 
-func match_all_in_row(row):
+func match_all_in_row(row, depth = 0):
+	if depth > 5:
+		return ;
 	for i in width:
 		var piece = all_pieces[i][row];
 		if piece != null:
 			piece.matched = true;
 			if piece.is_column_bomb:
-				match_all_in_col(i);
+				match_all_in_col(i, depth + 1);
 			if piece.is_adjacent_bomb:
+				find_adjacent_pieces(i, row, depth + 1);
 
-func find_adjacent_pieces(col, row):
+func find_adjacent_pieces(col, row, depth = 0):
+	if depth > 5:
+		return ;
 	for i in range(col - 1, col + 2):
 		for j in range(row - 1, row + 2):
 			if is_within_grid(i, j):
@@ -648,6 +655,6 @@ func find_adjacent_pieces(col, row):
 				if piece != null:
 					piece.matched = true;
 					if piece.is_column_bomb:
-						match_all_in_col(i);
+						match_all_in_col(i, depth + 1);
 					if piece.is_row_bomb:
-						match_all_in_row(j);
+						match_all_in_row(j, depth + 1);

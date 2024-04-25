@@ -1,8 +1,8 @@
 extends Node2D
 
 var jelly_pieces = []
-var width = 8
-var height = 6
+var width = 16
+var height = 12
 var jelly = preload("res://scenes/piece_jelly.tscn")
 
 # Called when the node enters the scene tree for the first time.

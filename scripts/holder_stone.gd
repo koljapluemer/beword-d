@@ -1,8 +1,8 @@
 extends Node2D
 
 var stone_pieces = []
-var width = 8
-var height = 6
+var width = 16
+var height = 12
 var stone = preload("res://scenes/piece_stone.tscn")
 
 signal remove_stone

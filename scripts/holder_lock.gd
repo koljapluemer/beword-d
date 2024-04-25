@@ -1,8 +1,8 @@
 extends Node2D
 
 var lock_pieces = []
-var width = 8
-var height = 6
+var width = 16
+var height = 12
 var lock = preload("res://scenes/piece_lock.tscn")
 
 signal remove_lock
