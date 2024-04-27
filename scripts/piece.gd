@@ -44,3 +44,6 @@ func _process(delta):
 func set_matched():
 	matched = true
 	# get_node("Sprite2D").modulate = Color(1, 1, 1, .3)
+
+func set_colorful():
+	get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/" + color + ".png")

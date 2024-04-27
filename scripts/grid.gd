@@ -235,7 +235,6 @@ func spawn_pieces():
 			if not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				var loop_count = 0;
-				print("piece", piece);
 				while is_match_at(i, j, piece.color) and loop_count < 100:
 					loop_count += 1;
 					piece.queue_free();
@@ -276,7 +275,7 @@ func init_piece():
 	word_node.text = vocab_array[random_index];
 	# with a chance, make the piece colorful
 	if randi() % 3 == 0:
-		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/" + color + ".png")
+		piece.set_colorful();
 	else:
 		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
 	return piece;
