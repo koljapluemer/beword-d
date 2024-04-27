@@ -25,6 +25,10 @@ window/stretch/aspect="keep_width"
 
 project/assembly_name="beworded"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
+
 [input]
 
 ui_touch={
