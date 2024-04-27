@@ -235,6 +235,7 @@ func spawn_pieces():
 			if not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				var loop_count = 0;
+				print("piece", piece);
 				while is_match_at(i, j, piece.color) and loop_count < 100:
 					loop_count += 1;
 					piece.queue_free();
@@ -243,9 +244,7 @@ func spawn_pieces():
 				piece.position = pos;
 				all_pieces[i][j] = piece;
 				add_child(piece);
-				# with a chance, make the piece colorful
-				if randi() % 1 == 0:
-					piece.set_colorful();
+				
 
 func spawn_jelly_pieces():
 	for i in jelly_spaces.size():
@@ -275,9 +274,11 @@ func init_piece():
 	var word_node = piece.get_node("word");
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
-	# with 1/6 chance, make the piece colorful
-	if randi() % 6 == 0:
-		piece.set_colorful();
+	# with a chance, make the piece colorful
+	if randi() % 3 == 0:
+		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/" + color + ".png")
+	else:
+		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
 	return piece;
 
 func _process(delta):
