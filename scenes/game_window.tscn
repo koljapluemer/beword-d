@@ -71,7 +71,7 @@ wait_time = 0.25
 one_shot = true
 
 [node name="hint_timer" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 7.0
 one_shot = true
 
 [connection signal="damage_jelly" from="grid" to="holder_jelly" method="_on_grid_damage_jelly"]

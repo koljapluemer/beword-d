@@ -250,9 +250,9 @@ func spawn_pieces():
 				piece.position = pos;
 				all_pieces[i][j] = piece;
 				add_child(piece);
-	# if is_deadlocked():
-	# 	print("deadlocked, doing nothing for now");
-		# shuffle_board();
+	if is_deadlocked():
+		print("deadlocked, doing nothing for now");
+		shuffle_board();
 	get_parent().get_node("hint_timer").start()
 				
 
@@ -285,7 +285,7 @@ func init_piece():
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
 	# with a chance, make the piece colorful
-	if randi() % 3 == 0:
+	if randf() > 0.6:
 		piece.set_colorful();
 	else:
 		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
@@ -615,7 +615,6 @@ func _on_refill_timer_timeout():
 	refill_columns()
 
 func _on_hint_timer_timeout():
-	print("creating hint now :)")
 	generate_hint()
 
 func _on_holder_lock_remove_lock(pos):
@@ -671,41 +670,34 @@ func find_adjacent_pieces(col, row, depth = 0):
 
 ### Hint and Shuffle (clone and adapt)
 
-func switch_pieces(place, direction, array):
+func switch_pieces_hypothetically(place, direction):
 	if is_within_grid(place.x, place.y) and !is_fill_restricted(place):
 		if is_within_grid(place.x + direction.x, place.y + direction.y) and !is_fill_restricted(place + direction):
 			# First, hold the piece to swap with
-			var holder = array[place.x + direction.x][place.y + direction.y]
+			var holder = hypothetical_pieces[place.x + direction.x][place.y + direction.y]
 			# Then set the swap spot as the original piece
-			array[place.x + direction.x][place.y + direction.y] = array[place.x][place.y]
+			hypothetical_pieces[place.x + direction.x][place.y + direction.y] = hypothetical_pieces[place.x][place.y]
 			# Then set the original spot as the other piece
-			array[place.x][place.y] = holder
+			hypothetical_pieces[place.x][place.y] = holder
 
-func switch_and_check(place, direction, array):
-	switch_pieces(place, direction, array)
+func switch_and_check(place, direction):
+	switch_pieces_hypothetically(place, direction)
 	if find_hypothetical_matches():
-		switch_pieces(place, direction, array)
+		switch_pieces_hypothetically(place, direction)
 		return true
-	switch_pieces(place, direction, array)
+	switch_pieces_hypothetically(place, direction)
 	return false
-
-func copy_array(array_to_copy):
-	var new_array = make_2d_array()
-	for i in width:
-		for j in height:
-			new_array[i][j] = array_to_copy[i][j]
-	return new_array
 
 func is_deadlocked():
 	# Create a copy of the all_pieces array
-	hypothetical_pieces = copy_array(all_pieces)
+	hypothetical_pieces = all_pieces.duplicate()
 	for i in width:
 		for j in height:
 			#switch and check right
-			if switch_and_check(Vector2(i,j), Vector2(1, 0), hypothetical_pieces):
+			if switch_and_check(Vector2(i,j), Vector2(1, 0)):
 				return false
 			#switch and check up
-			if switch_and_check(Vector2(i,j), Vector2(0, 1), hypothetical_pieces):
+			if switch_and_check(Vector2(i,j), Vector2(0, 1)):
 				return false
 	return true
 
@@ -754,18 +746,19 @@ func shuffle_board():
 
 func find_all_matches():
 	var hint_holder = []
-	hypothetical_pieces = copy_array(all_pieces)
+	hypothetical_pieces = all_pieces.duplicate()
 	for i in width:
 		for j in height:
+			var piece = hypothetical_pieces[i][j]
 			if hypothetical_pieces[i][j] != null and !is_move_restricted(Vector2(i,j)):
-				if switch_and_check(Vector2(i,j), Vector2(1, 0), hypothetical_pieces) and is_within_grid(i + 1, j) and !is_move_restricted(Vector2(i + 1, j)):
+				if switch_and_check(Vector2(i,j), Vector2(1, 0)) and is_within_grid(i + 1, j) and !is_move_restricted(Vector2(i + 1, j)):
 					#add the piece i,j to the hint_holder
 					if match_color != "":
 						if match_color == hypothetical_pieces[i][j].color:
 							hint_holder.append(hypothetical_pieces[i][j])
 						else:
 							hint_holder.append(hypothetical_pieces[i + 1][j])
-				if switch_and_check(Vector2(i,j), Vector2(0, 1), hypothetical_pieces) and is_within_grid(i, j + 1) and !is_move_restricted(Vector2(i, j + 1)):
+				if switch_and_check(Vector2(i,j), Vector2(0, 1)) and is_within_grid(i, j + 1) and !is_move_restricted(Vector2(i, j + 1)):
 					#add the piece i,j to the hint_holder
 					if match_color != "":
 						if match_color == hypothetical_pieces[i][j].color:
@@ -781,16 +774,16 @@ func generate_hint():
 			destroy_hint()
 			var rand = floor(randf_range(0, hints.size()))
 			hint = hints[rand]
-			print("adding hint")
-			# hint.add_hint_effect()
+			hint.add_hint_effect()
 
 func destroy_hint():
 	if hint:
-		hint.remove_hint_effect()
-		print("removing hint")
+		if hint != null:
+			hint.remove_hint_effect()
+			hint = null
 
 func find_hypothetical_matches():
-	to_be_splashed = [];
+	var found_match = false
 	for i in width:
 		for j in height:
 			var piece = hypothetical_pieces[i][j];
@@ -802,27 +795,14 @@ func find_hypothetical_matches():
 					var other_piece_2 = hypothetical_pieces[i + 1][j];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i - 1, j])
-							to_be_splashed.append([i + 1, j])
-							current_matches.append(Vector2(i, j));
-							current_matches.append(Vector2(i - 1, j));
-							current_matches.append(Vector2(i + 1, j));
+							match_color = current_color
+							found_match = true
 				# check up and down
 				if j > 0 and j < height - 1:
 					var other_piece_1 = hypothetical_pieces[i][j - 1];
 					var other_piece_2 = hypothetical_pieces[i][j + 1];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
-							other_piece_1.set_matched();
-							other_piece_2.set_matched();
-							piece.set_matched();
-							to_be_splashed.append([i, j])
-							to_be_splashed.append([i, j - 1])
-							to_be_splashed.append([i, j + 1])
-							current_matches.append(Vector2(i, j));
-							current_matches.append(Vector2(i, j - 1));
-							current_matches.append(Vector2(i, j + 1));
+							match_color = current_color
+							found_match = true
+	return found_match

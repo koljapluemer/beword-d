@@ -35,7 +35,6 @@ func move(target):
 	tween.set_trans(Tween.TRANS_ELASTIC)
 
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
@@ -47,3 +46,19 @@ func set_matched():
 
 func set_colorful():
 	get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/" + color + ".png")
+
+func add_hint_effect():
+	# cyclically enlarge and shrink the piece
+	tween = get_tree().create_tween()
+	# tween.tween_property(self, "rotation", 2, 0.5).as_relative()
+	tween.tween_property(self, "rotation", .08, 0.5).from_current()
+	tween.set_loops()
+	tween.set_ease(Tween.EASE_IN_OUT)
+	var shake = 5
+	var shake_duration = 0.1
+	var shake_count = 10
+
+
+func remove_hint_effect():
+	tween.kill()
+	scale = Vector2(1, 1)
