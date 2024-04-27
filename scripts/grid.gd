@@ -250,8 +250,8 @@ func spawn_pieces():
 				piece.position = pos;
 				all_pieces[i][j] = piece;
 				add_child(piece);
-	if is_deadlocked():
-		print("deadlocked, doing nothing for now");
+	# if is_deadlocked():
+	# 	print("deadlocked, doing nothing for now");
 		# shuffle_board();
 	get_parent().get_node("hint_timer").start()
 				
@@ -617,6 +617,7 @@ func _on_refill_timer_timeout():
 	refill_columns()
 
 func _on_hint_timer_timeout():
+	print("creating hint now :)")
 	generate_hint()
 
 func _on_holder_lock_remove_lock(pos):
@@ -672,122 +673,54 @@ func find_adjacent_pieces(col, row, depth = 0):
 
 ### Hint and Shuffle (clone and adapt)
 
+# func get_all_legal_moves():
+# 	var legal_moves = [];
+# 	for i in width:
+# 		for j in height:
+# 			if not is_move_restricted(Vector2(i, j)):
+# 				if i > 0:
+# 					if not is_move_restricted(Vector2(i - 1, j)):
+# 						legal_moves.append([Vector2(i, j), Vector2(i - 1, j)]);
+# 				if i < width - 1:
+# 					if not is_move_restricted(Vector2(i + 1, j)):
+# 						legal_moves.append([Vector2(i, j), Vector2(i + 1, j)]);
+# 				if j > 0:
+# 					if not is_move_restricted(Vector2(i, j - 1)):
+# 						legal_moves.append([Vector2(i, j), Vector2(i, j - 1)]);
+# 				if j < height - 1:
+# 					if not is_move_restricted(Vector2(i, j + 1)):
+# 						legal_moves.append([Vector2(i, j), Vector2(i, j + 1)]);
+# 	return legal_moves;
+
+# func get_moves_returning_matches():
+# 	var legal_moves = get_all_legal_moves();
+# 	var moves_returning_matches = [];
+# 	for i in legal_moves:
+# 		var col = i[0].x;
+# 		var row = i[0].y;
+# 		var direction = i[1] - i[0];
+# 		swap_pieces(col, row, direction);
+# 		find_matches(true);
+# 		if current_matches.size() > 0:
+# 			moves_returning_matches.append(i);
+# 		swap_back();
+# 	return moves_returning_matches;
 
 
-func switch_pieces(place, direction, array):
-	if is_within_grid(place.x, place.y) and !is_fill_restricted(place):
-		if is_within_grid(place.x + direction.x, place.y + direction.y) and !is_fill_restricted(place + direction):
-			# First, hold the piece to swap with
-			var holder = array[place.x + direction.x][place.y + direction.y]
-			# Then set the swap spot as the original piece
-			array[place.x + direction.x][place.y + direction.y] = array[place.x][place.y]
-			# Then set the original spot as the other piece
-			array[place.x][place.y] = holder
 
-func switch_and_check(place, direction, array):
-	switch_pieces(place, direction, array)
-	if find_matches(true, array):
-		switch_pieces(place, direction, array)
-		return true
-	switch_pieces(place, direction, array)
-	return false
+# func generate_hint():
+# 	var legal_moves = get_all_legal_moves();
+# 	var moves_returning_matches = get_moves_returning_matches();
 
-func copy_array(array_to_copy):
-	var new_array = make_2d_array()
-	for i in width:
-		for j in height:
-			new_array[i][j] = array_to_copy[i][j]
-	return new_array
+# 	if hints != null:
+# 		if hints.size() > 0:
+# 			destroy_hint()
+# 			var rand = floor(randf_range(0, hints.size()))
+# 			hint = hints[rand]
+# 			print("adding hint")
+# 			# hint.add_hint_effect()
 
-func is_deadlocked():
-	# Create a copy of the all_pieces array
-	clone_array = copy_array(all_pieces)
-	for i in width:
-		for j in height:
-			#switch and check right
-			if switch_and_check(Vector2(i,j), Vector2(1, 0), clone_array):
-				return false
-			#switch and check up
-			if switch_and_check(Vector2(i,j), Vector2(0, 1), clone_array):
-				return false
-	return true
-
-func match_at(i, j, color):
-	if color != "NotMatched":
-		if i > 1:
-			if all_pieces[i - 1][j] != null && all_pieces[i - 2][j] != null:
-				if all_pieces[i - 1][j].color == color && all_pieces[i - 2][j].color == color:
-					return true;
-		if j > 1:
-			if all_pieces[i][j-1] != null && all_pieces[i][j-2] != null:
-				if all_pieces[i ][j-1].color == color && all_pieces[i][j-2].color == color:
-					return true;
-	return false
-
-func clear_and_store_board():
-	var holder_array = []
-	for i in width:
-		for j in height:
-			if all_pieces[i][j] != null:
-				holder_array.append(all_pieces[i][j])
-				all_pieces[i][j] = null
-	return holder_array
-
-func shuffle_board():
-	var holder_array = clear_and_store_board()
-	for i in width:
-		for j in height:
-			if not is_fill_restricted(Vector2(i,j)) and all_pieces[i][j] == null:
-				#choose a random number and store it
-				var rand = floor(randf_range(0, holder_array.size()));
-				var piece = holder_array[rand]
-				var loops = 0;
-				while(match_at(i, j, piece.color) && loops < 100):
-					rand = floor(randf_range(0, holder_array.size()));
-					loops += 1;
-					piece = holder_array[rand]
-				# Instance that piece from the array
-				piece.move(grid_to_pixel(i,j))
-				all_pieces[i][j] = piece;
-				holder_array.remove_at(rand)
-	if is_deadlocked():
-		shuffle_board()
-	can_move = true
-	emit_signal("change_move_state")
-
-func find_all_matches():
-	var hint_holder = []
-	clone_array = copy_array(all_pieces)
-	for i in width:
-		for j in height:
-			if clone_array[i][j] != null and !is_move_restricted(Vector2(i,j)):
-				if switch_and_check(Vector2(i,j), Vector2(1, 0), clone_array) and is_within_grid(i + 1, j) and !is_move_restricted(Vector2(i + 1, j)):
-					#add the piece i,j to the hint_holder
-					if match_color != "":
-						if match_color == clone_array[i][j].color:
-							hint_holder.append(clone_array[i][j])
-						else:
-							hint_holder.append(clone_array[i + 1][j])
-				if switch_and_check(Vector2(i,j), Vector2(0, 1), clone_array) and is_within_grid(i, j + 1) and !is_move_restricted(Vector2(i, j + 1)):
-					#add the piece i,j to the hint_holder
-					if match_color != "":
-						if match_color == clone_array[i][j].color:
-							hint_holder.append(clone_array[i][j])
-						else: 
-							hint_holder.append(clone_array[i][j + 1])
-	return hint_holder
-
-func generate_hint():
-	var hints = find_all_matches()
-	if hints != null:
-		if hints.size() > 0:
-			destroy_hint()
-			var rand = floor(randf_range(0, hints.size()))
-			hint = hints[rand]
-			print("adding hint")
-			# hint.add_hint_effect()
-
-func destroy_hint():
-	if hint:
-		hint.remove_hint_effect()
-		print("removing hint")
+# func destroy_hint():
+# 	if hint:
+# 		hint.remove_hint_effect()
+# 		print("removing hint")
