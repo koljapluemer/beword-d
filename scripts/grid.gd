@@ -448,6 +448,7 @@ func make_bomb(bomb_type, color):
 			change_bomb(bomb_type, piece_2);
 
 func change_bomb(bomb_type, piece):
+	piece.remove_hint_effect();
 	if bomb_type == "adjacent":
 		piece.make_adjacent_bomb();
 	elif bomb_type == "column":
@@ -517,6 +518,9 @@ func get_bombed_pieces():
 
 
 func destroy_matched():
+	if hint != null:
+		hint.remove_hint_effect();
+		hint = null;
 	find_bombs();
 	var was_matched = false;
 	for i in width:
