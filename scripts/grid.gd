@@ -139,7 +139,7 @@ var possible_colors = [
 	"orange",
 	"pink",
 	"yellow",
-	# "purple"
+	"purple"
 ]
 
 var vocab_prefab_dict = {}
@@ -151,7 +151,7 @@ var to_be_splashed = []
 
 enum {wait, move}
 var state
-
+var can_move = true
 # Swapping Back
 var piece_1 = null;
 var piece_2 = null;
@@ -186,8 +186,14 @@ signal make_lock
 signal damage_stone
 signal make_stone
 
+# hint sutff
+
+var match_color = ""
+var hint = null
+
 # actual grid of pieces
 var all_pieces: Array = [];
+var clone_array = []
 var current_matches: Array = [];
 # Touch Variables
 var first_touch: Vector2 = Vector2();
@@ -197,6 +203,7 @@ var currently_controlling_piece: bool = false;
 func _ready():
 	state = move;
 	all_pieces = make_2d_array();
+	clone_array = make_2d_array();
 	fill_prefab_dict();
 	spawn_pieces();
 	spawn_jelly_pieces();
@@ -243,6 +250,10 @@ func spawn_pieces():
 				piece.position = pos;
 				all_pieces[i][j] = piece;
 				add_child(piece);
+	if is_deadlocked():
+		print("deadlocked, doing nothing for now");
+		# shuffle_board();
+	get_parent().get_node("hint_timer").start()
 				
 
 func spawn_jelly_pieces():
@@ -342,6 +353,7 @@ func swap_back():
 		swap_pieces(last_place.x, last_place.y, last_direction);
 	state = move
 	move_checked = false;
+	get_parent().get_node("hint_timer").start()
 
 func touch_difference(grid_1, grid_2):
 	var difference = grid_2 - grid_1;
@@ -395,7 +407,6 @@ func is_match_at(col, row, color):
 # Matches
 
 func find_bombs():
-	print("------ finding bombs -----------");
 	for i in current_matches.size():
 		# store value for this mathc
 		var current_column = current_matches[i].x;
@@ -413,26 +424,17 @@ func find_bombs():
 					col_match_count += 1;
 				if this_row == current_row and this_column != current_column:
 					row_match_count += 1;
-		print("-------")	
-		print("col match count: " + str(col_match_count));
-		print("row match count: " + str(row_match_count));
 		if col_match_count >= 3 and row_match_count >= 3:
 			make_bomb("adjacent", current_color)
-			print("adjacent bomb");
 			continue;
 		if col_match_count == 4:
 			make_bomb("column", current_color)
-			print("column bomb");
 			continue
 		if row_match_count == 4:
 			make_bomb("row", current_color)
-			print("row bomb");
 			continue
 		if col_match_count > 5 or row_match_count > 5:
-			print("color bomb");
 			continue
-		print("no bomb");
-	print("------ bombs finding over -----------");
 
 func make_bomb(bomb_type, color):
 	for i in current_matches.size():
@@ -453,17 +455,17 @@ func change_bomb(bomb_type, piece):
 	elif bomb_type == "row":
 		piece.make_row_bomb()
 
-func find_matches():
+func find_matches(query = false, array = all_pieces):
 	to_be_splashed = [];
 	for i in width:
 		for j in height:
-			var piece = all_pieces[i][j];
+			var piece = array[i][j];
 			if piece != null:
 				var current_color = piece.color;
 				# check left and right
 				if i > 0 and i < width - 1:
-					var other_piece_1 = all_pieces[i - 1][j];
-					var other_piece_2 = all_pieces[i + 1][j];
+					var other_piece_1 = array[i - 1][j];
+					var other_piece_2 = array[i + 1][j];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -477,8 +479,8 @@ func find_matches():
 							current_matches.append(Vector2(i + 1, j));
 				# check up and down
 				if j > 0 and j < height - 1:
-					var other_piece_1 = all_pieces[i][j - 1];
-					var other_piece_2 = all_pieces[i][j + 1];
+					var other_piece_1 = array[i][j - 1];
+					var other_piece_2 = array[i][j + 1];
 					if other_piece_1 != null and other_piece_2 != null:
 						if other_piece_1.color == current_color and other_piece_2.color == current_color:
 							other_piece_1.set_matched();
@@ -492,11 +494,14 @@ func find_matches():
 							current_matches.append(Vector2(i, j + 1));
 	# immediately color the matched pieces
 	for pos in to_be_splashed:
-		var piece = all_pieces[pos[0]][pos[1]];
+		var piece = array[pos[0]][pos[1]];
 		if piece != null:
 			piece.set_colorful();
-	get_bombed_pieces();
-	get_parent().get_node("destroy_timer").start();
+
+	if query:
+		return false
+	get_bombed_pieces()
+	get_parent().get_node("destroy_timer").start()
 
 
 func get_bombed_pieces():
@@ -599,6 +604,8 @@ func check_after_refill():
 					return
 	state = move
 	move_checked = false;
+	get_parent().get_node("hint_timer").start()
+
 
 func _on_destroy_timer_timeout():
 	destroy_matched()
@@ -608,6 +615,9 @@ func _on_collapse_timer_timeout():
 
 func _on_refill_timer_timeout():
 	refill_columns()
+
+func _on_hint_timer_timeout():
+	generate_hint()
 
 func _on_holder_lock_remove_lock(pos):
 	for i in range(lock_spaces.size() - 1, -1, -1):
@@ -658,3 +668,126 @@ func find_adjacent_pieces(col, row, depth = 0):
 						match_all_in_col(i, depth + 1);
 					if piece.is_row_bomb:
 						match_all_in_row(j, depth + 1);
+
+
+### Hint and Shuffle (clone and adapt)
+
+
+
+func switch_pieces(place, direction, array):
+	if is_within_grid(place.x, place.y) and !is_fill_restricted(place):
+		if is_within_grid(place.x + direction.x, place.y + direction.y) and !is_fill_restricted(place + direction):
+			# First, hold the piece to swap with
+			var holder = array[place.x + direction.x][place.y + direction.y]
+			# Then set the swap spot as the original piece
+			array[place.x + direction.x][place.y + direction.y] = array[place.x][place.y]
+			# Then set the original spot as the other piece
+			array[place.x][place.y] = holder
+
+func switch_and_check(place, direction, array):
+	switch_pieces(place, direction, array)
+	if find_matches(true, array):
+		switch_pieces(place, direction, array)
+		return true
+	switch_pieces(place, direction, array)
+	return false
+
+func copy_array(array_to_copy):
+	var new_array = make_2d_array()
+	for i in width:
+		for j in height:
+			new_array[i][j] = array_to_copy[i][j]
+	return new_array
+
+func is_deadlocked():
+	# Create a copy of the all_pieces array
+	clone_array = copy_array(all_pieces)
+	for i in width:
+		for j in height:
+			#switch and check right
+			if switch_and_check(Vector2(i,j), Vector2(1, 0), clone_array):
+				return false
+			#switch and check up
+			if switch_and_check(Vector2(i,j), Vector2(0, 1), clone_array):
+				return false
+	return true
+
+func match_at(i, j, color):
+	if color != "NotMatched":
+		if i > 1:
+			if all_pieces[i - 1][j] != null && all_pieces[i - 2][j] != null:
+				if all_pieces[i - 1][j].color == color && all_pieces[i - 2][j].color == color:
+					return true;
+		if j > 1:
+			if all_pieces[i][j-1] != null && all_pieces[i][j-2] != null:
+				if all_pieces[i ][j-1].color == color && all_pieces[i][j-2].color == color:
+					return true;
+	return false
+
+func clear_and_store_board():
+	var holder_array = []
+	for i in width:
+		for j in height:
+			if all_pieces[i][j] != null:
+				holder_array.append(all_pieces[i][j])
+				all_pieces[i][j] = null
+	return holder_array
+
+func shuffle_board():
+	var holder_array = clear_and_store_board()
+	for i in width:
+		for j in height:
+			if not is_fill_restricted(Vector2(i,j)) and all_pieces[i][j] == null:
+				#choose a random number and store it
+				var rand = floor(randf_range(0, holder_array.size()));
+				var piece = holder_array[rand]
+				var loops = 0;
+				while(match_at(i, j, piece.color) && loops < 100):
+					rand = floor(randf_range(0, holder_array.size()));
+					loops += 1;
+					piece = holder_array[rand]
+				# Instance that piece from the array
+				piece.move(grid_to_pixel(i,j))
+				all_pieces[i][j] = piece;
+				holder_array.remove_at(rand)
+	if is_deadlocked():
+		shuffle_board()
+	can_move = true
+	emit_signal("change_move_state")
+
+func find_all_matches():
+	var hint_holder = []
+	clone_array = copy_array(all_pieces)
+	for i in width:
+		for j in height:
+			if clone_array[i][j] != null and !is_move_restricted(Vector2(i,j)):
+				if switch_and_check(Vector2(i,j), Vector2(1, 0), clone_array) and is_within_grid(i + 1, j) and !is_move_restricted(Vector2(i + 1, j)):
+					#add the piece i,j to the hint_holder
+					if match_color != "":
+						if match_color == clone_array[i][j].color:
+							hint_holder.append(clone_array[i][j])
+						else:
+							hint_holder.append(clone_array[i + 1][j])
+				if switch_and_check(Vector2(i,j), Vector2(0, 1), clone_array) and is_within_grid(i, j + 1) and !is_move_restricted(Vector2(i, j + 1)):
+					#add the piece i,j to the hint_holder
+					if match_color != "":
+						if match_color == clone_array[i][j].color:
+							hint_holder.append(clone_array[i][j])
+						else: 
+							hint_holder.append(clone_array[i][j + 1])
+	return hint_holder
+
+func generate_hint():
+	var hints = find_all_matches()
+	if hints != null:
+		if hints.size() > 0:
+			destroy_hint()
+			var rand = floor(randf_range(0, hints.size()))
+			hint = hints[rand]
+			print("adding hint")
+			# hint.add_hint_effect()
+
+func destroy_hint():
+	if hint:
+		hint.remove_hint_effect()
+		print("removing hint")
