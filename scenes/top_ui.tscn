@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://nicfxos2ckac"]
+
+[ext_resource type="Texture2D" uid="uid://pa1obxqcum4r" path="res://assets/tutorials/UI/Top UI v 2.png" id="1_gnv6s"]
+
+[node name="top_ui" type="TextureRect"]
+offset_right = 1024.0
+offset_bottom = 192.0
+scale = Vector2(1, 0.359999)
+texture = ExtResource("1_gnv6s")
