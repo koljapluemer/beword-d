@@ -44,11 +44,13 @@ func add_hint_effect():
 	# cyclically enlarge and shrink the piece
 	tween = get_tree().create_tween()
 	# tween.tween_property(self, "rotation", 2, 0.5).as_relative()
-	tween.tween_property(self, "rotation", .08, 0.7).from_current()
+	tween.tween_property(self, "rotation", .08, 0.3).from_current()
 	tween.set_loops()
+	tween.tween_interval(0.5)
 	tween.set_ease(Tween.EASE_IN_OUT)
 
 
 func remove_hint_effect():
 	tween.kill()
+	rotation = 0
 	scale = Vector2(1, 1)
