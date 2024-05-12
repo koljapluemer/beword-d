@@ -4,6 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://cohq6nm2plghr" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Button/Rect/Fill/button_hover.tres" id="2_hg2qc"]
 
 [resource]
+Button/colors/font_color = Color(0.0235294, 0.0235294, 0.0235294, 1)
 Button/styles/disabled = ExtResource("1_ctkxd")
 Button/styles/focus = ExtResource("1_ctkxd")
 Button/styles/hover = ExtResource("2_hg2qc")
