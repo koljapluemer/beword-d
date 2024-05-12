@@ -154,7 +154,7 @@ var to_be_splashed = []
 
 enum {wait, move}
 var state
-var can_move = true
+@export var can_move = true
 # Swapping Back
 var piece_1 = null;
 var piece_2 = null;
@@ -265,7 +265,6 @@ func fill_prefab_dict():
 		while !found_unassigned_word:
 			var vocab_index = randi() % vocab.size();
 			if !used_vocab.has(vocab_index):
-				print("assigning ", possible_colors[i], " to ", vocab[vocab_index], "vocab dict:", vocab_prefab_dict);
 				vocab_prefab_dict[possible_colors[i]] = vocab[vocab_index];
 				found_unassigned_word = true;
 				used_vocab.append(vocab_index);
@@ -285,7 +284,6 @@ func spawn_pieces():
 				all_pieces[i][j] = piece;
 				add_child(piece);
 	if is_deadlocked():
-		print("deadlocked, doing nothing for now");
 		shuffle_board();
 	get_parent().get_node("hint_timer").start()
 				
@@ -319,7 +317,7 @@ func init_piece():
 	var random_index = randi() % vocab_array.size();
 	word_node.text = vocab_array[random_index];
 	# with a chance, make the piece colorful
-	if randf() > 0.6:
+	if randf() > 0.7:
 		piece.set_colorful();
 	else:
 		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")

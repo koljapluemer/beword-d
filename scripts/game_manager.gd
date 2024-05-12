@@ -5,6 +5,8 @@ var obstacle_counter = 0
 
 @onready var score_label_button = %UI/HBoxContainer/ScoreLabelButton
 @onready var obstacles_remaining_label_button = %UI/HBoxContainer/ObstaclesRemainingLabelButton
+@onready var level_done = %LevelDone
+@onready var grid = %grid
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -30,9 +32,10 @@ func change_obstacle_counter(by):
 	obstacle_counter = max(0, min(12, obstacle_counter + by))
 	# if 0, game over, restart
 	if obstacle_counter == 0:
-		get_tree().reload_current_scene()
+		level_done.visible = true
+		grid.can_move = false
 	if score_label_button:
 		render_ui()	
 
-
- 
+func _on_next_level_button_pressed():
+	get_tree().reload_current_scene()

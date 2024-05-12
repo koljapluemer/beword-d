@@ -16,3 +16,4 @@
 ## Credit
 
 - [Asset Pack (Robin Wooden UI)](https://prinbles.itch.io/robin)
+- [Tajawal Font](https://fonts.google.com/specimen/Tajawal)

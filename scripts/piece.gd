@@ -16,14 +16,17 @@ var is_adjacent_bomb = false
 func make_column_bomb():
 	is_column_bomb = true
 	get_node("Overlay").texture = column_texture
+	tween.kill()
 
 func make_row_bomb():
 	is_row_bomb = true
 	get_node("Overlay").texture = row_texture
-
+	tween.kill()
+	
 func make_adjacent_bomb():
 	is_adjacent_bomb = true
 	get_node("Overlay").texture = adjacent_texture
+	tween.kill()
 
 func move(target):
 	tween = get_tree().create_tween()	
