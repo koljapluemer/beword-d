@@ -242,7 +242,7 @@ func auto_gen_special_pieces():
 		if randf() > 0.66:
 			continue;
 		# randomly choose a number of pieces to spawn (1-5)
-		var number_of_pieces = randi() % 9 + 1;
+		var number_of_pieces = randi() % 5 + 1;
 		for i in range(number_of_pieces):
 			var x = randi() % (width / 2);
 			var y = randi() % height;
@@ -252,7 +252,8 @@ func auto_gen_special_pieces():
 				arr.append(coord);
 				# also append mirrored on x axis
 				arr.append(Vector2(width - x - 1, y));
-				game_manager.change_obstacle_counter(2);
+				# randomly add 1 or 2 to the counter (its how many player has to remove)
+				game_manager.change_obstacle_counter(randi() % 2 + 1);
 		
 
 func fill_prefab_dict():

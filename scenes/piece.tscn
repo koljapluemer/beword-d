@@ -12,7 +12,7 @@ column_texture = ExtResource("3_o2ld1")
 adjacent_texture = ExtResource("4_jj3pg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.75, 0.375)
+scale = Vector2(1.5, 0.75)
 
 [node name="Overlay" type="Sprite2D" parent="."]
 scale = Vector2(0.75, 0.375)
@@ -30,7 +30,6 @@ offset_bottom = 7.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 10
 text = "lorem ipsum"
 horizontal_alignment = 1
 vertical_alignment = 1

@@ -15,8 +15,8 @@ unique_name_in_owner = true
 [node name="HBoxContainer" type="HBoxContainer" parent="UI"]
 anchors_preset = 10
 anchor_right = 1.0
-offset_top = 11.0
-offset_bottom = 91.0
+offset_top = 27.0
+offset_bottom = 107.0
 grow_horizontal = 2
 
 [node name="Spacer" type="Control" parent="UI/HBoxContainer"]
@@ -46,19 +46,19 @@ size_flags_horizontal = 3
 size_flags_stretch_ratio = 2.0
 
 [node name="bg" type="TextureRect" parent="."]
-offset_right = 1152.0
-offset_bottom = 648.0
+offset_right = 1920.0
+offset_bottom = 1080.0
 texture = ExtResource("1_uxef0")
 expand_mode = 1
 
 [node name="grid" type="Node2D" parent="."]
 script = ExtResource("4_3cfgc")
-width = 10
-height = 9
-x_start = 168
-y_start = 550
-x_offset = 96
-y_offset = 48
+width = 8
+height = 8
+x_start = 240
+y_start = 950
+x_offset = 192
+y_offset = 96
 drop_offset = 3
 jelly_spaces = PackedVector2Array(2, 3)
 
