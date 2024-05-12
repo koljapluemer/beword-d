@@ -255,9 +255,17 @@ func auto_gen_special_pieces():
 
 func fill_prefab_dict():
 	# randomly assign each color to a vocab array
+	var used_vocab = [];
 	for i in range(possible_colors.size()):
-		var vocab_index = randi() % vocab.size();
-		vocab_prefab_dict[possible_colors[i]] = vocab[vocab_index];
+		# check if the color is already in the dict
+		var found_unassigned_word = false
+		while !found_unassigned_word:
+			var vocab_index = randi() % vocab.size();
+			if !used_vocab.has(vocab_index):
+				print("assigning ", possible_colors[i], " to ", vocab[vocab_index], "vocab dict:", vocab_prefab_dict);
+				vocab_prefab_dict[possible_colors[i]] = vocab[vocab_index];
+				found_unassigned_word = true;
+				used_vocab.append(vocab_index);
 
 func spawn_pieces():
 	for i in width:
