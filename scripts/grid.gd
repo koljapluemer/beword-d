@@ -147,6 +147,9 @@ var vocab_prefab_dict = {}
 var piece_prefab = preload ("res://scenes/piece.tscn")
 var to_be_splashed = []
 
+# Loading Game Manager
+@onready var game_manager = %GameManager
+
 # State Machine
 
 enum {wait, move}
@@ -523,6 +526,7 @@ func destroy_matched():
 		hint = null;
 	find_bombs();
 	var was_matched = false;
+	var score_multiplier = 1;
 	for i in width:
 		for j in height:
 			var piece = all_pieces[i][j];
@@ -534,6 +538,9 @@ func destroy_matched():
 					emit_signal("damage_jelly", Vector2(i, j));
 					emit_signal("damage_lock", Vector2(i, j));
 					check_for_stone_damage(i, j);
+					game_manager.add_points_to_score(round(1 * score_multiplier));
+					score_multiplier += 0.2;
+
 	move_checked = true;
 	if was_matched:
 		get_parent().get_node("collapse_timer").start();

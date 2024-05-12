@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://37racrrwxuti"]
+[gd_scene load_steps=7 format=3 uid="uid://37racrrwxuti"]
 
 [ext_resource type="Texture2D" uid="uid://cmarw2nkl1xdq" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Background/Vector/Default.png" id="1_uxef0"]
 [ext_resource type="Script" path="res://scripts/grid.gd" id="4_3cfgc"]
 [ext_resource type="Script" path="res://scripts/special_grid.gd" id="5_s8l0m"]
 [ext_resource type="Script" path="res://scripts/holder_lock.gd" id="6_20di2"]
+[ext_resource type="Script" path="res://scripts/game_manager.gd" id="6_owwt3"]
 [ext_resource type="Script" path="res://scripts/holder_stone.gd" id="7_tryyb"]
 
 [node name="game_window" type="Node2D"]
@@ -53,19 +54,24 @@ one_shot = true
 wait_time = 7.0
 one_shot = true
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="UI" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="UI"]
 anchors_preset = 10
 anchor_right = 1.0
 offset_top = 11.0
 offset_bottom = 91.0
 grow_horizontal = 2
 
-[node name="Button" type="Button" parent="CanvasLayer/HBoxContainer"]
+[node name="ScoreLabelButton" type="Button" parent="UI/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 6
 text = "Points: 350"
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("6_owwt3")
 
 [connection signal="damage_jelly" from="grid" to="holder_jelly" method="_on_grid_damage_jelly"]
 [connection signal="damage_lock" from="grid" to="holder_lock" method="_on_grid_damage_lock"]

@@ -25,19 +25,12 @@ func make_adjacent_bomb():
 	is_adjacent_bomb = true
 	get_node("Overlay").texture = adjacent_texture
 
-	
-
 func move(target):
 	tween = get_tree().create_tween()	
 	var random_time = randf_range(0.1, 0.35)
 	tween.tween_property(self, "position", target, random_time)
 	tween.set_ease(Tween.EASE_OUT)
 	tween.set_trans(Tween.TRANS_ELASTIC)
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
 
 
 func set_matched():
@@ -51,12 +44,9 @@ func add_hint_effect():
 	# cyclically enlarge and shrink the piece
 	tween = get_tree().create_tween()
 	# tween.tween_property(self, "rotation", 2, 0.5).as_relative()
-	tween.tween_property(self, "rotation", .08, 0.5).from_current()
+	tween.tween_property(self, "rotation", .08, 1).from_current()
 	tween.set_loops()
 	tween.set_ease(Tween.EASE_IN_OUT)
-	var shake = 5
-	var shake_duration = 0.1
-	var shake_count = 10
 
 
 func remove_hint_effect():
