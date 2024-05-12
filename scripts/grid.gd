@@ -173,10 +173,10 @@ var move_checked = false;
 @export var drop_offset: int;
 
 # Obstacles
-@export var empty_spaces: PackedVector2Array
-@export var jelly_spaces: PackedVector2Array
-@export var lock_spaces: PackedVector2Array
-@export var stone_spaces: PackedVector2Array
+var empty_spaces: Array = [];
+@export var jelly_spaces: PackedVector2Array = PackedVector2Array()
+var lock_spaces: PackedVector2Array = PackedVector2Array()
+var stone_spaces: PackedVector2Array = PackedVector2Array()
 
 # Obstacle Signals
 
@@ -208,6 +208,11 @@ func _ready():
 	all_pieces = make_2d_array();
 	hypothetical_pieces = make_2d_array();
 	fill_prefab_dict();
+
+	# jelly_spaces.append(Vector2(99, 99));
+	# lock_spaces.append(Vector2(99, 99));
+	# stone_spaces.append(Vector2(99, 99));
+
 	spawn_pieces();
 	spawn_jelly_pieces();
 	spawn_lock_pieces();
@@ -312,8 +317,8 @@ func touch_input():
 		var grid_pos = pixel_to_grid(second_touch.x, second_touch.y);
 		# check if there is a cell at the destination (even if it's not a neighbor )
 		# don't use the actual position as direction indication, but the "hovered" cell
-		var first_touched_cell = all_pieces[pixel_to_grid(first_touch.x, first_touch.y).x][pixel_to_grid(first_touch.x, first_touch.y).y];
 		if is_within_grid(grid_pos.x, grid_pos.y):
+			var first_touched_cell = all_pieces[pixel_to_grid(first_touch.x, first_touch.y).x][pixel_to_grid(first_touch.x, first_touch.y).y];
 			var second_touched_cell = all_pieces[grid_pos.x][grid_pos.y];
 			# ignore moves on the same cell
 			if first_touched_cell != second_touched_cell:

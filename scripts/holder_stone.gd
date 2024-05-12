@@ -35,6 +35,8 @@ func _on_grid_make_stone(board_position, grid_position):
 
 
 func _on_grid_damage_stone(grid_position):
+	if stone_pieces.size() == 0:
+		return;
 	var stone_piece = stone_pieces[grid_position.x][grid_position.y];
 	if stone_piece != null:
 		stone_piece.take_damage(1);

@@ -44,7 +44,7 @@ func add_hint_effect():
 	# cyclically enlarge and shrink the piece
 	tween = get_tree().create_tween()
 	# tween.tween_property(self, "rotation", 2, 0.5).as_relative()
-	tween.tween_property(self, "rotation", .08, 1).from_current()
+	tween.tween_property(self, "rotation", .08, 0.7).from_current()
 	tween.set_loops()
 	tween.set_ease(Tween.EASE_IN_OUT)
 

@@ -24,10 +24,7 @@ y_start = 550
 x_offset = 96
 y_offset = 48
 drop_offset = 3
-empty_spaces = PackedVector2Array(3, 3)
-jelly_spaces = PackedVector2Array(4, 4)
-lock_spaces = PackedVector2Array(5, 5)
-stone_spaces = PackedVector2Array(6, 6)
+jelly_spaces = PackedVector2Array(2, 3)
 
 [node name="holder_jelly" type="Node2D" parent="."]
 script = ExtResource("5_s8l0m")

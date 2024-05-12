@@ -35,6 +35,8 @@ func _on_grid_make_jelly(board_position, grid_position):
 
 
 func _on_grid_damage_jelly(grid_position):
+	if jelly_pieces.size() == 0:
+		return;
 	var jelly_piece = jelly_pieces[grid_position.x][grid_position.y];
 	if jelly_piece != null:
 		jelly_piece.take_damage(1);

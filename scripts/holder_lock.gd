@@ -36,7 +36,11 @@ func _on_grid_make_lock(board_position, grid_position):
 
 
 func _on_grid_damage_lock(grid_position):
-	var lock_piece = lock_pieces[grid_position.x][grid_position.y];
+	if lock_pieces.size() == 0:
+		return;
+	var x = grid_position.x;
+	var y = grid_position.y;
+	var lock_piece = lock_pieces[x][y];
 	if lock_piece != null:
 		lock_piece.take_damage(1);
 		if lock_piece.health <= 0:
