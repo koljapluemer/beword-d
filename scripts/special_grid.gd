@@ -1,9 +1,13 @@
 extends Node2D
 
 var jelly_pieces = []
-var width = 16
-var height = 12
+var width = 10
+var height = 9
 var jelly = preload("res://scenes/piece_jelly.tscn")
+var stone = preload("res://scenes/piece_stone.tscn")
+
+@onready var game_manager = %GameManager
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -43,3 +47,4 @@ func _on_grid_damage_jelly(grid_position):
 		if jelly_piece.health <= 0:
 			jelly_piece.queue_free();
 			jelly_pieces[grid_position.x][grid_position.y] = null;
+			game_manager.change_obstacle_counter(-1);

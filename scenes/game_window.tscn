@@ -9,6 +9,42 @@
 
 [node name="game_window" type="Node2D"]
 
+[node name="UI" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 11.0
+offset_bottom = 91.0
+grow_horizontal = 2
+
+[node name="Spacer" type="Control" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="ScoreLabelButton" type="Button" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Points: 350"
+
+[node name="Spacer3" type="Control" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.2
+
+[node name="ObstaclesRemainingLabelButton" type="Button" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Pieces Remaining: 10
+"
+
+[node name="Spacer2" type="Control" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+
 [node name="bg" type="TextureRect" parent="."]
 offset_right = 1152.0
 offset_bottom = 648.0
@@ -50,21 +86,6 @@ one_shot = true
 [node name="hint_timer" type="Timer" parent="."]
 wait_time = 7.0
 one_shot = true
-
-[node name="UI" type="CanvasLayer" parent="."]
-unique_name_in_owner = true
-
-[node name="HBoxContainer" type="HBoxContainer" parent="UI"]
-anchors_preset = 10
-anchor_right = 1.0
-offset_top = 11.0
-offset_bottom = 91.0
-grow_horizontal = 2
-
-[node name="ScoreLabelButton" type="Button" parent="UI/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 6
-text = "Points: 350"
 
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true

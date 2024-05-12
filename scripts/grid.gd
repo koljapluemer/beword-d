@@ -252,6 +252,8 @@ func auto_gen_special_pieces():
 				arr.append(coord);
 				# also append mirrored on x axis
 				arr.append(Vector2(width - x - 1, y));
+				game_manager.change_obstacle_counter(2);
+		
 
 func fill_prefab_dict():
 	# randomly assign each color to a vocab array

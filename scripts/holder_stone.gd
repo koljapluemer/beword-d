@@ -1,9 +1,11 @@
 extends Node2D
 
 var stone_pieces = []
-var width = 16
-var height = 12
+var width = 10
+var height = 9
 var stone = preload("res://scenes/piece_stone.tscn")
+
+@onready var game_manager = %GameManager
 
 signal remove_stone
 # Called when the node enters the scene tree for the first time.
@@ -44,3 +46,4 @@ func _on_grid_damage_stone(grid_position):
 			stone_piece.queue_free();
 			stone_pieces[grid_position.x][grid_position.y] = null;
 			emit_signal("remove_stone", grid_position);
+			game_manager.change_obstacle_counter(-1);
