@@ -1,8 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://37racrrwxuti"]
+[gd_scene load_steps=6 format=3 uid="uid://37racrrwxuti"]
 
-[ext_resource type="Texture2D" uid="uid://dy3peuwpej171" path="res://assets/tutorials/UI/Backgrounds/background 2.png" id="1_h5scs"]
-[ext_resource type="PackedScene" uid="uid://nicfxos2ckac" path="res://scenes/top_ui.tscn" id="2_5gofm"]
-[ext_resource type="Texture2D" uid="uid://cehwbyldpyrlk" path="res://assets/tutorials/UI/Bottom UI v 2.png" id="3_ih2vn"]
+[ext_resource type="Texture2D" uid="uid://cmarw2nkl1xdq" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Background/Vector/Default.png" id="1_uxef0"]
 [ext_resource type="Script" path="res://scripts/grid.gd" id="4_3cfgc"]
 [ext_resource type="Script" path="res://scripts/special_grid.gd" id="5_s8l0m"]
 [ext_resource type="Script" path="res://scripts/holder_lock.gd" id="6_20di2"]
@@ -11,32 +9,17 @@
 [node name="game_window" type="Node2D"]
 
 [node name="bg" type="TextureRect" parent="."]
-offset_top = 576.0
-offset_right = 576.0
-offset_bottom = 1600.0
-rotation = -1.5708
-texture = ExtResource("1_h5scs")
-
-[node name="top_ui" parent="." instance=ExtResource("2_5gofm")]
-
-[node name="bottom_ui" type="TextureRect" parent="."]
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_top = 484.0
-offset_right = 576.0
-offset_bottom = 576.0
-grow_vertical = 0
-scale = Vector2(1.775, 1.009)
-size_flags_horizontal = 10
-texture = ExtResource("3_ih2vn")
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_uxef0")
+expand_mode = 1
 
 [node name="grid" type="Node2D" parent="."]
 script = ExtResource("4_3cfgc")
 width = 10
 height = 9
-x_start = 64
-y_start = 435
+x_start = 168
+y_start = 550
 x_offset = 96
 y_offset = 48
 drop_offset = 3
