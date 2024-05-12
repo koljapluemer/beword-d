@@ -173,7 +173,7 @@ var move_checked = false;
 @export var drop_offset: int;
 
 # Obstacles
-var empty_spaces: Array = [];
+var empty_spaces: PackedVector2Array = PackedVector2Array()
 @export var jelly_spaces: PackedVector2Array = PackedVector2Array()
 var lock_spaces: PackedVector2Array = PackedVector2Array()
 var stone_spaces: PackedVector2Array = PackedVector2Array()
@@ -209,10 +209,7 @@ func _ready():
 	hypothetical_pieces = make_2d_array();
 	fill_prefab_dict();
 
-	# jelly_spaces.append(Vector2(99, 99));
-	# lock_spaces.append(Vector2(99, 99));
-	# stone_spaces.append(Vector2(99, 99));
-
+	auto_gen_special_pieces();
 	spawn_pieces();
 	spawn_jelly_pieces();
 	spawn_lock_pieces();
@@ -237,6 +234,24 @@ func is_move_restricted(coord):
 	return false;
 
 # Spawning etc
+
+func auto_gen_special_pieces():
+	var relevant_arrays = [jelly_spaces, lock_spaces, stone_spaces];
+	for arr in relevant_arrays:
+		# with a 1/3 chance, skip this
+		if randf() > 0.66:
+			continue;
+		# randomly choose a number of pieces to spawn (1-5)
+		var number_of_pieces = randi() % 5 + 1;
+		for i in range(number_of_pieces):
+			var x = randi() % (width / 2);
+			var y = randi() % height;
+			var coord = Vector2(x, y);
+			# if the space is empty, add it to the array
+			if !is_in_array(arr, coord) and !is_fill_restricted(coord):
+				arr.append(coord);
+				# also append mirrored on x axis
+				arr.append(Vector2(width - x - 1, y));
 
 func fill_prefab_dict():
 	# randomly assign each color to a vocab array
