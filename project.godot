@@ -27,6 +27,10 @@ project/assembly_name="beworded"
 
 enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
 
+[gui]
+
+theme/custom="res://bewording_theme.tres"
+
 [input]
 
 ui_touch={

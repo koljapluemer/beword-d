@@ -53,6 +53,21 @@ one_shot = true
 wait_time = 7.0
 one_shot = true
 
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+text = "Points
+"
+
+[node name="Button" type="Button" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+text = "Points"
+
 [connection signal="damage_jelly" from="grid" to="holder_jelly" method="_on_grid_damage_jelly"]
 [connection signal="damage_lock" from="grid" to="holder_lock" method="_on_grid_damage_lock"]
 [connection signal="damage_stone" from="grid" to="holder_stone" method="_on_grid_damage_stone"]

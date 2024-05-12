@@ -1,0 +1,11 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dl3ecettgdbgc"]
+
+[ext_resource type="StyleBox" uid="uid://b2r2f5wlors72" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Button/Rect/Fill/button_default.tres" id="1_ctkxd"]
+[ext_resource type="StyleBox" uid="uid://cohq6nm2plghr" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Button/Rect/Fill/button_hover.tres" id="2_hg2qc"]
+
+[resource]
+Button/styles/disabled = ExtResource("1_ctkxd")
+Button/styles/focus = ExtResource("1_ctkxd")
+Button/styles/hover = ExtResource("2_hg2qc")
+Button/styles/normal = ExtResource("1_ctkxd")
+Button/styles/pressed = ExtResource("1_ctkxd")
