@@ -17,3 +17,6 @@
 
 - [Asset Pack (Robin Wooden UI)](https://prinbles.itch.io/robin)
 - [Tajawal Font](https://fonts.google.com/specimen/Tajawal)
+- German word List inspired by 
+    - [this list](https://www.hueber.de/media/36/Wortliste_MacmillanGatewayB2.xls)
+    - [this Anki deck](https://ankiweb.net/shared/info/293204297)

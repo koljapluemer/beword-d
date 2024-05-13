@@ -1,0 +1,647 @@
+[
+  {
+    "target": "bangar",
+    "native": "beetroot",
+    "transliteration": "\u0628\u0640\u064e\u0646\u062c\u0640\u064e\u0631"
+  },
+  {
+    "target": "kurunb",
+    "native": "cabbage",
+    "transliteration": " \u0643\u0640\u064f\u0631 \u064f\u0646\u0628"
+  },
+  {
+    "target": "gazar",
+    "native": "carrot",
+    "transliteration": " \u062c\u0640\u064e\u0632 \u064e\u0631"
+  },
+  {
+    "target": "arnabeet",
+    "native": "cauliflower",
+    "transliteration": "\u0642\u0640\u064e\u0631\u0646\u0640\u064e\u0628\u064a\u0637"
+  },
+  {
+    "target": "karafs",
+    "native": "celery",
+    "transliteration": " \u0643\u0640\u064e\u0631 \u064e\u0641\u0633"
+  },
+  {
+    "target": "chiyaar",
+    "native": "cucumber",
+    "transliteration": "\u062e\u0640\u0650\u064a\u0627"
+  },
+  {
+    "target": "bitingaen",
+    "native": "eggplant",
+    "transliteration": " \u0628\u0640\u0650\u062a\u0640\u0650\u0646\u062c\u0627 \u064e\u0646"
+  },
+  {
+    "target": "bamya",
+    "native": "okra",
+    "transliteration": " \u0628\u0627 \u064e\u0645\u064a\u0640\u064e\u0629"
+  },
+  {
+    "target": "zaytoon",
+    "native": "olive",
+    "transliteration": " \u0632 \u064e\u064a\u062a\u0648\u0646"
+  },
+  {
+    "target": "basal",
+    "native": "onion",
+    "transliteration": " \u0628\u0640\u064e\u0635\u0640\u064e\u0644"
+  },
+  {
+    "target": "bisilla",
+    "native": "pea",
+    "transliteration": "\u0628\u0640\u0650\u0633\u0640\u0650\u0644\u0651\u0640\u064e\u0629"
+  },
+  {
+    "target": "baAd ilduhr",
+    "native": "afternoon",
+    "transliteration": " \u0628\u0640\u064e\u0639\u062f \u0627 \u0650\u0644\u0636\u0640\u064f\u0647\u0631 "
+  },
+  {
+    "target": "ghala",
+    "native": "angry",
+    "transliteration": "\u063a\u0640\u064e\u0644\u0649"
+  },
+  {
+    "target": "tuffaeH",
+    "native": "apple",
+    "transliteration": " \u062a\u0640\u064f\u0641\u0651\u0627 \u064e\u062d"
+  },
+  {
+    "target": "sallaH",
+    "native": "arm",
+    "transliteration": "\u0633\u0640\u064e\u0644\u0651\u0640\u064e\u062d"
+  },
+  {
+    "target": "naeyim",
+    "native": "asleep",
+    "transliteration": " \u0646\u0627 \u064e\u064a\u0640\u0650\u0645"
+  },
+  {
+    "target": "mawlood",
+    "native": "baby",
+    "transliteration": " \u0645\u0640\u064e\u0648\u0644\u0648\u062f"
+  },
+  {
+    "target": "baTTaal",
+    "native": "bad",
+    "transliteration": "\u0628\u0640\u064e\u0637\u0651\u0627 \u064e\u0644"
+  },
+  {
+    "target": "koora",
+    "native": "ball",
+    "transliteration": " \u0643\u0648\u0631 \u064e\u0629"
+  },
+  {
+    "target": "mooz",
+    "native": "banana",
+    "transliteration": "\u0645\u0648\u0632"
+  },
+  {
+    "target": "banyw",
+    "native": "bath",
+    "transliteration": "\u0628\u0640\u064e\u0646\u064a\u0648"
+  },
+  {
+    "target": "bilaeg",
+    "native": "beach",
+    "transliteration": " \u0628\u0640\u0650\u0644\u0627 \u064e\u062c"
+  },
+  {
+    "target": "sireer",
+    "native": "bed",
+    "transliteration": " \u0633\u0640\u0650\u0631\u064a\u0631"
+  },
+  {
+    "target": "Teer",
+    "native": "bird",
+    "transliteration": "\u0637\u064a\u0631"
+  },
+  {
+    "target": "'iswid",
+    "native": "black",
+    "transliteration": " \u0625\u0633\u0648 \u0650\u062f"
+  },
+  {
+    "target": "'azra'",
+    "native": "blue",
+    "transliteration": " \u0623\u0632\u0631 \u064e\u0642"
+  },
+  {
+    "target": "markib",
+    "native": "boat",
+    "transliteration": " \u0645\u0640\u064e\u0631\u0643\u0640\u0650\u0628"
+  },
+  {
+    "target": "kitaeb",
+    "native": "book",
+    "transliteration": " \u0643\u0640\u0650\u062a\u0627 \u064e\u0628"
+  },
+  {
+    "target": "'izaeza",
+    "native": "bottle",
+    "transliteration": " \u0625\u0632\u0627 \u064e\u0632 \u064e\u0629"
+  },
+  {
+    "target": "gatooh",
+    "native": "cake",
+    "transliteration": " \u062c\u0627 \u064e\u062a\u0648\u0647"
+  },
+  {
+    "target": "Aarabiya",
+    "native": "car",
+    "transliteration": "\u0639\u0640\u064e\u0631 \u064e\u0628\u0640\u0650\u064a\u0640\u064e\u0629"
+  },
+  {
+    "target": "'utta",
+    "native": "cat",
+    "transliteration": " \u0642\u0640\u064f\u0637\u0651\u0640\u064e\u0629"
+  },
+  {
+    "target": "kursi",
+    "native": "chair",
+    "transliteration": " \u0643\u0640\u064f\u0631\u0633\u064a"
+  },
+  {
+    "target": "firaech",
+    "native": "chicken",
+    "transliteration": " \u0641\u0640\u0650\u0631\u0627 \u064e\u062e"
+  },
+  {
+    "target": "Tifl",
+    "native": "child",
+    "transliteration": "\u0637\u0640\u0650\u0641\u0644"
+  },
+  {
+    "target": "shookoolaata",
+    "native": "chocolate",
+    "transliteration": "\u0634\u0648\u0643\u0648\u0644\u0627 \u064e\u062a\u0640\u064e\u0629"
+  },
+  {
+    "target": "madeena",
+    "native": "city",
+    "transliteration": "\u0645\u0640\u064e\u062f\u064a\u0646\u0640\u064e\u0629"
+  },
+  {
+    "target": "gheem",
+    "native": "cloud",
+    "transliteration": "\u063a\u064a\u0645"
+  },
+  {
+    "target": "ba'ar",
+    "native": "cow",
+    "transliteration": "\u0628\u0640\u064e\u0642\u0640\u064e\u0631"
+  },
+  {
+    "target": "fingaen",
+    "native": "cup",
+    "transliteration": " \u0641\u0640\u0650\u0646\u062c\u0627 \u064e\u0646"
+  },
+  {
+    "target": "mumawwag",
+    "native": "curly",
+    "transliteration": "\u0645\u0640\u064f\u0645\u0640\u064e\u0648\u0651 \u064e\u062c"
+  },
+  {
+    "target": "zareef",
+    "native": "cute",
+    "transliteration": "\u0638\u0640\u064e\u0631\u064a\u0641"
+  },
+  {
+    "target": "ra's",
+    "native": "dancing",
+    "transliteration": " \u0631 \u064e\u0642\u0635"
+  },
+  {
+    "target": "muzlim",
+    "native": "dark",
+    "transliteration": "\u0645\u0640\u064f\u0638\u0644\u0640\u0650\u0645"
+  },
+  {
+    "target": "kalb",
+    "native": "dog",
+    "transliteration": "\u0643\u0640\u064e\u0644\u0628"
+  },
+  {
+    "target": "Aaroosa",
+    "native": "doll",
+    "transliteration": "\u0639\u0640\u064e\u0631\u0648\u0633\u0640\u064e\u0629"
+  },
+  {
+    "target": "bawwaeba",
+    "native": "door",
+    "transliteration": "\u0628\u0640\u064e\u0648\u0651\u0627 \u064e\u0628\u0640\u064e\u0629"
+  },
+  {
+    "target": "labbis",
+    "native": "dress",
+    "transliteration": "\u0644\u0640\u064e\u0628\u0651\u0640\u0650\u0633"
+  },
+  {
+    "target": "baTT",
+    "native": "duck",
+    "transliteration": "\u0628\u0640\u064e\u0637\u0651"
+  },
+  {
+    "target": "widn",
+    "native": "ear",
+    "transliteration": " \u0648 \u0650\u062f\u0646"
+  },
+  {
+    "target": "feel",
+    "native": "elephant",
+    "transliteration": "\u0641\u064a\u0644"
+  },
+  {
+    "target": "wishsh",
+    "native": "face",
+    "transliteration": " \u0648 \u0650\u0634\u0651"
+  },
+  {
+    "target": "Aae'ili",
+    "native": "family",
+    "transliteration": "\u0639\u0627 \u064e\u0626\u0640\u0650\u0644\u064a"
+  },
+  {
+    "target": "Aizba",
+    "native": "farm",
+    "transliteration": "\u0639\u0640\u0650\u0632\u0628\u0640\u064e\u0629"
+  },
+  {
+    "target": "'abb",
+    "native": "father",
+    "transliteration": "\u0623\u0628\u0651"
+  },
+  {
+    "target": "Saad",
+    "native": "fish",
+    "transliteration": "\u0635\u0627 \u064e\u062f"
+  },
+  {
+    "target": "ward",
+    "native": "flower",
+    "transliteration": "\u0648 \u064e\u0631\u062f"
+  },
+  {
+    "target": "'akl",
+    "native": "food",
+    "transliteration": "\u0623\u0643\u0644"
+  },
+  {
+    "target": "ghaeba",
+    "native": "forest",
+    "transliteration": "\u063a\u0627 \u064e\u0628\u0640\u064e\u0629"
+  },
+  {
+    "target": "SaaHib",
+    "native": "friend",
+    "transliteration": "\u0635\u0627 \u064e\u062d\u0640\u0650\u0628"
+  },
+  {
+    "target": "fakha",
+    "native": "fruit",
+    "transliteration": "\u0641\u0627 \u064e\u0643\u0647\u0640\u064e\u0629"
+  },
+  {
+    "target": "gineena",
+    "native": "garden",
+    "transliteration": "\u062c\u0640\u0650\u0646\u064a\u0646\u0640\u064e\u0629"
+  },
+  {
+    "target": "liAba",
+    "native": "game",
+    "transliteration": "\u0644\u0640\u0650\u0639\u0628\u0640\u064e\u0629"
+  },
+  {
+    "target": "bint",
+    "native": "girl",
+    "transliteration": "\u0628\u0640\u0650\u0646\u062a"
+  },
+  {
+    "target": "naddaara",
+    "native": "glasses",
+    "transliteration": " \u0646\u0640\u064e\u0636\u0651\u0627 \u064e\u0631 \u064e\u0629"
+  },
+  {
+    "target": "nigeela",
+    "native": "grass",
+    "transliteration": " \u0646\u0640\u0650\u062c\u064a\u0644\u0640\u064e\u0629"
+  },
+  {
+    "target": "shaAr",
+    "native": "hair",
+    "transliteration": " \u0634\u0640\u064e\u0639\u0631"
+  },
+  {
+    "target": "naewil",
+    "native": "hand",
+    "transliteration": "\u0646\u0627 \u064e\u0648 \u0650\u0644"
+  },
+  {
+    "target": "burneeta",
+    "native": "hat",
+    "transliteration": " \u0628\u0640\u064f\u0631\u0646\u064a\u0637\u0640\u064e\u0629"
+  },
+  {
+    "target": "dimaegh",
+    "native": "head",
+    "transliteration": " \u062f \u0650\u0645\u0627 \u064e\u063a"
+  },
+  {
+    "target": "'alb",
+    "native": "heart",
+    "transliteration": "\u0642\u0640\u064e\u0644\u0628"
+  },
+  {
+    "target": "HuSaan",
+    "native": "horse",
+    "transliteration": "\u062d\u0640\u064f\u0635\u0627 \u064e\u0646"
+  },
+  {
+    "target": "sakan",
+    "native": "house",
+    "transliteration": "\u0633\u0640\u064e\u0643\u0640\u064e\u0646"
+  },
+  {
+    "target": "Hashara",
+    "native": "insect",
+    "transliteration": "\u062d\u0640\u064e\u0634\u0640\u064e\u0631 \u064e\u0629"
+  },
+  {
+    "target": "jaekitt",
+    "native": "jacket",
+    "transliteration": "\u0686\u0627 \u064e\u0643\u0640\u0650\u062a\u0651"
+  },
+  {
+    "target": "muftaeH",
+    "native": "key",
+    "transliteration": "\u0645\u0640\u064f\u0641\u062a\u0627 \u064e\u062d"
+  },
+  {
+    "target": "baes",
+    "native": "kiss",
+    "transliteration": " \u0628\u0627 \u064e\u0633"
+  },
+  {
+    "target": "matbach",
+    "native": "kitchen",
+    "transliteration": "\u0645\u0640\u064e\u0637\u0628\u0640\u064e\u062e"
+  },
+  {
+    "target": "lamba",
+    "native": "lamp",
+    "transliteration": "\u0644\u0640\u064e\u0645\u0628\u0640\u064e\u0629"
+  },
+  {
+    "target": "wara'",
+    "native": "leaf",
+    "transliteration": "\u0648 \u064e\u0631 \u064e\u0642"
+  },
+  {
+    "target": "Habb",
+    "native": "love",
+    "transliteration": "\u062d\u0640\u064e\u0628\u0651"
+  },
+  {
+    "target": "ghada'",
+    "native": "lunch",
+    "transliteration": "\u063a\u0640\u064e\u062f\u0627 \u064e\u0621"
+  },
+  {
+    "target": "qamar",
+    "native": "moon",
+    "transliteration": "\u0642\u0640\u064e\u0645\u0640\u064e\u0631"
+  },
+  {
+    "target": "bu''",
+    "native": "mouth",
+    "transliteration": "\u0628\u0640\u064f\u0642\u0651"
+  },
+  {
+    "target": "mazzeeka",
+    "native": "music",
+    "transliteration": "\u0645\u0640\u064e\u0632\u0651\u064a\u0643\u0627"
+  },
+  {
+    "target": "manacheer",
+    "native": "nose",
+    "transliteration": "\u0645\u0640\u064e\u0646\u0627 \u064e\u062e\u064a\u0631"
+  },
+  {
+    "target": "kummitra",
+    "native": "pear",
+    "transliteration": "\u0643\u0640\u064f\u0645\u0651\u0640\u0650\u062a\u0631\u0649"
+  },
+  {
+    "target": "bianoo",
+    "native": "piano",
+    "transliteration": "\u0628\u064a\u0627 \u064e\u0646\u0648"
+  },
+  {
+    "target": "Tayaara",
+    "native": "plane",
+    "transliteration": "\u0637\u0640\u064e\u064a\u0627 \u064e\u0631 \u064e\u0629"
+  },
+  {
+    "target": "zarA",
+    "native": "plant",
+    "transliteration": "\u0632 \u064e\u0631\u0639"
+  },
+  {
+    "target": "bolees",
+    "native": "police",
+    "transliteration": "\u0628\u0648\u0644\u064a\u0633"
+  },
+  {
+    "target": "maTTar",
+    "native": "rain",
+    "transliteration": "\u0645\u0640\u064e\u0637\u0651\u0640\u064e\u0631"
+  },
+  {
+    "target": "nahr",
+    "native": "river",
+    "transliteration": "\u0646\u0640\u064e\u0647\u0631"
+  },
+  {
+    "target": "'asl",
+    "native": "robot",
+    "transliteration": "\u0623\u0635\u0644"
+  },
+  {
+    "target": "Sachr",
+    "native": "rock",
+    "transliteration": "\u0635\u0640\u064e\u062e\u0631"
+  },
+  {
+    "target": "filooka",
+    "native": "sailboat",
+    "transliteration": "\u0641\u0640\u0650\u0644\u0648\u0643\u0640\u064e\u0629"
+  },
+  {
+    "target": "sanfar",
+    "native": "sand",
+    "transliteration": "\u0633\u0640\u064e\u0646\u0641\u0640\u064e\u0631"
+  },
+  {
+    "target": "madrasa",
+    "native": "school",
+    "transliteration": "\u0645\u0640\u064e\u062f\u0631 \u064e\u0633\u0640\u064e\u0629"
+  },
+  {
+    "target": "baHr",
+    "native": "sea",
+    "transliteration": "\u0628\u0640\u064e\u062d\u0631"
+  },
+  {
+    "target": "shaHan",
+    "native": "ship",
+    "transliteration": "\u0634\u0640\u064e\u062d\u0640\u064e\u0646"
+  },
+  {
+    "target": "gazma",
+    "native": "shoe",
+    "transliteration": "\u062c\u0640\u064e\u0632\u0645\u0640\u064e\u0629"
+  },
+  {
+    "target": "chagool",
+    "native": "shy",
+    "transliteration": "\u062e\u0640\u064e\u062c\u0648\u0644"
+  },
+  {
+    "target": "raggaA",
+    "native": "sick",
+    "transliteration": "\u0631 \u064e\u062c\u0651\u0640\u064e\u0639"
+  },
+  {
+    "target": "Aabeet",
+    "native": "silly",
+    "transliteration": "\u0639\u0640\u064e\u0628\u064a\u0637"
+  },
+  {
+    "target": "ghuna",
+    "native": "singing",
+    "transliteration": "\u063a\u0640\u064f\u0646\u0649"
+  },
+  {
+    "target": "'ucht",
+    "native": "sister",
+    "transliteration": "\u0623 \u064f\u062e\u062a"
+  },
+  {
+    "target": "naeyim",
+    "native": "sleeping",
+    "transliteration": "\u0646\u0627 \u064e\u064a\u0640\u0650\u0645"
+  },
+  {
+    "target": "batee'",
+    "native": "slow",
+    "transliteration": "\u0628\u0640\u064e\u0637\u064a\u0621"
+  },
+  {
+    "target": "sughayar",
+    "native": "small",
+    "transliteration": "\u0635\u0640\u064f\u063a\u0640\u064e\u064a\u0640\u064e\u0631"
+  },
+  {
+    "target": "'ibtassam",
+    "native": "smile",
+    "transliteration": "\u0625\u0628\u062a\u0640\u064e\u0633\u0651\u0640\u064e\u0645"
+  },
+  {
+    "target": "talg",
+    "native": "snow",
+    "transliteration": "\u062a\u0640\u064e\u0644\u062c"
+  },
+  {
+    "target": "Aankaboot",
+    "native": "spider",
+    "transliteration": "\u0639\u0640\u064e\u0646\u0643\u0640\u064e\u0628\u0648\u062a"
+  },
+  {
+    "target": "gharaf",
+    "native": "spoon",
+    "transliteration": "\u063a\u0640\u064e\u0631 \u064e\u0641"
+  },
+  {
+    "target": "riyaada",
+    "native": "sports",
+    "transliteration": "\u0631 \u0650\u064a\u0627 \u064e\u0636\u0640\u064e\u0629"
+  },
+  {
+    "target": "nigma",
+    "native": "star",
+    "transliteration": "\u0646\u0640\u0650\u062c\u0645\u0640\u064e\u0629"
+  },
+  {
+    "target": "shams",
+    "native": "sun",
+    "transliteration": "\u0634\u0640\u064e\u0645\u0633"
+  },
+  {
+    "target": "biseen",
+    "native": "swimming",
+    "transliteration": "\u0628\u0640\u0650\u0633\u064a\u0646"
+  },
+  {
+    "target": "mudarris",
+    "native": "teacher",
+    "transliteration": "\u0645\u0640\u064f\u062f \u064e\u0631\u0651 \u0650\u0633"
+  },
+  {
+    "target": "hamdaen",
+    "native": "tired",
+    "transliteration": "\u0647\u0640\u064e\u0645\u062f\u0627 \u064e\u0646"
+  },
+  {
+    "target": "sinna",
+    "native": "tooth",
+    "transliteration": "\u0633\u0640\u0650\u0646\u0651\u0640\u064e\u0629"
+  },
+  {
+    "target": "qataar",
+    "native": "train",
+    "transliteration": "\u0642\u0640\u064e\u0637\u0627 \u064e\u0631"
+  },
+  {
+    "target": "shagar",
+    "native": "tree",
+    "transliteration": "\u0634\u0640\u064e\u062c\u0640\u064e\u0631"
+  },
+  {
+    "target": "tileevizyoon",
+    "native": "tv",
+    "transliteration": "\u062a\u0640\u0650\u0644\u064a\u06a4\u0640\u0650\u0632\u064a\u0648\u0646"
+  },
+  {
+    "target": "shamsiyya",
+    "native": "umbrella",
+    "transliteration": "\u0634\u0640\u064e\u0645\u0633\u0640\u0650\u064a\u064a\u0640\u064e\u0629"
+  },
+  {
+    "target": "zaAAal",
+    "native": "upset",
+    "transliteration": "\u0632 \u064e\u0639\u0651\u0640\u064e\u0644"
+  },
+  {
+    "target": "chudaar",
+    "native": "vegetable",
+    "transliteration": "\u062e\u0640\u064f\u0636\u0627 \u064e\u0631"
+  },
+  {
+    "target": "mayyah",
+    "native": "water",
+    "transliteration": "\u0645\u0640\u064e\u064a\u064a\u0640\u064e\u0647"
+  },
+  {
+    "target": "reeH",
+    "native": "wind",
+    "transliteration": "\u0631\u064a\u062d"
+  },
+  {
+    "target": "koosa",
+    "native": "zucchini",
+    "transliteration": "\u0643\u0648\u0633\u0640\u064e\u0629"
+  }
+]

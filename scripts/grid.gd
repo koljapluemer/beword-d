@@ -1,137 +1,17 @@
 extends Node2D
 
 # The Language Stuff
-var vocab = [
-	["beetroot", "بـَنجـَر", "bangar"],
-	["cabbage", " كـُر ُنب", "kurunb"],
-	["carrot", " جـَز َر", "gazar"],
-	["cauliflower", "قـَرنـَبيط", "arnabeet"],
-	["celery", " كـَر َفس", "karafs"],
-	["cucumber", "خـِيا", "chiyaar"],
-	["eggplant", " بـِتـِنجا َن", "bitingaen"],
-	["okra", " با َميـَة", "bamya"],
-	["olive", " ز َيتون", "zaytoon"],
-	["onion", " بـَصـَل", "basal"],
-	["pea", "بـِسـِلّـَة", "bisilla"],
-	["afternoon", " بـَعد ا ِلضـُهر ", "baAd ilduhr"],
-	["angry", "غـَلى", "ghala"],
-	["apple", " تـُفّا َح", "tuffaeH"],
-	["arm", "سـَلّـَح", "sallaH"],
-	["asleep", " نا َيـِم", "naeyim"],
-	["baby", " مـَولود", "mawlood"],
-	["bad", "بـَطّا َل", "baTTaal"],
-	["ball", " كور َة", "koora"],
-	["banana", "موز", "mooz"],
-	["bath", "بـَنيو", "banyw"],
-	["beach", " بـِلا َج", "bilaeg"],
-	["bed", " سـِرير", "sireer"],
-	["bird", "طير", "Teer"],
-	["black", " إسو ِد", "'iswid"],
-	["blue", " أزر َق", "'azra'"],
-	["boat", " مـَركـِب", "markib"],
-	["book", " كـِتا َب", "kitaeb"],
-	["bottle", " إزا َز َة", "'izaeza"],
-	["cake", " جا َتوه", "gatooh"],
-	["car", "عـَر َبـِيـَة", "Aarabiya"],
-	["cat", " قـُطّـَة", "'utta"],
-	["chair", " كـُرسي", "kursi"],
-	["chicken", " فـِرا َخ", "firaech"],
-	["child", "طـِفل", "Tifl"],
-	["chocolate", "شوكولا َتـَة", "shookoolaata"],
-	["city", "مـَدينـَة", "madeena"],
-	["cloud", "غيم", "gheem"],
-	["cow", "بـَقـَر", "ba'ar"],
-	["cup", " فـِنجا َن", "fingaen"],
-	["curly", "مـُمـَوّ َج", "mumawwag"],
-	["cute", "ظـَريف", "zareef"],
-	["dancing", " ر َقص", "ra's"],
-	["dark", "مـُظلـِم", "muzlim"],
-	["dog", "كـَلب", "kalb"],
-	["doll", "عـَروسـَة", "Aaroosa"],
-	["door", "بـَوّا َبـَة", "bawwaeba"],
-	["dress", "لـَبّـِس", "labbis"],
-	["duck", "بـَطّ", "baTT"],
-	["ear", " و ِدن", "widn"],
-	["elephant", "فيل", "feel"],
-	["face", " و ِشّ", "wishsh"],
-	["family", "عا َئـِلي", "Aae'ili"],
-	["farm", "عـِزبـَة", "Aizba"],
-	["father", "أبّ", "'abb"],
-	["fish", "صا َد", "Saad"],
-	["flower", "و َرد", "ward"],
-	["food", "أكل", "'akl"],
-	["forest", "غا َبـَة", "ghaeba"],
-	["friend", "صا َحـِب", "SaaHib"],
-	["fruit", "فا َكهـَة", "fakha"],
-	["garden", "جـِنينـَة", "gineena"],
-	["game", "لـِعبـَة", "liAba"],
-	["girl", "بـِنت", "bint"],
-	["glasses", " نـَضّا َر َة", "naddaara"],
-	["grass", " نـِجيلـَة", "nigeela"],
-	["hair", " شـَعر", "shaAr"],
-	["hand", "نا َو ِل", "naewil"],
-	["hat", " بـُرنيطـَة", "burneeta"],
-	["head", " د ِما َغ", "dimaegh"],
-	["heart", "قـَلب", "'alb"],
-	["horse", "حـُصا َن", "HuSaan"],
-	["house", "سـَكـَن", "sakan"],
-	["insect", "حـَشـَر َة", "Hashara"],
-	["jacket", "چا َكـِتّ", "jaekitt"],
-	["key", "مـُفتا َح", "muftaeH"],
-	["kiss", " با َس", "baes"],
-	["kitchen", "مـَطبـَخ", "matbach"],
-	["lamp", "لـَمبـَة", "lamba"],
-	["leaf", "و َر َق", "wara'"],
-	["love", "حـَبّ", "Habb"],
-	["lunch", "غـَدا َء", "ghada'"],
-	["moon", "قـَمـَر", "qamar"],
-	["mouth", "بـُقّ", "bu''"],
-	["music", "مـَزّيكا", "mazzeeka"],
-	["nose", "مـَنا َخير", "manacheer"],
-	["pear", "كـُمّـِترى", "kummitra"],
-	["piano", "بيا َنو", "bianoo"],
-	["plane", "طـَيا َر َة", "Tayaara"],
-	["plant", "ز َرع", "zarA"],
-	["police", "بوليس", "bolees"],
-	["rain", "مـَطّـَر", "maTTar"],
-	["river", "نـَهر", "nahr"],
-	["robot", "أصل", "'asl"],
-	["rock", "صـَخر", "Sachr"],
-	["sailboat", "فـِلوكـَة", "filooka"],
-	["sand", "سـَنفـَر", "sanfar"],
-	["school", "مـَدر َسـَة", "madrasa"],
-	["sea", "بـَحر", "baHr"],
-	["ship", "شـَحـَن", "shaHan"],
-	["shoe", "جـَزمـَة", "gazma"],
-	["shy", "خـَجول", "chagool"],
-	["sick", "ر َجّـَع", "raggaA"],
-	["silly", "عـَبيط", "Aabeet"],
-	["singing", "غـُنى", "ghuna"],
-	["sister", "أ ُخت", "'ucht"],
-	["sleeping", "نا َيـِم", "naeyim"],
-	["slow", "بـَطيء", "batee'"],
-	["small", "صـُغـَيـَر", "sughayar"],
-	["smile", "إبتـَسّـَم", "'ibtassam"],
-	["snow", "تـَلج", "talg"],
-	["spider", "عـَنكـَبوت", "Aankaboot"],
-	["spoon", "غـَر َف", "gharaf"],
-	["sports", "ر ِيا َضـَة", "riyaada"],
-	["star", "نـِجمـَة", "nigma"],
-	["sun", "شـَمس", "shams"],
-	["swimming", "بـِسين", "biseen"],
-	["teacher", "مـُد َرّ ِس", "mudarris"],
-	["tired", "هـَمدا َن", "hamdaen"],
-	["tooth", "سـِنّـَة", "sinna"],
-	["train", "قـَطا َر", "qataar"],
-	["tree", "شـَجـَر", "shagar"],
-	["tv", "تـِليڤـِزيون", "tileevizyoon"],
-	["umbrella", "شـَمسـِييـَة", "shamsiyya"],
-	["upset", "ز َعّـَل", "zaAAal"],
-	["vegetable", "خـُضا َر", "chudaar"],
-	["water", "مـَييـَه", "mayyah"],
-	["wind", "ريح", "reeH"],
-	["zucchini", "كوسـَة", "koosa"],
-]
+
+func load_json_file(file_path:String):
+	if FileAccess.file_exists(file_path):
+		var dataFile = FileAccess.open(file_path, FileAccess.READ)
+		var parsedResult = JSON.parse_string(dataFile.get_as_text())
+		return parsedResult
+	else:
+		print("File does not exist")
+
+var vocab = load_json_file("res://assets/data/words_de.json")
+
 
 var possible_colors = [
 	"blue",
@@ -312,10 +192,10 @@ func init_piece():
 	var color = possible_colors[random_color_index];
 	piece.color = color;
 	# set text of "word" note to the corresponding word in the vocab array
-	var vocab_array = vocab_prefab_dict[color];
-	var word_node = piece.get_node("word");
-	var random_index = randi() % vocab_array.size();
-	word_node.text = vocab_array[random_index];
+	var vocab_dict = vocab_prefab_dict[color];
+	var keys = vocab_dict.keys();
+	var random_key = keys[randi() % keys.size()];
+	piece.get_node("word").text = vocab_dict[random_key];
 	# with a chance, make the piece colorful
 	if randf() > 0.7:
 		piece.set_colorful();
