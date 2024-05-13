@@ -1,3 +1,3 @@
 extends Node
 
-var language_setting = "en-eg"
+var language_setting = "en-de"

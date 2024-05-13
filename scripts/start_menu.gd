@@ -12,3 +12,12 @@ func _process(delta):
 
 func _on_play_button_pressed():
 	get_tree().change_scene_to_file("res://scenes/game_window.tscn")
+
+
+
+
+func _on_language_select_item_selected(index):
+	if index == 0:
+		GlobalManager.language_setting = "en-de"
+	if index == 1:
+		GlobalManager.language_setting = "en-eg"
