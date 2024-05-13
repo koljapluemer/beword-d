@@ -10,8 +10,7 @@ func load_json_file(file_path:String):
 	else:
 		print("File does not exist")
 
-var vocab = load_json_file("res://assets/data/words_de.json")
-
+var vocab;
 
 var possible_colors = [
 	"blue",
@@ -84,6 +83,14 @@ var second_touch: Vector2 = Vector2();
 var currently_controlling_piece: bool = false;
 
 func _ready():
+	if GlobalManager.language_setting == "en-de":
+		vocab = load_json_file("res://assets/data/words_de.json")
+	elif GlobalManager.language_setting == "en-eg":
+		vocab = load_json_file("res://assets/data/words_eg.json")
+
+
+
+
 	state = move;
 	all_pieces = make_2d_array();
 	hypothetical_pieces = make_2d_array();
