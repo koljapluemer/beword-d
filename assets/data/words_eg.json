@@ -1,647 +1,5577 @@
 [
-  {
-    "target": "bangar",
-    "native": "beetroot",
-    "transliteration": "\u0628\u0640\u064e\u0646\u062c\u0640\u064e\u0631"
-  },
-  {
-    "target": "kurunb",
-    "native": "cabbage",
-    "transliteration": " \u0643\u0640\u064f\u0631 \u064f\u0646\u0628"
-  },
-  {
-    "target": "gazar",
-    "native": "carrot",
-    "transliteration": " \u062c\u0640\u064e\u0632 \u064e\u0631"
-  },
-  {
-    "target": "arnabeet",
-    "native": "cauliflower",
-    "transliteration": "\u0642\u0640\u064e\u0631\u0646\u0640\u064e\u0628\u064a\u0637"
-  },
-  {
-    "target": "karafs",
-    "native": "celery",
-    "transliteration": " \u0643\u0640\u064e\u0631 \u064e\u0641\u0633"
-  },
-  {
-    "target": "chiyaar",
-    "native": "cucumber",
-    "transliteration": "\u062e\u0640\u0650\u064a\u0627"
-  },
-  {
-    "target": "bitingaen",
-    "native": "eggplant",
-    "transliteration": " \u0628\u0640\u0650\u062a\u0640\u0650\u0646\u062c\u0627 \u064e\u0646"
-  },
-  {
-    "target": "bamya",
-    "native": "okra",
-    "transliteration": " \u0628\u0627 \u064e\u0645\u064a\u0640\u064e\u0629"
-  },
-  {
-    "target": "zaytoon",
-    "native": "olive",
-    "transliteration": " \u0632 \u064e\u064a\u062a\u0648\u0646"
-  },
-  {
-    "target": "basal",
-    "native": "onion",
-    "transliteration": " \u0628\u0640\u064e\u0635\u0640\u064e\u0644"
-  },
-  {
-    "target": "bisilla",
-    "native": "pea",
-    "transliteration": "\u0628\u0640\u0650\u0633\u0640\u0650\u0644\u0651\u0640\u064e\u0629"
-  },
-  {
-    "target": "baAd ilduhr",
-    "native": "afternoon",
-    "transliteration": " \u0628\u0640\u064e\u0639\u062f \u0627 \u0650\u0644\u0636\u0640\u064f\u0647\u0631 "
-  },
-  {
-    "target": "ghala",
-    "native": "angry",
-    "transliteration": "\u063a\u0640\u064e\u0644\u0649"
-  },
-  {
-    "target": "tuffaeH",
-    "native": "apple",
-    "transliteration": " \u062a\u0640\u064f\u0641\u0651\u0627 \u064e\u062d"
-  },
-  {
-    "target": "sallaH",
-    "native": "arm",
-    "transliteration": "\u0633\u0640\u064e\u0644\u0651\u0640\u064e\u062d"
-  },
-  {
-    "target": "naeyim",
-    "native": "asleep",
-    "transliteration": " \u0646\u0627 \u064e\u064a\u0640\u0650\u0645"
-  },
-  {
-    "target": "mawlood",
-    "native": "baby",
-    "transliteration": " \u0645\u0640\u064e\u0648\u0644\u0648\u062f"
-  },
-  {
-    "target": "baTTaal",
-    "native": "bad",
-    "transliteration": "\u0628\u0640\u064e\u0637\u0651\u0627 \u064e\u0644"
-  },
-  {
-    "target": "koora",
-    "native": "ball",
-    "transliteration": " \u0643\u0648\u0631 \u064e\u0629"
-  },
-  {
-    "target": "mooz",
-    "native": "banana",
-    "transliteration": "\u0645\u0648\u0632"
-  },
-  {
-    "target": "banyw",
-    "native": "bath",
-    "transliteration": "\u0628\u0640\u064e\u0646\u064a\u0648"
-  },
-  {
-    "target": "bilaeg",
-    "native": "beach",
-    "transliteration": " \u0628\u0640\u0650\u0644\u0627 \u064e\u062c"
-  },
-  {
-    "target": "sireer",
-    "native": "bed",
-    "transliteration": " \u0633\u0640\u0650\u0631\u064a\u0631"
-  },
-  {
-    "target": "Teer",
-    "native": "bird",
-    "transliteration": "\u0637\u064a\u0631"
-  },
-  {
-    "target": "'iswid",
-    "native": "black",
-    "transliteration": " \u0625\u0633\u0648 \u0650\u062f"
-  },
-  {
-    "target": "'azra'",
-    "native": "blue",
-    "transliteration": " \u0623\u0632\u0631 \u064e\u0642"
-  },
-  {
-    "target": "markib",
-    "native": "boat",
-    "transliteration": " \u0645\u0640\u064e\u0631\u0643\u0640\u0650\u0628"
-  },
-  {
-    "target": "kitaeb",
-    "native": "book",
-    "transliteration": " \u0643\u0640\u0650\u062a\u0627 \u064e\u0628"
-  },
-  {
-    "target": "'izaeza",
-    "native": "bottle",
-    "transliteration": " \u0625\u0632\u0627 \u064e\u0632 \u064e\u0629"
-  },
-  {
-    "target": "gatooh",
-    "native": "cake",
-    "transliteration": " \u062c\u0627 \u064e\u062a\u0648\u0647"
-  },
-  {
-    "target": "Aarabiya",
-    "native": "car",
-    "transliteration": "\u0639\u0640\u064e\u0631 \u064e\u0628\u0640\u0650\u064a\u0640\u064e\u0629"
-  },
-  {
-    "target": "'utta",
-    "native": "cat",
-    "transliteration": " \u0642\u0640\u064f\u0637\u0651\u0640\u064e\u0629"
-  },
-  {
-    "target": "kursi",
-    "native": "chair",
-    "transliteration": " \u0643\u0640\u064f\u0631\u0633\u064a"
-  },
-  {
-    "target": "firaech",
-    "native": "chicken",
-    "transliteration": " \u0641\u0640\u0650\u0631\u0627 \u064e\u062e"
-  },
-  {
-    "target": "Tifl",
-    "native": "child",
-    "transliteration": "\u0637\u0640\u0650\u0641\u0644"
-  },
-  {
-    "target": "shookoolaata",
-    "native": "chocolate",
-    "transliteration": "\u0634\u0648\u0643\u0648\u0644\u0627 \u064e\u062a\u0640\u064e\u0629"
-  },
-  {
-    "target": "madeena",
-    "native": "city",
-    "transliteration": "\u0645\u0640\u064e\u062f\u064a\u0646\u0640\u064e\u0629"
-  },
-  {
-    "target": "gheem",
-    "native": "cloud",
-    "transliteration": "\u063a\u064a\u0645"
-  },
-  {
-    "target": "ba'ar",
-    "native": "cow",
-    "transliteration": "\u0628\u0640\u064e\u0642\u0640\u064e\u0631"
-  },
-  {
-    "target": "fingaen",
-    "native": "cup",
-    "transliteration": " \u0641\u0640\u0650\u0646\u062c\u0627 \u064e\u0646"
-  },
-  {
-    "target": "mumawwag",
-    "native": "curly",
-    "transliteration": "\u0645\u0640\u064f\u0645\u0640\u064e\u0648\u0651 \u064e\u062c"
-  },
-  {
-    "target": "zareef",
-    "native": "cute",
-    "transliteration": "\u0638\u0640\u064e\u0631\u064a\u0641"
-  },
-  {
-    "target": "ra's",
-    "native": "dancing",
-    "transliteration": " \u0631 \u064e\u0642\u0635"
-  },
-  {
-    "target": "muzlim",
-    "native": "dark",
-    "transliteration": "\u0645\u0640\u064f\u0638\u0644\u0640\u0650\u0645"
-  },
-  {
-    "target": "kalb",
-    "native": "dog",
-    "transliteration": "\u0643\u0640\u064e\u0644\u0628"
-  },
-  {
-    "target": "Aaroosa",
-    "native": "doll",
-    "transliteration": "\u0639\u0640\u064e\u0631\u0648\u0633\u0640\u064e\u0629"
-  },
-  {
-    "target": "bawwaeba",
-    "native": "door",
-    "transliteration": "\u0628\u0640\u064e\u0648\u0651\u0627 \u064e\u0628\u0640\u064e\u0629"
-  },
-  {
-    "target": "labbis",
-    "native": "dress",
-    "transliteration": "\u0644\u0640\u064e\u0628\u0651\u0640\u0650\u0633"
-  },
-  {
-    "target": "baTT",
-    "native": "duck",
-    "transliteration": "\u0628\u0640\u064e\u0637\u0651"
-  },
-  {
-    "target": "widn",
-    "native": "ear",
-    "transliteration": " \u0648 \u0650\u062f\u0646"
-  },
-  {
-    "target": "feel",
-    "native": "elephant",
-    "transliteration": "\u0641\u064a\u0644"
-  },
-  {
-    "target": "wishsh",
-    "native": "face",
-    "transliteration": " \u0648 \u0650\u0634\u0651"
-  },
-  {
-    "target": "Aae'ili",
-    "native": "family",
-    "transliteration": "\u0639\u0627 \u064e\u0626\u0640\u0650\u0644\u064a"
-  },
-  {
-    "target": "Aizba",
-    "native": "farm",
-    "transliteration": "\u0639\u0640\u0650\u0632\u0628\u0640\u064e\u0629"
-  },
-  {
-    "target": "'abb",
-    "native": "father",
-    "transliteration": "\u0623\u0628\u0651"
-  },
-  {
-    "target": "Saad",
-    "native": "fish",
-    "transliteration": "\u0635\u0627 \u064e\u062f"
-  },
-  {
-    "target": "ward",
-    "native": "flower",
-    "transliteration": "\u0648 \u064e\u0631\u062f"
-  },
-  {
-    "target": "'akl",
-    "native": "food",
-    "transliteration": "\u0623\u0643\u0644"
-  },
-  {
-    "target": "ghaeba",
-    "native": "forest",
-    "transliteration": "\u063a\u0627 \u064e\u0628\u0640\u064e\u0629"
-  },
-  {
-    "target": "SaaHib",
-    "native": "friend",
-    "transliteration": "\u0635\u0627 \u064e\u062d\u0640\u0650\u0628"
-  },
-  {
-    "target": "fakha",
-    "native": "fruit",
-    "transliteration": "\u0641\u0627 \u064e\u0643\u0647\u0640\u064e\u0629"
-  },
-  {
-    "target": "gineena",
-    "native": "garden",
-    "transliteration": "\u062c\u0640\u0650\u0646\u064a\u0646\u0640\u064e\u0629"
-  },
-  {
-    "target": "liAba",
-    "native": "game",
-    "transliteration": "\u0644\u0640\u0650\u0639\u0628\u0640\u064e\u0629"
-  },
-  {
-    "target": "bint",
-    "native": "girl",
-    "transliteration": "\u0628\u0640\u0650\u0646\u062a"
-  },
-  {
-    "target": "naddaara",
-    "native": "glasses",
-    "transliteration": " \u0646\u0640\u064e\u0636\u0651\u0627 \u064e\u0631 \u064e\u0629"
-  },
-  {
-    "target": "nigeela",
-    "native": "grass",
-    "transliteration": " \u0646\u0640\u0650\u062c\u064a\u0644\u0640\u064e\u0629"
-  },
-  {
-    "target": "shaAr",
-    "native": "hair",
-    "transliteration": " \u0634\u0640\u064e\u0639\u0631"
-  },
-  {
-    "target": "naewil",
-    "native": "hand",
-    "transliteration": "\u0646\u0627 \u064e\u0648 \u0650\u0644"
-  },
-  {
-    "target": "burneeta",
-    "native": "hat",
-    "transliteration": " \u0628\u0640\u064f\u0631\u0646\u064a\u0637\u0640\u064e\u0629"
-  },
-  {
-    "target": "dimaegh",
-    "native": "head",
-    "transliteration": " \u062f \u0650\u0645\u0627 \u064e\u063a"
-  },
-  {
-    "target": "'alb",
-    "native": "heart",
-    "transliteration": "\u0642\u0640\u064e\u0644\u0628"
-  },
-  {
-    "target": "HuSaan",
-    "native": "horse",
-    "transliteration": "\u062d\u0640\u064f\u0635\u0627 \u064e\u0646"
-  },
-  {
-    "target": "sakan",
-    "native": "house",
-    "transliteration": "\u0633\u0640\u064e\u0643\u0640\u064e\u0646"
-  },
-  {
-    "target": "Hashara",
-    "native": "insect",
-    "transliteration": "\u062d\u0640\u064e\u0634\u0640\u064e\u0631 \u064e\u0629"
-  },
-  {
-    "target": "jaekitt",
-    "native": "jacket",
-    "transliteration": "\u0686\u0627 \u064e\u0643\u0640\u0650\u062a\u0651"
-  },
-  {
-    "target": "muftaeH",
-    "native": "key",
-    "transliteration": "\u0645\u0640\u064f\u0641\u062a\u0627 \u064e\u062d"
-  },
-  {
-    "target": "baes",
-    "native": "kiss",
-    "transliteration": " \u0628\u0627 \u064e\u0633"
-  },
-  {
-    "target": "matbach",
-    "native": "kitchen",
-    "transliteration": "\u0645\u0640\u064e\u0637\u0628\u0640\u064e\u062e"
-  },
-  {
-    "target": "lamba",
-    "native": "lamp",
-    "transliteration": "\u0644\u0640\u064e\u0645\u0628\u0640\u064e\u0629"
-  },
-  {
-    "target": "wara'",
-    "native": "leaf",
-    "transliteration": "\u0648 \u064e\u0631 \u064e\u0642"
-  },
-  {
-    "target": "Habb",
-    "native": "love",
-    "transliteration": "\u062d\u0640\u064e\u0628\u0651"
-  },
-  {
-    "target": "ghada'",
-    "native": "lunch",
-    "transliteration": "\u063a\u0640\u064e\u062f\u0627 \u064e\u0621"
-  },
-  {
-    "target": "qamar",
-    "native": "moon",
-    "transliteration": "\u0642\u0640\u064e\u0645\u0640\u064e\u0631"
-  },
-  {
-    "target": "bu''",
-    "native": "mouth",
-    "transliteration": "\u0628\u0640\u064f\u0642\u0651"
-  },
-  {
-    "target": "mazzeeka",
-    "native": "music",
-    "transliteration": "\u0645\u0640\u064e\u0632\u0651\u064a\u0643\u0627"
-  },
-  {
-    "target": "manacheer",
-    "native": "nose",
-    "transliteration": "\u0645\u0640\u064e\u0646\u0627 \u064e\u062e\u064a\u0631"
-  },
-  {
-    "target": "kummitra",
-    "native": "pear",
-    "transliteration": "\u0643\u0640\u064f\u0645\u0651\u0640\u0650\u062a\u0631\u0649"
-  },
-  {
-    "target": "bianoo",
-    "native": "piano",
-    "transliteration": "\u0628\u064a\u0627 \u064e\u0646\u0648"
-  },
-  {
-    "target": "Tayaara",
-    "native": "plane",
-    "transliteration": "\u0637\u0640\u064e\u064a\u0627 \u064e\u0631 \u064e\u0629"
-  },
-  {
-    "target": "zarA",
-    "native": "plant",
-    "transliteration": "\u0632 \u064e\u0631\u0639"
-  },
-  {
-    "target": "bolees",
-    "native": "police",
-    "transliteration": "\u0628\u0648\u0644\u064a\u0633"
-  },
-  {
-    "target": "maTTar",
-    "native": "rain",
-    "transliteration": "\u0645\u0640\u064e\u0637\u0651\u0640\u064e\u0631"
-  },
-  {
-    "target": "nahr",
-    "native": "river",
-    "transliteration": "\u0646\u0640\u064e\u0647\u0631"
-  },
-  {
-    "target": "'asl",
-    "native": "robot",
-    "transliteration": "\u0623\u0635\u0644"
-  },
-  {
-    "target": "Sachr",
-    "native": "rock",
-    "transliteration": "\u0635\u0640\u064e\u062e\u0631"
-  },
-  {
-    "target": "filooka",
-    "native": "sailboat",
-    "transliteration": "\u0641\u0640\u0650\u0644\u0648\u0643\u0640\u064e\u0629"
-  },
-  {
-    "target": "sanfar",
-    "native": "sand",
-    "transliteration": "\u0633\u0640\u064e\u0646\u0641\u0640\u064e\u0631"
-  },
-  {
-    "target": "madrasa",
-    "native": "school",
-    "transliteration": "\u0645\u0640\u064e\u062f\u0631 \u064e\u0633\u0640\u064e\u0629"
-  },
-  {
-    "target": "baHr",
-    "native": "sea",
-    "transliteration": "\u0628\u0640\u064e\u062d\u0631"
-  },
-  {
-    "target": "shaHan",
-    "native": "ship",
-    "transliteration": "\u0634\u0640\u064e\u062d\u0640\u064e\u0646"
-  },
-  {
-    "target": "gazma",
-    "native": "shoe",
-    "transliteration": "\u062c\u0640\u064e\u0632\u0645\u0640\u064e\u0629"
-  },
-  {
-    "target": "chagool",
-    "native": "shy",
-    "transliteration": "\u062e\u0640\u064e\u062c\u0648\u0644"
-  },
-  {
-    "target": "raggaA",
-    "native": "sick",
-    "transliteration": "\u0631 \u064e\u062c\u0651\u0640\u064e\u0639"
-  },
-  {
-    "target": "Aabeet",
-    "native": "silly",
-    "transliteration": "\u0639\u0640\u064e\u0628\u064a\u0637"
-  },
-  {
-    "target": "ghuna",
-    "native": "singing",
-    "transliteration": "\u063a\u0640\u064f\u0646\u0649"
-  },
-  {
-    "target": "'ucht",
-    "native": "sister",
-    "transliteration": "\u0623 \u064f\u062e\u062a"
-  },
-  {
-    "target": "naeyim",
-    "native": "sleeping",
-    "transliteration": "\u0646\u0627 \u064e\u064a\u0640\u0650\u0645"
-  },
-  {
-    "target": "batee'",
-    "native": "slow",
-    "transliteration": "\u0628\u0640\u064e\u0637\u064a\u0621"
-  },
-  {
-    "target": "sughayar",
-    "native": "small",
-    "transliteration": "\u0635\u0640\u064f\u063a\u0640\u064e\u064a\u0640\u064e\u0631"
-  },
-  {
-    "target": "'ibtassam",
-    "native": "smile",
-    "transliteration": "\u0625\u0628\u062a\u0640\u064e\u0633\u0651\u0640\u064e\u0645"
-  },
-  {
-    "target": "talg",
-    "native": "snow",
-    "transliteration": "\u062a\u0640\u064e\u0644\u062c"
-  },
-  {
-    "target": "Aankaboot",
-    "native": "spider",
-    "transliteration": "\u0639\u0640\u064e\u0646\u0643\u0640\u064e\u0628\u0648\u062a"
-  },
-  {
-    "target": "gharaf",
-    "native": "spoon",
-    "transliteration": "\u063a\u0640\u064e\u0631 \u064e\u0641"
-  },
-  {
-    "target": "riyaada",
-    "native": "sports",
-    "transliteration": "\u0631 \u0650\u064a\u0627 \u064e\u0636\u0640\u064e\u0629"
-  },
-  {
-    "target": "nigma",
-    "native": "star",
-    "transliteration": "\u0646\u0640\u0650\u062c\u0645\u0640\u064e\u0629"
-  },
-  {
-    "target": "shams",
-    "native": "sun",
-    "transliteration": "\u0634\u0640\u064e\u0645\u0633"
-  },
-  {
-    "target": "biseen",
-    "native": "swimming",
-    "transliteration": "\u0628\u0640\u0650\u0633\u064a\u0646"
-  },
-  {
-    "target": "mudarris",
-    "native": "teacher",
-    "transliteration": "\u0645\u0640\u064f\u062f \u064e\u0631\u0651 \u0650\u0633"
-  },
-  {
-    "target": "hamdaen",
-    "native": "tired",
-    "transliteration": "\u0647\u0640\u064e\u0645\u062f\u0627 \u064e\u0646"
-  },
-  {
-    "target": "sinna",
-    "native": "tooth",
-    "transliteration": "\u0633\u0640\u0650\u0646\u0651\u0640\u064e\u0629"
-  },
-  {
-    "target": "qataar",
-    "native": "train",
-    "transliteration": "\u0642\u0640\u064e\u0637\u0627 \u064e\u0631"
-  },
-  {
-    "target": "shagar",
-    "native": "tree",
-    "transliteration": "\u0634\u0640\u064e\u062c\u0640\u064e\u0631"
-  },
-  {
-    "target": "tileevizyoon",
-    "native": "tv",
-    "transliteration": "\u062a\u0640\u0650\u0644\u064a\u06a4\u0640\u0650\u0632\u064a\u0648\u0646"
-  },
-  {
-    "target": "shamsiyya",
-    "native": "umbrella",
-    "transliteration": "\u0634\u0640\u064e\u0645\u0633\u0640\u0650\u064a\u064a\u0640\u064e\u0629"
-  },
-  {
-    "target": "zaAAal",
-    "native": "upset",
-    "transliteration": "\u0632 \u064e\u0639\u0651\u0640\u064e\u0644"
-  },
-  {
-    "target": "chudaar",
-    "native": "vegetable",
-    "transliteration": "\u062e\u0640\u064f\u0636\u0627 \u064e\u0631"
-  },
-  {
-    "target": "mayyah",
-    "native": "water",
-    "transliteration": "\u0645\u0640\u064e\u064a\u064a\u0640\u064e\u0647"
-  },
-  {
-    "target": "reeH",
-    "native": "wind",
-    "transliteration": "\u0631\u064a\u062d"
-  },
-  {
-    "target": "koosa",
-    "native": "zucchini",
-    "transliteration": "\u0643\u0648\u0633\u0640\u064e\u0629"
-  }
+    {
+        "en": "abyss",
+        "eg": "\ufecf\ufe77\ufeae\ufef3\ufed6",
+        "transliteration": "Garee'"
+    },
+    {
+        "en": "ace",
+        "eg": "\ufe81\ufeb1",
+        "transliteration": "'es"
+    },
+    {
+        "en": "achieve",
+        "eg": "\ufe83\ufee7\ufea0\ufe77\ufeb0",
+        "transliteration": "'angaz"
+    },
+    {
+        "en": "acid",
+        "eg": "\ufea3\ufe77\ufee4\ufec0\ufef2",
+        "transliteration": "hamDi"
+    },
+    {
+        "en": "acidic",
+        "eg": "\ufea3\ufe8e\ufe76\ufee3\ufe7b\ufebe",
+        "transliteration": "haamiD"
+    },
+    {
+        "en": "acquit",
+        "eg": "\ufe91\ufe77\ufeae\ufe7c\ufe83",
+        "transliteration": "barr'a"
+    },
+    {
+        "en": "adapt",
+        "eg": "\ufedb\ufe77\ufef4\ufe7d\ufe7b\ufed2",
+        "transliteration": "kayyif"
+    },
+    {
+        "en": "adjust",
+        "eg": "\ufec7\ufe77\ufe92\ufe77\ufec2",
+        "transliteration": "ZabaT"
+    },
+    {
+        "en": "adverse",
+        "eg": "mahboob",
+        "transliteration": "Geer"
+    },
+    {
+        "en": "advise",
+        "eg": "\ufeed\ufe76\ufecb\ufe77\ufec6",
+        "transliteration": "waAaZ"
+    },
+    {
+        "en": "afflict",
+        "eg": "\ufe87\ufe91\ufe98\ufe77\ufee0\ufef0",
+        "transliteration": "'ibtala"
+    },
+    {
+        "en": "again",
+        "eg": "\ufe91\ufe77\ufeae\ufebf\ufeee",
+        "transliteration": "barDw"
+    },
+    {
+        "en": "age",
+        "eg": "\ufeb3\ufe7b\ufee6",
+        "transliteration": "sin"
+    },
+    {
+        "en": "agency",
+        "eg": "\ufeed\ufe78\ufedb\ufe8e\ufe76\ufedf\ufe77\ufe94",
+        "transliteration": "wukaela"
+    },
+    {
+        "en": "agent",
+        "eg": "\ufecb\ufe8e\ufe76\ufee3\ufef4\ufede",
+        "transliteration": "Aameel"
+    },
+    {
+        "en": "agreed",
+        "eg": "\ufee3\ufe8e\ufe76\ufeb7\ufef2",
+        "transliteration": "maeshi"
+    },
+    {
+        "en": "alas!",
+        "eg": "\ufe83\ufea5",
+        "transliteration": "'aK"
+    },
+    {
+        "en": "album",
+        "eg": "\ufe83\ufedf\ufe92\ufeee\ufee1",
+        "transliteration": "'alboom"
+    },
+    {
+        "en": "alfalfa",
+        "eg": "higaezi",
+        "transliteration": "barseem"
+    },
+    {
+        "en": "alive",
+        "eg": "\ufecb\ufe8e\ufe76\ufef3\ufe7b\ufeb6",
+        "transliteration": "Aaeyish"
+    },
+    {
+        "en": "already",
+        "eg": "\ufe91\ufe77\ufed8\ufef0",
+        "transliteration": "ba'a"
+    },
+    {
+        "en": "also",
+        "eg": "\ufe91\ufe77\ufeae\ufebf\ufeee",
+        "transliteration": "barDw"
+    },
+    {
+        "en": "always",
+        "eg": "\ufe97\ufe77\ufee4\ufe77\ufee0\ufe7d\ufef2",
+        "transliteration": "tamalli"
+    },
+    {
+        "en": "amiable",
+        "eg": "\ufea3\ufe77\ufe92\ufe7d\ufeee\ufe8f",
+        "transliteration": "habboob"
+    },
+    {
+        "en": "amongst",
+        "eg": "\ufee3\ufe7b\ufee8\ufeec\ufe79\ufee2",
+        "transliteration": "minhum"
+    },
+    {
+        "en": "amulet",
+        "eg": "\ufe97\ufe77\ufee4\ufef4\ufee4\ufe77\ufe94",
+        "transliteration": "tameema"
+    },
+    {
+        "en": "anaemia",
+        "eg": "damm",
+        "transliteration": "fa'r"
+    },
+    {
+        "en": "anew",
+        "eg": "gideed",
+        "transliteration": "min"
+    },
+    {
+        "en": "ankle",
+        "eg": "\ufe83\ufee7\ufedc\ufe7b\ufede",
+        "transliteration": "'ankil"
+    },
+    {
+        "en": "annoy",
+        "eg": "\ufead\ufe76\ufea7\ufe7d\ufe7b\ufee2",
+        "transliteration": "raKKim"
+    },
+    {
+        "en": "annul",
+        "eg": "\ufe91\ufe77\ufec4\ufe7d\ufe77\ufede",
+        "transliteration": "baTTal"
+    },
+    {
+        "en": "antique",
+        "eg": "\ufe97\ufe79\ufea4\ufed4\ufe77\ufe94",
+        "transliteration": "tuhfa"
+    },
+    {
+        "en": "anxiety",
+        "eg": "\ufee3\ufe79\ufe92\ufe8e\ufe76\ufefb",
+        "transliteration": "mubaela"
+    },
+    {
+        "en": "any",
+        "eg": "\ufe83\ufee7\ufeec\ufe79\ufeea",
+        "transliteration": "'anhuh"
+    },
+    {
+        "en": "anybody",
+        "eg": "hadd",
+        "transliteration": "'ayi"
+    },
+    {
+        "en": "anyone",
+        "eg": "hadd",
+        "transliteration": "'ayi"
+    },
+    {
+        "en": "anytime",
+        "eg": "wa't",
+        "transliteration": "'ai"
+    },
+    {
+        "en": "anyways",
+        "eg": "\ufecb\ufe77\ufee4\ufe77\ufe98\ufe8e\ufe76\ufe70",
+        "transliteration": "Aamatan"
+    },
+    {
+        "en": "apart",
+        "eg": "\ufe83\ufe91\ufe77\ufecc\ufeaa",
+        "transliteration": "'abaAd"
+    },
+    {
+        "en": "appears",
+        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufee6",
+        "transliteration": "baeyin"
+    },
+    {
+        "en": "archery",
+        "eg": "\ufed7\ufeee\ufeb1",
+        "transliteration": "Qoos"
+    },
+    {
+        "en": "armhole",
+        "eg": "\ufedb\ufe79\ufee2\ufe7c",
+        "transliteration": "kumm"
+    },
+    {
+        "en": "armpit",
+        "eg": "\ufe91\ufe8e\ufe76\ufec1",
+        "transliteration": "baaT"
+    },
+    {
+        "en": "army",
+        "eg": "geesh",
+        "transliteration": "ZubaaT"
+    },
+    {
+        "en": "arrival",
+        "eg": "\ufee3\ufe77\ufea0\ufe8a",
+        "transliteration": "mag'"
+    },
+    {
+        "en": "arrive",
+        "eg": "\ufe81\ufedd",
+        "transliteration": "'el"
+    },
+    {
+        "en": "arse",
+        "eg": "\ufec3\ufef4\ufeb0",
+        "transliteration": "Teez"
+    },
+    {
+        "en": "artery",
+        "eg": "\ufe83\ufe91\ufeec\ufe77\ufeae",
+        "transliteration": "'abhar"
+    },
+    {
+        "en": "as",
+        "eg": "\ufeaf\ufe76\ufef1\ufe7c",
+        "transliteration": "zayi"
+    },
+    {
+        "en": "exactly",
+        "eg": "\ufedb\ufe77\ufee4\ufe8e\ufe76\ufee5",
+        "transliteration": "kamaen"
+    },
+    {
+        "en": "Asia",
+        "eg": "\ufe83\ufeb3\ufef4\ufe8e\ufe76",
+        "transliteration": "'asya"
+    },
+    {
+        "en": "aside",
+        "eg": "\ufe9f\ufe77\ufee8\ufe92\ufef2",
+        "transliteration": "ganbi"
+    },
+    {
+        "en": "aspect",
+        "eg": "\ufee7\ufe8e\ufe76\ufea3\ufef4\ufe77\ufe94",
+        "transliteration": "nahya"
+    },
+    {
+        "en": "ass",
+        "eg": "\ufec3\ufef4\ufeb0",
+        "transliteration": "Teez"
+    },
+    {
+        "en": "assert",
+        "eg": "\ufe87\ufea9\ufe7c\ufe76\ufecb\ufef0",
+        "transliteration": "'iddaAa"
+    },
+    {
+        "en": "asset",
+        "eg": "\ufeb3\ufe77\ufeec\ufee2",
+        "transliteration": "sahm"
+    },
+    {
+        "en": "asshole",
+        "eg": "\ufe83\ufeeb\ufe92\ufe77\ufede",
+        "transliteration": "'ahbal"
+    },
+    {
+        "en": "assist",
+        "eg": "\ufeb3\ufe8e\ufe76\ufecb\ufe7b\ufeaa",
+        "transliteration": "saeAid"
+    },
+    {
+        "en": "assure",
+        "eg": "\ufe83\ufedb\ufe7d\ufe7b\ufeaa",
+        "transliteration": "'akkid"
+    },
+    {
+        "en": "Aswan",
+        "eg": "\ufe83\ufeb3\ufeee\ufe8d\ufe76\ufee5",
+        "transliteration": "'aswaan"
+    },
+    {
+        "en": "atlas",
+        "eg": "\ufe83\ufec3\ufee0\ufe77\ufeb2",
+        "transliteration": "'aTlas"
+    },
+    {
+        "en": "attach",
+        "eg": "\ufeb7\ufe77\ufe92\ufe77\ufeda",
+        "transliteration": "shabak"
+    },
+    {
+        "en": "avoid",
+        "eg": "Aan",
+        "transliteration": "'ibaAd"
+    },
+    {
+        "en": "awake",
+        "eg": "\ufebb\ufe8e\ufe76\ufea3\ufef2",
+        "transliteration": "Saahi"
+    },
+    {
+        "en": "awesome",
+        "eg": "\ufe9f\ufe8e\ufe76\ufea3\ufe7b\ufeaa",
+        "transliteration": "gaehid"
+    },
+    {
+        "en": "awful",
+        "eg": "\ufe91\ufe77\ufeb8\ufe77\ufeca",
+        "transliteration": "bashaA"
+    },
+    {
+        "en": "awning",
+        "eg": "\ufe97\ufe77\ufee8\ufeaa\ufe76\ufe93",
+        "transliteration": "tanda"
+    },
+    {
+        "en": "B",
+        "eg": "\ufee3\ufe77\ufeee\ufedf\ufeee\ufea9",
+        "transliteration": "mawlood"
+    },
+    {
+        "en": "baker",
+        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufeaf",
+        "transliteration": "Kabbaez"
+    },
+    {
+        "en": "bald",
+        "eg": "\ufe83\ufed7\ufeae\ufe76\ufec9",
+        "transliteration": "'a'raA"
+    },
+    {
+        "en": "ball",
+        "eg": "\ufedb\ufeee\ufead\ufe76\ufe93",
+        "transliteration": "koora"
+    },
+    {
+        "en": "balls",
+        "eg": "\ufe91\ufe7b\ufef4\ufec0\ufe8e\ufe76\ufee5",
+        "transliteration": "biyDaan"
+    },
+    {
+        "en": "bandage",
+        "eg": "\ufeb7\ufe8e\ufe76\ufeb5",
+        "transliteration": "shaesh"
+    },
+    {
+        "en": "banker",
+        "eg": "\ufe91\ufe77\ufee8\ufedc\ufef2",
+        "transliteration": "banki"
+    },
+    {
+        "en": "banquet",
+        "eg": "\ufecb\ufe79\ufeb0\ufeed\ufee3\ufe77\ufe94",
+        "transliteration": "Auzooma"
+    },
+    {
+        "en": "baptism",
+        "eg": "\ufe97\ufe77\ufee8\ufebc\ufef4\ufeae",
+        "transliteration": "tanSeer"
+    },
+    {
+        "en": "barely",
+        "eg": "\ufef3\ufe8e\ufe76\ufea9\ufeed\ufe8f",
+        "transliteration": "yadoob"
+    },
+    {
+        "en": "barrel",
+        "eg": "\ufe91\ufe77\ufeae\ufee3\ufef4\ufede",
+        "transliteration": "barmeel"
+    },
+    {
+        "en": "bass",
+        "eg": "'aroos",
+        "transliteration": "samak"
+    },
+    {
+        "en": "bastard",
+        "eg": "haraam",
+        "transliteration": "'ibn"
+    },
+    {
+        "en": "bath",
+        "eg": "\ufe91\ufe77\ufee8\ufef4\ufeee",
+        "transliteration": "baneew"
+    },
+    {
+        "en": "bay",
+        "eg": "\ufee3\ufe77\ufeae\ufeb3\ufef0",
+        "transliteration": "marsa"
+    },
+    {
+        "en": "am",
+        "eg": "\ufe87\ufeb3\ufedc\ufe79\ufe96",
+        "transliteration": "'iskut"
+    },
+    {
+        "en": "bead",
+        "eg": "\ufea7\ufe77\ufeae\ufe76\ufeaf",
+        "transliteration": "Karaz"
+    },
+    {
+        "en": "beauty",
+        "eg": "\ufe91\ufe77\ufeec\ufe8e\ufe76\ufe80",
+        "transliteration": "baha'"
+    },
+    {
+        "en": "because",
+        "eg": "\ufedf\ufe7b\ufe84\ufe9f\ufede",
+        "transliteration": "li'agl"
+    },
+    {
+        "en": "bedroom",
+        "eg": "noom",
+        "transliteration": "'uooDit"
+    },
+    {
+        "en": "bee",
+        "eg": "\ufee7\ufe77\ufea4\ufede",
+        "transliteration": "nahl"
+    },
+    {
+        "en": "beef",
+        "eg": "kandooz",
+        "transliteration": "lahma"
+    },
+    {
+        "en": "beep",
+        "eg": "\ufedb\ufe77\ufee0\ufedc\ufe7b\ufeb2",
+        "transliteration": "kalkis"
+    },
+    {
+        "en": "beer",
+        "eg": "\ufe91\ufeee\ufec7\ufe77\ufe94",
+        "transliteration": "booZa"
+    },
+    {
+        "en": "beet",
+        "eg": "'abyaD",
+        "transliteration": "bangar"
+    },
+    {
+        "en": "beetle",
+        "eg": "\ufea7\ufe79\ufee8\ufed4\ufe7b\ufeb4\ufe77\ufe94",
+        "transliteration": "Kunfisa"
+    },
+    {
+        "en": "begin",
+        "eg": "\ufe87\ufe91\ufe98\ufe77\ufeaa\ufeef",
+        "transliteration": "'ibtada"
+    },
+    {
+        "en": "behalf",
+        "eg": "Aan",
+        "transliteration": "niyaeba"
+    },
+    {
+        "en": "bell",
+        "eg": "\ufe83\ufe78\ufedb\ufeae\ufe76\ufe93",
+        "transliteration": "'ukra"
+    },
+    {
+        "en": "bench",
+        "eg": "\ufe91\ufe7b\ufee8\ufeb6",
+        "transliteration": "binsh"
+    },
+    {
+        "en": "bend",
+        "eg": "\ufeed\ufe76\ufec3\ufe7d\ufef0",
+        "transliteration": "waTTa"
+    },
+    {
+        "en": "beside",
+        "eg": "\ufe9f\ufe77\ufee8\ufe90",
+        "transliteration": "ganb"
+    },
+    {
+        "en": "betray",
+        "eg": "\ufea7\ufe8e\ufe76\ufee5",
+        "transliteration": "Kaen"
+    },
+    {
+        "en": "betting",
+        "eg": "\ufead\ufe76\ufeeb\ufe8e\ufe76\ufee5",
+        "transliteration": "rahaan"
+    },
+    {
+        "en": "billion",
+        "eg": "\ufe91\ufe7b\ufee0\ufef4\ufeee\ufee5",
+        "transliteration": "bilyoon"
+    },
+    {
+        "en": "bind",
+        "eg": "\ufe9f\ufe77\ufee0\ufe7d\ufe7b\ufeaa",
+        "transliteration": "gallid"
+    },
+    {
+        "en": "bins",
+        "eg": "\ufebb\ufe77\ufed4\ufef4\ufea4\ufe77\ufe94",
+        "transliteration": "Safeeha"
+    },
+    {
+        "en": "biology",
+        "eg": "il'ahy'a",
+        "transliteration": "Ailm"
+    },
+    {
+        "en": "bishop",
+        "eg": "\ufee3\ufe79\ufec4\ufeae\ufe8d\ufe76\ufee5",
+        "transliteration": "muTraan"
+    },
+    {
+        "en": "black",
+        "eg": "\ufedf\ufeee\ufe91\ufef4\ufe8e\ufe76",
+        "transliteration": "loobya"
+    },
+    {
+        "en": "blaming",
+        "eg": "\ufefb\ufef3\ufe7b\ufee2",
+        "transliteration": "laeyim"
+    },
+    {
+        "en": "blank",
+        "eg": "\ufed3\ufe8e\ufe76\ufebf\ufef2",
+        "transliteration": "faaDi"
+    },
+    {
+        "en": "blister",
+        "eg": "\ufea3\ufe77\ufeae\ufed5",
+        "transliteration": "har'"
+    },
+    {
+        "en": "blowing",
+        "eg": "\ufee7\ufe77\ufed4\ufea6",
+        "transliteration": "nafK"
+    },
+    {
+        "en": "blunt",
+        "eg": "\ufe9b\ufe7b\ufee0\ufe7b\ufee2",
+        "transliteration": "thilim"
+    },
+    {
+        "en": "boat",
+        "eg": "\ufee3\ufe77\ufeae\ufedb\ufe7b\ufe90",
+        "transliteration": "markib"
+    },
+    {
+        "en": "bonnet",
+        "eg": "\ufedb\ufe77\ufe92\ufe7d\ufeee\ufe95",
+        "transliteration": "kabboot"
+    },
+    {
+        "en": "boo!",
+        "eg": "\ufe91\ufe7b\ufea6\ufe7c",
+        "transliteration": "biKK"
+    },
+    {
+        "en": "boob",
+        "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
+        "transliteration": "bizz"
+    },
+    {
+        "en": "boredom",
+        "eg": "\ufeaf\ufe76\ufeeb\ufe77\ufed6",
+        "transliteration": "zaha'"
+    },
+    {
+        "en": "bother",
+        "eg": "\ufead\ufe76\ufea7\ufe7d\ufe7b\ufee2",
+        "transliteration": "raKKim"
+    },
+    {
+        "en": "bottle",
+        "eg": "\ufe87\ufeaf\ufe8d\ufe76\ufeaf\ufe76\ufe93",
+        "transliteration": "'izaeza"
+    },
+    {
+        "en": "bowel",
+        "eg": "\ufee3\ufe79\ufebc\ufeae\ufe8d\ufe76\ufee5",
+        "transliteration": "muSraan"
+    },
+    {
+        "en": "boxing",
+        "eg": "\ufee3\ufe79\ufefc\ufedb\ufee4\ufe77\ufe94",
+        "transliteration": "mulakma"
+    },
+    {
+        "en": "boy!",
+        "eg": "\ufef3\ufe7b\ufe8e\ufe76\ufebd",
+        "transliteration": "yiaaD"
+    },
+    {
+        "en": "bran",
+        "eg": "\ufead\ufe76\ufea9\ufe7c\ufe76\ufe93",
+        "transliteration": "radda"
+    },
+    {
+        "en": "bravery",
+        "eg": "\ufe9f\ufe77\ufeae\ufe83\ufe76\ufe93",
+        "transliteration": "gar'aa"
+    },
+    {
+        "en": "bravo!",
+        "eg": "\ufe91\ufeae\ufe76\ufb6c\ufeee",
+        "transliteration": "bravw"
+    },
+    {
+        "en": "bride",
+        "eg": "wa",
+        "transliteration": "Aarees"
+    },
+    {
+        "en": "bringup",
+        "eg": "\ufec3\ufe77\ufee0\ufe7d\ufe77\ufeca",
+        "transliteration": "TallaA"
+    },
+    {
+        "en": "broadly",
+        "eg": "waesiA",
+        "transliteration": "bishakl"
+    },
+    {
+        "en": "broke",
+        "eg": "\ufee3\ufe77\ufeb0\ufee7\ufeee\ufed5",
+        "transliteration": "maznoo'"
+    },
+    {
+        "en": "bronze",
+        "eg": "\ufe97\ufe77\ufeee\ufe7c\ufe7a\ufe9d",
+        "transliteration": "tawwig"
+    },
+    {
+        "en": "bruise",
+        "eg": "\ufedb\ufe77\ufeaa\ufee3\ufe77\ufe94",
+        "transliteration": "kadma"
+    },
+    {
+        "en": "brusque",
+        "eg": "\ufe9f\ufe77\ufea4\ufe7d\ufe77\ufeb6",
+        "transliteration": "gahhash"
+    },
+    {
+        "en": "bugbear",
+        "eg": "\ufe91\ufe79\ufecc\ufe92\ufe79\ufeca",
+        "transliteration": "buAbuA"
+    },
+    {
+        "en": "build",
+        "eg": "\ufe91\ufe77\ufee8\ufef0",
+        "transliteration": "bana"
+    },
+    {
+        "en": "builder",
+        "eg": "\ufe91\ufe77\ufee8\ufe7d\ufe8e\ufe76",
+        "transliteration": "banna"
+    },
+    {
+        "en": "bulb",
+        "eg": "thoom",
+        "transliteration": "raas"
+    },
+    {
+        "en": "bump",
+        "eg": "\ufe91\ufe79\ufeae\ufeed\ufeaf",
+        "transliteration": "burooz"
+    },
+    {
+        "en": "bumper",
+        "eg": "\ufead\ufe76\ufed3\ufeae\ufe76\ufed1",
+        "transliteration": "rafraf"
+    },
+    {
+        "en": "burden",
+        "eg": "\ufe91\ufe77\ufeae\ufeb7\ufe77\ufec2",
+        "transliteration": "barshaT"
+    },
+    {
+        "en": "burial",
+        "eg": "\ufe97\ufeee\ufead\ufe76\ufe8f",
+        "transliteration": "toorab"
+    },
+    {
+        "en": "burner",
+        "eg": "bootagaez",
+        "transliteration": "Aeen"
+    },
+    {
+        "en": "but",
+        "eg": "zalik",
+        "transliteration": "maAa"
+    },
+    {
+        "en": "bye",
+        "eg": "\ufeb3\ufe77\ufefc\ufee1",
+        "transliteration": "salaem"
+    },
+    {
+        "en": "cabin",
+        "eg": "\ufedb\ufe77\ufe92\ufef4\ufee8\ufe77\ufe94",
+        "transliteration": "kabeena"
+    },
+    {
+        "en": "calling",
+        "eg": "\ufee7\ufe7b\ufeaa\ufe8d\ufe76\ufe80",
+        "transliteration": "nida'"
+    },
+    {
+        "en": "camel",
+        "eg": "\ufe87\ufe91\ufe7b\ufede",
+        "transliteration": "'ibil"
+    },
+    {
+        "en": "caraway",
+        "eg": "\ufedb\ufe77\ufeae\ufe76\ufeed\ufef3\ufe77\ufe94",
+        "transliteration": "karawya"
+    },
+    {
+        "en": "carbon",
+        "eg": "\ufedb\ufe77\ufeae\ufe91\ufeee\ufee5",
+        "transliteration": "karboon"
+    },
+    {
+        "en": "carer",
+        "eg": "\ufead\ufe8d\ufe76\ufecb\ufef2",
+        "transliteration": "raaAi"
+    },
+    {
+        "en": "caries",
+        "eg": "\ufe97\ufe77\ufeb4\ufeee\ufef3\ufeb2",
+        "transliteration": "taswees"
+    },
+    {
+        "en": "carry",
+        "eg": "\ufe83\ufe9f\ufeae\ufeef",
+        "transliteration": "'agra"
+    },
+    {
+        "en": "cartoon",
+        "eg": "\ufedb\ufe8e\ufe76\ufead\ufe97\ufeee\ufee5",
+        "transliteration": "kartoon"
+    },
+    {
+        "en": "carve",
+        "eg": "\ufee7\ufe77\ufea4\ufe77\ufe96",
+        "transliteration": "nahat"
+    },
+    {
+        "en": "cashier",
+        "eg": "\ufedb\ufe8e\ufe76\ufeb7\ufef4\ufeae",
+        "transliteration": "kasheer"
+    },
+    {
+        "en": "casino",
+        "eg": "'umaar",
+        "transliteration": "Saalit"
+    },
+    {
+        "en": "casual",
+        "eg": "\ufedb\ufe77\ufea0\ufeee\ufe76\ufedd",
+        "transliteration": "kajwal"
+    },
+    {
+        "en": "cereal",
+        "eg": "\ufea3\ufe79\ufe92\ufeee\ufe8f",
+        "transliteration": "huboob"
+    },
+    {
+        "en": "charity",
+        "eg": "\ufe87\ufea3\ufeb4\ufe8e\ufe76\ufee5",
+        "transliteration": "'ihsaen"
+    },
+    {
+        "en": "cheer",
+        "eg": "\ufeeb\ufe77\ufe98\ufe77\ufed2",
+        "transliteration": "hataf"
+    },
+    {
+        "en": "cheers",
+        "eg": "Sihhitak",
+        "transliteration": "fi"
+    },
+    {
+        "en": "cheetah",
+        "eg": "ilnaQaT",
+        "transliteration": "fahd"
+    },
+    {
+        "en": "cherry",
+        "eg": "\ufedb\ufe7b\ufeae\ufef3\ufeb0",
+        "transliteration": "kireez"
+    },
+    {
+        "en": "chew",
+        "eg": "\ufee3\ufe77\ufec0\ufe77\ufece",
+        "transliteration": "maDaG"
+    },
+    {
+        "en": "chic",
+        "eg": "\ufeb7\ufef4\ufeda",
+        "transliteration": "sheek"
+    },
+    {
+        "en": "chill",
+        "eg": "\ufeb3\ufe77\ufed8\ufe7d\ufe77\ufeca",
+        "transliteration": "sa''aA"
+    },
+    {
+        "en": "chilli",
+        "eg": "\ufeb7\ufe77\ufec4\ufe7d\ufe77\ufe94",
+        "transliteration": "shaTTa"
+    },
+    {
+        "en": "Chinese",
+        "eg": "\ufebb\ufef4\ufee8\ufef2",
+        "transliteration": "Seeni"
+    },
+    {
+        "en": "chisel",
+        "eg": "\ufe87\ufeaf\ufee3\ufef4\ufeae",
+        "transliteration": "'izmeer"
+    },
+    {
+        "en": "choose",
+        "eg": "\ufee7\ufe77\ufed8\ufe7d\ufef0",
+        "transliteration": "na''a"
+    },
+    {
+        "en": "chop",
+        "eg": "\ufea7\ufe77\ufeae\ufe7c\ufe76\ufec1",
+        "transliteration": "KarraT"
+    },
+    {
+        "en": "churn",
+        "eg": "\ufea7\ufe77\ufebe\ufe7c",
+        "transliteration": "KaDD"
+    },
+    {
+        "en": "claw",
+        "eg": "\ufebf\ufe79\ufed4\ufeae",
+        "transliteration": "Dufr"
+    },
+    {
+        "en": "cliff",
+        "eg": "\ufe97\ufe77\ufede\ufe7c",
+        "transliteration": "tall"
+    },
+    {
+        "en": "cloak",
+        "eg": "\ufe91\ufe77\ufeae\ufea9\ufe76\ufe93",
+        "transliteration": "barda"
+    },
+    {
+        "en": "closet",
+        "eg": "\ufea9\ufeed\ufefb\ufe8f",
+        "transliteration": "doolaeb"
+    },
+    {
+        "en": "clothes",
+        "eg": "\ufeeb\ufe79\ufeaa\ufeed\ufee1",
+        "transliteration": "hudoom"
+    },
+    {
+        "en": "coat",
+        "eg": "\ufe91\ufe77\ufee0\ufec4\ufeee",
+        "transliteration": "balTw"
+    },
+    {
+        "en": "code",
+        "eg": "\ufeb7\ufe77\ufed4\ufeae\ufe76\ufe93",
+        "transliteration": "shafra"
+    },
+    {
+        "en": "collar",
+        "eg": "\ufedb\ufeee\ufedf\ufe77\ufe94",
+        "transliteration": "koola"
+    },
+    {
+        "en": "collect",
+        "eg": "\ufe9f\ufe77\ufee4\ufe7d\ufe77\ufeca",
+        "transliteration": "gammaA"
+    },
+    {
+        "en": "colt",
+        "eg": "\ufee3\ufe79\ufeec\ufeae",
+        "transliteration": "muhr"
+    },
+    {
+        "en": "coming",
+        "eg": "\ufe9f\ufe77\ufef2\ufe7c",
+        "transliteration": "gayi"
+    },
+    {
+        "en": "compass",
+        "eg": "\ufe91\ufeee\ufebb\ufee0\ufe77\ufe94",
+        "transliteration": "booSla"
+    },
+    {
+        "en": "compel",
+        "eg": "\ufea7\ufe77\ufee0\ufe7d\ufef0",
+        "transliteration": "Kalla"
+    },
+    {
+        "en": "conceal",
+        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufef0",
+        "transliteration": "Kabba"
+    },
+    {
+        "en": "concert",
+        "eg": "moosee'iyya",
+        "transliteration": "hafla"
+    },
+    {
+        "en": "conch",
+        "eg": "\ufee3\ufe77\ufea4\ufe8e\ufe76\ufead\ufe76\ufe93",
+        "transliteration": "mahaara"
+    },
+    {
+        "en": "condemn",
+        "eg": "\ufea3\ufe77\ufedc\ufe77\ufee2",
+        "transliteration": "hakam"
+    },
+    {
+        "en": "condom",
+        "eg": "\ufe97\ufeee\ufe91\ufeb2",
+        "transliteration": "toobs"
+    },
+    {
+        "en": "confer",
+        "eg": "\ufee3\ufe77\ufee8\ufe77\ufea2",
+        "transliteration": "manah"
+    },
+    {
+        "en": "confuse",
+        "eg": "\ufe91\ufe77\ufeae\ufe9f\ufe7b\ufede",
+        "transliteration": "bargil"
+    },
+    {
+        "en": "contain",
+        "eg": "\ufe87\ufea3\ufe98\ufe77\ufeee\ufeef",
+        "transliteration": "'ihtawa"
+    },
+    {
+        "en": "convert",
+        "eg": "\ufea3\ufe77\ufeee\ufe7c\ufe7a\ufedd",
+        "transliteration": "hawwil"
+    },
+    {
+        "en": "convey",
+        "eg": "\ufea3\ufe77\ufeae\ufe7c\ufe76\ufed9",
+        "transliteration": "harrak"
+    },
+    {
+        "en": "coral",
+        "eg": "murganya",
+        "transliteration": "shuAb"
+    },
+    {
+        "en": "corn",
+        "eg": "dura",
+        "transliteration": "kooz"
+    },
+    {
+        "en": "corpse",
+        "eg": "\ufe9f\ufe7b\ufe98\ufe7d\ufe77\ufe94",
+        "transliteration": "gitta"
+    },
+    {
+        "en": "costume",
+        "eg": "\ufeaf\ufe76\ufef1",
+        "transliteration": "zai"
+    },
+    {
+        "en": "county",
+        "eg": "\ufe83\ufed7\ufee0\ufef4\ufee2",
+        "transliteration": "'aQleem"
+    },
+    {
+        "en": "couplet",
+        "eg": "\ufe91\ufe7b\ufef4\ufe96",
+        "transliteration": "biyt"
+    },
+    {
+        "en": "coupon",
+        "eg": "\ufe91\ufeee\ufee5",
+        "transliteration": "boon"
+    },
+    {
+        "en": "crab",
+        "eg": "galambw",
+        "transliteration": "'abw"
+    },
+    {
+        "en": "craft",
+        "eg": "\ufeeb\ufe7b\ufe92\ufe77\ufe94",
+        "transliteration": "hiba"
+    },
+    {
+        "en": "crap",
+        "eg": "\ufea7\ufe77\ufeae\ufe76\ufe93",
+        "transliteration": "Kara"
+    },
+    {
+        "en": "crawl",
+        "eg": "\ufeb3\ufe77\ufea4\ufe77\ufed2",
+        "transliteration": "sahaf"
+    },
+    {
+        "en": "create",
+        "eg": "\ufe91\ufe77\ufeaa\ufe76\ufec9",
+        "transliteration": "badaA"
+    },
+    {
+        "en": "crime",
+        "eg": "\ufe9f\ufe77\ufeae\ufef3\ufee4\ufe77\ufe94",
+        "transliteration": "gareema"
+    },
+    {
+        "en": "crisp",
+        "eg": "\ufeb7\ufef4\ufe92\ufeb4\ufef2",
+        "transliteration": "sheebsi"
+    },
+    {
+        "en": "crushed",
+        "eg": "\ufee3\ufe77\ufec4\ufea4\ufeee\ufee5",
+        "transliteration": "maThoon"
+    },
+    {
+        "en": "crying",
+        "eg": "\ufeaf\ufe76\ufecb\ufef4\ufed8\ufe77\ufe94",
+        "transliteration": "zaAee'a"
+    },
+    {
+        "en": "crystal",
+        "eg": "\ufe91\ufe77\ufee0\ufe7d\ufeee\ufead",
+        "transliteration": "balloor"
+    },
+    {
+        "en": "curb",
+        "eg": "\ufe91\ufe77\ufec4\ufe7d\ufe77\ufede",
+        "transliteration": "baTTal"
+    },
+    {
+        "en": "curler",
+        "eg": "\ufead\ufe78\ufedf\ufeee\ufee9",
+        "transliteration": "rulooh"
+    },
+    {
+        "en": "curse",
+        "eg": "\ufecb\ufe77\ufee4\ufe77\ufede",
+        "transliteration": "Aamal"
+    },
+    {
+        "en": "cutting",
+        "eg": "\ufed7\ufe77\ufeba\ufe7c",
+        "transliteration": "'aSS"
+    },
+    {
+        "en": "daring",
+        "eg": "\ufee3\ufe79\ufea0\ufe98\ufe77\ufeae\ufe89",
+        "transliteration": "mugtar'"
+    },
+    {
+        "en": "darn",
+        "eg": "\ufea7\ufe77\ufef4\ufe7d\ufe77\ufec2",
+        "transliteration": "KayyaT"
+    },
+    {
+        "en": "dearer",
+        "eg": "\ufecf\ufe79\ufee0\ufe7d\ufe79\ufeee",
+        "transliteration": "Gulluw"
+    },
+    {
+        "en": "deceive",
+        "eg": "\ufea7\ufe77\ufee2\ufe7c",
+        "transliteration": "Kamm"
+    },
+    {
+        "en": "decide",
+        "eg": "\ufea3\ufe77\ufeb4\ufe77\ufee2",
+        "transliteration": "hasam"
+    },
+    {
+        "en": "decor",
+        "eg": "\ufea9\ufef3\ufedc\ufeee\ufead",
+        "transliteration": "deekoor"
+    },
+    {
+        "en": "deliver",
+        "eg": "\ufeed\ufe76\ufebb\ufe7d\ufe77\ufede",
+        "transliteration": "waSSal"
+    },
+    {
+        "en": "depart",
+        "eg": "\ufee3\ufe7b\ufeb8\ufef2",
+        "transliteration": "mishi"
+    },
+    {
+        "en": "deputy",
+        "eg": "\ufeed\ufe76\ufedb\ufef4\ufede",
+        "transliteration": "wakeel"
+    },
+    {
+        "en": "dermal",
+        "eg": "\ufe9f\ufe7b\ufee0\ufeaa\ufef1",
+        "transliteration": "gildi"
+    },
+    {
+        "en": "dessert",
+        "eg": "\ufea3\ufe7b\ufee0\ufeee",
+        "transliteration": "hilw"
+    },
+    {
+        "en": "destiny",
+        "eg": "\ufed7\ufe77\ufeaa\ufe76\ufead",
+        "transliteration": "Qadar"
+    },
+    {
+        "en": "destroy",
+        "eg": "\ufea9\ufe76\ufecf\ufeaa\ufe76\ufecd",
+        "transliteration": "daGdaG"
+    },
+    {
+        "en": "detail",
+        "eg": "\ufe97\ufe77\ufed4\ufebc\ufef4\ufede",
+        "transliteration": "tafSeel"
+    },
+    {
+        "en": "dew",
+        "eg": "\ufee7\ufe77\ufeaa\ufeef",
+        "transliteration": "nada"
+    },
+    {
+        "en": "diadem",
+        "eg": "\ufe87\ufedb\ufee0\ufef4\ufede",
+        "transliteration": "'ikleel"
+    },
+    {
+        "en": "diamond",
+        "eg": "\ufe83\ufedf\ufee4\ufe8e\ufe76\ufec5",
+        "transliteration": "'almaaZ"
+    },
+    {
+        "en": "dice",
+        "eg": "\ufeaf\ufe76\ufeeb\ufeae",
+        "transliteration": "zahr"
+    },
+    {
+        "en": "dick",
+        "eg": "\ufe91\ufe7b\ufe98\ufe8e\ufe76\ufecb\ufef2",
+        "transliteration": "bitaeAi"
+    },
+    {
+        "en": "dig",
+        "eg": "\ufed3\ufe77\ufea4\ufe77\ufe96",
+        "transliteration": "fahat"
+    },
+    {
+        "en": "digging",
+        "eg": "\ufed3\ufe77\ufea4\ufe96",
+        "transliteration": "faht"
+    },
+    {
+        "en": "dignity",
+        "eg": "\ufedb\ufe77\ufeae\ufe8d\ufe76\ufee3\ufe77\ufe94",
+        "transliteration": "karaama"
+    },
+    {
+        "en": "diner",
+        "eg": "sufra",
+        "transliteration": "'uooDit"
+    },
+    {
+        "en": "disc",
+        "eg": "\ufea9\ufe7a\ufeb3\ufeda",
+        "transliteration": "disk"
+    },
+    {
+        "en": "disturb",
+        "eg": "\ufe83\ufeaf\ufecb\ufe77\ufe9e",
+        "transliteration": "'azAag"
+    },
+    {
+        "en": "ditch",
+        "eg": "\ufe9f\ufeee\ufead\ufe76\ufe93",
+        "transliteration": "goora"
+    },
+    {
+        "en": "diving",
+        "eg": "GaTs",
+        "transliteration": "mask"
+    },
+    {
+        "en": "docile",
+        "eg": "\ufe83\ufedf\ufef4\ufed2",
+        "transliteration": "'aleef"
+    },
+    {
+        "en": "doll",
+        "eg": "\ufecb\ufe77\ufeae\ufeed\ufeb3\ufe77\ufe94",
+        "transliteration": "Aaroosa"
+    },
+    {
+        "en": "dolphin",
+        "eg": "\ufea9\ufe76\ufead\ufed3\ufef4\ufede",
+        "transliteration": "darfeel"
+    },
+    {
+        "en": "don't",
+        "eg": "\ufee3\ufe7b\ufeb6",
+        "transliteration": "mish"
+    },
+    {
+        "en": "don't!",
+        "eg": "\ufe91\ufe77\ufefc\ufeb5",
+        "transliteration": "balaesh"
+    },
+    {
+        "en": "dough",
+        "eg": "ilmaaZ",
+        "transliteration": "kishk"
+    },
+    {
+        "en": "down",
+        "eg": "\ufe97\ufe77\ufea4\ufe96",
+        "transliteration": "taht"
+    },
+    {
+        "en": "dowry",
+        "eg": "\ufee3\ufe77\ufeec\ufeae",
+        "transliteration": "mahr"
+    },
+    {
+        "en": "dragged",
+        "eg": "\ufe87\ufee7\ufea0\ufe77\ufeae\ufe7c",
+        "transliteration": "'ingarr"
+    },
+    {
+        "en": "drawer",
+        "eg": "\ufea9\ufe78\ufead\ufe9d",
+        "transliteration": "durg"
+    },
+    {
+        "en": "drawing",
+        "eg": "rasm",
+        "transliteration": "dabboos"
+    },
+    {
+        "en": "dregs",
+        "eg": "\ufe97\ufe7b\ufed4\ufede",
+        "transliteration": "tifl"
+    },
+    {
+        "en": "dressed",
+        "eg": "\ufefb\ufe91\ufe7b\ufeb2",
+        "transliteration": "laebis"
+    },
+    {
+        "en": "dried",
+        "eg": "\ufee7\ufe8e\ufe76\ufeb7\ufe7b\ufed2",
+        "transliteration": "naeshif"
+    },
+    {
+        "en": "driver",
+        "eg": "\ufeb3\ufe77\ufeee\ufe7c\ufe8d\ufe76\ufed5",
+        "transliteration": "sawwae'"
+    },
+    {
+        "en": "driver!",
+        "eg": "'usTah",
+        "transliteration": "ya"
+    },
+    {
+        "en": "driving",
+        "eg": "\ufeb3\ufe7b\ufeee\ufe8d\ufe76\ufed7\ufe77\ufe94",
+        "transliteration": "siwaa'a"
+    },
+    {
+        "en": "drool",
+        "eg": "\ufead\ufe76\ufef3\ufe7d\ufe7b\ufede",
+        "transliteration": "rayyil"
+    },
+    {
+        "en": "drought",
+        "eg": "\ufe9f\ufe77\ufed4\ufe7d\ufe8e\ufe76\ufed1",
+        "transliteration": "gaffaef"
+    },
+    {
+        "en": "drown",
+        "eg": "\ufecf\ufe77\ufeae\ufef3\ufed6",
+        "transliteration": "Garee'"
+    },
+    {
+        "en": "dude",
+        "eg": "\ufef3\ufe8e\ufe76\ufecb\ufee2",
+        "transliteration": "yaAm"
+    },
+    {
+        "en": "dump",
+        "eg": "\ufe97\ufe8e\ufe76\ufeed\ufeef",
+        "transliteration": "tawa"
+    },
+    {
+        "en": "dumped",
+        "eg": "\ufe87\ufe97\ufe7d\ufe8e\ufe76\ufeed\ufeef",
+        "transliteration": "'ittawa"
+    },
+    {
+        "en": "dung",
+        "eg": "\ufea7\ufe77\ufeae\ufeef",
+        "transliteration": "Kara"
+    },
+    {
+        "en": "dust",
+        "eg": "\ufecb\ufe79\ufed4\ufe8e\ufe76\ufead",
+        "transliteration": "Aufaar"
+    },
+    {
+        "en": "duster",
+        "eg": "Safra",
+        "transliteration": "fooTa"
+    },
+    {
+        "en": "dustpan",
+        "eg": "\ufe9f\ufe77\ufeae\ufeed\ufed1",
+        "transliteration": "garoof"
+    },
+    {
+        "en": "dyer",
+        "eg": "\ufee3\ufe77\ufebc\ufe92\ufe77\ufed0\ufe77\ufe94",
+        "transliteration": "maSbaGa"
+    },
+    {
+        "en": "dying",
+        "eg": "\ufebb\ufe77\ufe92\ufece",
+        "transliteration": "SabG"
+    },
+    {
+        "en": "ear",
+        "eg": "\ufeed\ufe7a\ufea9\ufee5",
+        "transliteration": "widn"
+    },
+    {
+        "en": "earlier",
+        "eg": "shuwaya",
+        "transliteration": "min"
+    },
+    {
+        "en": "earnest",
+        "eg": "\ufe9f\ufe77\ufeaa\ufe7c",
+        "transliteration": "gadd"
+    },
+    {
+        "en": "easter",
+        "eg": "ilQiyaema",
+        "transliteration": "Aiyd"
+    },
+    {
+        "en": "eat",
+        "eg": "\ufedb\ufe77\ufede",
+        "transliteration": "kal"
+    },
+    {
+        "en": "eating",
+        "eg": "\ufe83\ufedb\ufede",
+        "transliteration": "'akl"
+    },
+    {
+        "en": "ebb",
+        "eg": "\ufe9f\ufe77\ufeb0\ufead",
+        "transliteration": "gazr"
+    },
+    {
+        "en": "edit",
+        "eg": "\ufecb\ufe77\ufeaa\ufe7c\ufe7a\ufedd",
+        "transliteration": "Aaddil"
+    },
+    {
+        "en": "eight",
+        "eg": "\ufe97\ufe77\ufee4\ufe8e\ufe76\ufee7\ufef4\ufe77\ufe94",
+        "transliteration": "tamanya"
+    },
+    {
+        "en": "elastic",
+        "eg": "\ufe83\ufeb3\ufe98\ufe7b\ufeda",
+        "transliteration": "'astik"
+    },
+    {
+        "en": "element",
+        "eg": "'ibtida'ya",
+        "transliteration": "madrasa"
+    },
+    {
+        "en": "elite",
+        "eg": "\ufee7\ufe79\ufea8\ufe92\ufe77\ufe94",
+        "transliteration": "nuKba"
+    },
+    {
+        "en": "email",
+        "eg": "\ufe87\ufee3\ufef4\ufede",
+        "transliteration": "'imeel"
+    },
+    {
+        "en": "endless",
+        "eg": "nihae'i",
+        "transliteration": "la"
+    },
+    {
+        "en": "enforce",
+        "eg": "\ufe9f\ufe77\ufe92\ufe77\ufeae",
+        "transliteration": "gabar"
+    },
+    {
+        "en": "enlarge",
+        "eg": "\ufeed\ufe76\ufeb3\ufe7d\ufe77\ufeca",
+        "transliteration": "wassaA"
+    },
+    {
+        "en": "enough!",
+        "eg": "ba'a",
+        "transliteration": "bass"
+    },
+    {
+        "en": "ensure",
+        "eg": "\ufe83\ufee3\ufe7d\ufe7b\ufee6",
+        "transliteration": "'ammin"
+    },
+    {
+        "en": "enter",
+        "eg": "\ufea7\ufe79\ufeb6\ufe7c",
+        "transliteration": "Kushsh"
+    },
+    {
+        "en": "era",
+        "eg": "za",
+        "transliteration": "fatra"
+    },
+    {
+        "en": "erase",
+        "eg": "\ufee3\ufe77\ufeb4\ufe77\ufea2",
+        "transliteration": "masah"
+    },
+    {
+        "en": "escort",
+        "eg": "maAa",
+        "transliteration": "raah"
+    },
+    {
+        "en": "essence",
+        "eg": "\ufea7\ufe79\ufefc\ufebb\ufe77\ufe94",
+        "transliteration": "KulaaSa"
+    },
+    {
+        "en": "etc",
+        "eg": "'ai",
+        "transliteration": "'absaar"
+    },
+    {
+        "en": "eunuch",
+        "eg": "\ufee3\ufe77\ufea8\ufebc\ufef2",
+        "transliteration": "maKSi"
+    },
+    {
+        "en": "evasive",
+        "eg": "\ufea3\ufe77\ufeee\ufe7c\ufe76\ufead",
+        "transliteration": "hawwar"
+    },
+    {
+        "en": "exempt",
+        "eg": "\ufecb\ufe77\ufed4\ufef0",
+        "transliteration": "Aafa"
+    },
+    {
+        "en": "exiting",
+        "eg": "\ufea7\ufe79\ufeae\ufeed\ufe9d",
+        "transliteration": "Kuroog"
+    },
+    {
+        "en": "extent",
+        "eg": "'ieeh",
+        "transliteration": "'add"
+    },
+    {
+        "en": "extract",
+        "eg": "\ufea7\ufe77\ufee0\ufe77\ufeca",
+        "transliteration": "KalaA"
+    },
+    {
+        "en": "facing",
+        "eg": "\ufed7\ufe79\ufebc\ufe8e\ufe76\ufea9",
+        "transliteration": "'uSaad"
+    },
+    {
+        "en": "faggot",
+        "eg": "shazz",
+        "transliteration": "shaKS"
+    },
+    {
+        "en": "fancy",
+        "eg": "\ufea3\ufe77\ufe90\ufe7c",
+        "transliteration": "habb"
+    },
+    {
+        "en": "fantasy",
+        "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
+        "transliteration": "Kayael"
+    },
+    {
+        "en": "fare",
+        "eg": "\ufe83\ufe78\ufe9f\ufeae\ufe76\ufe93",
+        "transliteration": "'ugra"
+    },
+    {
+        "en": "fascia",
+        "eg": "\ufeed\ufe76\ufe9f\ufeec\ufe77\ufe94",
+        "transliteration": "wagha"
+    },
+    {
+        "en": "fate",
+        "eg": "\ufed7\ufe77\ufeaa\ufe76\ufead",
+        "transliteration": "Qadar"
+    },
+    {
+        "en": "father",
+        "eg": "\ufea3\ufe77\ufee4\ufe8e\ufe76",
+        "transliteration": "hama"
+    },
+    {
+        "en": "fawn",
+        "eg": "Aala",
+        "transliteration": "hakk"
+    },
+    {
+        "en": "fearing",
+        "eg": "Aala",
+        "transliteration": "Kaayif"
+    },
+    {
+        "en": "felt",
+        "eg": "\ufedf\ufe79\ufe92\ufe8e\ufe76\ufea9",
+        "transliteration": "lubaed"
+    },
+    {
+        "en": "fetch",
+        "eg": "\ufe9f\ufe8e\ufe76\ufe8f",
+        "transliteration": "gaeb"
+    },
+    {
+        "en": "fewer",
+        "eg": "\ufe83\ufed7\ufe77\ufede\ufe7c",
+        "transliteration": "'a'all"
+    },
+    {
+        "en": "fiction",
+        "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
+        "transliteration": "Kayael"
+    },
+    {
+        "en": "fifty",
+        "eg": "\ufea7\ufe77\ufee4\ufeb4\ufef4\ufee6",
+        "transliteration": "Kamseen"
+    },
+    {
+        "en": "filler",
+        "eg": "\ufee3\ufe77\ufecc\ufea0\ufeee\ufee5",
+        "transliteration": "maAgoon"
+    },
+    {
+        "en": "fillet",
+        "eg": "\ufee3\ufe77\ufee0\ufeee",
+        "transliteration": "malw"
+    },
+    {
+        "en": "filly",
+        "eg": "\ufed3\ufe77\ufeae\ufe76\ufeb3\ufe77\ufe94",
+        "transliteration": "farasa"
+    },
+    {
+        "en": "filth",
+        "eg": "\ufeed\ufe76\ufeb3\ufe8e\ufe76\ufea7\ufe77\ufe94",
+        "transliteration": "wasaeKa"
+    },
+    {
+        "en": "finger",
+        "eg": "\ufebb\ufe79\ufe92\ufe8e\ufe76\ufec9",
+        "transliteration": "SubaaA"
+    },
+    {
+        "en": "firstly",
+        "eg": "damGa",
+        "transliteration": "wara'it"
+    },
+    {
+        "en": "fitting",
+        "eg": "\ufe91\ufeae\ufeed\ufb6c\ufe77\ufe94",
+        "transliteration": "broova"
+    },
+    {
+        "en": "flake",
+        "eg": "\ufead\ufe76\ufed7\ufe8e\ufe76\ufe8b\ufed6",
+        "transliteration": "raQa'Q"
+    },
+    {
+        "en": "flannel",
+        "eg": "\ufedb\ufe77\ufeb4\ufe98\ufeee\ufead",
+        "transliteration": "kastoor"
+    },
+    {
+        "en": "flatten",
+        "eg": "\ufe91\ufe77\ufec2\ufe7c",
+        "transliteration": "baTT"
+    },
+    {
+        "en": "fleece",
+        "eg": "\ufed3\ufe77\ufeae\ufeed\ufe76\ufe93",
+        "transliteration": "farwa"
+    },
+    {
+        "en": "flirty",
+        "eg": "\ufecb\ufef4\ufee0\ufed6",
+        "transliteration": "Aeel'"
+    },
+    {
+        "en": "florist",
+        "eg": "ward",
+        "transliteration": "bayaeA"
+    },
+    {
+        "en": "flower",
+        "eg": "ilward",
+        "transliteration": "tanseeQ"
+    },
+    {
+        "en": "flute",
+        "eg": "\ufee7\ufe8e\ufe76\ufef1",
+        "transliteration": "naei"
+    },
+    {
+        "en": "flyover",
+        "eg": "\ufedb\ufe79\ufe92\ufeae\ufef1",
+        "transliteration": "kubri"
+    },
+    {
+        "en": "foal",
+        "eg": "\ufee3\ufe79\ufeec\ufeae",
+        "transliteration": "muhr"
+    },
+    {
+        "en": "food",
+        "eg": "\ufe83\ufedb\ufede",
+        "transliteration": "'akl"
+    },
+    {
+        "en": "foolish",
+        "eg": "\ufe91\ufe77\ufeec\ufee0\ufeee\ufedd",
+        "transliteration": "bahlool"
+    },
+    {
+        "en": "forge",
+        "eg": "\ufeaf\ufe76\ufeed\ufe7c\ufe76\ufead",
+        "transliteration": "zawwar"
+    },
+    {
+        "en": "forget",
+        "eg": "\ufe87\ufed7\ufee0\ufe7b\ufe90",
+        "transliteration": "'i'lib"
+    },
+    {
+        "en": "former",
+        "eg": "\ufed7\ufe77\ufe92\ufee0\ufef2",
+        "transliteration": "'abli"
+    },
+    {
+        "en": "fragile",
+        "eg": "likasr",
+        "transliteration": "Qaabil"
+    },
+    {
+        "en": "frank",
+        "eg": "\ufea9\ufe78\ufecf\ufeae\ufef1",
+        "transliteration": "duGri"
+    },
+    {
+        "en": "freeze",
+        "eg": "\ufe97\ufe77\ufee0\ufe7d\ufe7b\ufe9e",
+        "transliteration": "tallig"
+    },
+    {
+        "en": "freezer",
+        "eg": "\ufed3\ufeae\ufef3\ufeb0\ufe7a\ufead",
+        "transliteration": "freezir"
+    },
+    {
+        "en": "Friday",
+        "eg": "ilgumAa",
+        "transliteration": "yoom"
+    },
+    {
+        "en": "fringe",
+        "eg": "\ufed3\ufeae\ufe76\ufee7\ufeb8\ufe77\ufe94",
+        "transliteration": "fransha"
+    },
+    {
+        "en": "frizzy",
+        "eg": "\ufe83\ufedb\ufeae\ufe76\ufe95",
+        "transliteration": "'akrat"
+    },
+    {
+        "en": "frog",
+        "eg": "\ufe91\ufe77\ufed8\ufeae\ufeed\ufead",
+        "transliteration": "ba'roor"
+    },
+    {
+        "en": "frying",
+        "eg": "tahmeer",
+        "transliteration": "Taasit"
+    },
+    {
+        "en": "fuck",
+        "eg": "\ufee7\ufe77\ufef4\ufeda",
+        "transliteration": "nayk"
+    },
+    {
+        "en": "fuel",
+        "eg": "ilbanzeen",
+        "transliteration": "'ambeer"
+    },
+    {
+        "en": "fulfil",
+        "eg": "\ufe83\ufea9\ufe7c\ufeef",
+        "transliteration": "'adda"
+    },
+    {
+        "en": "fully",
+        "eg": "il'aKir",
+        "transliteration": "Aa"
+    },
+    {
+        "en": "funeral",
+        "eg": "\ufee3\ufe77\ufef4\ufe98\ufe77\ufee2",
+        "transliteration": "maytam"
+    },
+    {
+        "en": "furnish",
+        "eg": "\ufed3\ufe77\ufeae\ufe76\ufeb5",
+        "transliteration": "farash"
+    },
+    {
+        "en": "further",
+        "eg": "\ufedb\ufe77\ufee4\ufe8e\ufe76\ufee5",
+        "transliteration": "kamaen"
+    },
+    {
+        "en": "fuss",
+        "eg": "\ufeeb\ufef4\ufebc\ufe77\ufe94",
+        "transliteration": "heeSa"
+    },
+    {
+        "en": "G",
+        "eg": "\ufe91\ufe77\ufeec\ufea0\ufe77\ufe94",
+        "transliteration": "bahga"
+    },
+    {
+        "en": "gale",
+        "eg": "\ufea3\ufe77\ufebc\ufeee\ufe76\ufe93",
+        "transliteration": "haSwa"
+    },
+    {
+        "en": "gang",
+        "eg": "\ufecb\ufe7b\ufebc\ufe8e\ufe76\ufe91\ufe77\ufe94",
+        "transliteration": "AiSaaba"
+    },
+    {
+        "en": "gargle",
+        "eg": "\ufecf\ufe77\ufeae\ufecf\ufe77\ufeae",
+        "transliteration": "GarGar"
+    },
+    {
+        "en": "gasket",
+        "eg": "\ufe9f\ufe79\ufeee\ufe8d\ufe76\ufee5",
+        "transliteration": "juwaen"
+    },
+    {
+        "en": "gather",
+        "eg": "\ufebf\ufe77\ufee2\ufe7c",
+        "transliteration": "Damm"
+    },
+    {
+        "en": "gauge",
+        "eg": "\ufe83\ufee3\ufe92\ufef4\ufeae",
+        "transliteration": "'ambeer"
+    },
+    {
+        "en": "gay",
+        "eg": "\ufea7\ufe77\ufeee\ufe7a\ufedd",
+        "transliteration": "Kawil"
+    },
+    {
+        "en": "gaze",
+        "eg": "\ufe91\ufe77\ufea4\ufee0\ufe77\ufed6",
+        "transliteration": "bahla'"
+    },
+    {
+        "en": "gear",
+        "eg": "\ufecf\ufe7b\ufef4\ufe8e\ufe76\ufead",
+        "transliteration": "Giyaar"
+    },
+    {
+        "en": "gearbox",
+        "eg": "tiroos",
+        "transliteration": "Sandoo'"
+    },
+    {
+        "en": "gecko",
+        "eg": "\ufe91\ufe79\ufeae\ufeb9",
+        "transliteration": "burS"
+    },
+    {
+        "en": "gem",
+        "eg": "kareem",
+        "transliteration": "hagar"
+    },
+    {
+        "en": "genius",
+        "eg": "\ufecb\ufe77\ufee0\ufe7d\ufe7b\ufee4\ufe77\ufe94",
+        "transliteration": "Aallima"
+    },
+    {
+        "en": "genre",
+        "eg": "\ufee7\ufeee\ufec9",
+        "transliteration": "nooA"
+    },
+    {
+        "en": "gesture",
+        "eg": "\ufe97\ufe77\ufee0\ufee4\ufef4\ufea2",
+        "transliteration": "talmeeh"
+    },
+    {
+        "en": "gilded",
+        "eg": "\ufee3\ufe79\ufeac\ufe8d\ufe76\ufe8f",
+        "transliteration": "muzaeb"
+    },
+    {
+        "en": "glad",
+        "eg": "\ufee3\ufe77\ufe92\ufeb4\ufeee\ufec1",
+        "transliteration": "mabsooT"
+    },
+    {
+        "en": "glorify",
+        "eg": "\ufee3\ufe77\ufea0\ufe7d\ufe7b\ufeaa",
+        "transliteration": "maggid"
+    },
+    {
+        "en": "glory",
+        "eg": "\ufecb\ufe7b\ufeb0\ufe7c",
+        "transliteration": "Aizz"
+    },
+    {
+        "en": "glossy",
+        "eg": "\ufedf\ufe77\ufee4\ufe7d\ufef4\ufeca",
+        "transliteration": "lammeeA"
+    },
+    {
+        "en": "gloves",
+        "eg": "\ufe9f\ufe79\ufeee\ufe76\ufee7\ufe98\ufef2",
+        "transliteration": "guwanti"
+    },
+    {
+        "en": "glutton",
+        "eg": "\ufe91\ufe77\ufec4\ufef4\ufee8\ufef2",
+        "transliteration": "baTeeni"
+    },
+    {
+        "en": "goose",
+        "eg": "\ufeed\ufe7a\ufeaf\ufe7c",
+        "transliteration": "wizz"
+    },
+    {
+        "en": "grab",
+        "eg": "\ufed7\ufe77\ufe92\ufe77\ufebe",
+        "transliteration": "'abaD"
+    },
+    {
+        "en": "granite",
+        "eg": "\ufe9f\ufeae\ufe76\ufee7\ufef4\ufe96",
+        "transliteration": "graneet"
+    },
+    {
+        "en": "grape",
+        "eg": "Ainab",
+        "transliteration": "wara'"
+    },
+    {
+        "en": "grate",
+        "eg": "\ufe91\ufe77\ufeb8\ufe77\ufeae",
+        "transliteration": "bashar"
+    },
+    {
+        "en": "grave",
+        "eg": "\ufe97\ufe79\ufeae\ufe91\ufe77\ufe94",
+        "transliteration": "turba"
+    },
+    {
+        "en": "gravel",
+        "eg": "\ufeb3\ufe7b\ufee6\ufe7c",
+        "transliteration": "sinn"
+    },
+    {
+        "en": "greasy",
+        "eg": "\ufea9\ufe78\ufeeb\ufee8\ufef2",
+        "transliteration": "duhni"
+    },
+    {
+        "en": "Greek",
+        "eg": "\ufe9f\ufe7b\ufeae\ufef3\ufea0\ufef2",
+        "transliteration": "gireegi"
+    },
+    {
+        "en": "grief",
+        "eg": "\ufe83\ufeb3\ufef0",
+        "transliteration": "'asa"
+    },
+    {
+        "en": "grocer",
+        "eg": "\ufe91\ufe77\ufed8\ufe7d\ufe8e\ufe76\ufedd",
+        "transliteration": "ba''ael"
+    },
+    {
+        "en": "grocery",
+        "eg": "\ufe91\ufe77\ufed8\ufe7d\ufe8e\ufe76\ufedd",
+        "transliteration": "ba''ael"
+    },
+    {
+        "en": "group",
+        "eg": "\ufe9f\ufe79\ufeae\ufeed\ufe8f",
+        "transliteration": "guroob"
+    },
+    {
+        "en": "grouper",
+        "eg": "\ufeed\ufe76\ufed7\ufe8e\ufe76\ufead",
+        "transliteration": "wa'aar"
+    },
+    {
+        "en": "guilt",
+        "eg": "\ufeaf\ufe76\ufee7\ufe90",
+        "transliteration": "zanb"
+    },
+    {
+        "en": "gutter",
+        "eg": "\ufee3\ufe7b\ufeb0\ufead\ufe8d\ufe76\ufe8f",
+        "transliteration": "mizraab"
+    },
+    {
+        "en": "gym",
+        "eg": "\ufe9f\ufef4\ufee2",
+        "transliteration": "jeem"
+    },
+    {
+        "en": "half",
+        "eg": "\ufee7\ufe79\ufeba\ufe7c",
+        "transliteration": "nuSS"
+    },
+    {
+        "en": "hand",
+        "eg": "yadawya",
+        "transliteration": "Qunbila"
+    },
+    {
+        "en": "handbag",
+        "eg": "yadd",
+        "transliteration": "shanTit"
+    },
+    {
+        "en": "handed",
+        "eg": "\ufee7\ufe8e\ufe76\ufeed\ufe7a\ufedd",
+        "transliteration": "naewil"
+    },
+    {
+        "en": "handful",
+        "eg": "\ufedb\ufe77\ufe92\ufeb8\ufe77\ufe94",
+        "transliteration": "kabsha"
+    },
+    {
+        "en": "person",
+        "eg": "hilw",
+        "transliteration": "shakluh"
+    },
+    {
+        "en": "wait",
+        "eg": "maAaeya",
+        "transliteration": "Kalleek"
+    },
+    {
+        "en": "happen",
+        "eg": "\ufe9f\ufe77\ufeae\ufeef",
+        "transliteration": "gara"
+    },
+    {
+        "en": "harder",
+        "eg": "\ufe83\ufebb\ufecc\ufe77\ufe90",
+        "transliteration": "'aSAab"
+    },
+    {
+        "en": "hashish",
+        "eg": "\ufee3\ufe77\ufeb4\ufec4\ufeee\ufedd",
+        "transliteration": "masTool"
+    },
+    {
+        "en": "hasp",
+        "eg": "\ufead\ufe76\ufeaf\ufe7c\ufe76\ufe93",
+        "transliteration": "razza"
+    },
+    {
+        "en": "haste",
+        "eg": "\ufecb\ufe7b\ufea0\ufede",
+        "transliteration": "Aigl"
+    },
+    {
+        "en": "haunted",
+        "eg": "\ufee3\ufe77\ufeb4\ufedc\ufeee\ufee5",
+        "transliteration": "maskoon"
+    },
+    {
+        "en": "must",
+        "eg": "\ufe87\ufebf\ufec4\ufe77\ufeae",
+        "transliteration": "'iDTar"
+    },
+    {
+        "en": "hazard",
+        "eg": "\ufe91\ufe79\ufee8\ufeaa\ufe78\ufed5",
+        "transliteration": "bundu'"
+    },
+    {
+        "en": "he",
+        "eg": "\ufe79\ufeea",
+        "transliteration": "uh"
+    },
+    {
+        "en": "head",
+        "eg": "\ufea9\ufe7a\ufee3\ufe8e\ufe76\ufecd",
+        "transliteration": "dimaeG"
+    },
+    {
+        "en": "heading",
+        "eg": "\ufead\ufe8d\ufe76\ufeb1",
+        "transliteration": "raas"
+    },
+    {
+        "en": "headman",
+        "eg": "\ufecb\ufe79\ufee4\ufeaa\ufe76\ufe93",
+        "transliteration": "Aumda"
+    },
+    {
+        "en": "health",
+        "eg": "\ufecb\ufe8e\ufe76\ufed3\ufef4\ufe77\ufe94",
+        "transliteration": "Aafya"
+    },
+    {
+        "en": "heatup",
+        "eg": "\ufea9\ufe76\ufed3\ufe7d\ufef0",
+        "transliteration": "daffa"
+    },
+    {
+        "en": "heavily",
+        "eg": "\ufe91\ufe7b\ufe98\ufeee\ufed7\ufede",
+        "transliteration": "bitoo'l"
+    },
+    {
+        "en": "hedge",
+        "eg": "\ufeb3\ufe7b\ufef4\ufe8e\ufe76\ufe9d",
+        "transliteration": "siyaeg"
+    },
+    {
+        "en": "mufyd",
+        "eg": "\ufe9f\ufe77\ufeaa\ufe76\ufec9",
+        "transliteration": "gadaA"
+    },
+    {
+        "en": "hemp",
+        "eg": "\ufe97\ufef4\ufede",
+        "transliteration": "teel"
+    },
+    {
+        "en": "hen",
+        "eg": "\ufed3\ufe77\ufeae\ufea7\ufe77\ufe94",
+        "transliteration": "farKa"
+    },
+    {
+        "en": "hence",
+        "eg": "\ufed3\ufe8e\ufe76",
+        "transliteration": "fa"
+    },
+    {
+        "en": "herbs",
+        "eg": "\ufecb\ufe79\ufeb8\ufe90",
+        "transliteration": "Aushb"
+    },
+    {
+        "en": "heresy",
+        "eg": "\ufe91\ufe7b\ufeaa\ufecb\ufe77\ufe94",
+        "transliteration": "bidAa"
+    },
+    {
+        "en": "hex",
+        "eg": "\ufecb\ufe77\ufee4\ufe77\ufede",
+        "transliteration": "Aamal"
+    },
+    {
+        "en": "hiccup",
+        "eg": "\ufeaf\ufe78\ufecf\ufe79\ufec4\ufe7d\ufe77\ufe94",
+        "transliteration": "zuGuTTa"
+    },
+    {
+        "en": "hidden",
+        "eg": "\ufee3\ufe77\ufea8\ufed4\ufef2",
+        "transliteration": "maKfi"
+    },
+    {
+        "en": "hide",
+        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufef0",
+        "transliteration": "Kabba"
+    },
+    {
+        "en": "hiding",
+        "eg": "\ufea7\ufe77\ufed4\ufef2",
+        "transliteration": "Kafi"
+    },
+    {
+        "en": "him",
+        "eg": "\ufe79\ufeea",
+        "transliteration": "uh"
+    },
+    {
+        "en": "himself",
+        "eg": "\ufee7\ufe77\ufed4\ufeb4\ufe79\ufeea",
+        "transliteration": "nafsuh"
+    },
+    {
+        "en": "hinting",
+        "eg": "\ufe97\ufe77\ufee0\ufee4\ufef4\ufea2",
+        "transliteration": "talmeeh"
+    },
+    {
+        "en": "hiss",
+        "eg": "\ufeeb\ufe7b\ufeb2\ufe7c",
+        "transliteration": "hiss"
+    },
+    {
+        "en": "hob",
+        "eg": "bootagaez",
+        "transliteration": "Aeen"
+    },
+    {
+        "en": "wait",
+        "eg": "\ufeb7\ufe7b\ufeaa\ufe7c",
+        "transliteration": "shidd"
+    },
+    {
+        "en": "holy",
+        "eg": "\ufee3\ufe79\ufeee\ufedf\ufe7b\ufeaa",
+        "transliteration": "muwlid"
+    },
+    {
+        "en": "honesty",
+        "eg": "\ufebb\ufe79\ufeaa\ufed5",
+        "transliteration": "Sud'"
+    },
+    {
+        "en": "honey",
+        "eg": "\ufecb\ufe77\ufeb4\ufe77\ufee0\ufef2",
+        "transliteration": "Aasali"
+    },
+    {
+        "en": "horny",
+        "eg": "\ufeeb\ufe8e\ufe76\ufef3\ufe7b\ufe9e",
+        "transliteration": "haeyig"
+    },
+    {
+        "en": "horror",
+        "eg": "\ufead\ufe76\ufecb\ufe90",
+        "transliteration": "raAb"
+    },
+    {
+        "en": "hostage",
+        "eg": "\ufead\ufe76\ufeeb\ufef4\ufee8\ufe77\ufe94",
+        "transliteration": "raheena"
+    },
+    {
+        "en": "housing",
+        "eg": "\ufee3\ufe77\ufeb4\ufedc\ufe77\ufee6",
+        "transliteration": "maskan"
+    },
+    {
+        "en": "how",
+        "eg": "'ieeh",
+        "transliteration": "'add"
+    },
+    {
+        "en": "however",
+        "eg": "\ufe87\ufee7\ufe7d\ufe77\ufee4\ufe8e\ufe76",
+        "transliteration": "'innama"
+    },
+    {
+        "en": "hubcap",
+        "eg": "\ufec3\ufe8e\ufe76\ufeb3\ufe77\ufe94",
+        "transliteration": "Taasa"
+    },
+    {
+        "en": "hundred",
+        "eg": "\ufee3\ufe7b\ufef4\ufe7d\ufe77\ufe94",
+        "transliteration": "miyya"
+    },
+    {
+        "en": "Hungary",
+        "eg": "\ufe8d\ufe7a\ufedf\ufee4\ufe77\ufea0\ufe77\ufeae",
+        "transliteration": "ilmagar"
+    },
+    {
+        "en": "husband",
+        "eg": "\ufeaf\ufeed\ufe9d",
+        "transliteration": "zoog"
+    },
+    {
+        "en": "hustler",
+        "eg": "\ufee7\ufe77\ufebc\ufe8e\ufe76\ufe8f",
+        "transliteration": "naSaab"
+    },
+    {
+        "en": "I",
+        "eg": "\ufef2",
+        "transliteration": "i"
+    },
+    {
+        "en": "idiot",
+        "eg": "\ufecb\ufe77\ufe92\ufef4\ufec2",
+        "transliteration": "AabeeT"
+    },
+    {
+        "en": "idiotic",
+        "eg": "\ufe91\ufe77\ufeec\ufee0\ufeee\ufedd",
+        "transliteration": "bahlool"
+    },
+    {
+        "en": "idle",
+        "eg": "\ufedb\ufe77\ufeb4\ufefc\ufee5",
+        "transliteration": "kaslaen"
+    },
+    {
+        "en": "ignite",
+        "eg": "\ufeed\ufe76\ufedf\ufe7d\ufe77\ufeca",
+        "transliteration": "wallaA"
+    },
+    {
+        "en": "ignore",
+        "eg": "\ufee7\ufe77\ufed4\ufe7d\ufe77\ufebe",
+        "transliteration": "naffaD"
+    },
+    {
+        "en": "impress",
+        "eg": "\ufe83\ufe97\ufea4\ufe77\ufed2",
+        "transliteration": "'athaf"
+    },
+    {
+        "en": "include",
+        "eg": "\ufe87\ufea3\ufe98\ufe77\ufeee\ufeef",
+        "transliteration": "'ihtawa"
+    },
+    {
+        "en": "induce",
+        "eg": "\ufea3\ufe77\ufeae\ufe7c\ufe76\ufed9",
+        "transliteration": "harrak"
+    },
+    {
+        "en": "infant",
+        "eg": "\ufee3\ufe77\ufeee\ufedf\ufeee\ufea9",
+        "transliteration": "mawlood"
+    },
+    {
+        "en": "inform",
+        "eg": "\ufe91\ufe77\ufee0\ufe7d\ufe77\ufece",
+        "transliteration": "ballaG"
+    },
+    {
+        "en": "inherit",
+        "eg": "\ufeed\ufe7a\ufead\ufe7a\ufe99",
+        "transliteration": "wirith"
+    },
+    {
+        "en": "initial",
+        "eg": "harf",
+        "transliteration": "'awwil"
+    },
+    {
+        "en": "injure",
+        "eg": "\ufe9f\ufe77\ufeae\ufe76\ufea1",
+        "transliteration": "garah"
+    },
+    {
+        "en": "inquiry",
+        "eg": "\ufe91\ufe77\ufea4\ufe9a",
+        "transliteration": "bahth"
+    },
+    {
+        "en": "insist",
+        "eg": "\ufebb\ufe77\ufee4\ufe7d\ufe7b\ufee2",
+        "transliteration": "Sammim"
+    },
+    {
+        "en": "into",
+        "eg": "\ufe9f\ufe79\ufeee\ufe7c\ufe76",
+        "transliteration": "guwwa"
+    },
+    {
+        "en": "invite",
+        "eg": "Aala",
+        "transliteration": "Aazam"
+    },
+    {
+        "en": "invited",
+        "eg": "\ufee3\ufe77\ufecc\ufeb0\ufeed\ufee1",
+        "transliteration": "maAzoom"
+    },
+    {
+        "en": "involve",
+        "eg": "\ufe83\ufeb7\ufeae\ufe76\ufed9",
+        "transliteration": "'ashrak"
+    },
+    {
+        "en": "ironer",
+        "eg": "\ufee3\ufe77\ufedc\ufeee\ufe76\ufe9f\ufef2",
+        "transliteration": "makwagi"
+    },
+    {
+        "en": "isn't",
+        "eg": "\ufee3\ufe7b\ufeb6",
+        "transliteration": "mish"
+    },
+    {
+        "en": "it's",
+        "eg": "fayda",
+        "transliteration": "mafeesh"
+    },
+    {
+        "en": "itch",
+        "eg": "\ufeeb\ufe77\ufeae\ufe76\ufeb5",
+        "transliteration": "harash"
+    },
+    {
+        "en": "ivy",
+        "eg": "mutaslliQ",
+        "transliteration": "nabaet"
+    },
+    {
+        "en": "J",
+        "eg": "\ufedb\ufe79\ufeae\ufef3\ufeda",
+        "transliteration": "kureek"
+    },
+    {
+        "en": "jacket",
+        "eg": "\ufe9f\ufe8e\ufe76\ufedb\ufe7b\ufe96\ufe7c",
+        "transliteration": "jaekitt"
+    },
+    {
+        "en": "jade",
+        "eg": "\ufef3\ufe7b\ufeb8\ufe7b\ufee2",
+        "transliteration": "yishim"
+    },
+    {
+        "en": "jesus",
+        "eg": "\ufef1\ufeb4\ufeee\ufec9",
+        "transliteration": "yesooA"
+    },
+    {
+        "en": "jew",
+        "eg": "\ufef3\ufe77\ufeec\ufeee\ufea9\ufef1",
+        "transliteration": "yahoodi"
+    },
+    {
+        "en": "jewel",
+        "eg": "\ufe9f\ufe77\ufeee\ufeeb\ufe77\ufeae\ufe76\ufe93",
+        "transliteration": "gawhara"
+    },
+    {
+        "en": "jewish",
+        "eg": "\ufef3\ufe77\ufeec\ufeee\ufea9\ufef1",
+        "transliteration": "yahoodi"
+    },
+    {
+        "en": "job",
+        "eg": "\ufeed\ufe76\ufec7\ufef4\ufed4\ufe77\ufe94",
+        "transliteration": "waZeefa"
+    },
+    {
+        "en": "joking",
+        "eg": "\ufeeb\ufe7b\ufeac\ufe8d\ufe76\ufead",
+        "transliteration": "hizaar"
+    },
+    {
+        "en": "joy",
+        "eg": "\ufed3\ufe77\ufeae\ufe76\ufea1",
+        "transliteration": "farah"
+    },
+    {
+        "en": "July",
+        "eg": "\ufef3\ufeee\ufedf\ufef4\ufeee",
+        "transliteration": "yooleew"
+    },
+    {
+        "en": "jump",
+        "eg": "\ufee7\ufe77\ufec2\ufe7c",
+        "transliteration": "naTT"
+    },
+    {
+        "en": "June",
+        "eg": "\ufef3\ufeee\ufee7\ufef4\ufeee",
+        "transliteration": "yooneew"
+    },
+    {
+        "en": "jute",
+        "eg": "\ufe97\ufef4\ufede",
+        "transliteration": "teel"
+    },
+    {
+        "en": "K",
+        "eg": "\ufed7\ufe79\ufed4\ufec4\ufe8e\ufe76\ufee5",
+        "transliteration": "'ufTaan"
+    },
+    {
+        "en": "kettle",
+        "eg": "\ufe91\ufe77\ufeae\ufe7c\ufe8d\ufe76\ufea9",
+        "transliteration": "barraad"
+    },
+    {
+        "en": "key",
+        "eg": "rigl",
+        "transliteration": "Kiliww"
+    },
+    {
+        "en": "kidding",
+        "eg": "\ufeeb\ufe7b\ufeac\ufe8d\ufe76\ufead",
+        "transliteration": "hizaar"
+    },
+    {
+        "en": "kill",
+        "eg": "\ufee3\ufe77\ufeee\ufe7c\ufe7a\ufe95",
+        "transliteration": "mawwit"
+    },
+    {
+        "en": "kilo",
+        "eg": "\ufedb\ufef4\ufee0\ufeee",
+        "transliteration": "keelw"
+    },
+    {
+        "en": "nursery",
+        "eg": "\ufec7\ufe79\ufeae\ufed1",
+        "transliteration": "Zurf"
+    },
+    {
+        "en": "king",
+        "eg": "\ufee3\ufe77\ufee0\ufe7b\ufeda",
+        "transliteration": "malik"
+    },
+    {
+        "en": "kiosk",
+        "eg": "\ufedb\ufe79\ufeb8\ufeda",
+        "transliteration": "kushk"
+    },
+    {
+        "en": "kitchen",
+        "eg": "\ufee3\ufe77\ufec4\ufe92\ufe77\ufea6",
+        "transliteration": "maTbaK"
+    },
+    {
+        "en": "kite",
+        "eg": "wara'",
+        "transliteration": "Tayaara"
+    },
+    {
+        "en": "kitten",
+        "eg": "SuGyara",
+        "transliteration": "'uTTa"
+    },
+    {
+        "en": "kneel",
+        "eg": "\ufe91\ufe77\ufeae\ufe76\ufed9",
+        "transliteration": "barak"
+    },
+    {
+        "en": "knit",
+        "eg": "\ufecf\ufe77\ufeb0\ufe76\ufedd",
+        "transliteration": "Gazal"
+    },
+    {
+        "en": "Kuwaiti",
+        "eg": "\ufedb\ufe79\ufeee\ufef3\ufe98\ufef2",
+        "transliteration": "kuweeti"
+    },
+    {
+        "en": "ladder",
+        "eg": "\ufeb3\ufe7b\ufee0\ufe7d\ufe7b\ufee2",
+        "transliteration": "sillim"
+    },
+    {
+        "en": "lagoon",
+        "eg": "\ufee3\ufe77\ufeae\ufeb3\ufef0",
+        "transliteration": "marsa"
+    },
+    {
+        "en": "lame",
+        "eg": "\ufe83\ufecb\ufeae\ufe76\ufe9d",
+        "transliteration": "'aArag"
+    },
+    {
+        "en": "lantern",
+        "eg": "\ufed3\ufe77\ufee8\ufeee\ufeb1",
+        "transliteration": "fanoos"
+    },
+    {
+        "en": "laptop",
+        "eg": "\ufefb\ufe91\ufe98\ufeee\ufe8f",
+        "transliteration": "labtoob"
+    },
+    {
+        "en": "latest",
+        "eg": "\ufe83\ufea3\ufeaa\ufe76\ufe99",
+        "transliteration": "'ahdath"
+    },
+    {
+        "en": "latin",
+        "eg": "\ufefb\ufe97\ufef4\ufee8\ufef2",
+        "transliteration": "lateeni"
+    },
+    {
+        "en": "latter",
+        "eg": "\ufe9b\ufe8e\ufe76\ufee7\ufef2",
+        "transliteration": "thaeni"
+    },
+    {
+        "en": "launch",
+        "eg": "\ufe87\ufec3\ufefc\ufed5",
+        "transliteration": "'iTlaaQ"
+    },
+    {
+        "en": "lawn",
+        "eg": "\ufecb\ufe79\ufeb8\ufe90",
+        "transliteration": "Aushb"
+    },
+    {
+        "en": "lawyer",
+        "eg": "\ufee3\ufe79\ufea4\ufe8e\ufe76\ufee3\ufef2",
+        "transliteration": "muhaemi"
+    },
+    {
+        "en": "lay",
+        "eg": "\ufe91\ufe77\ufeb4\ufe77\ufec2",
+        "transliteration": "basaT"
+    },
+    {
+        "en": "lean",
+        "eg": "\ufeb3\ufe77\ufee8\ufe77\ufeaa",
+        "transliteration": "sanad"
+    },
+    {
+        "en": "leaning",
+        "eg": "\ufee3\ufe8e\ufe76\ufef3\ufe7b\ufede",
+        "transliteration": "maeyil"
+    },
+    {
+        "en": "leap",
+        "eg": "\ufee7\ufe77\ufec2\ufe7c",
+        "transliteration": "naTT"
+    },
+    {
+        "en": "leek",
+        "eg": "\ufedb\ufe79\ufeae\ufe7c\ufe8d\ufe76\ufe95",
+        "transliteration": "kurraat"
+    },
+    {
+        "en": "leisure",
+        "eg": "ilfaraaG",
+        "transliteration": "wa't"
+    },
+    {
+        "en": "lend",
+        "eg": "sulfa",
+        "transliteration": "'idda"
+    },
+    {
+        "en": "leper",
+        "eg": "\ufe83\ufe91\ufeae\ufe76\ufeb9",
+        "transliteration": "'abraS"
+    },
+    {
+        "en": "leprosy",
+        "eg": "\ufe91\ufe77\ufeae\ufe76\ufeb9",
+        "transliteration": "baraS"
+    },
+    {
+        "en": "lest",
+        "eg": "\ufe83\ufea3\ufeb4\ufe77\ufee6",
+        "transliteration": "'ahsan"
+    },
+    {
+        "en": "liar",
+        "eg": "\ufedb\ufe77\ufeaa\ufe7c\ufe8d\ufe76\ufe8f",
+        "transliteration": "kaddaeb"
+    },
+    {
+        "en": "Libya",
+        "eg": "\ufedf\ufef4\ufe92\ufef4\ufe8e\ufe76",
+        "transliteration": "leebya"
+    },
+    {
+        "en": "Libyan",
+        "eg": "\ufedf\ufef4\ufe92\ufef2",
+        "transliteration": "leebi"
+    },
+    {
+        "en": "license",
+        "eg": "\ufead\ufe78\ufea7\ufebc\ufe77\ufe94",
+        "transliteration": "ruKSa"
+    },
+    {
+        "en": "lick",
+        "eg": "\ufedf\ufe77\ufea4\ufe77\ufeb2",
+        "transliteration": "lahas"
+    },
+    {
+        "en": "lid",
+        "eg": "\ufecf\ufe77\ufec4\ufe8e\ufe76",
+        "transliteration": "GaTa"
+    },
+    {
+        "en": "limp",
+        "eg": "\ufecb\ufe77\ufeae\ufe76\ufe9d",
+        "transliteration": "Aarag"
+    },
+    {
+        "en": "lintel",
+        "eg": "\ufea3\ufe77\ufee0\ufed6",
+        "transliteration": "hal'"
+    },
+    {
+        "en": "baeb",
+        "eg": "\ufeb3\ufe77\ufe92\ufe7d\ufeca",
+        "transliteration": "sabbA"
+    },
+    {
+        "en": "lip",
+        "eg": "\ufeb7\ufe7b\ufed4\ufe7d\ufe77\ufe94",
+        "transliteration": "shiffa"
+    },
+    {
+        "en": "listen",
+        "eg": "ilkalaem",
+        "transliteration": "tismaA"
+    },
+    {
+        "en": "lizard",
+        "eg": "\ufeb3\ufe7b\ufea4\ufee0\ufe77\ufef4\ufe77\ufe94",
+        "transliteration": "sihlaya"
+    },
+    {
+        "en": "load",
+        "eg": "\ufee7\ufe77\ufed8\ufee0\ufe77\ufeea",
+        "transliteration": "na'lah"
+    },
+    {
+        "en": "locked",
+        "eg": "\ufee3\ufe77\ufed8\ufed4\ufeee\ufedd",
+        "transliteration": "ma'fool"
+    },
+    {
+        "en": "locking",
+        "eg": "\ufeb3\ufe77\ufeda\ufe7c",
+        "transliteration": "sakk"
+    },
+    {
+        "en": "lodging",
+        "eg": "\ufee3\ufe77\ufe92\ufef4\ufe96",
+        "transliteration": "mabeet"
+    },
+    {
+        "en": "logical",
+        "eg": "\ufee3\ufe77\ufee8\ufec4\ufe7b\ufed8\ufef2",
+        "transliteration": "manTiQi"
+    },
+    {
+        "en": "loofah",
+        "eg": "\ufedf\ufeee\ufed3\ufe77\ufe94",
+        "transliteration": "loofa"
+    },
+    {
+        "en": "loose",
+        "eg": "\ufee3\ufe77\ufeae\ufea7\ufef2",
+        "transliteration": "marKi"
+    },
+    {
+        "en": "lorry",
+        "eg": "\ufedf\ufeee\ufead\ufef1",
+        "transliteration": "loori"
+    },
+    {
+        "en": "loud",
+        "eg": "\ufecb\ufe8e\ufe76\ufedf\ufef2",
+        "transliteration": "Aaeli"
+    },
+    {
+        "en": "lounge",
+        "eg": "guloos",
+        "transliteration": "'uooDit"
+    },
+    {
+        "en": "louse",
+        "eg": "\ufed7\ufe77\ufee4\ufede",
+        "transliteration": "'aml"
+    },
+    {
+        "en": "lowest",
+        "eg": "\ufe83\ufea9\ufee7\ufef0",
+        "transliteration": "'adna"
+    },
+    {
+        "en": "loyal",
+        "eg": "\ufee3\ufe79\ufea8\ufee0\ufe7b\ufeba",
+        "transliteration": "muKliS"
+    },
+    {
+        "en": "loyalty",
+        "eg": "\ufe83\ufee3\ufe8e\ufe76\ufee7\ufe77\ufe94",
+        "transliteration": "'amaena"
+    },
+    {
+        "en": "luck",
+        "eg": "\ufe91\ufe77\ufea8\ufe96",
+        "transliteration": "baKt"
+    },
+    {
+        "en": "lucky",
+        "eg": "\ufe91\ufe77\ufea8\ufef4\ufe96",
+        "transliteration": "baKeet"
+    },
+    {
+        "en": "lust",
+        "eg": "\ufe91\ufe77\ufed0\ufe7b\ufef4\ufe7d\ufe77\ufe94",
+        "transliteration": "baGiyya"
+    },
+    {
+        "en": "machine",
+        "eg": "\ufee3\ufe77\ufedc\ufe77\ufee8\ufe77\ufe94",
+        "transliteration": "makana"
+    },
+    {
+        "en": "madam",
+        "eg": "\ufeb3\ufe7b\ufe96\ufe7c",
+        "transliteration": "sitt"
+    },
+    {
+        "en": "mainly",
+        "eg": "ilAumoom",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "maker",
+        "eg": "\ufebb\ufe8e\ufe76\ufee7\ufe7b\ufeca",
+        "transliteration": "SaaniA"
+    },
+    {
+        "en": "mall",
+        "eg": "\ufee3\ufeee\ufedd\ufe7c",
+        "transliteration": "mooll"
+    },
+    {
+        "en": "mange",
+        "eg": "\ufe9f\ufe77\ufeae\ufe76\ufe8f",
+        "transliteration": "garab"
+    },
+    {
+        "en": "mankind",
+        "eg": "\ufe87\ufee7\ufeb2",
+        "transliteration": "'ins"
+    },
+    {
+        "en": "manner",
+        "eg": "\ufee3\ufe84\ufea7\ufe77\ufeac",
+        "transliteration": "m'aKaz"
+    },
+    {
+        "en": "manners",
+        "eg": "\ufe83\ufea9\ufe76\ufe8f",
+        "transliteration": "'adab"
+    },
+    {
+        "en": "many",
+        "eg": "\ufedb\ufe7b\ufe98\ufef4\ufeae",
+        "transliteration": "kiteer"
+    },
+    {
+        "en": "marbles",
+        "eg": "\ufe91\ufe7b\ufee0\ufef2",
+        "transliteration": "bili"
+    },
+    {
+        "en": "March",
+        "eg": "\ufee3\ufe8e\ufe76\ufead\ufe7a\ufeb1",
+        "transliteration": "maeris"
+    },
+    {
+        "en": "mare",
+        "eg": "\ufed3\ufe77\ufeae\ufe76\ufeb3\ufe77\ufe94",
+        "transliteration": "farasa"
+    },
+    {
+        "en": "mash",
+        "eg": "\ufeeb\ufe77\ufeae\ufe76\ufeb1",
+        "transliteration": "haras"
+    },
+    {
+        "en": "mason",
+        "eg": "\ufe91\ufe77\ufee8\ufe7d\ufe8e\ufe76",
+        "transliteration": "banna"
+    },
+    {
+        "en": "massive",
+        "eg": "\ufeeb\ufe8e\ufe76\ufef3\ufe7b\ufede",
+        "transliteration": "haeyil"
+    },
+    {
+        "en": "mate",
+        "eg": "\ufef3\ufe7b\ufe8e\ufe76\ufebd",
+        "transliteration": "yiaaD"
+    },
+    {
+        "en": "matte",
+        "eg": "\ufee3\ufe77\ufec4\ufed4\ufef2",
+        "transliteration": "maTfi"
+    },
+    {
+        "en": "mattock",
+        "eg": "\ufee3\ufe77\ufee8\ufed8\ufe77\ufeae\ufe76\ufe93",
+        "transliteration": "man'ara"
+    },
+    {
+        "en": "May",
+        "eg": "\ufee3\ufe8e\ufe76\ufef3\ufeee",
+        "transliteration": "mayw"
+    },
+    {
+        "en": "maybe",
+        "eg": "\ufef3\ufe7b\ufee4\ufedc\ufe7b\ufee6",
+        "transliteration": "yimkin"
+    },
+    {
+        "en": "mayor",
+        "eg": "\ufecb\ufe79\ufee4\ufeaa\ufe76\ufe93",
+        "transliteration": "Aumda"
+    },
+    {
+        "en": "me",
+        "eg": "\ufef2",
+        "transliteration": "i"
+    },
+    {
+        "en": "meat",
+        "eg": "\ufedf\ufe77\ufea4\ufee4\ufe77\ufe94",
+        "transliteration": "lahma"
+    },
+    {
+        "en": "medal",
+        "eg": "\ufee3\ufe77\ufeaa\ufe7a\ufedf\ufef4\ufe77\ufe94",
+        "transliteration": "madilya"
+    },
+    {
+        "en": "melody",
+        "eg": "\ufee7\ufe77\ufed0\ufe77\ufee4\ufe77\ufe94",
+        "transliteration": "naGama"
+    },
+    {
+        "en": "melt",
+        "eg": "\ufe83\ufeaf\ufe8d\ufe76\ufe8f",
+        "transliteration": "'azaeb"
+    },
+    {
+        "en": "memory",
+        "eg": "\ufe91\ufe8e\ufe76\ufedd",
+        "transliteration": "bael"
+    },
+    {
+        "en": "mend",
+        "eg": "\ufebb\ufe77\ufee0\ufe7d\ufe77\ufea2",
+        "transliteration": "Sallah"
+    },
+    {
+        "en": "mental",
+        "eg": "\ufed3\ufe7b\ufedc\ufeae\ufef1",
+        "transliteration": "fikri"
+    },
+    {
+        "en": "menu",
+        "eg": "\ufee3\ufe7b\ufee8\ufef4\ufeee",
+        "transliteration": "mineew"
+    },
+    {
+        "en": "mess",
+        "eg": "\ufe91\ufe77\ufeec\ufeaa\ufe76\ufedf\ufe77\ufe94",
+        "transliteration": "bahdala"
+    },
+    {
+        "en": "metal",
+        "eg": "\ufeb3\ufe77\ufee4\ufedc\ufe77\ufeae\ufe76\ufe93",
+        "transliteration": "samkara"
+    },
+    {
+        "en": "meter",
+        "eg": "\ufee3\ufe7b\ufe98\ufeae",
+        "transliteration": "mitr"
+    },
+    {
+        "en": "metro",
+        "eg": "\ufee3\ufe7b\ufe98\ufeae\ufeed",
+        "transliteration": "mitrw"
+    },
+    {
+        "en": "midday",
+        "eg": "\ufebf\ufe79\ufeec\ufeae",
+        "transliteration": "Duhr"
+    },
+    {
+        "en": "midget",
+        "eg": "\ufee3\ufe77\ufeb4\ufea8\ufeee\ufec1",
+        "transliteration": "masKooT"
+    },
+    {
+        "en": "milkman",
+        "eg": "\ufedf\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufee5",
+        "transliteration": "labbaen"
+    },
+    {
+        "en": "miller",
+        "eg": "\ufec3\ufe77\ufea4\ufe7d\ufe8e\ufe76\ufee5",
+        "transliteration": "Tahhaan"
+    },
+    {
+        "en": "miner",
+        "eg": "mangam",
+        "transliteration": "Aaemal"
+    },
+    {
+        "en": "mineral",
+        "eg": "maAdaniyya",
+        "transliteration": "mayyah"
+    },
+    {
+        "en": "mirage",
+        "eg": "ilshaTTaan",
+        "transliteration": "bahr"
+    },
+    {
+        "en": "mirror",
+        "eg": "\ufee3\ufe7b\ufeae\ufe8d\ufe76\ufef3\ufe8e\ufe76",
+        "transliteration": "miraeya"
+    },
+    {
+        "en": "confuse",
+        "eg": "\ufe91\ufe77\ufeae\ufe9f\ufe7b\ufede",
+        "transliteration": "bargil"
+    },
+    {
+        "en": "mixture",
+        "eg": "\ufea7\ufe77\ufee0\ufec4\ufe77\ufe94",
+        "transliteration": "KalTa"
+    },
+    {
+        "en": "moan",
+        "eg": "\ufeb7\ufe77\ufedc\ufef0",
+        "transliteration": "shaka"
+    },
+    {
+        "en": "mockery",
+        "eg": "\ufe97\ufe77\ufeae\ufef3\ufe77\ufed6\ufe76",
+        "transliteration": "tarya'a"
+    },
+    {
+        "en": "modesty",
+        "eg": "\ufea3\ufe77\ufef4\ufe8e\ufe76\ufe80",
+        "transliteration": "haya'"
+    },
+    {
+        "en": "mole",
+        "eg": "\ufea3\ufe77\ufeb4\ufe77\ufee8\ufe77\ufe94",
+        "transliteration": "hasana"
+    },
+    {
+        "en": "money",
+        "eg": "\ufed3\ufe7b\ufee0\ufeee\ufeb1",
+        "transliteration": "filoos"
+    },
+    {
+        "en": "monster",
+        "eg": "\ufeed\ufe76\ufea3\ufeb6",
+        "transliteration": "wahsh"
+    },
+    {
+        "en": "mood",
+        "eg": "\ufee3\ufe8e\ufe76\ufedd",
+        "transliteration": "mael"
+    },
+    {
+        "en": "mosque",
+        "eg": "\ufe9f\ufe8e\ufe76\ufee3\ufe7b\ufeca",
+        "transliteration": "gaemiA"
+    },
+    {
+        "en": "mould",
+        "eg": "\ufed7\ufe8e\ufe76\ufedf\ufe7b\ufe90",
+        "transliteration": "'aalib"
+    },
+    {
+        "en": "mourner",
+        "eg": "\ufe91\ufe8e\ufe76\ufedb\ufef2",
+        "transliteration": "baeki"
+    },
+    {
+        "en": "mouse",
+        "eg": "\ufed3\ufe8e\ufe76\ufead",
+        "transliteration": "faar"
+    },
+    {
+        "en": "mouth",
+        "eg": "\ufe91\ufe79\ufed6\ufe7c",
+        "transliteration": "bu''"
+    },
+    {
+        "en": "move!",
+        "eg": "\ufeb7\ufef2",
+        "transliteration": "shi"
+    },
+    {
+        "en": "mow",
+        "eg": "\ufe9f\ufe77\ufeb0\ufe7c",
+        "transliteration": "gazz"
+    },
+    {
+        "en": "Mrs",
+        "eg": "\ufee3\ufe77\ufeaa\ufe8d\ufe76\ufee1",
+        "transliteration": "madaem"
+    },
+    {
+        "en": "mum",
+        "eg": "\ufee3\ufe8e\ufe76\ufee3\ufe77\ufe94",
+        "transliteration": "maama"
+    },
+    {
+        "en": "mumps",
+        "eg": "illukeem",
+        "transliteration": "'abw"
+    },
+    {
+        "en": "mundane",
+        "eg": "\ufead\ufeed\ufe97\ufef4\ufee6",
+        "transliteration": "rooteen"
+    },
+    {
+        "en": "murmur",
+        "eg": "ham",
+        "transliteration": "ham"
+    },
+    {
+        "en": "mush",
+        "eg": "\ufeed\ufe7a\ufeb5\ufe7c",
+        "transliteration": "wishsh"
+    },
+    {
+        "en": "mushy",
+        "eg": "\ufee3\ufe7b\ufe98\ufed4\ufe77\ufecc\ufeba",
+        "transliteration": "mitfaAS"
+    },
+    {
+        "en": "musket",
+        "eg": "\ufe91\ufe8e\ufe76\ufead\ufeed\ufea9\ufe76\ufe93",
+        "transliteration": "barooda"
+    },
+    {
+        "en": "must",
+        "eg": "\ufe87\ufebf\ufec4\ufe77\ufeae",
+        "transliteration": "'iDTar"
+    },
+    {
+        "en": "mustard",
+        "eg": "maAffina",
+        "transliteration": "rihtuh"
+    },
+    {
+        "en": "mutter",
+        "eg": "ham",
+        "transliteration": "ham"
+    },
+    {
+        "en": "muzzle",
+        "eg": "\ufe91\ufeee\ufeaf",
+        "transliteration": "booz"
+    },
+    {
+        "en": "mine",
+        "eg": "\ufea3\ufe77\ufe92\ufef4\ufe92\ufef2",
+        "transliteration": "habeebi"
+    },
+    {
+        "en": "N",
+        "eg": "\ufeaf\ufe76\ufee5\ufe7c",
+        "transliteration": "zann"
+    },
+    {
+        "en": "naive",
+        "eg": "niyaetuh",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "napkin",
+        "eg": "sufra",
+        "transliteration": "fooTit"
+    },
+    {
+        "en": "nappy",
+        "eg": "\ufedb\ufe77\ufed4\ufeee\ufedf\ufe77\ufe94",
+        "transliteration": "kafoola"
+    },
+    {
+        "en": "native",
+        "eg": "\ufe91\ufe77\ufee0\ufe77\ufeaa\ufef1",
+        "transliteration": "baladi"
+    },
+    {
+        "en": "navvy",
+        "eg": "\ufe97\ufeee\ufead\ufe76\ufe91\ufef2",
+        "transliteration": "toorabi"
+    },
+    {
+        "en": "neigh",
+        "eg": "\ufee7\ufe77\ufeec\ufee8\ufe77\ufeea",
+        "transliteration": "nahnah"
+    },
+    {
+        "en": "nicer",
+        "eg": "\ufe83\ufea3\ufee0\ufef0",
+        "transliteration": "'ahla"
+    },
+    {
+        "en": "Nile",
+        "eg": "\ufe91\ufe77\ufeae\ufea9\ufef1",
+        "transliteration": "bardi"
+    },
+    {
+        "en": "nipple",
+        "eg": "\ufea3\ufe77\ufee0\ufe77\ufee4\ufe77\ufe94",
+        "transliteration": "halama"
+    },
+    {
+        "en": "no",
+        "eg": "mahaela",
+        "transliteration": "la"
+    },
+    {
+        "en": "no...",
+        "eg": "\ufee3\ufe77\ufed4\ufef4\ufeb6",
+        "transliteration": "mafeesh"
+    },
+    {
+        "en": "noble",
+        "eg": "\ufe83\ufebb\ufef4\ufede",
+        "transliteration": "'aSeel"
+    },
+    {
+        "en": "noon",
+        "eg": "\ufebf\ufe79\ufeec\ufeae",
+        "transliteration": "Duhr"
+    },
+    {
+        "en": "nosey",
+        "eg": "\ufea3\ufe7b\ufeb8\ufe77\ufeae\ufef1",
+        "transliteration": "hishari"
+    },
+    {
+        "en": "notable",
+        "eg": "\ufe91\ufe8e\ufe76\ufead\ufe7a\ufeaf",
+        "transliteration": "baeriz"
+    },
+    {
+        "en": "nothing",
+        "eg": "haega",
+        "transliteration": "wala"
+    },
+    {
+        "en": "notify",
+        "eg": "\ufe91\ufe77\ufee0\ufe7d\ufe77\ufece",
+        "transliteration": "ballaG"
+    },
+    {
+        "en": "now",
+        "eg": "Tool",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "nowhere",
+        "eg": "hitta",
+        "transliteration": "wala"
+    },
+    {
+        "en": "nubian",
+        "eg": "\ufee7\ufeee\ufe91\ufef2",
+        "transliteration": "noobi"
+    },
+    {
+        "en": "nude",
+        "eg": "\ufecb\ufe7b\ufeae\ufef3\ufe8e\ufe76\ufee5",
+        "transliteration": "Airyaen"
+    },
+    {
+        "en": "nullity",
+        "eg": "\ufe91\ufe79\ufec4\ufefc\ufee5",
+        "transliteration": "buTlaan"
+    },
+    {
+        "en": "oar",
+        "eg": "\ufee3\ufe7b\ufea0\ufeaa\ufe8d\ufe76\ufed1",
+        "transliteration": "migdaef"
+    },
+    {
+        "en": "obese",
+        "eg": "\ufe97\ufe7b\ufea8\ufef4\ufee6",
+        "transliteration": "tiKeen"
+    },
+    {
+        "en": "obscene",
+        "eg": "\ufe87\ufe91\ufe8e\ufe76\ufea3\ufef2",
+        "transliteration": "'ibaehi"
+    },
+    {
+        "en": "obtain",
+        "eg": "\ufe9f\ufe8e\ufe76\ufe8f",
+        "transliteration": "gaeb"
+    },
+    {
+        "en": "odour",
+        "eg": "\ufead\ufef3\ufea4\ufe77\ufe94",
+        "transliteration": "reeha"
+    },
+    {
+        "en": "offence",
+        "eg": "\ufe9f\ufe77\ufeae\ufef3\ufee4\ufe77\ufe94",
+        "transliteration": "gareema"
+    },
+    {
+        "en": "officer",
+        "eg": "\ufec7\ufe8e\ufe76\ufe91\ufe7b\ufec2",
+        "transliteration": "ZaabiT"
+    },
+    {
+        "en": "often",
+        "eg": "kiteera",
+        "transliteration": "marraat"
+    },
+    {
+        "en": "okay",
+        "eg": "ilhamd",
+        "transliteration": "tamaem,"
+    },
+    {
+        "en": "on",
+        "eg": "\ufeed\ufe8d\ufe76\ufedf\ufe7b\ufeca",
+        "transliteration": "waeliA"
+    },
+    {
+        "en": "ongoing",
+        "eg": "\ufe9f\ufe8e\ufe76\ufead\ufef1",
+        "transliteration": "gaeri"
+    },
+    {
+        "en": "only",
+        "eg": "\ufe91\ufe77\ufeb2\ufe7c",
+        "transliteration": "bass"
+    },
+    {
+        "en": "oops!",
+        "eg": "\ufe83\ufea5",
+        "transliteration": "'aK"
+    },
+    {
+        "en": "opinion",
+        "eg": "naZar",
+        "transliteration": "wughit"
+    },
+    {
+        "en": "opium",
+        "eg": "\ufe91\ufe77\ufeae\ufeb5",
+        "transliteration": "barsh"
+    },
+    {
+        "en": "or",
+        "eg": "la'",
+        "transliteration": "walla"
+    },
+    {
+        "en": "oral",
+        "eg": "\ufeb7\ufe77\ufed4\ufe77\ufeee\ufef1",
+        "transliteration": "shafawi"
+    },
+    {
+        "en": "organic",
+        "eg": "\ufecb\ufe77\ufec0\ufeee\ufef1",
+        "transliteration": "AaDwi"
+    },
+    {
+        "en": "Orion",
+        "eg": "\ufe9f\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufead",
+        "transliteration": "gabbaar"
+    },
+    {
+        "en": "other",
+        "eg": "\ufe9b\ufe8e\ufe76\ufee7\ufef2",
+        "transliteration": "thaeni"
+    },
+    {
+        "en": "our",
+        "eg": "\ufee8\ufe8e\ufe76",
+        "transliteration": "na"
+    },
+    {
+        "en": "owe",
+        "eg": "\ufea9\ufe8d\ufe76\ufee5",
+        "transliteration": "daen"
+    },
+    {
+        "en": "owing",
+        "eg": "\ufee3\ufe77\ufeaa\ufef3\ufeee\ufee5",
+        "transliteration": "madyoon"
+    },
+    {
+        "en": "owl",
+        "eg": "\ufe91\ufeee\ufee1",
+        "transliteration": "boom"
+    },
+    {
+        "en": "owned",
+        "eg": "\ufee3\ufe7b\ufee0\ufeda",
+        "transliteration": "milk"
+    },
+    {
+        "en": "owner",
+        "eg": "\ufe83\ufe78\ufeed\ufee7\ufeae",
+        "transliteration": "'uoonr"
+    },
+    {
+        "en": "oyster",
+        "eg": "\ufee3\ufe77\ufea4\ufe8e\ufe76\ufead",
+        "transliteration": "mahaar"
+    },
+    {
+        "en": "page",
+        "eg": "\ufeb3\ufe77\ufec4\ufea2",
+        "transliteration": "saTh"
+    },
+    {
+        "en": "pain",
+        "eg": "\ufecf\ufe7b\ufee0\ufe7b\ufeb2",
+        "transliteration": "Gilis"
+    },
+    {
+        "en": "painful",
+        "eg": "\ufee3\ufe86\ufedf\ufe7b\ufee2",
+        "transliteration": "mw'lim"
+    },
+    {
+        "en": "pair",
+        "eg": "\ufe9f\ufeee\ufeaf",
+        "transliteration": "gooz"
+    },
+    {
+        "en": "palace",
+        "eg": "\ufeb3\ufe77\ufeae\ufe8d\ufe76\ufef3\ufe77\ufe94",
+        "transliteration": "saraaya"
+    },
+    {
+        "en": "palate",
+        "eg": "\ufea3\ufe77\ufee0\ufed6",
+        "transliteration": "hal'"
+    },
+    {
+        "en": "pallor",
+        "eg": "\ufe91\ufe77\ufeec\ufe8e\ufe76\ufe97\ufe77\ufe94",
+        "transliteration": "bahaeta"
+    },
+    {
+        "en": "palm",
+        "eg": "\ufedb\ufe77\ufed2\ufe7c",
+        "transliteration": "kaff"
+    },
+    {
+        "en": "pant",
+        "eg": "\ufee7\ufe77\ufeec\ufe77\ufe9e",
+        "transliteration": "nahag"
+    },
+    {
+        "en": "panther",
+        "eg": "'iswid",
+        "transliteration": "nimr"
+    },
+    {
+        "en": "pants",
+        "eg": "\ufedb\ufe79\ufee0\ufeee\ufe95",
+        "transliteration": "kuloot"
+    },
+    {
+        "en": "papers",
+        "eg": "\ufeed\ufe76\ufead\ufe76\ufed7\ufe77\ufe94",
+        "transliteration": "wara'a"
+    },
+    {
+        "en": "parking",
+        "eg": "\ufeb3\ufe8e\ufe76\ufef3\ufe7b\ufeb2",
+        "transliteration": "saeyis"
+    },
+    {
+        "en": "passion",
+        "eg": "\ufecb\ufe8e\ufe76\ufec3\ufe7b\ufed4\ufe77\ufe94",
+        "transliteration": "AaaTifa"
+    },
+    {
+        "en": "paste",
+        "eg": "\ufee3\ufe77\ufecc\ufea0\ufeee\ufee5",
+        "transliteration": "maAgoon"
+    },
+    {
+        "en": "pat",
+        "eg": "\ufec3\ufe77\ufe92\ufec4\ufe77\ufe90",
+        "transliteration": "TabTab"
+    },
+    {
+        "en": "payable",
+        "eg": "ildafA",
+        "transliteration": "maTloob"
+    },
+    {
+        "en": "pea",
+        "eg": "\ufe91\ufe7b\ufeb4\ufe7b\ufee0\ufe7d\ufe77\ufe94",
+        "transliteration": "bisilla"
+    },
+    {
+        "en": "peak",
+        "eg": "\ufe83\ufe78\ufeed\ufe9d",
+        "transliteration": "'uoog"
+    },
+    {
+        "en": "pearl",
+        "eg": "\ufedf\ufeee\ufedf\ufef2",
+        "transliteration": "looli"
+    },
+    {
+        "en": "peat",
+        "eg": "SinaeAi",
+        "transliteration": "Teen"
+    },
+    {
+        "en": "pedal",
+        "eg": "\ufe91\ufe77\ufeaa\ufe7c\ufe8d\ufe76\ufedd",
+        "transliteration": "baddael"
+    },
+    {
+        "en": "penis",
+        "eg": "\ufeaf\ufe7a\ufe8f",
+        "transliteration": "zib"
+    },
+    {
+        "en": "percent",
+        "eg": "ilmiyya",
+        "transliteration": "fi"
+    },
+    {
+        "en": "perfume",
+        "eg": "\ufe91\ufe77\ufeae\ufed3\ufe8e\ufe76\ufee5",
+        "transliteration": "barfaen"
+    },
+    {
+        "en": "perhaps",
+        "eg": "\ufef3\ufe7b\ufee4\ufedc\ufe7b\ufee6",
+        "transliteration": "yimkin"
+    },
+    {
+        "en": "person",
+        "eg": "\ufeed\ufe8d\ufe76\ufea3\ufe7b\ufeaa",
+        "transliteration": "waehid"
+    },
+    {
+        "en": "pester",
+        "eg": "\ufeaf\ufe76\ufee5\ufe7c",
+        "transliteration": "zann"
+    },
+    {
+        "en": "phone",
+        "eg": "\ufedb\ufe77\ufe92\ufef4\ufee8\ufe77\ufe94",
+        "transliteration": "kabeena"
+    },
+    {
+        "en": "pickles",
+        "eg": "\ufec3\ufe79\ufeae\ufeb7\ufef2",
+        "transliteration": "Turshi"
+    },
+    {
+        "en": "picnic",
+        "eg": "\ufee7\ufe79\ufeb0\ufeeb\ufe77\ufe94",
+        "transliteration": "nuzha"
+    },
+    {
+        "en": "pie",
+        "eg": "\ufed3\ufe7b\ufec4\ufef4\ufeae\ufe76\ufe93",
+        "transliteration": "fiTeera"
+    },
+    {
+        "en": "pierce",
+        "eg": "\ufea7\ufe77\ufeae\ufe76\ufee1",
+        "transliteration": "Karam"
+    },
+    {
+        "en": "pig",
+        "eg": "\ufea3\ufe77\ufee0\ufeee\ufed1",
+        "transliteration": "haloof"
+    },
+    {
+        "en": "pigeon",
+        "eg": "hamaem",
+        "transliteration": "burg"
+    },
+    {
+        "en": "pimp",
+        "eg": "\ufee3\ufe79\ufecc\ufe77\ufeae\ufe76\ufeb9",
+        "transliteration": "muAaraS"
+    },
+    {
+        "en": "pimple",
+        "eg": "\ufea9\ufe7a\ufee3\ufe7d\ufe7b\ufede",
+        "transliteration": "dimmil"
+    },
+    {
+        "en": "pink",
+        "eg": "\ufe91\ufe77\ufee4\ufe92\ufef2",
+        "transliteration": "bambi"
+    },
+    {
+        "en": "pious",
+        "eg": "\ufe91\ufe77\ufeae\ufe7c",
+        "transliteration": "barr"
+    },
+    {
+        "en": "pip",
+        "eg": "\ufee7\ufe77\ufeee\ufeef",
+        "transliteration": "nawa"
+    },
+    {
+        "en": "piss",
+        "eg": "\ufe97\ufe77\ufeae\ufe97\ufe77\ufeae",
+        "transliteration": "tartar"
+    },
+    {
+        "en": "piston",
+        "eg": "ilbistoon",
+        "transliteration": "binz"
+    },
+    {
+        "en": "pit",
+        "eg": "\ufe9f\ufeee\ufead\ufe76\ufe93",
+        "transliteration": "goora"
+    },
+    {
+        "en": "placed",
+        "eg": "\ufee3\ufe77\ufea4\ufec4\ufeee\ufec1",
+        "transliteration": "mahTooT"
+    },
+    {
+        "en": "placing",
+        "eg": "\ufea3\ufe77\ufec2\ufe7c",
+        "transliteration": "haTT"
+    },
+    {
+        "en": "plank",
+        "eg": "\ufedf\ufeee\ufea1",
+        "transliteration": "looh"
+    },
+    {
+        "en": "playful",
+        "eg": "\ufeb7\ufe77\ufed8\ufef2",
+        "transliteration": "sha'i"
+    },
+    {
+        "en": "pleased",
+        "eg": "\ufee3\ufe77\ufe92\ufeb4\ufeee\ufec1",
+        "transliteration": "mabsooT"
+    },
+    {
+        "en": "plenty",
+        "eg": "\ufedb\ufe7b\ufe98\ufef4\ufeae",
+        "transliteration": "kiteer"
+    },
+    {
+        "en": "pliers",
+        "eg": "\ufe91\ufe7b\ufee8\ufeb4\ufe77\ufe94",
+        "transliteration": "binsa"
+    },
+    {
+        "en": "pluck",
+        "eg": "\ufee7\ufe77\ufe98\ufe77\ufed2",
+        "transliteration": "nataf"
+    },
+    {
+        "en": "plumber",
+        "eg": "\ufeb3\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufed9",
+        "transliteration": "sabbaek"
+    },
+    {
+        "en": "poke",
+        "eg": "\ufeaf\ufe76\ufecf\ufe77\ufeaa",
+        "transliteration": "zaGad"
+    },
+    {
+        "en": "pomp",
+        "eg": "\ufe83\ufe78\ufe91\ufe7d\ufe77\ufeec\ufe77\ufe94",
+        "transliteration": "'ubbaha"
+    },
+    {
+        "en": "pony",
+        "eg": "\ufeb3\ufef4\ufeb4\ufef2",
+        "transliteration": "seesi"
+    },
+    {
+        "en": "poo",
+        "eg": "\ufedb\ufe8e\ufe76\ufedb\ufe8e\ufe76",
+        "transliteration": "kaaka"
+    },
+    {
+        "en": "pope",
+        "eg": "\ufe8d\ufe7a\ufedf\ufe92\ufe8e\ufe76\ufe91\ufe8e\ufe76",
+        "transliteration": "ilbaaba"
+    },
+    {
+        "en": "poppy",
+        "eg": "ilnoom",
+        "transliteration": "'abw"
+    },
+    {
+        "en": "porch",
+        "eg": "\ufe97\ufe7b\ufeae\ufe8d\ufe76\ufeb1\ufe7c",
+        "transliteration": "tirass"
+    },
+    {
+        "en": "pork",
+        "eg": "Kanzeer",
+        "transliteration": "lahma"
+    },
+    {
+        "en": "postage",
+        "eg": "busTa",
+        "transliteration": "TaabiA"
+    },
+    {
+        "en": "postman",
+        "eg": "\ufe91\ufe79\ufeb4\ufec4\ufe77\ufea0\ufef2",
+        "transliteration": "busTagi"
+    },
+    {
+        "en": "pour",
+        "eg": "\ufedb\ufe77\ufe90\ufe7c",
+        "transliteration": "kabb"
+    },
+    {
+        "en": "pout",
+        "eg": "\ufe91\ufeee\ufeaf",
+        "transliteration": "booz"
+    },
+    {
+        "en": "poverty",
+        "eg": "\ufed3\ufe77\ufed8\ufeae",
+        "transliteration": "fa'r"
+    },
+    {
+        "en": "pray",
+        "eg": "\ufea9\ufe76\ufecb\ufef0",
+        "transliteration": "daAa"
+    },
+    {
+        "en": "dawn",
+        "eg": "ilfagr",
+        "transliteration": "Salaait"
+    },
+    {
+        "en": "noon",
+        "eg": "ilZuhr",
+        "transliteration": "Salaait"
+    },
+    {
+        "en": "sunset",
+        "eg": "ilmaGrib",
+        "transliteration": "Salaait"
+    },
+    {
+        "en": "evening",
+        "eg": "ilAish'a",
+        "transliteration": "Salaait"
+    },
+    {
+        "en": "presser",
+        "eg": "\ufee3\ufe77\ufedc\ufeee\ufe76\ufe9f\ufef2",
+        "transliteration": "makwagi"
+    },
+    {
+        "en": "pretend",
+        "eg": "nafsuh",
+        "transliteration": "Aamal"
+    },
+    {
+        "en": "pride",
+        "eg": "\ufedb\ufe77\ufeae\ufe8d\ufe76\ufee3\ufe77\ufe94",
+        "transliteration": "karaama"
+    },
+    {
+        "en": "process",
+        "eg": "\ufecb\ufe8e\ufe76\ufedf\ufe7b\ufe9e",
+        "transliteration": "Aaelig"
+    },
+    {
+        "en": "product",
+        "eg": "\ufee3\ufe79\ufee8\ufe98\ufe77\ufe9e",
+        "transliteration": "muntag"
+    },
+    {
+        "en": "prove",
+        "eg": "\ufe91\ufe77\ufef4\ufe7d\ufe7b\ufee6",
+        "transliteration": "bayyin"
+    },
+    {
+        "en": "prune",
+        "eg": "\ufed7\ufe77\ufeae\ufe8d\ufe76\ufebb\ufef4\ufe8e\ufe76",
+        "transliteration": "'araSya"
+    },
+    {
+        "en": "puberty",
+        "eg": "\ufe91\ufe79\ufee0\ufeee\ufecd",
+        "transliteration": "bulooG"
+    },
+    {
+        "en": "publish",
+        "eg": "\ufeab\ufe8d\ufe76\ufec9",
+        "transliteration": "zaeA"
+    },
+    {
+        "en": "pumpkin",
+        "eg": "Aasali",
+        "transliteration": "'araA"
+    },
+    {
+        "en": "punish",
+        "eg": "\ufe9f\ufe8e\ufe76\ufeaf\ufef1",
+        "transliteration": "gaezi"
+    },
+    {
+        "en": "puppy",
+        "eg": "SuGayar",
+        "transliteration": "kalb"
+    },
+    {
+        "en": "pure",
+        "eg": "\ufee7\ufe77\ufed8\ufef2",
+        "transliteration": "naQi"
+    },
+    {
+        "en": "purity",
+        "eg": "\ufe83\ufebb\ufe8e\ufe76\ufedf\ufe77\ufe94",
+        "transliteration": "'aSaala"
+    },
+    {
+        "en": "pushing",
+        "eg": "\ufeaf\ufe76\ufed5\ufe7c",
+        "transliteration": "za''"
+    },
+    {
+        "en": "pustule",
+        "eg": "\ufe9f\ufe77\ufeaa\ufe76\ufead",
+        "transliteration": "gadar"
+    },
+    {
+        "en": "putting",
+        "eg": "\ufea3\ufe77\ufec2\ufe7c",
+        "transliteration": "haTT"
+    },
+    {
+        "en": "putup",
+        "eg": "\ufe81\ufeed\ufeef",
+        "transliteration": "'ewa"
+    },
+    {
+        "en": "qualify",
+        "eg": "\ufe97\ufe84\ufe76\ufeeb\ufe77\ufede",
+        "transliteration": "t'aahal"
+    },
+    {
+        "en": "quickly",
+        "eg": "\ufe83\ufeed\ufe8d\ufe76\ufee1",
+        "transliteration": "'awaem"
+    },
+    {
+        "en": "quit",
+        "eg": "\ufe91\ufe77\ufec4\ufe7d\ufe77\ufede",
+        "transliteration": "baTTal"
+    },
+    {
+        "en": "rabid",
+        "eg": "\ufeb3\ufe77\ufecc\ufeae\ufe8d\ufe76\ufee5",
+        "transliteration": "saAraan"
+    },
+    {
+        "en": "rabies",
+        "eg": "ilkalb",
+        "transliteration": "maraD"
+    },
+    {
+        "en": "racist",
+        "eg": "\ufecb\ufe79\ufee8\ufebc\ufe79\ufeae\ufef1",
+        "transliteration": "AunSuri"
+    },
+    {
+        "en": "rack",
+        "eg": "\ufee3\ufe77\ufee8\ufeb8\ufe77\ufeae",
+        "transliteration": "manshar"
+    },
+    {
+        "en": "raffle",
+        "eg": "\ufeb3\ufe77\ufea4\ufe90",
+        "transliteration": "sahb"
+    },
+    {
+        "en": "raid",
+        "eg": "\ufecf\ufe8e\ufe76\ufead\ufe76\ufe93",
+        "transliteration": "Gaara"
+    },
+    {
+        "en": "rainy",
+        "eg": "\ufee3\ufe79\ufee4\ufec4\ufe77\ufeae",
+        "transliteration": "mumTar"
+    },
+    {
+        "en": "rampart",
+        "eg": "\ufee3\ufe7b\ufe98\ufeae\ufe7a\ufeb1",
+        "transliteration": "mitris"
+    },
+    {
+        "en": "rarely",
+        "eg": "\ufee7\ufe8e\ufe76\ufea9\ufe7a\ufead",
+        "transliteration": "naedir"
+    },
+    {
+        "en": "rarity",
+        "eg": "\ufe97\ufe79\ufea4\ufed4\ufe77\ufe94",
+        "transliteration": "tuhfa"
+    },
+    {
+        "en": "ration",
+        "eg": "\ufe97\ufe77\ufee4\ufeee\ufef3\ufee6",
+        "transliteration": "tamween"
+    },
+    {
+        "en": "raw",
+        "eg": "\ufee7\ufe77\ufef2\ufe7c",
+        "transliteration": "nayi"
+    },
+    {
+        "en": "read",
+        "eg": "\ufe97\ufe77\ufefc",
+        "transliteration": "tala"
+    },
+    {
+        "en": "reading",
+        "eg": "\ufed7\ufe7b\ufeae\ufe8d\ufe76\ufef3\ufe77\ufe94",
+        "transliteration": "'iraeya"
+    },
+    {
+        "en": "really?",
+        "eg": "salaem",
+        "transliteration": "ya"
+    },
+    {
+        "en": "receipt",
+        "eg": "\ufeed\ufe76\ufebb\ufede",
+        "transliteration": "waSl"
+    },
+    {
+        "en": "reclaim",
+        "eg": "ilshunaT",
+        "transliteration": "tasleem"
+    },
+    {
+        "en": "reed",
+        "eg": "\ufe91\ufeee\ufeb9",
+        "transliteration": "booS"
+    },
+    {
+        "en": "reef",
+        "eg": "murganya",
+        "transliteration": "shuAb"
+    },
+    {
+        "en": "refer",
+        "eg": "maAa",
+        "transliteration": "raegiA"
+    },
+    {
+        "en": "refuge",
+        "eg": "\ufee3\ufe77\ufee0\ufea0\ufe77\ufe8a",
+        "transliteration": "malga'"
+    },
+    {
+        "en": "rejoice",
+        "eg": "\ufeeb\ufe77\ufef4\ufe7d\ufe77\ufeba",
+        "transliteration": "hayyaS"
+    },
+    {
+        "en": "relieve",
+        "eg": "\ufead\ufe76\ufef3\ufe7d\ufe77\ufea2",
+        "transliteration": "rayyah"
+    },
+    {
+        "en": "remedy",
+        "eg": "\ufe83\ufeb3\ufe8e\ufe76\ufe80",
+        "transliteration": "'asa'"
+    },
+    {
+        "en": "removal",
+        "eg": "\ufeb7\ufef4\ufede",
+        "transliteration": "sheel"
+    },
+    {
+        "en": "remove",
+        "eg": "\ufee3\ufe77\ufeb4\ufe77\ufea2",
+        "transliteration": "masah"
+    },
+    {
+        "en": "repent",
+        "eg": "\ufe97\ufe8e\ufe76\ufe8f",
+        "transliteration": "taeb"
+    },
+    {
+        "en": "replace",
+        "eg": "\ufe91\ufe77\ufeaa\ufe7c\ufe7a\ufedd",
+        "transliteration": "baddil"
+    },
+    {
+        "en": "rescue",
+        "eg": "\ufedf\ufe7b\ufea4\ufe7b\ufed6",
+        "transliteration": "lihi'"
+    },
+    {
+        "en": "resin",
+        "eg": "\ufebb\ufe77\ufee4\ufece",
+        "transliteration": "SamG"
+    },
+    {
+        "en": "resort",
+        "eg": "\ufee3\ufe77\ufebc\ufef4\ufe77\ufed2",
+        "transliteration": "maSyaf"
+    },
+    {
+        "en": "respond",
+        "eg": "\ufead\ufe76\ufea9\ufe7c",
+        "transliteration": "radd"
+    },
+    {
+        "en": "resume",
+        "eg": "\ufedb\ufe77\ufee4\ufe7d\ufe7b\ufede",
+        "transliteration": "kammil"
+    },
+    {
+        "en": "retail",
+        "eg": "\ufe91\ufef4\ufe77\ufeca",
+        "transliteration": "byaA"
+    },
+    {
+        "en": "retire",
+        "eg": "Aala",
+        "transliteration": "'ithael"
+    },
+    {
+        "en": "retired",
+        "eg": "ilmaAaesh",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "revenue",
+        "eg": "\ufea9\ufe76\ufee3\ufed0\ufe77\ufe94",
+        "transliteration": "damGa"
+    },
+    {
+        "en": "rhythm",
+        "eg": "\ufee7\ufe77\ufed0\ufe77\ufee2",
+        "transliteration": "naGam"
+    },
+    {
+        "en": "rib",
+        "eg": "\ufe9f\ufeae\ufef3\ufeaa",
+        "transliteration": "greed"
+    },
+    {
+        "en": "rice",
+        "eg": "\ufead\ufe78\ufeaf\ufe7c",
+        "transliteration": "ruzz"
+    },
+    {
+        "en": "riddle",
+        "eg": "\ufed3\ufe77\ufeb0\ufeed\ufead\ufe76\ufe93",
+        "transliteration": "fazoora"
+    },
+    {
+        "en": "riding",
+        "eg": "\ufead\ufe78\ufedb\ufeee\ufe8f",
+        "transliteration": "rukoob"
+    },
+    {
+        "en": "right",
+        "eg": "\ufec7\ufe77\ufe92\ufe77\ufec2",
+        "transliteration": "ZabaT"
+    },
+    {
+        "en": "right!",
+        "eg": "\ufebb\ufe77\ufea2\ufe7c",
+        "transliteration": "Sahh"
+    },
+    {
+        "en": "rights",
+        "eg": "\ufea3\ufe79\ufed8\ufeee\ufed5",
+        "transliteration": "hu'oo'"
+    },
+    {
+        "en": "ringing",
+        "eg": "\ufead\ufe76\ufee5\ufe7c",
+        "transliteration": "rann"
+    },
+    {
+        "en": "rip",
+        "eg": "\ufed3\ufe77\ufeb8\ufe77\ufea6",
+        "transliteration": "fashaK"
+    },
+    {
+        "en": "robber",
+        "eg": "\ufea3\ufe77\ufeae\ufe8d\ufe76\ufee3\ufef2",
+        "transliteration": "haraami"
+    },
+    {
+        "en": "rock",
+        "eg": "\ufeaf\ufe76\ufedf\ufe77\ufec2",
+        "transliteration": "zalaT"
+    },
+    {
+        "en": "rod",
+        "eg": "\ufeb3\ufef4\ufea6",
+        "transliteration": "seeK"
+    },
+    {
+        "en": "roof",
+        "eg": "\ufeb3\ufe77\ufec4\ufea2",
+        "transliteration": "saTh"
+    },
+    {
+        "en": "car",
+        "eg": "\ufeb3\ufe79\ufec4\ufeee\ufea1",
+        "transliteration": "suTooh"
+    },
+    {
+        "en": "rotten",
+        "eg": "\ufee7\ufe7b\ufe98\ufe7d\ufe7b\ufee6",
+        "transliteration": "nittin"
+    },
+    {
+        "en": "rouge",
+        "eg": "\ufead\ufeed\ufe9d",
+        "transliteration": "rooj"
+    },
+    {
+        "en": "roughly",
+        "eg": "\ufe91\ufe7b\ufecc\ufe79\ufee8\ufed2",
+        "transliteration": "biAunf"
+    },
+    {
+        "en": "route",
+        "eg": "\ufeb3\ufef4\ufeae",
+        "transliteration": "seer"
+    },
+    {
+        "en": "rude",
+        "eg": "\ufee7\ufe8e\ufe76\ufed7\ufe7b\ufeba",
+        "transliteration": "naa'iS"
+    },
+    {
+        "en": "rural",
+        "eg": "\ufe91\ufe77\ufee0\ufe77\ufeaa\ufef1",
+        "transliteration": "baladi"
+    },
+    {
+        "en": "rusty",
+        "eg": "\ufee3\ufe7b\ufebc\ufe77\ufeaa\ufe7c\ufef1",
+        "transliteration": "miSaddi"
+    },
+    {
+        "en": "sadly",
+        "eg": "\ufe91\ufe7b\ufea4\ufe79\ufeb0\ufee5",
+        "transliteration": "bihuzn"
+    },
+    {
+        "en": "saint",
+        "eg": "\ufed7\ufe7b\ufeb2\ufe7c",
+        "transliteration": "Qiss"
+    },
+    {
+        "en": "salary",
+        "eg": "\ufee3\ufe77\ufeec\ufe7b\ufef4\ufe7d\ufe77\ufe94",
+        "transliteration": "mahiyya"
+    },
+    {
+        "en": "sales",
+        "eg": "\ufe91\ufef4\ufeca",
+        "transliteration": "beeA"
+    },
+    {
+        "en": "salty",
+        "eg": "\ufea3\ufe8e\ufe76\ufea9\ufe7a\ufed5",
+        "transliteration": "haedi'"
+    },
+    {
+        "en": "sapling",
+        "eg": "\ufe9f\ufe77\ufeec\ufeaa\ufe76\ufec9",
+        "transliteration": "gahdaA"
+    },
+    {
+        "en": "saucer",
+        "eg": "ilfingaen",
+        "transliteration": "Taba'"
+    },
+    {
+        "en": "sausage",
+        "eg": "\ufeb3\ufeee\ufeb3\ufef4\ufeb2",
+        "transliteration": "soosees"
+    },
+    {
+        "en": "savoury",
+        "eg": "\ufea3\ufe8e\ufe76\ufea9\ufe7a\ufed5",
+        "transliteration": "haadi'"
+    },
+    {
+        "en": "saw",
+        "eg": "\ufeb3\ufe7b\ufeae\ufe8d\ufe76\ufed9",
+        "transliteration": "siraak"
+    },
+    {
+        "en": "scandal",
+        "eg": "\ufed3\ufe7b\ufec0\ufef4\ufea4\ufe77\ufe94",
+        "transliteration": "fiDeeha"
+    },
+    {
+        "en": "scarce",
+        "eg": "\ufeb7\ufe8e\ufe76\ufea3\ufe7b\ufea2",
+        "transliteration": "shaehih"
+    },
+    {
+        "en": "scent",
+        "eg": "\ufead\ufef3\ufea4\ufe77\ufe94",
+        "transliteration": "reeha"
+    },
+    {
+        "en": "scorch",
+        "eg": "\ufedf\ufe77\ufeb4\ufe77\ufeca",
+        "transliteration": "lasaA"
+    },
+    {
+        "en": "scrape",
+        "eg": "\ufea3\ufe77\ufeda\ufe7c",
+        "transliteration": "hakk"
+    },
+    {
+        "en": "screw",
+        "eg": "'alaewuwZ",
+        "transliteration": "musmaar"
+    },
+    {
+        "en": "scrub",
+        "eg": "\ufea9\ufe76\ufecb\ufe77\ufeda",
+        "transliteration": "daAak"
+    },
+    {
+        "en": "sea",
+        "eg": "\ufeed\ufe76\ufed7\ufe8e\ufe76\ufead",
+        "transliteration": "wa'aar"
+    },
+    {
+        "en": "seam",
+        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
+        "transliteration": "KiyaaTa"
+    },
+    {
+        "en": "used",
+        "eg": "biDaaAa",
+        "transliteration": "mahal"
+    },
+    {
+        "en": "seduce",
+        "eg": "\ufeb3\ufe77\ufef4\ufe7d\ufe77\ufea2",
+        "transliteration": "sayyah"
+    },
+    {
+        "en": "see",
+        "eg": "\ufeb7\ufe8e\ufe76\ufed1",
+        "transliteration": "shaef"
+    },
+    {
+        "en": "\ufe97\ufe77\ufed8\ufe8e\ufe76\ufeed\ufef1",
+        "eg": "banaeti",
+        "transliteration": "Ainab"
+    },
+    {
+        "en": "seeming",
+        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufee6",
+        "transliteration": "baeyin"
+    },
+    {
+        "en": "seems",
+        "eg": "kida",
+        "transliteration": "yiZhar"
+    },
+    {
+        "en": "seizure",
+        "eg": "\ufee3\ufe77\ufeb4\ufeda",
+        "transliteration": "mask"
+    },
+    {
+        "en": "seldom",
+        "eg": "\ufee7\ufe8e\ufe76\ufea9\ufe7a\ufead",
+        "transliteration": "naedir"
+    },
+    {
+        "en": "select",
+        "eg": "\ufee7\ufe77\ufed8\ufe7d\ufef0",
+        "transliteration": "na''a"
+    },
+    {
+        "en": "selfish",
+        "eg": "\ufecf\ufe77\ufeee\ufef3\ufec2",
+        "transliteration": "GaweeT"
+    },
+    {
+        "en": "seller",
+        "eg": "\ufe91\ufe7b\ufe98\ufe8e\ufe76\ufec9",
+        "transliteration": "bitaeA"
+    },
+    {
+        "en": "semen",
+        "eg": "\ufedf\ufe77\ufe92\ufe77\ufee6",
+        "transliteration": "laban"
+    },
+    {
+        "en": "sender",
+        "eg": "\ufe91\ufe8e\ufe76\ufecb\ufef4\ufe9a",
+        "transliteration": "baAeeth"
+    },
+    {
+        "en": "server",
+        "eg": "\ufea7\ufe8e\ufe76\ufea9\ufe7a\ufee1",
+        "transliteration": "Kaadim"
+    },
+    {
+        "en": "session",
+        "eg": "\ufe9f\ufe77\ufee0\ufeb4\ufe77\ufe94",
+        "transliteration": "galsa"
+    },
+    {
+        "en": "start",
+        "eg": "\ufecb\ufe77\ufeaa\ufe76\ufedd",
+        "transliteration": "Aadal"
+    },
+    {
+        "en": "seventh",
+        "eg": "\ufeb3\ufe8e\ufe76\ufe91\ufe7b\ufeca",
+        "transliteration": "saebiA"
+    },
+    {
+        "en": "seventy",
+        "eg": "\ufeb3\ufe77\ufe92\ufecc\ufef4\ufee6",
+        "transliteration": "sabAeen"
+    },
+    {
+        "en": "sew",
+        "eg": "\ufea7\ufe77\ufef4\ufe7d\ufe77\ufec2",
+        "transliteration": "KayyaT"
+    },
+    {
+        "en": "sewage",
+        "eg": "Sarf",
+        "transliteration": "mayaat"
+    },
+    {
+        "en": "sewer",
+        "eg": "\ufee3\ufe77\ufea0\ufe8e\ufe76\ufead\ufef1",
+        "transliteration": "magaeri"
+    },
+    {
+        "en": "sewing",
+        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
+        "transliteration": "KiyaaTa"
+    },
+    {
+        "en": "sexy",
+        "eg": "\ufee3\ufe79\ufeb0\ufe7c",
+        "transliteration": "muzz"
+    },
+    {
+        "en": "shadow",
+        "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
+        "transliteration": "Kayael"
+    },
+    {
+        "en": "sharply",
+        "eg": "\ufea3\ufe8e\ufe76\ufea9\ufe76\ufe93",
+        "transliteration": "haeda"
+    },
+    {
+        "en": "shave",
+        "eg": "\ufea3\ufe77\ufee0\ufe77\ufed6",
+        "transliteration": "hala'"
+    },
+    {
+        "en": "she",
+        "eg": "\ufeec\ufe8e\ufe76",
+        "transliteration": "ha"
+    },
+    {
+        "en": "shear",
+        "eg": "\ufe9f\ufe77\ufeb0\ufe7c",
+        "transliteration": "gazz"
+    },
+    {
+        "en": "shisha",
+        "eg": "\ufeb7\ufef4\ufeb8\ufe77\ufe94",
+        "transliteration": "sheesha"
+    },
+    {
+        "en": "shoe",
+        "eg": "\ufe9f\ufe77\ufeb0\ufee3\ufe77\ufe94",
+        "transliteration": "gazma"
+    },
+    {
+        "en": "short",
+        "eg": "kahrabae'i",
+        "transliteration": "maes"
+    },
+    {
+        "en": "should",
+        "eg": "\ufee3\ufe77\ufed4\ufeae\ufeed\ufebd",
+        "transliteration": "mafrooD"
+    },
+    {
+        "en": "shout",
+        "eg": "\ufeaf\ufe76\ufecb\ufe7d\ufe77\ufed6",
+        "transliteration": "zaAAa'"
+    },
+    {
+        "en": "shower",
+        "eg": "\ufeb7\ufe77\ufeee\ufe76\ufead",
+        "transliteration": "shawar"
+    },
+    {
+        "en": "shrink",
+        "eg": "\ufedb\ufe77\ufeb6\ufe7c",
+        "transliteration": "kashsh"
+    },
+    {
+        "en": "shutter",
+        "eg": "\ufeb7\ufef4\ufeb6",
+        "transliteration": "sheesh"
+    },
+    {
+        "en": "sibling",
+        "eg": "\ufe87\ufea7\ufeee\ufe8d\ufe76\ufe95",
+        "transliteration": "'iKwaet"
+    },
+    {
+        "en": "side",
+        "eg": "\ufee7\ufe8e\ufe76\ufea3\ufef4\ufe77\ufe94",
+        "transliteration": "nahya"
+    },
+    {
+        "en": "sighted",
+        "eg": "\ufe91\ufe77\ufebc\ufe7b\ufeae",
+        "transliteration": "baSir"
+    },
+    {
+        "en": "silence",
+        "eg": "\ufebb\ufe77\ufee4\ufe96",
+        "transliteration": "Samt"
+    },
+    {
+        "en": "similar",
+        "eg": "\ufeb7\ufe77\ufe92\ufef4\ufeea",
+        "transliteration": "shabeeh"
+    },
+    {
+        "en": "Sinai",
+        "eg": "\ufeb3\ufef4\ufee8\ufe8e\ufe76\ufe80",
+        "transliteration": "seena'"
+    },
+    {
+        "en": "sincere",
+        "eg": "\ufe83\ufebb\ufef4\ufede",
+        "transliteration": "'aSeel"
+    },
+    {
+        "en": "singer",
+        "eg": "\ufee3\ufe79\ufed0\ufe77\ufee8\ufe7d\ufef2",
+        "transliteration": "muGanni"
+    },
+    {
+        "en": "singing",
+        "eg": "\ufecf\ufe79\ufee8\ufef0",
+        "transliteration": "Guna"
+    },
+    {
+        "en": "sit",
+        "eg": "\ufed7\ufe77\ufecc\ufe77\ufeaa",
+        "transliteration": "'aAad"
+    },
+    {
+        "en": "site",
+        "eg": "\ufee3\ufe77\ufeee\ufed7\ufe77\ufeca",
+        "transliteration": "mawQaA"
+    },
+    {
+        "en": "situate",
+        "eg": "maw'aAan",
+        "transliteration": "Aayin"
+    },
+    {
+        "en": "sixty",
+        "eg": "\ufeb3\ufe7b\ufe98\ufe7d\ufef4\ufee6",
+        "transliteration": "sitteen"
+    },
+    {
+        "en": "skilled",
+        "eg": "\ufee3\ufe8e\ufe76\ufeeb\ufe7b\ufeae",
+        "transliteration": "maehir"
+    },
+    {
+        "en": "skip",
+        "eg": "\ufee7\ufe77\ufec2\ufe7c",
+        "transliteration": "naTT"
+    },
+    {
+        "en": "skirt",
+        "eg": "\ufe9f\ufef4\ufe92\ufe77\ufe94",
+        "transliteration": "jeeba"
+    },
+    {
+        "en": "skull",
+        "eg": "\ufe9f\ufe79\ufee4\ufea0\ufe79\ufee4\ufe77\ufe94",
+        "transliteration": "gumguma"
+    },
+    {
+        "en": "slam",
+        "eg": "\ufead\ufe76\ufeaf\ufe76\ufec9",
+        "transliteration": "razaA"
+    },
+    {
+        "en": "slander",
+        "eg": "\ufe9f\ufe77\ufea4\ufe77\ufed2",
+        "transliteration": "gahaf"
+    },
+    {
+        "en": "sleeve",
+        "eg": "\ufedb\ufe79\ufee2\ufe7c",
+        "transliteration": "kumm"
+    },
+    {
+        "en": "slut",
+        "eg": "\ufee3\ufe77\ufeae\ufe76\ufe93",
+        "transliteration": "mara"
+    },
+    {
+        "en": "slutty",
+        "eg": "\ufecb\ufef4\ufee0\ufed6",
+        "transliteration": "Aeel'"
+    },
+    {
+        "en": "sly",
+        "eg": "\ufedf\ufe77\ufe8c\ufef4\ufee2",
+        "transliteration": "la'eem"
+    },
+    {
+        "en": "small",
+        "eg": "\ufebb\ufe79\ufed0\ufe77\ufef4\ufe77\ufeae",
+        "transliteration": "SuGayar"
+    },
+    {
+        "en": "smelly",
+        "eg": "\ufee7\ufe7b\ufe98\ufe7d\ufe7b\ufee6",
+        "transliteration": "nittin"
+    },
+    {
+        "en": "smuggle",
+        "eg": "\ufeeb\ufe77\ufeae\ufe7c\ufe76\ufe8f",
+        "transliteration": "harrab"
+    },
+    {
+        "en": "sneaky",
+        "eg": "\ufeed\ufe8d\ufe76\ufec3\ufef2",
+        "transliteration": "waaTi"
+    },
+    {
+        "en": "sniff",
+        "eg": "\ufeb7\ufe77\ufee6\ufe7c",
+        "transliteration": "shann"
+    },
+    {
+        "en": "snort",
+        "eg": "\ufeb7\ufe77\ufeaa\ufe7c",
+        "transliteration": "shadd"
+    },
+    {
+        "en": "snow",
+        "eg": "\ufe97\ufe77\ufee0\ufe9e",
+        "transliteration": "talg"
+    },
+    {
+        "en": "so...",
+        "eg": "baAd",
+        "transliteration": "illi"
+    },
+    {
+        "en": "soaked",
+        "eg": "\ufee3\ufe77\ufe92\ufee0\ufeee\ufedd",
+        "transliteration": "mablool"
+    },
+    {
+        "en": "soccer",
+        "eg": "il'adam",
+        "transliteration": "kurit"
+    },
+    {
+        "en": "sock",
+        "eg": "\ufeb7\ufe77\ufeae\ufe8d\ufe76\ufe8f",
+        "transliteration": "sharaab"
+    },
+    {
+        "en": "soiree",
+        "eg": "\ufeb3\ufe77\ufeec\ufeae\ufe76\ufe93",
+        "transliteration": "sahra"
+    },
+    {
+        "en": "soldier",
+        "eg": "\ufe9f\ufe79\ufee8\ufeaa\ufef1",
+        "transliteration": "gundi"
+    },
+    {
+        "en": "solid",
+        "eg": "\ufebb\ufe77\ufee0\ufe90",
+        "transliteration": "Salb"
+    },
+    {
+        "en": "somehow",
+        "eg": "'aw",
+        "transliteration": "kidah"
+    },
+    {
+        "en": "someone",
+        "eg": "\ufea3\ufe77\ufeaa\ufe7c",
+        "transliteration": "hadd"
+    },
+    {
+        "en": "song",
+        "eg": "\ufecf\ufe7b\ufee8\ufeee\ufe76\ufe93",
+        "transliteration": "Ginwa"
+    },
+    {
+        "en": "soon",
+        "eg": "'areeb",
+        "transliteration": "Aan"
+    },
+    {
+        "en": "spade",
+        "eg": "\ufedb\ufeee\ufead\ufef3\ufeda",
+        "transliteration": "kooreek"
+    },
+    {
+        "en": "spank",
+        "eg": "\ufecb\ufe77\ufe92\ufe77\ufec2",
+        "transliteration": "AabaT"
+    },
+    {
+        "en": "spanner",
+        "eg": "\ufee3\ufe79\ufed4\ufe98\ufe8e\ufe76\ufea1",
+        "transliteration": "muftaeh"
+    },
+    {
+        "en": "spare",
+        "eg": "\ufe87\ufeb3\ufe98\ufe7b\ufe92\ufee6",
+        "transliteration": "'istibn"
+    },
+    {
+        "en": "spice",
+        "eg": "\ufecb\ufe77\ufec4\ufe7d\ufe8e\ufe76\ufead",
+        "transliteration": "AaTTaar"
+    },
+    {
+        "en": "spill",
+        "eg": "\ufeb3\ufe77\ufef4\ufe7d\ufe77\ufea2",
+        "transliteration": "sayyah"
+    },
+    {
+        "en": "spit",
+        "eg": "\ufe97\ufe77\ufed2\ufe7c",
+        "transliteration": "taff"
+    },
+    {
+        "en": "spittle",
+        "eg": "\ufe91\ufe79\ufebc\ufe8e\ufe76\ufed5",
+        "transliteration": "buSaaQ"
+    },
+    {
+        "en": "split",
+        "eg": "\ufeb7\ufe77\ufed6\ufe7c",
+        "transliteration": "sha''"
+    },
+    {
+        "en": "spoke",
+        "eg": "\ufe91\ufe77\ufeae\ufee3\ufe77\ufe94",
+        "transliteration": "barma"
+    },
+    {
+        "en": "sponge",
+        "eg": "\ufeb3\ufe77\ufed4\ufe7b\ufee8\ufea0\ufe77\ufe94",
+        "transliteration": "safinga"
+    },
+    {
+        "en": "spout",
+        "eg": "\ufe91\ufeee\ufeaf",
+        "transliteration": "booz"
+    },
+    {
+        "en": "sprint",
+        "eg": "\ufeb3\ufe92\ufeae\ufe7a\ufee7\ufe96",
+        "transliteration": "sbrint"
+    },
+    {
+        "en": "sprout",
+        "eg": "\ufe91\ufe77\ufeac\ufe76\ufead",
+        "transliteration": "bazar"
+    },
+    {
+        "en": "squad",
+        "eg": "\ufed3\ufe7b\ufeae\ufed7\ufe77\ufe94",
+        "transliteration": "fir'a"
+    },
+    {
+        "en": "\ufe76\ufead\ufe76",
+        "eg": "\ufea7\ufe8e\ufe76\ufee7\ufe77\ufe94",
+        "transliteration": "Kaena"
+    },
+    {
+        "en": "squirm",
+        "eg": "\ufea3\ufe77\ufeee\ufe7c\ufe76\ufead",
+        "transliteration": "hawwar"
+    },
+    {
+        "en": "squish",
+        "eg": "\ufed3\ufe77\ufecc\ufe77\ufeb2",
+        "transliteration": "faAas"
+    },
+    {
+        "en": "stab",
+        "eg": "\ufec3\ufe77\ufecc\ufee6",
+        "transliteration": "TaAn"
+    },
+    {
+        "en": "stag",
+        "eg": "\ufe83\ufef3\ufede",
+        "transliteration": "'aeel"
+    },
+    {
+        "en": "stair",
+        "eg": "\ufeb3\ufe7b\ufee0\ufe7d\ufe7b\ufee2",
+        "transliteration": "sillim"
+    },
+    {
+        "en": "money",
+        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufe96",
+        "transliteration": "baeyit"
+    },
+    {
+        "en": "stalk",
+        "eg": "\ufecb\ufe77\ufee8\ufed8\ufeee\ufea9",
+        "transliteration": "Aan'ood"
+    },
+    {
+        "en": "stamped",
+        "eg": "\ufee3\ufe77\ufe92\ufebc\ufeee\ufee1",
+        "transliteration": "mabSoom"
+    },
+    {
+        "en": "stare",
+        "eg": "\ufe91\ufe77\ufea4\ufee0\ufe77\ufed6",
+        "transliteration": "bahla'"
+    },
+    {
+        "en": "statute",
+        "eg": "\ufed7\ufe8e\ufe76\ufee7\ufeee\ufee5",
+        "transliteration": "Qanoon"
+    },
+    {
+        "en": "staying",
+        "eg": "\ufeb3\ufe77\ufeec\ufe77\ufeae",
+        "transliteration": "sahar"
+    },
+    {
+        "en": "steel",
+        "eg": "\ufed3\ufeee\ufefb\ufeab",
+        "transliteration": "foolaez"
+    },
+    {
+        "en": "stew",
+        "eg": "\ufef3\ufe77\ufea8\ufee8\ufe77\ufe94",
+        "transliteration": "yaKna"
+    },
+    {
+        "en": "stiff",
+        "eg": "\ufee7\ufe8e\ufe76\ufeb7\ufe7b\ufed2",
+        "transliteration": "naeshif"
+    },
+    {
+        "en": "stingy",
+        "eg": "\ufee7\ufe7b\ufe98\ufe7d\ufe7b\ufee6",
+        "transliteration": "nittin"
+    },
+    {
+        "en": "stir",
+        "eg": "\ufed7\ufe77\ufee0\ufe7d\ufe7b\ufe90",
+        "transliteration": "'allib"
+    },
+    {
+        "en": "stirrer",
+        "eg": "\ufea3\ufe79\ufed8\ufee8\ufe77\ufe94",
+        "transliteration": "hu'na"
+    },
+    {
+        "en": "stitch",
+        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
+        "transliteration": "KiyaaTa"
+    },
+    {
+        "en": "stoned",
+        "eg": "\ufeb3\ufe79\ufec4\ufe77\ufede",
+        "transliteration": "suTal"
+    },
+    {
+        "en": "honest",
+        "eg": "mustaQeem",
+        "transliteration": "raagil"
+    },
+    {
+        "en": "stream",
+        "eg": "\ufe97\ufe7b\ufeae\ufe76\ufecb\ufeea",
+        "transliteration": "tiraAh"
+    },
+    {
+        "en": "street",
+        "eg": "\ufee7\ufe8e\ufe76\ufebb\ufef4\ufe77\ufe94",
+        "transliteration": "naSya"
+    },
+    {
+        "en": "stun",
+        "eg": "\ufeb7\ufe77\ufede\ufe7c",
+        "transliteration": "shall"
+    },
+    {
+        "en": "stupor",
+        "eg": "\ufe91\ufe77\ufeec\ufe8e\ufe76\ufee3\ufe77\ufe94",
+        "transliteration": "bahaema"
+    },
+    {
+        "en": "stutter",
+        "eg": "\ufe97\ufe84\ufe97\ufe84",
+        "transliteration": "t'at'a"
+    },
+    {
+        "en": "stylish",
+        "eg": "\ufeb7\ufef4\ufe8e\ufe76\ufedb\ufe77\ufe94",
+        "transliteration": "shyaeka"
+    },
+    {
+        "en": "such",
+        "eg": "\ufeaf\ufe76\ufef1\ufe7c",
+        "transliteration": "zayi"
+    },
+    {
+        "en": "suck",
+        "eg": "\ufee3\ufe77\ufeba\ufe7c",
+        "transliteration": "maSS"
+    },
+    {
+        "en": "sultana",
+        "eg": "'iswid",
+        "transliteration": "zibeeb"
+    },
+    {
+        "en": "summon",
+        "eg": "\ufea9\ufe76\ufecb\ufef0",
+        "transliteration": "daAa"
+    },
+    {
+        "en": "Sunday",
+        "eg": "soori",
+        "transliteration": "libb"
+    },
+    {
+        "en": "sunrise",
+        "eg": "ilshams",
+        "transliteration": "TulooA"
+    },
+    {
+        "en": "survive",
+        "eg": "\ufee7\ufe77\ufea0\ufe8e\ufe76",
+        "transliteration": "naga"
+    },
+    {
+        "en": "suspect",
+        "eg": "\ufeb7\ufe77\ufeda\ufe7c",
+        "transliteration": "shakk"
+    },
+    {
+        "en": "swan",
+        "eg": "\ufe91\ufe77\ufea0\ufeca",
+        "transliteration": "bagA"
+    },
+    {
+        "en": "swim",
+        "eg": "\ufecb\ufe8e\ufe76\ufee1",
+        "transliteration": "Aaem"
+    },
+    {
+        "en": "symptom",
+        "eg": "\ufe83\ufee3\ufe8e\ufe76\ufead\ufe76\ufe93",
+        "transliteration": "'amaara"
+    },
+    {
+        "en": "syringe",
+        "eg": "\ufeb3\ufe7b\ufeae\ufe7a\ufee7\ufea0\ufe77\ufe94",
+        "transliteration": "siringa"
+    },
+    {
+        "en": "taboo",
+        "eg": "\ufee3\ufe77\ufea4\ufec8\ufeee\ufead",
+        "transliteration": "mahZoor"
+    },
+    {
+        "en": "tailor",
+        "eg": "\ufe97\ufe77\ufeae\ufeaf\ufef1",
+        "transliteration": "tarzi"
+    },
+    {
+        "en": "social",
+        "eg": "\ufe87\ufe97\ufed4\ufe77\ufeda\ufe7c",
+        "transliteration": "'itfakk"
+    },
+    {
+        "en": "talent",
+        "eg": "\ufe91\ufe77\ufeae\ufe8d\ufe76\ufecb\ufe77\ufe94",
+        "transliteration": "baraaAa"
+    },
+    {
+        "en": "tampon",
+        "eg": "\ufe97\ufe77\ufee4\ufe92\ufeee\ufee5",
+        "transliteration": "tamboon"
+    },
+    {
+        "en": "tank",
+        "eg": "\ufe97\ufe77\ufee8\ufeda",
+        "transliteration": "tank"
+    },
+    {
+        "en": "\ufeeb\ufe7b\ufe96",
+        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufe77\ufec2",
+        "transliteration": "KabbaT"
+    },
+    {
+        "en": "taster",
+        "eg": "\ufeab\ufe76\ufeed\ufe7c\ufe8d\ufe76\ufed5",
+        "transliteration": "zawwaaQ"
+    },
+    {
+        "en": "tea",
+        "eg": "ziyaeda",
+        "transliteration": "shaei"
+    },
+    {
+        "en": "tearing",
+        "eg": "\ufed7\ufe77\ufec4\ufeca",
+        "transliteration": "'aTA"
+    },
+    {
+        "en": "tease",
+        "eg": "\ufecf\ufe8e\ufe76\ufec5",
+        "transliteration": "GaaZ"
+    },
+    {
+        "en": "teasing",
+        "eg": "\ufee3\ufe7b\ufecc\ufe77\ufedc\ufeb4\ufe8e\ufe76",
+        "transliteration": "miAaksa"
+    },
+    {
+        "en": "teat",
+        "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
+        "transliteration": "bizz"
+    },
+    {
+        "en": "ten",
+        "eg": "\ufe91\ufe77\ufeae\ufef3\ufeb0\ufe76\ufe93",
+        "transliteration": "bareeza"
+    },
+    {
+        "en": "\ufe78\ufedf\ufe7d\ufe7b\ufee8\ufe9e",
+        "eg": "\ufe9f\ufe77\ufeae\ufe7c",
+        "transliteration": "garr"
+    },
+    {
+        "en": "terrace",
+        "eg": "\ufe97\ufe7b\ufeae\ufe8d\ufe76\ufeb1",
+        "transliteration": "tiraas"
+    },
+    {
+        "en": "terror",
+        "eg": "\ufead\ufe76\ufecb\ufe90",
+        "transliteration": "raAb"
+    },
+    {
+        "en": "thatch",
+        "eg": "\ufe91\ufeee\ufeb9",
+        "transliteration": "booS"
+    },
+    {
+        "en": "\ufe9b\ufe7b\ufee8\ufea0\ufeb2",
+        "eg": "\ufeec\ufe8e\ufe76",
+        "transliteration": "ha"
+    },
+    {
+        "en": "theme",
+        "eg": "\ufee3\ufe77\ufeee\ufebf\ufeee\ufe76\ufec9",
+        "transliteration": "mawDwaA"
+    },
+    {
+        "en": "there's",
+        "eg": "\ufee3\ufe77\ufed4\ufef4\ufeb6",
+        "transliteration": "mafeesh"
+    },
+    {
+        "en": "thereby",
+        "eg": "ilTareeQa",
+        "transliteration": "bihazah"
+    },
+    {
+        "en": "they",
+        "eg": "\ufe79\ufeec\ufe79\ufee2",
+        "transliteration": "uhum"
+    },
+    {
+        "en": "thief",
+        "eg": "\ufea3\ufe77\ufeae\ufe8d\ufe76\ufee3\ufef2",
+        "transliteration": "haraami"
+    },
+    {
+        "en": "thing",
+        "eg": "\ufea3\ufe8e\ufe76\ufe9f\ufe77\ufe94",
+        "transliteration": "haega"
+    },
+    {
+        "en": "thinner",
+        "eg": "\ufe97\ufe7b\ufee8\ufe77\ufeae",
+        "transliteration": "tinar"
+    },
+    {
+        "en": "those",
+        "eg": "\ufea9\ufe76\ufee9",
+        "transliteration": "dah"
+    },
+    {
+        "en": "thread",
+        "eg": "\ufed3\ufe77\ufe98\ufee0\ufe77\ufe94",
+        "transliteration": "fatla"
+    },
+    {
+        "en": "three",
+        "eg": "\ufe97\ufe77\ufefc\ufe97\ufe77\ufe94",
+        "transliteration": "talaeta"
+    },
+    {
+        "en": "thresh",
+        "eg": "\ufe9f\ufe79\ufeae\ufee5",
+        "transliteration": "gurn"
+    },
+    {
+        "en": "throat",
+        "eg": "\ufe91\ufe79\ufee0\ufecc\ufeee\ufee1",
+        "transliteration": "bulAoom"
+    },
+    {
+        "en": "throw",
+        "eg": "\ufe87\ufed7\ufee0\ufe7b\ufe90",
+        "transliteration": "'i'lib"
+    },
+    {
+        "en": "thug",
+        "eg": "\ufe91\ufe77\ufee0\ufec4\ufe77\ufea0\ufef2",
+        "transliteration": "balTagi"
+    },
+    {
+        "en": "thus",
+        "eg": "kida",
+        "transliteration": "zayi"
+    },
+    {
+        "en": "tickle",
+        "eg": "\ufeaf\ufe76\ufecf\ufeb0\ufe76\ufecd",
+        "transliteration": "zaGzaG"
+    },
+    {
+        "en": "tide",
+        "eg": "\ufee3\ufe77\ufeaa\ufe7c",
+        "transliteration": "madd"
+    },
+    {
+        "en": "tidy",
+        "eg": "\ufe97\ufe77\ufeee\ufebf\ufef4\ufe90",
+        "transliteration": "tawDeeb"
+    },
+    {
+        "en": "tighten",
+        "eg": "kuwayis",
+        "transliteration": "rabaT"
+    },
+    {
+        "en": "tights",
+        "eg": "\ufedb\ufeee\ufedf\ufeee\ufee5",
+        "transliteration": "kooloon"
+    },
+    {
+        "en": "tiny",
+        "eg": "\ufebb\ufe79\ufed0\ufe77\ufef4\ufe77\ufeae",
+        "transliteration": "SuGayar"
+    },
+    {
+        "en": "tit",
+        "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
+        "transliteration": "bizz"
+    },
+    {
+        "en": "tobacco",
+        "eg": "\ufe97\ufe77\ufe92\ufece",
+        "transliteration": "tabG"
+    },
+    {
+        "en": "today",
+        "eg": "\ufe8d\ufe7a\ufedf\ufef4\ufeee\ufee1",
+        "transliteration": "ilyoom"
+    },
+    {
+        "en": "saeedy",
+        "eg": "rigl",
+        "transliteration": "SubaeA"
+    },
+    {
+        "en": "tomato",
+        "eg": "\ufed7\ufeee\ufec3\ufe77\ufe94",
+        "transliteration": "'ooTa"
+    },
+    {
+        "en": "tongue",
+        "eg": "\ufed3\ufe77\ufeb0\ufeed\ufead\ufe76\ufe93",
+        "transliteration": "fazoora"
+    },
+    {
+        "en": "tonne",
+        "eg": "\ufec3\ufe7b\ufee6\ufe7c",
+        "transliteration": "Tinn"
+    },
+    {
+        "en": "toolbox",
+        "eg": "\ufecb\ufe7b\ufeaa\ufe7c\ufe76\ufe93",
+        "transliteration": "Aidda"
+    },
+    {
+        "en": "toolkit",
+        "eg": "\ufecb\ufe7b\ufeaa\ufe7c\ufe76\ufe93",
+        "transliteration": "Aidda"
+    },
+    {
+        "en": "tooth",
+        "eg": "\ufeb3\ufe7b\ufee8\ufe7d\ufe77\ufe94",
+        "transliteration": "sinna"
+    },
+    {
+        "en": "topic",
+        "eg": "\ufee3\ufe77\ufeee\ufebf\ufeee\ufe76\ufec9",
+        "transliteration": "mawDwaA"
+    },
+    {
+        "en": "totally",
+        "eg": "\ufedb\ufe8e\ufe76\ufee3\ufe7b\ufede",
+        "transliteration": "kaemil"
+    },
+    {
+        "en": "tow",
+        "eg": "\ufeb7\ufe7b\ufeaa\ufe7c",
+        "transliteration": "shidd"
+    },
+    {
+        "en": "toward",
+        "eg": "nahya",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "towel",
+        "eg": "\ufed3\ufe79\ufeee\ufe8d\ufe76\ufec3\ufe77\ufe94",
+        "transliteration": "fuwaaTa"
+    },
+    {
+        "en": "town",
+        "eg": "\ufed7\ufe77\ufeae\ufef3\ufe77\ufe94",
+        "transliteration": "Qarya"
+    },
+    {
+        "en": "tractor",
+        "eg": "\ufe9f\ufe77\ufeae\ufe7c\ufe8d\ufe76\ufead",
+        "transliteration": "garraar"
+    },
+    {
+        "en": "traffic",
+        "eg": "muwaaSalaat",
+        "transliteration": "zahmit"
+    },
+    {
+        "en": "tragedy",
+        "eg": "\ufea9\ufead\ufe8d\ufe76\ufee3\ufe8e\ufe76",
+        "transliteration": "draama"
+    },
+    {
+        "en": "traitor",
+        "eg": "\ufea7\ufe8e\ufe76\ufef3\ufe7b\ufee6",
+        "transliteration": "Kaayin"
+    },
+    {
+        "en": "tram",
+        "eg": "\ufe97\ufe79\ufeae\ufee3\ufe8e\ufe76\ufef1",
+        "transliteration": "turmaai"
+    },
+    {
+        "en": "tramp",
+        "eg": "bidoon",
+        "transliteration": "raagil"
+    },
+    {
+        "en": "tramway",
+        "eg": "\ufe97\ufe79\ufeae\ufee3\ufe8e\ufe76\ufef1",
+        "transliteration": "turmaai"
+    },
+    {
+        "en": "book",
+        "eg": "ilsafar",
+        "transliteration": "dalleel"
+    },
+    {
+        "en": "tray",
+        "eg": "fi",
+        "transliteration": "wi'if"
+    },
+    {
+        "en": "treason",
+        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufee7\ufe77\ufe94",
+        "transliteration": "Kiyaena"
+    },
+    {
+        "en": "trees",
+        "eg": "\ufeb7\ufe77\ufea0\ufe7d\ufe77\ufeae",
+        "transliteration": "shaggar"
+    },
+    {
+        "en": "trench",
+        "eg": "\ufee3\ufe7b\ufe98\ufeae\ufe7a\ufeb1",
+        "transliteration": "mitris"
+    },
+    {
+        "en": "tribal",
+        "eg": "\ufed7\ufe7b\ufe92\ufee0\ufef2",
+        "transliteration": "'ibli"
+    },
+    {
+        "en": "tripup",
+        "eg": "\ufedb\ufe77\ufecc\ufe92\ufe7b\ufede",
+        "transliteration": "kaAbil"
+    },
+    {
+        "en": "trivial",
+        "eg": "\ufe87\ufee7\ufeaa\ufe8d\ufe76\ufeb1",
+        "transliteration": "'indaes"
+    },
+    {
+        "en": "trolley",
+        "eg": "\ufe97\ufeae\ufeed\ufedf\ufe7d\ufef2",
+        "transliteration": "troolli"
+    },
+    {
+        "en": "trophy",
+        "eg": "\ufedb\ufe8e\ufe76\ufeb1",
+        "transliteration": "kaes"
+    },
+    {
+        "en": "trot",
+        "eg": "baTee'",
+        "transliteration": "gara"
+    },
+    {
+        "en": "trumpet",
+        "eg": "\ufe97\ufe79\ufeae\ufe78\ufee3\ufe92\ufe77\ufe94",
+        "transliteration": "turumba"
+    },
+    {
+        "en": "clothes",
+        "eg": "ilma'aes",
+        "transliteration": "garrab"
+    },
+    {
+        "en": "Tuesday",
+        "eg": "ilthulaeth",
+        "transliteration": "yoom"
+    },
+    {
+        "en": "tune",
+        "eg": "\ufec7\ufe77\ufe92\ufe77\ufec2",
+        "transliteration": "ZabaT"
+    },
+    {
+        "en": "tune-up",
+        "eg": "\ufecb\ufe77\ufee4\ufeae\ufe76\ufe93",
+        "transliteration": "Aamra"
+    },
+    {
+        "en": "Tunis",
+        "eg": "\ufe97\ufeee\ufee7\ufe7b\ufeb2",
+        "transliteration": "toonis"
+    },
+    {
+        "en": "Tunisia",
+        "eg": "\ufe97\ufeee\ufee7\ufe7b\ufeb2",
+        "transliteration": "toonis"
+    },
+    {
+        "en": "turban",
+        "eg": "\ufe97\ufe8e\ufe76\ufe9d",
+        "transliteration": "taeg"
+    },
+    {
+        "en": "turk",
+        "eg": "\ufe97\ufe79\ufeae\ufed9",
+        "transliteration": "turk"
+    },
+    {
+        "en": "turning",
+        "eg": "\ufec3\ufe77\ufed4\ufe7d\ufef2",
+        "transliteration": "Taffi"
+    },
+    {
+        "en": "turnip",
+        "eg": "\ufedf\ufe7b\ufed4\ufe96",
+        "transliteration": "lift"
+    },
+    {
+        "en": "two",
+        "eg": "\ufef4\ufee6",
+        "transliteration": "yn"
+    },
+    {
+        "en": "typhoid",
+        "eg": "\ufe97\ufe77\ufef4\ufed4\ufeee\ufea9",
+        "transliteration": "tayfood"
+    },
+    {
+        "en": "tyre",
+        "eg": "\ufecb\ufe77\ufea0\ufe77\ufede",
+        "transliteration": "Aagal"
+    },
+    {
+        "en": "ugly",
+        "eg": "\ufeed\ufe7a\ufea3\ufe7b\ufeb6",
+        "transliteration": "wihish"
+    },
+    {
+        "en": "unable",
+        "eg": "'aedir",
+        "transliteration": "mish"
+    },
+    {
+        "en": "undress",
+        "eg": "\ufed7\ufe77\ufee0\ufe77\ufeca",
+        "transliteration": "'alaA"
+    },
+    {
+        "en": "unhappy",
+        "eg": "mabsooT",
+        "transliteration": "mish"
+    },
+    {
+        "en": "unknown",
+        "eg": "maAroof",
+        "transliteration": "mish"
+    },
+    {
+        "en": "unless",
+        "eg": "lam",
+        "transliteration": "'inn"
+    },
+    {
+        "en": "unruly",
+        "eg": "\ufee7\ufe8e\ufe76\ufed7\ufe7b\ufeba",
+        "transliteration": "naa'iS"
+    },
+    {
+        "en": "upper",
+        "eg": "maSr",
+        "transliteration": "SaAeed"
+    },
+    {
+        "en": "uproar",
+        "eg": "\ufea9\ufe76\ufeed\ufeb7\ufe77\ufe94",
+        "transliteration": "dawsha"
+    },
+    {
+        "en": "upwards",
+        "eg": "\ufed3\ufeee\ufed5",
+        "transliteration": "foo'"
+    },
+    {
+        "en": "urgent",
+        "eg": "\ufecb\ufe8e\ufe76\ufe9f\ufe7b\ufede",
+        "transliteration": "Aaegil"
+    },
+    {
+        "en": "utterly",
+        "eg": "\ufea7\ufe8e\ufe76\ufedf\ufe7b\ufeba",
+        "transliteration": "KaaliS"
+    },
+    {
+        "en": "vaccine",
+        "eg": "\ufee3\ufe77\ufebc\ufede",
+        "transliteration": "maSl"
+    },
+    {
+        "en": "vagina",
+        "eg": "\ufee3\ufe7b\ufeec\ufe92\ufe7b\ufede",
+        "transliteration": "mihbil"
+    },
+    {
+        "en": "valid",
+        "eg": "\ufeb3\ufe8e\ufe76\ufead\ufef1",
+        "transliteration": "saeri"
+    },
+    {
+        "en": "valley",
+        "eg": "\ufeed\ufe8d\ufe76\ufea9\ufef1",
+        "transliteration": "waedi"
+    },
+    {
+        "en": "valve",
+        "eg": "\ufee3\ufe77\ufea4\ufe92\ufe77\ufeb2",
+        "transliteration": "mahbas"
+    },
+    {
+        "en": "van",
+        "eg": "na'l",
+        "transliteration": "nuSS"
+    },
+    {
+        "en": "various",
+        "eg": "\ufedb\ufe77\ufeac\ufe8d\ufe76",
+        "transliteration": "kaza"
+    },
+    {
+        "en": "vary",
+        "eg": "\ufee7\ufe77\ufeee\ufe7c\ufe76\ufec9",
+        "transliteration": "nawwaA"
+    },
+    {
+        "en": "vat",
+        "eg": "\ufe91\ufe77\ufeae\ufee3\ufef4\ufede",
+        "transliteration": "barmeel"
+    },
+    {
+        "en": "veal",
+        "eg": "bitillw",
+        "transliteration": "lahma"
+    },
+    {
+        "en": "velvet",
+        "eg": "\ufed7\ufe77\ufec4\ufef4\ufed4\ufe77\ufe94",
+        "transliteration": "'aTeefa"
+    },
+    {
+        "en": "vendor",
+        "eg": "il",
+        "transliteration": "bitaeA"
+    },
+    {
+        "en": "verb",
+        "eg": "\ufed3\ufe7b\ufecc\ufede",
+        "transliteration": "fiAl"
+    },
+    {
+        "en": "verge",
+        "eg": "ilhadd",
+        "transliteration": "Aala"
+    },
+    {
+        "en": "verify",
+        "eg": "\ufe97\ufe77\ufee4\ufe7d\ufe7b\ufee2",
+        "transliteration": "tammim"
+    },
+    {
+        "en": "version",
+        "eg": "\ufe87\ufebb\ufeaa\ufe8d\ufe76\ufead",
+        "transliteration": "'iSdaar"
+    },
+    {
+        "en": "vest",
+        "eg": "\ufed3\ufe77\ufee8\ufe7b\ufee0\ufe7d\ufe77\ufe94",
+        "transliteration": "fanilla"
+    },
+    {
+        "en": "vet",
+        "eg": "beeTari",
+        "transliteration": "duktoor"
+    },
+    {
+        "en": "vexed",
+        "eg": "\ufecf\ufe77\ufec0\ufe92\ufe8e\ufe76\ufee5",
+        "transliteration": "GaDbaan"
+    },
+    {
+        "en": "victory",
+        "eg": "\ufe8d\ufe7a\ufedf\ufee8\ufe77\ufebc\ufeae",
+        "transliteration": "ilnaSr"
+    },
+    {
+        "en": "vile",
+        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufea6",
+        "transliteration": "baeyiK"
+    },
+    {
+        "en": "village",
+        "eg": "\ufe91\ufe77\ufee0\ufeaa\ufe76\ufe93",
+        "transliteration": "balda"
+    },
+    {
+        "en": "violin",
+        "eg": "\ufedb\ufe77\ufee4\ufe77\ufee8\ufea0\ufe77\ufe94",
+        "transliteration": "kamanga"
+    },
+    {
+        "en": "virgin",
+        "eg": "binoot",
+        "transliteration": "bint"
+    },
+    {
+        "en": "virtue",
+        "eg": "\ufe91\ufe77\ufeae\ufe7c",
+        "transliteration": "barr"
+    },
+    {
+        "en": "visa",
+        "eg": "\ufb6c\ufef4\ufeb0\ufe8d\ufe76",
+        "transliteration": "veeza"
+    },
+    {
+        "en": "voucher",
+        "eg": "\ufe91\ufe77\ufef4\ufe8e\ufe76\ufee5",
+        "transliteration": "bayaen"
+    },
+    {
+        "en": "vowel",
+        "eg": "mutharrik",
+        "transliteration": "harf"
+    },
+    {
+        "en": "W",
+        "eg": "\ufead\ufe78\ufed7\ufe8e\ufe76\ufed5",
+        "transliteration": "ru'ae'"
+    },
+    {
+        "en": "wage",
+        "eg": "\ufe83\ufe78\ufe9f\ufeae\ufe76\ufe93",
+        "transliteration": "'ugra"
+    },
+    {
+        "en": "wages",
+        "eg": "\ufee3\ufe77\ufeec\ufe7b\ufef4\ufe7d\ufe77\ufe94",
+        "transliteration": "mahiyya"
+    },
+    {
+        "en": "waiter",
+        "eg": "\ufeb3\ufe79\ufed4\ufeae\ufe76\ufe9f\ufef2",
+        "transliteration": "sufragi"
+    },
+    {
+        "en": "waiter!",
+        "eg": "rayyis",
+        "transliteration": "ya"
+    },
+    {
+        "en": "wake",
+        "eg": "\ufebb\ufe77\ufea4\ufe7d\ufef0",
+        "transliteration": "Sahha"
+    },
+    {
+        "en": "oneself",
+        "eg": "\ufebb\ufe7b\ufea4\ufef2",
+        "transliteration": "Sihi"
+    },
+    {
+        "en": "walnut",
+        "eg": "gamal",
+        "transliteration": "Aeen"
+    },
+    {
+        "en": "want",
+        "eg": "\ufe9f\ufe7b\ufeea",
+        "transliteration": "gih"
+    },
+    {
+        "en": "wanting",
+        "eg": "\ufecb\ufe8e\ufe76\ufef3\ufe7b\ufeb0",
+        "transliteration": "Aaeyiz"
+    },
+    {
+        "en": "warmth",
+        "eg": "\ufea3\ufe77\ufeae\ufe7c",
+        "transliteration": "harr"
+    },
+    {
+        "en": "warmup",
+        "eg": "\ufea9\ufe76\ufed3\ufe7d\ufef0",
+        "transliteration": "daffa"
+    }
 ]

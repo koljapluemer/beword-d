@@ -5,4 +5,5 @@
 - think about accessibility strategies
 - think about SEO strategies
 
-- see that vocabs aren't double picked
+
+- see that last version of vocabs is loaded and credit given

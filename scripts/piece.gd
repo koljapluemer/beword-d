@@ -29,6 +29,7 @@ func make_adjacent_bomb():
 	tween.kill()
 
 func move(target):
+	tween.kill()
 	tween = get_tree().create_tween()	
 	var random_time = randf_range(0.1, 0.35)
 	tween.tween_property(self, "position", target, random_time)
