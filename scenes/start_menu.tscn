@@ -26,12 +26,18 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -56.5
-offset_top = -43.5
-offset_right = 56.5
-offset_bottom = 43.5
+offset_left = -442.0
+offset_top = -102.5
+offset_right = 442.0
+offset_bottom = 244.5
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Select Language:"
+horizontal_alignment = 1
 
 [node name="LanguageSelect" type="OptionButton" parent="VBoxContainer"]
 layout_mode = 2
@@ -44,9 +50,28 @@ popup/item_0/id = 0
 popup/item_1/text = "English — Egyptian Arabic"
 popup/item_1/id = 1
 
+[node name="Control2" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2
+
 [node name="PlayButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Play"
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "[ul]
+Egyptian words built upon the amazing [url]www.lisaanmasry.org[/url] (Copyright © 2007-2020 Mike Green, non-commercial use)
+German words partly built upon [url=https://ankiweb.net/shared/info/293204297]this Anki deck[/url]
+[/ul]"
+fit_content = true
 
 [connection signal="item_selected" from="VBoxContainer/LanguageSelect" to="." method="_on_language_select_item_selected"]
 [connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_on_play_button_pressed"]
