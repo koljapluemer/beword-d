@@ -245,11 +245,6 @@
         "transliteration": "biKK"
     },
     {
-        "en": "boob",
-        "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
-        "transliteration": "bizz"
-    },
-    {
         "en": "bother",
         "eg": "\ufead\ufe76\ufea7\ufe7d\ufe7b\ufee2",
         "transliteration": "raKKim"
@@ -1565,11 +1560,6 @@
         "transliteration": "looli"
     },
     {
-        "en": "penis",
-        "eg": "\ufeaf\ufe7a\ufe8f",
-        "transliteration": "zib"
-    },
-    {
         "en": "person",
         "eg": "\ufeed\ufe8d\ufe76\ufea3\ufe7b\ufeaa",
         "transliteration": "waehid"
@@ -1940,11 +1930,6 @@
         "transliteration": "bitaeA"
     },
     {
-        "en": "semen",
-        "eg": "\ufedf\ufe77\ufe92\ufe77\ufee6",
-        "transliteration": "laban"
-    },
-    {
         "en": "server",
         "eg": "\ufea7\ufe8e\ufe76\ufea9\ufe7a\ufee1",
         "transliteration": "Kaadim"
@@ -2038,16 +2023,6 @@
         "en": "sleeve",
         "eg": "\ufedb\ufe79\ufee2\ufe7c",
         "transliteration": "kumm"
-    },
-    {
-        "en": "slut",
-        "eg": "\ufee3\ufe77\ufeae\ufe76\ufe93",
-        "transliteration": "mara"
-    },
-    {
-        "en": "slutty",
-        "eg": "\ufecb\ufef4\ufee0\ufed6",
-        "transliteration": "Aeel'"
     },
     {
         "en": "sly",
@@ -2315,11 +2290,6 @@
         "transliteration": "madd"
     },
     {
-        "en": "tit",
-        "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
-        "transliteration": "bizz"
-    },
-    {
         "en": "today",
         "eg": "\ufe8d\ufe7a\ufedf\ufef4\ufeee\ufee1",
         "transliteration": "ilyoom"
@@ -2418,11 +2388,6 @@
         "en": "urgent",
         "eg": "\ufecb\ufe8e\ufe76\ufe9f\ufe7b\ufede",
         "transliteration": "Aaegil"
-    },
-    {
-        "en": "vagina",
-        "eg": "\ufee3\ufe7b\ufeec\ufe92\ufe7b\ufede",
-        "transliteration": "mihbil"
     },
     {
         "en": "valid",
