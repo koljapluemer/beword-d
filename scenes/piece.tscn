@@ -1,18 +1,26 @@
-[gd_scene load_steps=5 format=3 uid="uid://deyy6i17veryl"]
+[gd_scene load_steps=6 format=3 uid="uid://deyy6i17veryl"]
 
 [ext_resource type="Script" path="res://scripts/piece.gd" id="1_h4d8a"]
-[ext_resource type="Texture2D" uid="uid://dg7k0a2f11l18" path="res://assets/tutorials/Pieces/row_overlay.png" id="2_0egw8"]
-[ext_resource type="Texture2D" uid="uid://dwymu263fhdqr" path="res://assets/tutorials/Pieces/col_overlay.png" id="3_o2ld1"]
-[ext_resource type="Texture2D" uid="uid://b4bh0537tayrd" path="res://assets/tutorials/Pieces/surround_overlay.png" id="4_jj3pg"]
+[ext_resource type="Texture2D" uid="uid://42o1i8cm6hxm" path="res://assets/pieces/grey.png" id="2_2bq6m"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ndt2o"]
+load_path = "res://.godot/imported/row_overlay.png-32de48ca5b7f06d0fe7b9c089992e169.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cii67"]
+load_path = "res://.godot/imported/col_overlay.png-6d6d963be2a39d3c31e8c4d76aa95083.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u3lqb"]
+load_path = "res://.godot/imported/surround_overlay.png-0f151c833900f6de54e59c0420c97bd4.ctex"
 
 [node name="piece" type="Node2D"]
 script = ExtResource("1_h4d8a")
-row_texture = ExtResource("2_0egw8")
-column_texture = ExtResource("3_o2ld1")
-adjacent_texture = ExtResource("4_jj3pg")
+row_texture = SubResource("CompressedTexture2D_ndt2o")
+column_texture = SubResource("CompressedTexture2D_cii67")
+adjacent_texture = SubResource("CompressedTexture2D_u3lqb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(1.5, 0.75)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_2bq6m")
 
 [node name="Overlay" type="Sprite2D" parent="."]
 scale = Vector2(0.75, 0.375)

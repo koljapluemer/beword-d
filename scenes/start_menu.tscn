@@ -39,9 +39,9 @@ alignment = 1
 item_count = 2
 selected = 0
 allow_reselect = true
-popup/item_0/text = "English — German ↓"
+popup/item_0/text = "English — German"
 popup/item_0/id = 0
-popup/item_1/text = "English — Egyptian Arabic ↓"
+popup/item_1/text = "English — Egyptian Arabic"
 popup/item_1/id = 1
 
 [node name="PlayButton" type="Button" parent="VBoxContainer"]

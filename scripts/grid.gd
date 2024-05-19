@@ -203,11 +203,6 @@ func init_piece():
 	var keys = vocab_dict.keys();
 	var random_key = keys[randi() % keys.size()];
 	piece.get_node("word").text = vocab_dict[random_key];
-	# with a chance, make the piece colorful
-	if randf() > 0.7:
-		piece.set_colorful();
-	else:
-		piece.get_node("Sprite2D").texture = load("res://assets/tutorials/Pieces/grey.png")
 	return piece;
 
 func _process(delta):
@@ -511,7 +506,6 @@ func refill_columns():
 			if all_pieces[i][j] == null and not is_fill_restricted(Vector2(i, j)):
 				var piece = init_piece();
 				add_child(piece);
-				piece.set_colorful();
 				piece.position = grid_to_pixel(i, j + drop_offset);
 				piece.move(grid_to_pixel(i, j));
 				all_pieces[i][j] = piece;

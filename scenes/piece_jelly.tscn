@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dvmumuiiobfd2"]
 
-[ext_resource type="Texture2D" uid="uid://c3r36qh8bbecn" path="res://assets/tutorials/Obstacles/Ice.png" id="1_fwyyc"]
 [ext_resource type="Script" path="res://scripts/piece_jelly.gd" id="1_hbat3"]
+[ext_resource type="Texture2D" uid="uid://bgmmma75rd7b" path="res://assets/pieces/ice.png" id="2_m28qe"]
 
 [node name="piece_jelly" type="Node2D"]
 script = ExtResource("1_hbat3")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(1.5, 0.75)
-texture = ExtResource("1_fwyyc")
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_m28qe")
