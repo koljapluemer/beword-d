@@ -1,12 +1,16 @@
 {
   "title": "Beworded",
-  "subtitle": "",
+  "subtitle": "A Match-3 Game to Practice Vocabulary",
   "status": "alpha",
-  "showOnPortfolio": false,
+  "showOnPortfolio": true,
   "showAboveFold": false,
   "imageAltProperty": "Screenshot of Beworded",
-  "languages": [],
+  "languages": ["en", "de", "eg"],
   "links": [
+    {
+      "title": "Play Beworded",
+      "url": "https://kolja-sam.itch.io/beworded"
+    },
     {
       "title": "See on GitHub",
       "url": "https://github.com/koljapluemer/beworded"
