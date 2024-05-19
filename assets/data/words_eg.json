@@ -5,16 +5,6 @@
         "transliteration": "Garee'"
     },
     {
-        "en": "ace",
-        "eg": "\ufe81\ufeb1",
-        "transliteration": "'es"
-    },
-    {
-        "en": "achieve",
-        "eg": "\ufe83\ufee7\ufea0\ufe77\ufeb0",
-        "transliteration": "'angaz"
-    },
-    {
         "en": "acid",
         "eg": "\ufea3\ufe77\ufee4\ufec0\ufef2",
         "transliteration": "hamDi"
@@ -40,19 +30,9 @@
         "transliteration": "ZabaT"
     },
     {
-        "en": "adverse",
-        "eg": "mahboob",
-        "transliteration": "Geer"
-    },
-    {
         "en": "advise",
         "eg": "\ufeed\ufe76\ufecb\ufe77\ufec6",
         "transliteration": "waAaZ"
-    },
-    {
-        "en": "afflict",
-        "eg": "\ufe87\ufe91\ufe98\ufe77\ufee0\ufef0",
-        "transliteration": "'ibtala"
     },
     {
         "en": "again",
@@ -65,11 +45,6 @@
         "transliteration": "sin"
     },
     {
-        "en": "agency",
-        "eg": "\ufeed\ufe78\ufedb\ufe8e\ufe76\ufedf\ufe77\ufe94",
-        "transliteration": "wukaela"
-    },
-    {
         "en": "agent",
         "eg": "\ufecb\ufe8e\ufe76\ufee3\ufef4\ufede",
         "transliteration": "Aameel"
@@ -80,69 +55,9 @@
         "transliteration": "maeshi"
     },
     {
-        "en": "alas!",
-        "eg": "\ufe83\ufea5",
-        "transliteration": "'aK"
-    },
-    {
-        "en": "album",
-        "eg": "\ufe83\ufedf\ufe92\ufeee\ufee1",
-        "transliteration": "'alboom"
-    },
-    {
-        "en": "alfalfa",
-        "eg": "higaezi",
-        "transliteration": "barseem"
-    },
-    {
-        "en": "alive",
-        "eg": "\ufecb\ufe8e\ufe76\ufef3\ufe7b\ufeb6",
-        "transliteration": "Aaeyish"
-    },
-    {
-        "en": "already",
-        "eg": "\ufe91\ufe77\ufed8\ufef0",
-        "transliteration": "ba'a"
-    },
-    {
         "en": "also",
         "eg": "\ufe91\ufe77\ufeae\ufebf\ufeee",
         "transliteration": "barDw"
-    },
-    {
-        "en": "always",
-        "eg": "\ufe97\ufe77\ufee4\ufe77\ufee0\ufe7d\ufef2",
-        "transliteration": "tamalli"
-    },
-    {
-        "en": "amiable",
-        "eg": "\ufea3\ufe77\ufe92\ufe7d\ufeee\ufe8f",
-        "transliteration": "habboob"
-    },
-    {
-        "en": "amongst",
-        "eg": "\ufee3\ufe7b\ufee8\ufeec\ufe79\ufee2",
-        "transliteration": "minhum"
-    },
-    {
-        "en": "amulet",
-        "eg": "\ufe97\ufe77\ufee4\ufef4\ufee4\ufe77\ufe94",
-        "transliteration": "tameema"
-    },
-    {
-        "en": "anaemia",
-        "eg": "damm",
-        "transliteration": "fa'r"
-    },
-    {
-        "en": "anew",
-        "eg": "gideed",
-        "transliteration": "min"
-    },
-    {
-        "en": "ankle",
-        "eg": "\ufe83\ufee7\ufedc\ufe7b\ufede",
-        "transliteration": "'ankil"
     },
     {
         "en": "annoy",
@@ -155,59 +70,9 @@
         "transliteration": "baTTal"
     },
     {
-        "en": "antique",
-        "eg": "\ufe97\ufe79\ufea4\ufed4\ufe77\ufe94",
-        "transliteration": "tuhfa"
-    },
-    {
-        "en": "anxiety",
-        "eg": "\ufee3\ufe79\ufe92\ufe8e\ufe76\ufefb",
-        "transliteration": "mubaela"
-    },
-    {
-        "en": "any",
-        "eg": "\ufe83\ufee7\ufeec\ufe79\ufeea",
-        "transliteration": "'anhuh"
-    },
-    {
-        "en": "anybody",
-        "eg": "hadd",
-        "transliteration": "'ayi"
-    },
-    {
         "en": "anyone",
-        "eg": "hadd",
-        "transliteration": "'ayi"
-    },
-    {
-        "en": "anytime",
-        "eg": "wa't",
-        "transliteration": "'ai"
-    },
-    {
-        "en": "anyways",
-        "eg": "\ufecb\ufe77\ufee4\ufe77\ufe98\ufe8e\ufe76\ufe70",
-        "transliteration": "Aamatan"
-    },
-    {
-        "en": "apart",
-        "eg": "\ufe83\ufe91\ufe77\ufecc\ufeaa",
-        "transliteration": "'abaAd"
-    },
-    {
-        "en": "appears",
-        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufee6",
-        "transliteration": "baeyin"
-    },
-    {
-        "en": "archery",
-        "eg": "\ufed7\ufeee\ufeb1",
-        "transliteration": "Qoos"
-    },
-    {
-        "en": "armhole",
-        "eg": "\ufedb\ufe79\ufee2\ufe7c",
-        "transliteration": "kumm"
+        "eg": "\ufea3\ufe77\ufeaa\ufe7c",
+        "transliteration": "hadd"
     },
     {
         "en": "armpit",
@@ -215,44 +80,14 @@
         "transliteration": "baaT"
     },
     {
-        "en": "army",
-        "eg": "geesh",
-        "transliteration": "ZubaaT"
-    },
-    {
-        "en": "arrival",
-        "eg": "\ufee3\ufe77\ufea0\ufe8a",
-        "transliteration": "mag'"
-    },
-    {
-        "en": "arrive",
-        "eg": "\ufe81\ufedd",
-        "transliteration": "'el"
-    },
-    {
         "en": "arse",
         "eg": "\ufec3\ufef4\ufeb0",
         "transliteration": "Teez"
     },
     {
-        "en": "artery",
-        "eg": "\ufe83\ufe91\ufeec\ufe77\ufeae",
-        "transliteration": "'abhar"
-    },
-    {
         "en": "as",
         "eg": "\ufeaf\ufe76\ufef1\ufe7c",
         "transliteration": "zayi"
-    },
-    {
-        "en": "exactly",
-        "eg": "\ufedb\ufe77\ufee4\ufe8e\ufe76\ufee5",
-        "transliteration": "kamaen"
-    },
-    {
-        "en": "Asia",
-        "eg": "\ufe83\ufeb3\ufef4\ufe8e\ufe76",
-        "transliteration": "'asya"
     },
     {
         "en": "aside",
@@ -270,19 +105,9 @@
         "transliteration": "Teez"
     },
     {
-        "en": "assert",
-        "eg": "\ufe87\ufea9\ufe7c\ufe76\ufecb\ufef0",
-        "transliteration": "'iddaAa"
-    },
-    {
         "en": "asset",
         "eg": "\ufeb3\ufe77\ufeec\ufee2",
         "transliteration": "sahm"
-    },
-    {
-        "en": "asshole",
-        "eg": "\ufe83\ufeeb\ufe92\ufe77\ufede",
-        "transliteration": "'ahbal"
     },
     {
         "en": "assist",
@@ -290,39 +115,14 @@
         "transliteration": "saeAid"
     },
     {
-        "en": "assure",
-        "eg": "\ufe83\ufedb\ufe7d\ufe7b\ufeaa",
-        "transliteration": "'akkid"
-    },
-    {
-        "en": "Aswan",
-        "eg": "\ufe83\ufeb3\ufeee\ufe8d\ufe76\ufee5",
-        "transliteration": "'aswaan"
-    },
-    {
-        "en": "atlas",
-        "eg": "\ufe83\ufec3\ufee0\ufe77\ufeb2",
-        "transliteration": "'aTlas"
-    },
-    {
         "en": "attach",
         "eg": "\ufeb7\ufe77\ufe92\ufe77\ufeda",
         "transliteration": "shabak"
     },
     {
-        "en": "avoid",
-        "eg": "Aan",
-        "transliteration": "'ibaAd"
-    },
-    {
         "en": "awake",
         "eg": "\ufebb\ufe8e\ufe76\ufea3\ufef2",
         "transliteration": "Saahi"
-    },
-    {
-        "en": "awesome",
-        "eg": "\ufe9f\ufe8e\ufe76\ufea3\ufe7b\ufeaa",
-        "transliteration": "gaehid"
     },
     {
         "en": "awful",
@@ -335,34 +135,9 @@
         "transliteration": "tanda"
     },
     {
-        "en": "B",
-        "eg": "\ufee3\ufe77\ufeee\ufedf\ufeee\ufea9",
-        "transliteration": "mawlood"
-    },
-    {
-        "en": "baker",
-        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufeaf",
-        "transliteration": "Kabbaez"
-    },
-    {
-        "en": "bald",
-        "eg": "\ufe83\ufed7\ufeae\ufe76\ufec9",
-        "transliteration": "'a'raA"
-    },
-    {
         "en": "ball",
         "eg": "\ufedb\ufeee\ufead\ufe76\ufe93",
         "transliteration": "koora"
-    },
-    {
-        "en": "balls",
-        "eg": "\ufe91\ufe7b\ufef4\ufec0\ufe8e\ufe76\ufee5",
-        "transliteration": "biyDaan"
-    },
-    {
-        "en": "bandage",
-        "eg": "\ufeb7\ufe8e\ufe76\ufeb5",
-        "transliteration": "shaesh"
     },
     {
         "en": "banker",
@@ -370,34 +145,14 @@
         "transliteration": "banki"
     },
     {
-        "en": "banquet",
-        "eg": "\ufecb\ufe79\ufeb0\ufeed\ufee3\ufe77\ufe94",
-        "transliteration": "Auzooma"
-    },
-    {
-        "en": "baptism",
-        "eg": "\ufe97\ufe77\ufee8\ufebc\ufef4\ufeae",
-        "transliteration": "tanSeer"
-    },
-    {
         "en": "barely",
         "eg": "\ufef3\ufe8e\ufe76\ufea9\ufeed\ufe8f",
         "transliteration": "yadoob"
     },
     {
-        "en": "barrel",
-        "eg": "\ufe91\ufe77\ufeae\ufee3\ufef4\ufede",
-        "transliteration": "barmeel"
-    },
-    {
         "en": "bass",
-        "eg": "'aroos",
+        "eg": "'aroos \ufeb3\ufe77\ufee4\ufe77\ufeda \ufed7\ufe77\ufeae\ufeed\ufeb1",
         "transliteration": "samak"
-    },
-    {
-        "en": "bastard",
-        "eg": "haraam",
-        "transliteration": "'ibn"
     },
     {
         "en": "bath",
@@ -410,11 +165,6 @@
         "transliteration": "marsa"
     },
     {
-        "en": "am",
-        "eg": "\ufe87\ufeb3\ufedc\ufe79\ufe96",
-        "transliteration": "'iskut"
-    },
-    {
         "en": "bead",
         "eg": "\ufea7\ufe77\ufeae\ufe76\ufeaf",
         "transliteration": "Karaz"
@@ -425,24 +175,9 @@
         "transliteration": "baha'"
     },
     {
-        "en": "because",
-        "eg": "\ufedf\ufe7b\ufe84\ufe9f\ufede",
-        "transliteration": "li'agl"
-    },
-    {
-        "en": "bedroom",
-        "eg": "noom",
-        "transliteration": "'uooDit"
-    },
-    {
         "en": "bee",
         "eg": "\ufee7\ufe77\ufea4\ufede",
         "transliteration": "nahl"
-    },
-    {
-        "en": "beef",
-        "eg": "kandooz",
-        "transliteration": "lahma"
     },
     {
         "en": "beep",
@@ -456,28 +191,8 @@
     },
     {
         "en": "beet",
-        "eg": "'abyaD",
+        "eg": "'abyaD \ufe91\ufe77\ufee8\ufea0\ufe77\ufeae \ufe83\ufe91\ufef4\ufe77\ufebe",
         "transliteration": "bangar"
-    },
-    {
-        "en": "beetle",
-        "eg": "\ufea7\ufe79\ufee8\ufed4\ufe7b\ufeb4\ufe77\ufe94",
-        "transliteration": "Kunfisa"
-    },
-    {
-        "en": "begin",
-        "eg": "\ufe87\ufe91\ufe98\ufe77\ufeaa\ufeef",
-        "transliteration": "'ibtada"
-    },
-    {
-        "en": "behalf",
-        "eg": "Aan",
-        "transliteration": "niyaeba"
-    },
-    {
-        "en": "bell",
-        "eg": "\ufe83\ufe78\ufedb\ufeae\ufe76\ufe93",
-        "transliteration": "'ukra"
     },
     {
         "en": "bench",
@@ -500,34 +215,9 @@
         "transliteration": "Kaen"
     },
     {
-        "en": "betting",
-        "eg": "\ufead\ufe76\ufeeb\ufe8e\ufe76\ufee5",
-        "transliteration": "rahaan"
-    },
-    {
-        "en": "billion",
-        "eg": "\ufe91\ufe7b\ufee0\ufef4\ufeee\ufee5",
-        "transliteration": "bilyoon"
-    },
-    {
         "en": "bind",
         "eg": "\ufe9f\ufe77\ufee0\ufe7d\ufe7b\ufeaa",
         "transliteration": "gallid"
-    },
-    {
-        "en": "bins",
-        "eg": "\ufebb\ufe77\ufed4\ufef4\ufea4\ufe77\ufe94",
-        "transliteration": "Safeeha"
-    },
-    {
-        "en": "biology",
-        "eg": "il'ahy'a",
-        "transliteration": "Ailm"
-    },
-    {
-        "en": "bishop",
-        "eg": "\ufee3\ufe79\ufec4\ufeae\ufe8d\ufe76\ufee5",
-        "transliteration": "muTraan"
     },
     {
         "en": "black",
@@ -535,24 +225,9 @@
         "transliteration": "loobya"
     },
     {
-        "en": "blaming",
-        "eg": "\ufefb\ufef3\ufe7b\ufee2",
-        "transliteration": "laeyim"
-    },
-    {
         "en": "blank",
         "eg": "\ufed3\ufe8e\ufe76\ufebf\ufef2",
         "transliteration": "faaDi"
-    },
-    {
-        "en": "blister",
-        "eg": "\ufea3\ufe77\ufeae\ufed5",
-        "transliteration": "har'"
-    },
-    {
-        "en": "blowing",
-        "eg": "\ufee7\ufe77\ufed4\ufea6",
-        "transliteration": "nafK"
     },
     {
         "en": "blunt",
@@ -565,11 +240,6 @@
         "transliteration": "markib"
     },
     {
-        "en": "bonnet",
-        "eg": "\ufedb\ufe77\ufe92\ufe7d\ufeee\ufe95",
-        "transliteration": "kabboot"
-    },
-    {
         "en": "boo!",
         "eg": "\ufe91\ufe7b\ufea6\ufe7c",
         "transliteration": "biKK"
@@ -580,29 +250,9 @@
         "transliteration": "bizz"
     },
     {
-        "en": "boredom",
-        "eg": "\ufeaf\ufe76\ufeeb\ufe77\ufed6",
-        "transliteration": "zaha'"
-    },
-    {
         "en": "bother",
         "eg": "\ufead\ufe76\ufea7\ufe7d\ufe7b\ufee2",
         "transliteration": "raKKim"
-    },
-    {
-        "en": "bottle",
-        "eg": "\ufe87\ufeaf\ufe8d\ufe76\ufeaf\ufe76\ufe93",
-        "transliteration": "'izaeza"
-    },
-    {
-        "en": "bowel",
-        "eg": "\ufee3\ufe79\ufebc\ufeae\ufe8d\ufe76\ufee5",
-        "transliteration": "muSraan"
-    },
-    {
-        "en": "boxing",
-        "eg": "\ufee3\ufe79\ufefc\ufedb\ufee4\ufe77\ufe94",
-        "transliteration": "mulakma"
     },
     {
         "en": "boy!",
@@ -615,34 +265,9 @@
         "transliteration": "radda"
     },
     {
-        "en": "bravery",
-        "eg": "\ufe9f\ufe77\ufeae\ufe83\ufe76\ufe93",
-        "transliteration": "gar'aa"
-    },
-    {
         "en": "bravo!",
         "eg": "\ufe91\ufeae\ufe76\ufb6c\ufeee",
         "transliteration": "bravw"
-    },
-    {
-        "en": "bride",
-        "eg": "wa",
-        "transliteration": "Aarees"
-    },
-    {
-        "en": "bringup",
-        "eg": "\ufec3\ufe77\ufee0\ufe7d\ufe77\ufeca",
-        "transliteration": "TallaA"
-    },
-    {
-        "en": "broadly",
-        "eg": "waesiA",
-        "transliteration": "bishakl"
-    },
-    {
-        "en": "broke",
-        "eg": "\ufee3\ufe77\ufeb0\ufee7\ufeee\ufed5",
-        "transliteration": "maznoo'"
     },
     {
         "en": "bronze",
@@ -655,29 +280,9 @@
         "transliteration": "kadma"
     },
     {
-        "en": "brusque",
-        "eg": "\ufe9f\ufe77\ufea4\ufe7d\ufe77\ufeb6",
-        "transliteration": "gahhash"
-    },
-    {
-        "en": "bugbear",
-        "eg": "\ufe91\ufe79\ufecc\ufe92\ufe79\ufeca",
-        "transliteration": "buAbuA"
-    },
-    {
         "en": "build",
         "eg": "\ufe91\ufe77\ufee8\ufef0",
         "transliteration": "bana"
-    },
-    {
-        "en": "builder",
-        "eg": "\ufe91\ufe77\ufee8\ufe7d\ufe8e\ufe76",
-        "transliteration": "banna"
-    },
-    {
-        "en": "bulb",
-        "eg": "thoom",
-        "transliteration": "raas"
     },
     {
         "en": "bump",
@@ -690,24 +295,9 @@
         "transliteration": "rafraf"
     },
     {
-        "en": "burden",
-        "eg": "\ufe91\ufe77\ufeae\ufeb7\ufe77\ufec2",
-        "transliteration": "barshaT"
-    },
-    {
         "en": "burial",
         "eg": "\ufe97\ufeee\ufead\ufe76\ufe8f",
         "transliteration": "toorab"
-    },
-    {
-        "en": "burner",
-        "eg": "bootagaez",
-        "transliteration": "Aeen"
-    },
-    {
-        "en": "but",
-        "eg": "zalik",
-        "transliteration": "maAa"
     },
     {
         "en": "bye",
@@ -715,49 +305,9 @@
         "transliteration": "salaem"
     },
     {
-        "en": "cabin",
-        "eg": "\ufedb\ufe77\ufe92\ufef4\ufee8\ufe77\ufe94",
-        "transliteration": "kabeena"
-    },
-    {
-        "en": "calling",
-        "eg": "\ufee7\ufe7b\ufeaa\ufe8d\ufe76\ufe80",
-        "transliteration": "nida'"
-    },
-    {
-        "en": "camel",
-        "eg": "\ufe87\ufe91\ufe7b\ufede",
-        "transliteration": "'ibil"
-    },
-    {
-        "en": "caraway",
-        "eg": "\ufedb\ufe77\ufeae\ufe76\ufeed\ufef3\ufe77\ufe94",
-        "transliteration": "karawya"
-    },
-    {
-        "en": "carbon",
-        "eg": "\ufedb\ufe77\ufeae\ufe91\ufeee\ufee5",
-        "transliteration": "karboon"
-    },
-    {
         "en": "carer",
         "eg": "\ufead\ufe8d\ufe76\ufecb\ufef2",
         "transliteration": "raaAi"
-    },
-    {
-        "en": "caries",
-        "eg": "\ufe97\ufe77\ufeb4\ufeee\ufef3\ufeb2",
-        "transliteration": "taswees"
-    },
-    {
-        "en": "carry",
-        "eg": "\ufe83\ufe9f\ufeae\ufeef",
-        "transliteration": "'agra"
-    },
-    {
-        "en": "cartoon",
-        "eg": "\ufedb\ufe8e\ufe76\ufead\ufe97\ufeee\ufee5",
-        "transliteration": "kartoon"
     },
     {
         "en": "carve",
@@ -765,13 +315,8 @@
         "transliteration": "nahat"
     },
     {
-        "en": "cashier",
-        "eg": "\ufedb\ufe8e\ufe76\ufeb7\ufef4\ufeae",
-        "transliteration": "kasheer"
-    },
-    {
         "en": "casino",
-        "eg": "'umaar",
+        "eg": "'umaar \ufebb\ufe8e\ufe76\ufedf\ufe7b\ufe94 \ufed7\ufe79\ufee4\ufe8e\ufe76\ufead",
         "transliteration": "Saalit"
     },
     {
@@ -785,24 +330,9 @@
         "transliteration": "huboob"
     },
     {
-        "en": "charity",
-        "eg": "\ufe87\ufea3\ufeb4\ufe8e\ufe76\ufee5",
-        "transliteration": "'ihsaen"
-    },
-    {
         "en": "cheer",
         "eg": "\ufeeb\ufe77\ufe98\ufe77\ufed2",
         "transliteration": "hataf"
-    },
-    {
-        "en": "cheers",
-        "eg": "Sihhitak",
-        "transliteration": "fi"
-    },
-    {
-        "en": "cheetah",
-        "eg": "ilnaQaT",
-        "transliteration": "fahd"
     },
     {
         "en": "cherry",
@@ -828,16 +358,6 @@
         "en": "chilli",
         "eg": "\ufeb7\ufe77\ufec4\ufe7d\ufe77\ufe94",
         "transliteration": "shaTTa"
-    },
-    {
-        "en": "Chinese",
-        "eg": "\ufebb\ufef4\ufee8\ufef2",
-        "transliteration": "Seeni"
-    },
-    {
-        "en": "chisel",
-        "eg": "\ufe87\ufeaf\ufee3\ufef4\ufeae",
-        "transliteration": "'izmeer"
     },
     {
         "en": "choose",
@@ -870,16 +390,6 @@
         "transliteration": "barda"
     },
     {
-        "en": "closet",
-        "eg": "\ufea9\ufeed\ufefb\ufe8f",
-        "transliteration": "doolaeb"
-    },
-    {
-        "en": "clothes",
-        "eg": "\ufeeb\ufe79\ufeaa\ufeed\ufee1",
-        "transliteration": "hudoom"
-    },
-    {
         "en": "coat",
         "eg": "\ufe91\ufe77\ufee0\ufec4\ufeee",
         "transliteration": "balTw"
@@ -895,11 +405,6 @@
         "transliteration": "koola"
     },
     {
-        "en": "collect",
-        "eg": "\ufe9f\ufe77\ufee4\ufe7d\ufe77\ufeca",
-        "transliteration": "gammaA"
-    },
-    {
         "en": "colt",
         "eg": "\ufee3\ufe79\ufeec\ufeae",
         "transliteration": "muhr"
@@ -910,34 +415,9 @@
         "transliteration": "gayi"
     },
     {
-        "en": "compass",
-        "eg": "\ufe91\ufeee\ufebb\ufee0\ufe77\ufe94",
-        "transliteration": "booSla"
-    },
-    {
         "en": "compel",
         "eg": "\ufea7\ufe77\ufee0\ufe7d\ufef0",
         "transliteration": "Kalla"
-    },
-    {
-        "en": "conceal",
-        "eg": "\ufea7\ufe77\ufe92\ufe7d\ufef0",
-        "transliteration": "Kabba"
-    },
-    {
-        "en": "concert",
-        "eg": "moosee'iyya",
-        "transliteration": "hafla"
-    },
-    {
-        "en": "conch",
-        "eg": "\ufee3\ufe77\ufea4\ufe8e\ufe76\ufead\ufe76\ufe93",
-        "transliteration": "mahaara"
-    },
-    {
-        "en": "condemn",
-        "eg": "\ufea3\ufe77\ufedc\ufe77\ufee2",
-        "transliteration": "hakam"
     },
     {
         "en": "condom",
@@ -950,34 +430,9 @@
         "transliteration": "manah"
     },
     {
-        "en": "confuse",
-        "eg": "\ufe91\ufe77\ufeae\ufe9f\ufe7b\ufede",
-        "transliteration": "bargil"
-    },
-    {
-        "en": "contain",
-        "eg": "\ufe87\ufea3\ufe98\ufe77\ufeee\ufeef",
-        "transliteration": "'ihtawa"
-    },
-    {
-        "en": "convert",
-        "eg": "\ufea3\ufe77\ufeee\ufe7c\ufe7a\ufedd",
-        "transliteration": "hawwil"
-    },
-    {
         "en": "convey",
         "eg": "\ufea3\ufe77\ufeae\ufe7c\ufe76\ufed9",
         "transliteration": "harrak"
-    },
-    {
-        "en": "coral",
-        "eg": "murganya",
-        "transliteration": "shuAb"
-    },
-    {
-        "en": "corn",
-        "eg": "dura",
-        "transliteration": "kooz"
     },
     {
         "en": "corpse",
@@ -985,29 +440,9 @@
         "transliteration": "gitta"
     },
     {
-        "en": "costume",
-        "eg": "\ufeaf\ufe76\ufef1",
-        "transliteration": "zai"
-    },
-    {
-        "en": "county",
-        "eg": "\ufe83\ufed7\ufee0\ufef4\ufee2",
-        "transliteration": "'aQleem"
-    },
-    {
-        "en": "couplet",
-        "eg": "\ufe91\ufe7b\ufef4\ufe96",
-        "transliteration": "biyt"
-    },
-    {
         "en": "coupon",
         "eg": "\ufe91\ufeee\ufee5",
         "transliteration": "boon"
-    },
-    {
-        "en": "crab",
-        "eg": "galambw",
-        "transliteration": "'abw"
     },
     {
         "en": "craft",
@@ -1030,31 +465,6 @@
         "transliteration": "badaA"
     },
     {
-        "en": "crime",
-        "eg": "\ufe9f\ufe77\ufeae\ufef3\ufee4\ufe77\ufe94",
-        "transliteration": "gareema"
-    },
-    {
-        "en": "crisp",
-        "eg": "\ufeb7\ufef4\ufe92\ufeb4\ufef2",
-        "transliteration": "sheebsi"
-    },
-    {
-        "en": "crushed",
-        "eg": "\ufee3\ufe77\ufec4\ufea4\ufeee\ufee5",
-        "transliteration": "maThoon"
-    },
-    {
-        "en": "crying",
-        "eg": "\ufeaf\ufe76\ufecb\ufef4\ufed8\ufe77\ufe94",
-        "transliteration": "zaAee'a"
-    },
-    {
-        "en": "crystal",
-        "eg": "\ufe91\ufe77\ufee0\ufe7d\ufeee\ufead",
-        "transliteration": "balloor"
-    },
-    {
         "en": "curb",
         "eg": "\ufe91\ufe77\ufec4\ufe7d\ufe77\ufede",
         "transliteration": "baTTal"
@@ -1070,16 +480,6 @@
         "transliteration": "Aamal"
     },
     {
-        "en": "cutting",
-        "eg": "\ufed7\ufe77\ufeba\ufe7c",
-        "transliteration": "'aSS"
-    },
-    {
-        "en": "daring",
-        "eg": "\ufee3\ufe79\ufea0\ufe98\ufe77\ufeae\ufe89",
-        "transliteration": "mugtar'"
-    },
-    {
         "en": "darn",
         "eg": "\ufea7\ufe77\ufef4\ufe7d\ufe77\ufec2",
         "transliteration": "KayyaT"
@@ -1090,24 +490,9 @@
         "transliteration": "Gulluw"
     },
     {
-        "en": "deceive",
-        "eg": "\ufea7\ufe77\ufee2\ufe7c",
-        "transliteration": "Kamm"
-    },
-    {
         "en": "decide",
         "eg": "\ufea3\ufe77\ufeb4\ufe77\ufee2",
         "transliteration": "hasam"
-    },
-    {
-        "en": "decor",
-        "eg": "\ufea9\ufef3\ufedc\ufeee\ufead",
-        "transliteration": "deekoor"
-    },
-    {
-        "en": "deliver",
-        "eg": "\ufeed\ufe76\ufebb\ufe7d\ufe77\ufede",
-        "transliteration": "waSSal"
     },
     {
         "en": "depart",
@@ -1125,39 +510,9 @@
         "transliteration": "gildi"
     },
     {
-        "en": "dessert",
-        "eg": "\ufea3\ufe7b\ufee0\ufeee",
-        "transliteration": "hilw"
-    },
-    {
-        "en": "destiny",
-        "eg": "\ufed7\ufe77\ufeaa\ufe76\ufead",
-        "transliteration": "Qadar"
-    },
-    {
-        "en": "destroy",
-        "eg": "\ufea9\ufe76\ufecf\ufeaa\ufe76\ufecd",
-        "transliteration": "daGdaG"
-    },
-    {
-        "en": "detail",
-        "eg": "\ufe97\ufe77\ufed4\ufebc\ufef4\ufede",
-        "transliteration": "tafSeel"
-    },
-    {
         "en": "dew",
         "eg": "\ufee7\ufe77\ufeaa\ufeef",
         "transliteration": "nada"
-    },
-    {
-        "en": "diadem",
-        "eg": "\ufe87\ufedb\ufee0\ufef4\ufede",
-        "transliteration": "'ikleel"
-    },
-    {
-        "en": "diamond",
-        "eg": "\ufe83\ufedf\ufee4\ufe8e\ufe76\ufec5",
-        "transliteration": "'almaaZ"
     },
     {
         "en": "dice",
@@ -1165,29 +520,9 @@
         "transliteration": "zahr"
     },
     {
-        "en": "dick",
-        "eg": "\ufe91\ufe7b\ufe98\ufe8e\ufe76\ufecb\ufef2",
-        "transliteration": "bitaeAi"
-    },
-    {
         "en": "dig",
         "eg": "\ufed3\ufe77\ufea4\ufe77\ufe96",
         "transliteration": "fahat"
-    },
-    {
-        "en": "digging",
-        "eg": "\ufed3\ufe77\ufea4\ufe96",
-        "transliteration": "faht"
-    },
-    {
-        "en": "dignity",
-        "eg": "\ufedb\ufe77\ufeae\ufe8d\ufe76\ufee3\ufe77\ufe94",
-        "transliteration": "karaama"
-    },
-    {
-        "en": "diner",
-        "eg": "sufra",
-        "transliteration": "'uooDit"
     },
     {
         "en": "disc",
@@ -1195,49 +530,14 @@
         "transliteration": "disk"
     },
     {
-        "en": "disturb",
-        "eg": "\ufe83\ufeaf\ufecb\ufe77\ufe9e",
-        "transliteration": "'azAag"
-    },
-    {
         "en": "ditch",
         "eg": "\ufe9f\ufeee\ufead\ufe76\ufe93",
         "transliteration": "goora"
     },
     {
-        "en": "diving",
-        "eg": "GaTs",
-        "transliteration": "mask"
-    },
-    {
-        "en": "docile",
-        "eg": "\ufe83\ufedf\ufef4\ufed2",
-        "transliteration": "'aleef"
-    },
-    {
-        "en": "doll",
-        "eg": "\ufecb\ufe77\ufeae\ufeed\ufeb3\ufe77\ufe94",
-        "transliteration": "Aaroosa"
-    },
-    {
-        "en": "dolphin",
-        "eg": "\ufea9\ufe76\ufead\ufed3\ufef4\ufede",
-        "transliteration": "darfeel"
-    },
-    {
         "en": "don't",
         "eg": "\ufee3\ufe7b\ufeb6",
         "transliteration": "mish"
-    },
-    {
-        "en": "don't!",
-        "eg": "\ufe91\ufe77\ufefc\ufeb5",
-        "transliteration": "balaesh"
-    },
-    {
-        "en": "dough",
-        "eg": "ilmaaZ",
-        "transliteration": "kishk"
     },
     {
         "en": "down",
@@ -1250,19 +550,9 @@
         "transliteration": "mahr"
     },
     {
-        "en": "dragged",
-        "eg": "\ufe87\ufee7\ufea0\ufe77\ufeae\ufe7c",
-        "transliteration": "'ingarr"
-    },
-    {
         "en": "drawer",
         "eg": "\ufea9\ufe78\ufead\ufe9d",
         "transliteration": "durg"
-    },
-    {
-        "en": "drawing",
-        "eg": "rasm",
-        "transliteration": "dabboos"
     },
     {
         "en": "dregs",
@@ -1270,39 +560,9 @@
         "transliteration": "tifl"
     },
     {
-        "en": "dressed",
-        "eg": "\ufefb\ufe91\ufe7b\ufeb2",
-        "transliteration": "laebis"
-    },
-    {
-        "en": "dried",
-        "eg": "\ufee7\ufe8e\ufe76\ufeb7\ufe7b\ufed2",
-        "transliteration": "naeshif"
-    },
-    {
-        "en": "driver",
-        "eg": "\ufeb3\ufe77\ufeee\ufe7c\ufe8d\ufe76\ufed5",
-        "transliteration": "sawwae'"
-    },
-    {
-        "en": "driver!",
-        "eg": "'usTah",
-        "transliteration": "ya"
-    },
-    {
-        "en": "driving",
-        "eg": "\ufeb3\ufe7b\ufeee\ufe8d\ufe76\ufed7\ufe77\ufe94",
-        "transliteration": "siwaa'a"
-    },
-    {
         "en": "drool",
         "eg": "\ufead\ufe76\ufef3\ufe7d\ufe7b\ufede",
         "transliteration": "rayyil"
-    },
-    {
-        "en": "drought",
-        "eg": "\ufe9f\ufe77\ufed4\ufe7d\ufe8e\ufe76\ufed1",
-        "transliteration": "gaffaef"
     },
     {
         "en": "drown",
@@ -1320,11 +580,6 @@
         "transliteration": "tawa"
     },
     {
-        "en": "dumped",
-        "eg": "\ufe87\ufe97\ufe7d\ufe8e\ufe76\ufeed\ufeef",
-        "transliteration": "'ittawa"
-    },
-    {
         "en": "dung",
         "eg": "\ufea7\ufe77\ufeae\ufeef",
         "transliteration": "Kara"
@@ -1333,21 +588,6 @@
         "en": "dust",
         "eg": "\ufecb\ufe79\ufed4\ufe8e\ufe76\ufead",
         "transliteration": "Aufaar"
-    },
-    {
-        "en": "duster",
-        "eg": "Safra",
-        "transliteration": "fooTa"
-    },
-    {
-        "en": "dustpan",
-        "eg": "\ufe9f\ufe77\ufeae\ufeed\ufed1",
-        "transliteration": "garoof"
-    },
-    {
-        "en": "dyer",
-        "eg": "\ufee3\ufe77\ufebc\ufe92\ufe77\ufed0\ufe77\ufe94",
-        "transliteration": "maSbaGa"
     },
     {
         "en": "dying",
@@ -1360,29 +600,9 @@
         "transliteration": "widn"
     },
     {
-        "en": "earlier",
-        "eg": "shuwaya",
-        "transliteration": "min"
-    },
-    {
-        "en": "earnest",
-        "eg": "\ufe9f\ufe77\ufeaa\ufe7c",
-        "transliteration": "gadd"
-    },
-    {
-        "en": "easter",
-        "eg": "ilQiyaema",
-        "transliteration": "Aiyd"
-    },
-    {
         "en": "eat",
         "eg": "\ufedb\ufe77\ufede",
         "transliteration": "kal"
-    },
-    {
-        "en": "eating",
-        "eg": "\ufe83\ufedb\ufede",
-        "transliteration": "'akl"
     },
     {
         "en": "ebb",
@@ -1395,54 +615,9 @@
         "transliteration": "Aaddil"
     },
     {
-        "en": "eight",
-        "eg": "\ufe97\ufe77\ufee4\ufe8e\ufe76\ufee7\ufef4\ufe77\ufe94",
-        "transliteration": "tamanya"
-    },
-    {
-        "en": "elastic",
-        "eg": "\ufe83\ufeb3\ufe98\ufe7b\ufeda",
-        "transliteration": "'astik"
-    },
-    {
-        "en": "element",
-        "eg": "'ibtida'ya",
-        "transliteration": "madrasa"
-    },
-    {
         "en": "elite",
         "eg": "\ufee7\ufe79\ufea8\ufe92\ufe77\ufe94",
         "transliteration": "nuKba"
-    },
-    {
-        "en": "email",
-        "eg": "\ufe87\ufee3\ufef4\ufede",
-        "transliteration": "'imeel"
-    },
-    {
-        "en": "endless",
-        "eg": "nihae'i",
-        "transliteration": "la"
-    },
-    {
-        "en": "enforce",
-        "eg": "\ufe9f\ufe77\ufe92\ufe77\ufeae",
-        "transliteration": "gabar"
-    },
-    {
-        "en": "enlarge",
-        "eg": "\ufeed\ufe76\ufeb3\ufe7d\ufe77\ufeca",
-        "transliteration": "wassaA"
-    },
-    {
-        "en": "enough!",
-        "eg": "ba'a",
-        "transliteration": "bass"
-    },
-    {
-        "en": "ensure",
-        "eg": "\ufe83\ufee3\ufe7d\ufe7b\ufee6",
-        "transliteration": "'ammin"
     },
     {
         "en": "enter",
@@ -1450,29 +625,9 @@
         "transliteration": "Kushsh"
     },
     {
-        "en": "era",
-        "eg": "za",
-        "transliteration": "fatra"
-    },
-    {
         "en": "erase",
         "eg": "\ufee3\ufe77\ufeb4\ufe77\ufea2",
         "transliteration": "masah"
-    },
-    {
-        "en": "escort",
-        "eg": "maAa",
-        "transliteration": "raah"
-    },
-    {
-        "en": "essence",
-        "eg": "\ufea7\ufe79\ufefc\ufebb\ufe77\ufe94",
-        "transliteration": "KulaaSa"
-    },
-    {
-        "en": "etc",
-        "eg": "'ai",
-        "transliteration": "'absaar"
     },
     {
         "en": "eunuch",
@@ -1480,54 +635,14 @@
         "transliteration": "maKSi"
     },
     {
-        "en": "evasive",
-        "eg": "\ufea3\ufe77\ufeee\ufe7c\ufe76\ufead",
-        "transliteration": "hawwar"
-    },
-    {
         "en": "exempt",
         "eg": "\ufecb\ufe77\ufed4\ufef0",
         "transliteration": "Aafa"
     },
     {
-        "en": "exiting",
-        "eg": "\ufea7\ufe79\ufeae\ufeed\ufe9d",
-        "transliteration": "Kuroog"
-    },
-    {
-        "en": "extent",
-        "eg": "'ieeh",
-        "transliteration": "'add"
-    },
-    {
-        "en": "extract",
-        "eg": "\ufea7\ufe77\ufee0\ufe77\ufeca",
-        "transliteration": "KalaA"
-    },
-    {
-        "en": "facing",
-        "eg": "\ufed7\ufe79\ufebc\ufe8e\ufe76\ufea9",
-        "transliteration": "'uSaad"
-    },
-    {
-        "en": "faggot",
-        "eg": "shazz",
-        "transliteration": "shaKS"
-    },
-    {
         "en": "fancy",
         "eg": "\ufea3\ufe77\ufe90\ufe7c",
         "transliteration": "habb"
-    },
-    {
-        "en": "fantasy",
-        "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
-        "transliteration": "Kayael"
-    },
-    {
-        "en": "fare",
-        "eg": "\ufe83\ufe78\ufe9f\ufeae\ufe76\ufe93",
-        "transliteration": "'ugra"
     },
     {
         "en": "fascia",
@@ -1545,16 +660,6 @@
         "transliteration": "hama"
     },
     {
-        "en": "fawn",
-        "eg": "Aala",
-        "transliteration": "hakk"
-    },
-    {
-        "en": "fearing",
-        "eg": "Aala",
-        "transliteration": "Kaayif"
-    },
-    {
         "en": "felt",
         "eg": "\ufedf\ufe79\ufe92\ufe8e\ufe76\ufea9",
         "transliteration": "lubaed"
@@ -1563,26 +668,6 @@
         "en": "fetch",
         "eg": "\ufe9f\ufe8e\ufe76\ufe8f",
         "transliteration": "gaeb"
-    },
-    {
-        "en": "fewer",
-        "eg": "\ufe83\ufed7\ufe77\ufede\ufe7c",
-        "transliteration": "'a'all"
-    },
-    {
-        "en": "fiction",
-        "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
-        "transliteration": "Kayael"
-    },
-    {
-        "en": "fifty",
-        "eg": "\ufea7\ufe77\ufee4\ufeb4\ufef4\ufee6",
-        "transliteration": "Kamseen"
-    },
-    {
-        "en": "filler",
-        "eg": "\ufee3\ufe77\ufecc\ufea0\ufeee\ufee5",
-        "transliteration": "maAgoon"
     },
     {
         "en": "fillet",
@@ -1595,39 +680,14 @@
         "transliteration": "farasa"
     },
     {
-        "en": "filth",
-        "eg": "\ufeed\ufe76\ufeb3\ufe8e\ufe76\ufea7\ufe77\ufe94",
-        "transliteration": "wasaeKa"
-    },
-    {
         "en": "finger",
         "eg": "\ufebb\ufe79\ufe92\ufe8e\ufe76\ufec9",
         "transliteration": "SubaaA"
     },
     {
-        "en": "firstly",
-        "eg": "damGa",
-        "transliteration": "wara'it"
-    },
-    {
-        "en": "fitting",
-        "eg": "\ufe91\ufeae\ufeed\ufb6c\ufe77\ufe94",
-        "transliteration": "broova"
-    },
-    {
         "en": "flake",
         "eg": "\ufead\ufe76\ufed7\ufe8e\ufe76\ufe8b\ufed6",
         "transliteration": "raQa'Q"
-    },
-    {
-        "en": "flannel",
-        "eg": "\ufedb\ufe77\ufeb4\ufe98\ufeee\ufead",
-        "transliteration": "kastoor"
-    },
-    {
-        "en": "flatten",
-        "eg": "\ufe91\ufe77\ufec2\ufe7c",
-        "transliteration": "baTT"
     },
     {
         "en": "fleece",
@@ -1640,24 +700,9 @@
         "transliteration": "Aeel'"
     },
     {
-        "en": "florist",
-        "eg": "ward",
-        "transliteration": "bayaeA"
-    },
-    {
-        "en": "flower",
-        "eg": "ilward",
-        "transliteration": "tanseeQ"
-    },
-    {
         "en": "flute",
         "eg": "\ufee7\ufe8e\ufe76\ufef1",
         "transliteration": "naei"
-    },
-    {
-        "en": "flyover",
-        "eg": "\ufedb\ufe79\ufe92\ufeae\ufef1",
-        "transliteration": "kubri"
     },
     {
         "en": "foal",
@@ -1665,34 +710,9 @@
         "transliteration": "muhr"
     },
     {
-        "en": "food",
-        "eg": "\ufe83\ufedb\ufede",
-        "transliteration": "'akl"
-    },
-    {
-        "en": "foolish",
-        "eg": "\ufe91\ufe77\ufeec\ufee0\ufeee\ufedd",
-        "transliteration": "bahlool"
-    },
-    {
         "en": "forge",
         "eg": "\ufeaf\ufe76\ufeed\ufe7c\ufe76\ufead",
         "transliteration": "zawwar"
-    },
-    {
-        "en": "forget",
-        "eg": "\ufe87\ufed7\ufee0\ufe7b\ufe90",
-        "transliteration": "'i'lib"
-    },
-    {
-        "en": "former",
-        "eg": "\ufed7\ufe77\ufe92\ufee0\ufef2",
-        "transliteration": "'abli"
-    },
-    {
-        "en": "fragile",
-        "eg": "likasr",
-        "transliteration": "Qaabil"
     },
     {
         "en": "frank",
@@ -1705,69 +725,9 @@
         "transliteration": "tallig"
     },
     {
-        "en": "freezer",
-        "eg": "\ufed3\ufeae\ufef3\ufeb0\ufe7a\ufead",
-        "transliteration": "freezir"
-    },
-    {
-        "en": "Friday",
-        "eg": "ilgumAa",
-        "transliteration": "yoom"
-    },
-    {
-        "en": "fringe",
-        "eg": "\ufed3\ufeae\ufe76\ufee7\ufeb8\ufe77\ufe94",
-        "transliteration": "fransha"
-    },
-    {
-        "en": "frizzy",
-        "eg": "\ufe83\ufedb\ufeae\ufe76\ufe95",
-        "transliteration": "'akrat"
-    },
-    {
-        "en": "frog",
-        "eg": "\ufe91\ufe77\ufed8\ufeae\ufeed\ufead",
-        "transliteration": "ba'roor"
-    },
-    {
-        "en": "frying",
-        "eg": "tahmeer",
-        "transliteration": "Taasit"
-    },
-    {
         "en": "fuck",
         "eg": "\ufee7\ufe77\ufef4\ufeda",
         "transliteration": "nayk"
-    },
-    {
-        "en": "fuel",
-        "eg": "ilbanzeen",
-        "transliteration": "'ambeer"
-    },
-    {
-        "en": "fulfil",
-        "eg": "\ufe83\ufea9\ufe7c\ufeef",
-        "transliteration": "'adda"
-    },
-    {
-        "en": "fully",
-        "eg": "il'aKir",
-        "transliteration": "Aa"
-    },
-    {
-        "en": "funeral",
-        "eg": "\ufee3\ufe77\ufef4\ufe98\ufe77\ufee2",
-        "transliteration": "maytam"
-    },
-    {
-        "en": "furnish",
-        "eg": "\ufed3\ufe77\ufeae\ufe76\ufeb5",
-        "transliteration": "farash"
-    },
-    {
-        "en": "further",
-        "eg": "\ufedb\ufe77\ufee4\ufe8e\ufe76\ufee5",
-        "transliteration": "kamaen"
     },
     {
         "en": "fuss",
@@ -1785,11 +745,6 @@
         "transliteration": "haSwa"
     },
     {
-        "en": "gang",
-        "eg": "\ufecb\ufe7b\ufebc\ufe8e\ufe76\ufe91\ufe77\ufe94",
-        "transliteration": "AiSaaba"
-    },
-    {
         "en": "gargle",
         "eg": "\ufecf\ufe77\ufeae\ufecf\ufe77\ufeae",
         "transliteration": "GarGar"
@@ -1803,11 +758,6 @@
         "en": "gather",
         "eg": "\ufebf\ufe77\ufee2\ufe7c",
         "transliteration": "Damm"
-    },
-    {
-        "en": "gauge",
-        "eg": "\ufe83\ufee3\ufe92\ufef4\ufeae",
-        "transliteration": "'ambeer"
     },
     {
         "en": "gay",
@@ -1825,24 +775,9 @@
         "transliteration": "Giyaar"
     },
     {
-        "en": "gearbox",
-        "eg": "tiroos",
-        "transliteration": "Sandoo'"
-    },
-    {
         "en": "gecko",
         "eg": "\ufe91\ufe79\ufeae\ufeb9",
         "transliteration": "burS"
-    },
-    {
-        "en": "gem",
-        "eg": "kareem",
-        "transliteration": "hagar"
-    },
-    {
-        "en": "genius",
-        "eg": "\ufecb\ufe77\ufee0\ufe7d\ufe7b\ufee4\ufe77\ufe94",
-        "transliteration": "Aallima"
     },
     {
         "en": "genre",
@@ -1850,24 +785,9 @@
         "transliteration": "nooA"
     },
     {
-        "en": "gesture",
-        "eg": "\ufe97\ufe77\ufee0\ufee4\ufef4\ufea2",
-        "transliteration": "talmeeh"
-    },
-    {
         "en": "gilded",
         "eg": "\ufee3\ufe79\ufeac\ufe8d\ufe76\ufe8f",
         "transliteration": "muzaeb"
-    },
-    {
-        "en": "glad",
-        "eg": "\ufee3\ufe77\ufe92\ufeb4\ufeee\ufec1",
-        "transliteration": "mabsooT"
-    },
-    {
-        "en": "glorify",
-        "eg": "\ufee3\ufe77\ufea0\ufe7d\ufe7b\ufeaa",
-        "transliteration": "maggid"
     },
     {
         "en": "glory",
@@ -1875,39 +795,9 @@
         "transliteration": "Aizz"
     },
     {
-        "en": "glossy",
-        "eg": "\ufedf\ufe77\ufee4\ufe7d\ufef4\ufeca",
-        "transliteration": "lammeeA"
-    },
-    {
-        "en": "gloves",
-        "eg": "\ufe9f\ufe79\ufeee\ufe76\ufee7\ufe98\ufef2",
-        "transliteration": "guwanti"
-    },
-    {
-        "en": "glutton",
-        "eg": "\ufe91\ufe77\ufec4\ufef4\ufee8\ufef2",
-        "transliteration": "baTeeni"
-    },
-    {
         "en": "goose",
         "eg": "\ufeed\ufe7a\ufeaf\ufe7c",
         "transliteration": "wizz"
-    },
-    {
-        "en": "grab",
-        "eg": "\ufed7\ufe77\ufe92\ufe77\ufebe",
-        "transliteration": "'abaD"
-    },
-    {
-        "en": "granite",
-        "eg": "\ufe9f\ufeae\ufe76\ufee7\ufef4\ufe96",
-        "transliteration": "graneet"
-    },
-    {
-        "en": "grape",
-        "eg": "Ainab",
-        "transliteration": "wara'"
     },
     {
         "en": "grate",
@@ -1930,44 +820,14 @@
         "transliteration": "duhni"
     },
     {
-        "en": "Greek",
-        "eg": "\ufe9f\ufe7b\ufeae\ufef3\ufea0\ufef2",
-        "transliteration": "gireegi"
-    },
-    {
-        "en": "grief",
-        "eg": "\ufe83\ufeb3\ufef0",
-        "transliteration": "'asa"
-    },
-    {
-        "en": "grocer",
-        "eg": "\ufe91\ufe77\ufed8\ufe7d\ufe8e\ufe76\ufedd",
-        "transliteration": "ba''ael"
-    },
-    {
-        "en": "grocery",
-        "eg": "\ufe91\ufe77\ufed8\ufe7d\ufe8e\ufe76\ufedd",
-        "transliteration": "ba''ael"
-    },
-    {
         "en": "group",
         "eg": "\ufe9f\ufe79\ufeae\ufeed\ufe8f",
         "transliteration": "guroob"
     },
     {
-        "en": "grouper",
-        "eg": "\ufeed\ufe76\ufed7\ufe8e\ufe76\ufead",
-        "transliteration": "wa'aar"
-    },
-    {
         "en": "guilt",
         "eg": "\ufeaf\ufe76\ufee7\ufe90",
         "transliteration": "zanb"
-    },
-    {
-        "en": "gutter",
-        "eg": "\ufee3\ufe7b\ufeb0\ufead\ufe8d\ufe76\ufe8f",
-        "transliteration": "mizraab"
     },
     {
         "en": "gym",
@@ -1980,49 +840,14 @@
         "transliteration": "nuSS"
     },
     {
-        "en": "hand",
-        "eg": "yadawya",
-        "transliteration": "Qunbila"
-    },
-    {
-        "en": "handbag",
-        "eg": "yadd",
-        "transliteration": "shanTit"
-    },
-    {
         "en": "handed",
         "eg": "\ufee7\ufe8e\ufe76\ufeed\ufe7a\ufedd",
         "transliteration": "naewil"
     },
     {
-        "en": "handful",
-        "eg": "\ufedb\ufe77\ufe92\ufeb8\ufe77\ufe94",
-        "transliteration": "kabsha"
-    },
-    {
-        "en": "person",
-        "eg": "hilw",
-        "transliteration": "shakluh"
-    },
-    {
-        "en": "wait",
-        "eg": "maAaeya",
-        "transliteration": "Kalleek"
-    },
-    {
         "en": "happen",
         "eg": "\ufe9f\ufe77\ufeae\ufeef",
         "transliteration": "gara"
-    },
-    {
-        "en": "harder",
-        "eg": "\ufe83\ufebb\ufecc\ufe77\ufe90",
-        "transliteration": "'aSAab"
-    },
-    {
-        "en": "hashish",
-        "eg": "\ufee3\ufe77\ufeb4\ufec4\ufeee\ufedd",
-        "transliteration": "masTool"
     },
     {
         "en": "hasp",
@@ -2035,14 +860,9 @@
         "transliteration": "Aigl"
     },
     {
-        "en": "haunted",
-        "eg": "\ufee3\ufe77\ufeb4\ufedc\ufeee\ufee5",
-        "transliteration": "maskoon"
-    },
-    {
         "en": "must",
-        "eg": "\ufe87\ufebf\ufec4\ufe77\ufeae",
-        "transliteration": "'iDTar"
+        "eg": "\ufed3\ufe7b\ufec4\ufe8e\ufe76\ufead",
+        "transliteration": "fiTaar"
     },
     {
         "en": "hazard",
@@ -2060,16 +880,6 @@
         "transliteration": "dimaeG"
     },
     {
-        "en": "heading",
-        "eg": "\ufead\ufe8d\ufe76\ufeb1",
-        "transliteration": "raas"
-    },
-    {
-        "en": "headman",
-        "eg": "\ufecb\ufe79\ufee4\ufeaa\ufe76\ufe93",
-        "transliteration": "Aumda"
-    },
-    {
         "en": "health",
         "eg": "\ufecb\ufe8e\ufe76\ufed3\ufef4\ufe77\ufe94",
         "transliteration": "Aafya"
@@ -2078,11 +888,6 @@
         "en": "heatup",
         "eg": "\ufea9\ufe76\ufed3\ufe7d\ufef0",
         "transliteration": "daffa"
-    },
-    {
-        "en": "heavily",
-        "eg": "\ufe91\ufe7b\ufe98\ufeee\ufed7\ufede",
-        "transliteration": "bitoo'l"
     },
     {
         "en": "hedge",
@@ -2125,11 +930,6 @@
         "transliteration": "Aamal"
     },
     {
-        "en": "hiccup",
-        "eg": "\ufeaf\ufe78\ufecf\ufe79\ufec4\ufe7d\ufe77\ufe94",
-        "transliteration": "zuGuTTa"
-    },
-    {
         "en": "hidden",
         "eg": "\ufee3\ufe77\ufea8\ufed4\ufef2",
         "transliteration": "maKfi"
@@ -2150,24 +950,9 @@
         "transliteration": "uh"
     },
     {
-        "en": "himself",
-        "eg": "\ufee7\ufe77\ufed4\ufeb4\ufe79\ufeea",
-        "transliteration": "nafsuh"
-    },
-    {
-        "en": "hinting",
-        "eg": "\ufe97\ufe77\ufee0\ufee4\ufef4\ufea2",
-        "transliteration": "talmeeh"
-    },
-    {
         "en": "hiss",
         "eg": "\ufeeb\ufe7b\ufeb2\ufe7c",
         "transliteration": "hiss"
-    },
-    {
-        "en": "hob",
-        "eg": "bootagaez",
-        "transliteration": "Aeen"
     },
     {
         "en": "wait",
@@ -2178,11 +963,6 @@
         "en": "holy",
         "eg": "\ufee3\ufe79\ufeee\ufedf\ufe7b\ufeaa",
         "transliteration": "muwlid"
-    },
-    {
-        "en": "honesty",
-        "eg": "\ufebb\ufe79\ufeaa\ufed5",
-        "transliteration": "Sud'"
     },
     {
         "en": "honey",
@@ -2200,49 +980,14 @@
         "transliteration": "raAb"
     },
     {
-        "en": "hostage",
-        "eg": "\ufead\ufe76\ufeeb\ufef4\ufee8\ufe77\ufe94",
-        "transliteration": "raheena"
-    },
-    {
-        "en": "housing",
-        "eg": "\ufee3\ufe77\ufeb4\ufedc\ufe77\ufee6",
-        "transliteration": "maskan"
-    },
-    {
         "en": "how",
-        "eg": "'ieeh",
-        "transliteration": "'add"
-    },
-    {
-        "en": "however",
-        "eg": "\ufe87\ufee7\ufe7d\ufe77\ufee4\ufe8e\ufe76",
-        "transliteration": "'innama"
+        "eg": "'ieeh? \ufecb\ufe8e\ufe76\ufee3\ufe7b\ufede \ufe87\ufef3\ufeea",
+        "transliteration": "Aaemil"
     },
     {
         "en": "hubcap",
         "eg": "\ufec3\ufe8e\ufe76\ufeb3\ufe77\ufe94",
         "transliteration": "Taasa"
-    },
-    {
-        "en": "hundred",
-        "eg": "\ufee3\ufe7b\ufef4\ufe7d\ufe77\ufe94",
-        "transliteration": "miyya"
-    },
-    {
-        "en": "Hungary",
-        "eg": "\ufe8d\ufe7a\ufedf\ufee4\ufe77\ufea0\ufe77\ufeae",
-        "transliteration": "ilmagar"
-    },
-    {
-        "en": "husband",
-        "eg": "\ufeaf\ufeed\ufe9d",
-        "transliteration": "zoog"
-    },
-    {
-        "en": "hustler",
-        "eg": "\ufee7\ufe77\ufebc\ufe8e\ufe76\ufe8f",
-        "transliteration": "naSaab"
     },
     {
         "en": "I",
@@ -2255,16 +1000,6 @@
         "transliteration": "AabeeT"
     },
     {
-        "en": "idiotic",
-        "eg": "\ufe91\ufe77\ufeec\ufee0\ufeee\ufedd",
-        "transliteration": "bahlool"
-    },
-    {
-        "en": "idle",
-        "eg": "\ufedb\ufe77\ufeb4\ufefc\ufee5",
-        "transliteration": "kaslaen"
-    },
-    {
         "en": "ignite",
         "eg": "\ufeed\ufe76\ufedf\ufe7d\ufe77\ufeca",
         "transliteration": "wallaA"
@@ -2275,24 +1010,9 @@
         "transliteration": "naffaD"
     },
     {
-        "en": "impress",
-        "eg": "\ufe83\ufe97\ufea4\ufe77\ufed2",
-        "transliteration": "'athaf"
-    },
-    {
-        "en": "include",
-        "eg": "\ufe87\ufea3\ufe98\ufe77\ufeee\ufeef",
-        "transliteration": "'ihtawa"
-    },
-    {
         "en": "induce",
         "eg": "\ufea3\ufe77\ufeae\ufe7c\ufe76\ufed9",
         "transliteration": "harrak"
-    },
-    {
-        "en": "infant",
-        "eg": "\ufee3\ufe77\ufeee\ufedf\ufeee\ufea9",
-        "transliteration": "mawlood"
     },
     {
         "en": "inform",
@@ -2300,24 +1020,9 @@
         "transliteration": "ballaG"
     },
     {
-        "en": "inherit",
-        "eg": "\ufeed\ufe7a\ufead\ufe7a\ufe99",
-        "transliteration": "wirith"
-    },
-    {
-        "en": "initial",
-        "eg": "harf",
-        "transliteration": "'awwil"
-    },
-    {
         "en": "injure",
         "eg": "\ufe9f\ufe77\ufeae\ufe76\ufea1",
         "transliteration": "garah"
-    },
-    {
-        "en": "inquiry",
-        "eg": "\ufe91\ufe77\ufea4\ufe9a",
-        "transliteration": "bahth"
     },
     {
         "en": "insist",
@@ -2330,34 +1035,9 @@
         "transliteration": "guwwa"
     },
     {
-        "en": "invite",
-        "eg": "Aala",
-        "transliteration": "Aazam"
-    },
-    {
-        "en": "invited",
-        "eg": "\ufee3\ufe77\ufecc\ufeb0\ufeed\ufee1",
-        "transliteration": "maAzoom"
-    },
-    {
-        "en": "involve",
-        "eg": "\ufe83\ufeb7\ufeae\ufe76\ufed9",
-        "transliteration": "'ashrak"
-    },
-    {
-        "en": "ironer",
-        "eg": "\ufee3\ufe77\ufedc\ufeee\ufe76\ufe9f\ufef2",
-        "transliteration": "makwagi"
-    },
-    {
         "en": "isn't",
         "eg": "\ufee3\ufe7b\ufeb6",
         "transliteration": "mish"
-    },
-    {
-        "en": "it's",
-        "eg": "fayda",
-        "transliteration": "mafeesh"
     },
     {
         "en": "itch",
@@ -2365,19 +1045,9 @@
         "transliteration": "harash"
     },
     {
-        "en": "ivy",
-        "eg": "mutaslliQ",
-        "transliteration": "nabaet"
-    },
-    {
         "en": "J",
         "eg": "\ufedb\ufe79\ufeae\ufef3\ufeda",
         "transliteration": "kureek"
-    },
-    {
-        "en": "jacket",
-        "eg": "\ufe9f\ufe8e\ufe76\ufedb\ufe7b\ufe96\ufe7c",
-        "transliteration": "jaekitt"
     },
     {
         "en": "jade",
@@ -2390,26 +1060,6 @@
         "transliteration": "yesooA"
     },
     {
-        "en": "jew",
-        "eg": "\ufef3\ufe77\ufeec\ufeee\ufea9\ufef1",
-        "transliteration": "yahoodi"
-    },
-    {
-        "en": "jewel",
-        "eg": "\ufe9f\ufe77\ufeee\ufeeb\ufe77\ufeae\ufe76\ufe93",
-        "transliteration": "gawhara"
-    },
-    {
-        "en": "jewish",
-        "eg": "\ufef3\ufe77\ufeec\ufeee\ufea9\ufef1",
-        "transliteration": "yahoodi"
-    },
-    {
-        "en": "job",
-        "eg": "\ufeed\ufe76\ufec7\ufef4\ufed4\ufe77\ufe94",
-        "transliteration": "waZeefa"
-    },
-    {
         "en": "joking",
         "eg": "\ufeeb\ufe7b\ufeac\ufe8d\ufe76\ufead",
         "transliteration": "hizaar"
@@ -2420,44 +1070,14 @@
         "transliteration": "farah"
     },
     {
-        "en": "July",
-        "eg": "\ufef3\ufeee\ufedf\ufef4\ufeee",
-        "transliteration": "yooleew"
-    },
-    {
         "en": "jump",
         "eg": "\ufee7\ufe77\ufec2\ufe7c",
         "transliteration": "naTT"
     },
     {
-        "en": "June",
-        "eg": "\ufef3\ufeee\ufee7\ufef4\ufeee",
-        "transliteration": "yooneew"
-    },
-    {
         "en": "jute",
         "eg": "\ufe97\ufef4\ufede",
         "transliteration": "teel"
-    },
-    {
-        "en": "K",
-        "eg": "\ufed7\ufe79\ufed4\ufec4\ufe8e\ufe76\ufee5",
-        "transliteration": "'ufTaan"
-    },
-    {
-        "en": "kettle",
-        "eg": "\ufe91\ufe77\ufeae\ufe7c\ufe8d\ufe76\ufea9",
-        "transliteration": "barraad"
-    },
-    {
-        "en": "key",
-        "eg": "rigl",
-        "transliteration": "Kiliww"
-    },
-    {
-        "en": "kidding",
-        "eg": "\ufeeb\ufe7b\ufeac\ufe8d\ufe76\ufead",
-        "transliteration": "hizaar"
     },
     {
         "en": "kill",
@@ -2470,11 +1090,6 @@
         "transliteration": "keelw"
     },
     {
-        "en": "nursery",
-        "eg": "\ufec7\ufe79\ufeae\ufed1",
-        "transliteration": "Zurf"
-    },
-    {
         "en": "king",
         "eg": "\ufee3\ufe77\ufee0\ufe7b\ufeda",
         "transliteration": "malik"
@@ -2483,21 +1098,6 @@
         "en": "kiosk",
         "eg": "\ufedb\ufe79\ufeb8\ufeda",
         "transliteration": "kushk"
-    },
-    {
-        "en": "kitchen",
-        "eg": "\ufee3\ufe77\ufec4\ufe92\ufe77\ufea6",
-        "transliteration": "maTbaK"
-    },
-    {
-        "en": "kite",
-        "eg": "wara'",
-        "transliteration": "Tayaara"
-    },
-    {
-        "en": "kitten",
-        "eg": "SuGyara",
-        "transliteration": "'uTTa"
     },
     {
         "en": "kneel",
@@ -2510,11 +1110,6 @@
         "transliteration": "Gazal"
     },
     {
-        "en": "Kuwaiti",
-        "eg": "\ufedb\ufe79\ufeee\ufef3\ufe98\ufef2",
-        "transliteration": "kuweeti"
-    },
-    {
         "en": "ladder",
         "eg": "\ufeb3\ufe7b\ufee0\ufe7d\ufe7b\ufee2",
         "transliteration": "sillim"
@@ -2525,49 +1120,14 @@
         "transliteration": "marsa"
     },
     {
-        "en": "lame",
-        "eg": "\ufe83\ufecb\ufeae\ufe76\ufe9d",
-        "transliteration": "'aArag"
-    },
-    {
-        "en": "lantern",
-        "eg": "\ufed3\ufe77\ufee8\ufeee\ufeb1",
-        "transliteration": "fanoos"
-    },
-    {
-        "en": "laptop",
-        "eg": "\ufefb\ufe91\ufe98\ufeee\ufe8f",
-        "transliteration": "labtoob"
-    },
-    {
-        "en": "latest",
-        "eg": "\ufe83\ufea3\ufeaa\ufe76\ufe99",
-        "transliteration": "'ahdath"
-    },
-    {
-        "en": "latin",
-        "eg": "\ufefb\ufe97\ufef4\ufee8\ufef2",
-        "transliteration": "lateeni"
-    },
-    {
         "en": "latter",
         "eg": "\ufe9b\ufe8e\ufe76\ufee7\ufef2",
         "transliteration": "thaeni"
     },
     {
-        "en": "launch",
-        "eg": "\ufe87\ufec3\ufefc\ufed5",
-        "transliteration": "'iTlaaQ"
-    },
-    {
         "en": "lawn",
         "eg": "\ufecb\ufe79\ufeb8\ufe90",
         "transliteration": "Aushb"
-    },
-    {
-        "en": "lawyer",
-        "eg": "\ufee3\ufe79\ufea4\ufe8e\ufe76\ufee3\ufef2",
-        "transliteration": "muhaemi"
     },
     {
         "en": "lay",
@@ -2580,49 +1140,9 @@
         "transliteration": "sanad"
     },
     {
-        "en": "leaning",
-        "eg": "\ufee3\ufe8e\ufe76\ufef3\ufe7b\ufede",
-        "transliteration": "maeyil"
-    },
-    {
         "en": "leap",
         "eg": "\ufee7\ufe77\ufec2\ufe7c",
         "transliteration": "naTT"
-    },
-    {
-        "en": "leek",
-        "eg": "\ufedb\ufe79\ufeae\ufe7c\ufe8d\ufe76\ufe95",
-        "transliteration": "kurraat"
-    },
-    {
-        "en": "leisure",
-        "eg": "ilfaraaG",
-        "transliteration": "wa't"
-    },
-    {
-        "en": "lend",
-        "eg": "sulfa",
-        "transliteration": "'idda"
-    },
-    {
-        "en": "leper",
-        "eg": "\ufe83\ufe91\ufeae\ufe76\ufeb9",
-        "transliteration": "'abraS"
-    },
-    {
-        "en": "leprosy",
-        "eg": "\ufe91\ufe77\ufeae\ufe76\ufeb9",
-        "transliteration": "baraS"
-    },
-    {
-        "en": "lest",
-        "eg": "\ufe83\ufea3\ufeb4\ufe77\ufee6",
-        "transliteration": "'ahsan"
-    },
-    {
-        "en": "liar",
-        "eg": "\ufedb\ufe77\ufeaa\ufe7c\ufe8d\ufe76\ufe8f",
-        "transliteration": "kaddaeb"
     },
     {
         "en": "Libya",
@@ -2633,11 +1153,6 @@
         "en": "Libyan",
         "eg": "\ufedf\ufef4\ufe92\ufef2",
         "transliteration": "leebi"
-    },
-    {
-        "en": "license",
-        "eg": "\ufead\ufe78\ufea7\ufebc\ufe77\ufe94",
-        "transliteration": "ruKSa"
     },
     {
         "en": "lick",
@@ -2670,39 +1185,9 @@
         "transliteration": "shiffa"
     },
     {
-        "en": "listen",
-        "eg": "ilkalaem",
-        "transliteration": "tismaA"
-    },
-    {
-        "en": "lizard",
-        "eg": "\ufeb3\ufe7b\ufea4\ufee0\ufe77\ufef4\ufe77\ufe94",
-        "transliteration": "sihlaya"
-    },
-    {
         "en": "load",
         "eg": "\ufee7\ufe77\ufed8\ufee0\ufe77\ufeea",
         "transliteration": "na'lah"
-    },
-    {
-        "en": "locked",
-        "eg": "\ufee3\ufe77\ufed8\ufed4\ufeee\ufedd",
-        "transliteration": "ma'fool"
-    },
-    {
-        "en": "locking",
-        "eg": "\ufeb3\ufe77\ufeda\ufe7c",
-        "transliteration": "sakk"
-    },
-    {
-        "en": "lodging",
-        "eg": "\ufee3\ufe77\ufe92\ufef4\ufe96",
-        "transliteration": "mabeet"
-    },
-    {
-        "en": "logical",
-        "eg": "\ufee3\ufe77\ufee8\ufec4\ufe7b\ufed8\ufef2",
-        "transliteration": "manTiQi"
     },
     {
         "en": "loofah",
@@ -2725,29 +1210,9 @@
         "transliteration": "Aaeli"
     },
     {
-        "en": "lounge",
-        "eg": "guloos",
-        "transliteration": "'uooDit"
-    },
-    {
-        "en": "louse",
-        "eg": "\ufed7\ufe77\ufee4\ufede",
-        "transliteration": "'aml"
-    },
-    {
-        "en": "lowest",
-        "eg": "\ufe83\ufea9\ufee7\ufef0",
-        "transliteration": "'adna"
-    },
-    {
         "en": "loyal",
         "eg": "\ufee3\ufe79\ufea8\ufee0\ufe7b\ufeba",
         "transliteration": "muKliS"
-    },
-    {
-        "en": "loyalty",
-        "eg": "\ufe83\ufee3\ufe8e\ufe76\ufee7\ufe77\ufe94",
-        "transliteration": "'amaena"
     },
     {
         "en": "luck",
@@ -2760,24 +1225,9 @@
         "transliteration": "baKeet"
     },
     {
-        "en": "lust",
-        "eg": "\ufe91\ufe77\ufed0\ufe7b\ufef4\ufe7d\ufe77\ufe94",
-        "transliteration": "baGiyya"
-    },
-    {
-        "en": "machine",
-        "eg": "\ufee3\ufe77\ufedc\ufe77\ufee8\ufe77\ufe94",
-        "transliteration": "makana"
-    },
-    {
         "en": "madam",
         "eg": "\ufeb3\ufe7b\ufe96\ufe7c",
         "transliteration": "sitt"
-    },
-    {
-        "en": "mainly",
-        "eg": "ilAumoom",
-        "transliteration": "Aala"
     },
     {
         "en": "maker",
@@ -2795,29 +1245,14 @@
         "transliteration": "garab"
     },
     {
-        "en": "mankind",
-        "eg": "\ufe87\ufee7\ufeb2",
-        "transliteration": "'ins"
-    },
-    {
         "en": "manner",
         "eg": "\ufee3\ufe84\ufea7\ufe77\ufeac",
         "transliteration": "m'aKaz"
     },
     {
-        "en": "manners",
-        "eg": "\ufe83\ufea9\ufe76\ufe8f",
-        "transliteration": "'adab"
-    },
-    {
         "en": "many",
         "eg": "\ufedb\ufe7b\ufe98\ufef4\ufeae",
         "transliteration": "kiteer"
-    },
-    {
-        "en": "marbles",
-        "eg": "\ufe91\ufe7b\ufee0\ufef2",
-        "transliteration": "bili"
     },
     {
         "en": "March",
@@ -2840,11 +1275,6 @@
         "transliteration": "banna"
     },
     {
-        "en": "massive",
-        "eg": "\ufeeb\ufe8e\ufe76\ufef3\ufe7b\ufede",
-        "transliteration": "haeyil"
-    },
-    {
         "en": "mate",
         "eg": "\ufef3\ufe7b\ufe8e\ufe76\ufebd",
         "transliteration": "yiaaD"
@@ -2853,11 +1283,6 @@
         "en": "matte",
         "eg": "\ufee3\ufe77\ufec4\ufed4\ufef2",
         "transliteration": "maTfi"
-    },
-    {
-        "en": "mattock",
-        "eg": "\ufee3\ufe77\ufee8\ufed8\ufe77\ufeae\ufe76\ufe93",
-        "transliteration": "man'ara"
     },
     {
         "en": "May",
@@ -2885,19 +1310,9 @@
         "transliteration": "lahma"
     },
     {
-        "en": "medal",
-        "eg": "\ufee3\ufe77\ufeaa\ufe7a\ufedf\ufef4\ufe77\ufe94",
-        "transliteration": "madilya"
-    },
-    {
         "en": "melody",
         "eg": "\ufee7\ufe77\ufed0\ufe77\ufee4\ufe77\ufe94",
         "transliteration": "naGama"
-    },
-    {
-        "en": "melt",
-        "eg": "\ufe83\ufeaf\ufe8d\ufe76\ufe8f",
-        "transliteration": "'azaeb"
     },
     {
         "en": "memory",
@@ -2920,16 +1335,6 @@
         "transliteration": "mineew"
     },
     {
-        "en": "mess",
-        "eg": "\ufe91\ufe77\ufeec\ufeaa\ufe76\ufedf\ufe77\ufe94",
-        "transliteration": "bahdala"
-    },
-    {
-        "en": "metal",
-        "eg": "\ufeb3\ufe77\ufee4\ufedc\ufe77\ufeae\ufe76\ufe93",
-        "transliteration": "samkara"
-    },
-    {
         "en": "meter",
         "eg": "\ufee3\ufe7b\ufe98\ufeae",
         "transliteration": "mitr"
@@ -2945,64 +1350,9 @@
         "transliteration": "Duhr"
     },
     {
-        "en": "midget",
-        "eg": "\ufee3\ufe77\ufeb4\ufea8\ufeee\ufec1",
-        "transliteration": "masKooT"
-    },
-    {
-        "en": "milkman",
-        "eg": "\ufedf\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufee5",
-        "transliteration": "labbaen"
-    },
-    {
-        "en": "miller",
-        "eg": "\ufec3\ufe77\ufea4\ufe7d\ufe8e\ufe76\ufee5",
-        "transliteration": "Tahhaan"
-    },
-    {
-        "en": "miner",
-        "eg": "mangam",
-        "transliteration": "Aaemal"
-    },
-    {
-        "en": "mineral",
-        "eg": "maAdaniyya",
-        "transliteration": "mayyah"
-    },
-    {
-        "en": "mirage",
-        "eg": "ilshaTTaan",
-        "transliteration": "bahr"
-    },
-    {
-        "en": "mirror",
-        "eg": "\ufee3\ufe7b\ufeae\ufe8d\ufe76\ufef3\ufe8e\ufe76",
-        "transliteration": "miraeya"
-    },
-    {
-        "en": "confuse",
-        "eg": "\ufe91\ufe77\ufeae\ufe9f\ufe7b\ufede",
-        "transliteration": "bargil"
-    },
-    {
-        "en": "mixture",
-        "eg": "\ufea7\ufe77\ufee0\ufec4\ufe77\ufe94",
-        "transliteration": "KalTa"
-    },
-    {
         "en": "moan",
         "eg": "\ufeb7\ufe77\ufedc\ufef0",
         "transliteration": "shaka"
-    },
-    {
-        "en": "mockery",
-        "eg": "\ufe97\ufe77\ufeae\ufef3\ufe77\ufed6\ufe76",
-        "transliteration": "tarya'a"
-    },
-    {
-        "en": "modesty",
-        "eg": "\ufea3\ufe77\ufef4\ufe8e\ufe76\ufe80",
-        "transliteration": "haya'"
     },
     {
         "en": "mole",
@@ -3015,11 +1365,6 @@
         "transliteration": "filoos"
     },
     {
-        "en": "monster",
-        "eg": "\ufeed\ufe76\ufea3\ufeb6",
-        "transliteration": "wahsh"
-    },
-    {
         "en": "mood",
         "eg": "\ufee3\ufe8e\ufe76\ufedd",
         "transliteration": "mael"
@@ -3028,16 +1373,6 @@
         "en": "mosque",
         "eg": "\ufe9f\ufe8e\ufe76\ufee3\ufe7b\ufeca",
         "transliteration": "gaemiA"
-    },
-    {
-        "en": "mould",
-        "eg": "\ufed7\ufe8e\ufe76\ufedf\ufe7b\ufe90",
-        "transliteration": "'aalib"
-    },
-    {
-        "en": "mourner",
-        "eg": "\ufe91\ufe8e\ufe76\ufedb\ufef2",
-        "transliteration": "baeki"
     },
     {
         "en": "mouse",
@@ -3070,49 +1405,9 @@
         "transliteration": "maama"
     },
     {
-        "en": "mumps",
-        "eg": "illukeem",
-        "transliteration": "'abw"
-    },
-    {
-        "en": "mundane",
-        "eg": "\ufead\ufeed\ufe97\ufef4\ufee6",
-        "transliteration": "rooteen"
-    },
-    {
-        "en": "murmur",
-        "eg": "ham",
-        "transliteration": "ham"
-    },
-    {
         "en": "mush",
         "eg": "\ufeed\ufe7a\ufeb5\ufe7c",
         "transliteration": "wishsh"
-    },
-    {
-        "en": "mushy",
-        "eg": "\ufee3\ufe7b\ufe98\ufed4\ufe77\ufecc\ufeba",
-        "transliteration": "mitfaAS"
-    },
-    {
-        "en": "musket",
-        "eg": "\ufe91\ufe8e\ufe76\ufead\ufeed\ufea9\ufe76\ufe93",
-        "transliteration": "barooda"
-    },
-    {
-        "en": "must",
-        "eg": "\ufe87\ufebf\ufec4\ufe77\ufeae",
-        "transliteration": "'iDTar"
-    },
-    {
-        "en": "mustard",
-        "eg": "maAffina",
-        "transliteration": "rihtuh"
-    },
-    {
-        "en": "mutter",
-        "eg": "ham",
-        "transliteration": "ham"
     },
     {
         "en": "muzzle",
@@ -3120,29 +1415,9 @@
         "transliteration": "booz"
     },
     {
-        "en": "mine",
-        "eg": "\ufea3\ufe77\ufe92\ufef4\ufe92\ufef2",
-        "transliteration": "habeebi"
-    },
-    {
         "en": "N",
         "eg": "\ufeaf\ufe76\ufee5\ufe7c",
         "transliteration": "zann"
-    },
-    {
-        "en": "naive",
-        "eg": "niyaetuh",
-        "transliteration": "Aala"
-    },
-    {
-        "en": "napkin",
-        "eg": "sufra",
-        "transliteration": "fooTit"
-    },
-    {
-        "en": "nappy",
-        "eg": "\ufedb\ufe77\ufed4\ufeee\ufedf\ufe77\ufe94",
-        "transliteration": "kafoola"
     },
     {
         "en": "native",
@@ -3150,19 +1425,9 @@
         "transliteration": "baladi"
     },
     {
-        "en": "navvy",
-        "eg": "\ufe97\ufeee\ufead\ufe76\ufe91\ufef2",
-        "transliteration": "toorabi"
-    },
-    {
         "en": "neigh",
         "eg": "\ufee7\ufe77\ufeec\ufee8\ufe77\ufeea",
         "transliteration": "nahnah"
-    },
-    {
-        "en": "nicer",
-        "eg": "\ufe83\ufea3\ufee0\ufef0",
-        "transliteration": "'ahla"
     },
     {
         "en": "Nile",
@@ -3175,39 +1440,9 @@
         "transliteration": "halama"
     },
     {
-        "en": "no",
-        "eg": "mahaela",
-        "transliteration": "la"
-    },
-    {
-        "en": "no...",
-        "eg": "\ufee3\ufe77\ufed4\ufef4\ufeb6",
-        "transliteration": "mafeesh"
-    },
-    {
-        "en": "noble",
-        "eg": "\ufe83\ufebb\ufef4\ufede",
-        "transliteration": "'aSeel"
-    },
-    {
         "en": "noon",
         "eg": "\ufebf\ufe79\ufeec\ufeae",
         "transliteration": "Duhr"
-    },
-    {
-        "en": "nosey",
-        "eg": "\ufea3\ufe7b\ufeb8\ufe77\ufeae\ufef1",
-        "transliteration": "hishari"
-    },
-    {
-        "en": "notable",
-        "eg": "\ufe91\ufe8e\ufe76\ufead\ufe7a\ufeaf",
-        "transliteration": "baeriz"
-    },
-    {
-        "en": "nothing",
-        "eg": "haega",
-        "transliteration": "wala"
     },
     {
         "en": "notify",
@@ -3215,44 +1450,14 @@
         "transliteration": "ballaG"
     },
     {
-        "en": "now",
-        "eg": "Tool",
-        "transliteration": "Aala"
-    },
-    {
-        "en": "nowhere",
-        "eg": "hitta",
-        "transliteration": "wala"
-    },
-    {
         "en": "nubian",
         "eg": "\ufee7\ufeee\ufe91\ufef2",
         "transliteration": "noobi"
     },
     {
-        "en": "nude",
-        "eg": "\ufecb\ufe7b\ufeae\ufef3\ufe8e\ufe76\ufee5",
-        "transliteration": "Airyaen"
-    },
-    {
-        "en": "nullity",
-        "eg": "\ufe91\ufe79\ufec4\ufefc\ufee5",
-        "transliteration": "buTlaan"
-    },
-    {
-        "en": "oar",
-        "eg": "\ufee3\ufe7b\ufea0\ufeaa\ufe8d\ufe76\ufed1",
-        "transliteration": "migdaef"
-    },
-    {
         "en": "obese",
         "eg": "\ufe97\ufe7b\ufea8\ufef4\ufee6",
         "transliteration": "tiKeen"
-    },
-    {
-        "en": "obscene",
-        "eg": "\ufe87\ufe91\ufe8e\ufe76\ufea3\ufef2",
-        "transliteration": "'ibaehi"
     },
     {
         "en": "obtain",
@@ -3265,34 +1470,9 @@
         "transliteration": "reeha"
     },
     {
-        "en": "offence",
-        "eg": "\ufe9f\ufe77\ufeae\ufef3\ufee4\ufe77\ufe94",
-        "transliteration": "gareema"
-    },
-    {
-        "en": "officer",
-        "eg": "\ufec7\ufe8e\ufe76\ufe91\ufe7b\ufec2",
-        "transliteration": "ZaabiT"
-    },
-    {
-        "en": "often",
-        "eg": "kiteera",
-        "transliteration": "marraat"
-    },
-    {
-        "en": "okay",
-        "eg": "ilhamd",
-        "transliteration": "tamaem,"
-    },
-    {
         "en": "on",
         "eg": "\ufeed\ufe8d\ufe76\ufedf\ufe7b\ufeca",
         "transliteration": "waeliA"
-    },
-    {
-        "en": "ongoing",
-        "eg": "\ufe9f\ufe8e\ufe76\ufead\ufef1",
-        "transliteration": "gaeri"
     },
     {
         "en": "only",
@@ -3300,39 +1480,9 @@
         "transliteration": "bass"
     },
     {
-        "en": "oops!",
-        "eg": "\ufe83\ufea5",
-        "transliteration": "'aK"
-    },
-    {
-        "en": "opinion",
-        "eg": "naZar",
-        "transliteration": "wughit"
-    },
-    {
         "en": "opium",
         "eg": "\ufe91\ufe77\ufeae\ufeb5",
         "transliteration": "barsh"
-    },
-    {
-        "en": "or",
-        "eg": "la'",
-        "transliteration": "walla"
-    },
-    {
-        "en": "oral",
-        "eg": "\ufeb7\ufe77\ufed4\ufe77\ufeee\ufef1",
-        "transliteration": "shafawi"
-    },
-    {
-        "en": "organic",
-        "eg": "\ufecb\ufe77\ufec0\ufeee\ufef1",
-        "transliteration": "AaDwi"
-    },
-    {
-        "en": "Orion",
-        "eg": "\ufe9f\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufead",
-        "transliteration": "gabbaar"
     },
     {
         "en": "other",
@@ -3350,11 +1500,6 @@
         "transliteration": "daen"
     },
     {
-        "en": "owing",
-        "eg": "\ufee3\ufe77\ufeaa\ufef3\ufeee\ufee5",
-        "transliteration": "madyoon"
-    },
-    {
         "en": "owl",
         "eg": "\ufe91\ufeee\ufee1",
         "transliteration": "boom"
@@ -3363,11 +1508,6 @@
         "en": "owned",
         "eg": "\ufee3\ufe7b\ufee0\ufeda",
         "transliteration": "milk"
-    },
-    {
-        "en": "owner",
-        "eg": "\ufe83\ufe78\ufeed\ufee7\ufeae",
-        "transliteration": "'uoonr"
     },
     {
         "en": "oyster",
@@ -3385,29 +1525,14 @@
         "transliteration": "Gilis"
     },
     {
-        "en": "painful",
-        "eg": "\ufee3\ufe86\ufedf\ufe7b\ufee2",
-        "transliteration": "mw'lim"
-    },
-    {
         "en": "pair",
         "eg": "\ufe9f\ufeee\ufeaf",
         "transliteration": "gooz"
     },
     {
-        "en": "palace",
-        "eg": "\ufeb3\ufe77\ufeae\ufe8d\ufe76\ufef3\ufe77\ufe94",
-        "transliteration": "saraaya"
-    },
-    {
         "en": "palate",
         "eg": "\ufea3\ufe77\ufee0\ufed6",
         "transliteration": "hal'"
-    },
-    {
-        "en": "pallor",
-        "eg": "\ufe91\ufe77\ufeec\ufe8e\ufe76\ufe97\ufe77\ufe94",
-        "transliteration": "bahaeta"
     },
     {
         "en": "palm",
@@ -3420,11 +1545,6 @@
         "transliteration": "nahag"
     },
     {
-        "en": "panther",
-        "eg": "'iswid",
-        "transliteration": "nimr"
-    },
-    {
         "en": "pants",
         "eg": "\ufedb\ufe79\ufee0\ufeee\ufe95",
         "transliteration": "kuloot"
@@ -3435,39 +1555,9 @@
         "transliteration": "wara'a"
     },
     {
-        "en": "parking",
-        "eg": "\ufeb3\ufe8e\ufe76\ufef3\ufe7b\ufeb2",
-        "transliteration": "saeyis"
-    },
-    {
-        "en": "passion",
-        "eg": "\ufecb\ufe8e\ufe76\ufec3\ufe7b\ufed4\ufe77\ufe94",
-        "transliteration": "AaaTifa"
-    },
-    {
-        "en": "paste",
-        "eg": "\ufee3\ufe77\ufecc\ufea0\ufeee\ufee5",
-        "transliteration": "maAgoon"
-    },
-    {
         "en": "pat",
         "eg": "\ufec3\ufe77\ufe92\ufec4\ufe77\ufe90",
         "transliteration": "TabTab"
-    },
-    {
-        "en": "payable",
-        "eg": "ildafA",
-        "transliteration": "maTloob"
-    },
-    {
-        "en": "pea",
-        "eg": "\ufe91\ufe7b\ufeb4\ufe7b\ufee0\ufe7d\ufe77\ufe94",
-        "transliteration": "bisilla"
-    },
-    {
-        "en": "peak",
-        "eg": "\ufe83\ufe78\ufeed\ufe9d",
-        "transliteration": "'uoog"
     },
     {
         "en": "pearl",
@@ -3475,34 +1565,9 @@
         "transliteration": "looli"
     },
     {
-        "en": "peat",
-        "eg": "SinaeAi",
-        "transliteration": "Teen"
-    },
-    {
-        "en": "pedal",
-        "eg": "\ufe91\ufe77\ufeaa\ufe7c\ufe8d\ufe76\ufedd",
-        "transliteration": "baddael"
-    },
-    {
         "en": "penis",
         "eg": "\ufeaf\ufe7a\ufe8f",
         "transliteration": "zib"
-    },
-    {
-        "en": "percent",
-        "eg": "ilmiyya",
-        "transliteration": "fi"
-    },
-    {
-        "en": "perfume",
-        "eg": "\ufe91\ufe77\ufeae\ufed3\ufe8e\ufe76\ufee5",
-        "transliteration": "barfaen"
-    },
-    {
-        "en": "perhaps",
-        "eg": "\ufef3\ufe7b\ufee4\ufedc\ufe7b\ufee6",
-        "transliteration": "yimkin"
     },
     {
         "en": "person",
@@ -3515,24 +1580,9 @@
         "transliteration": "zann"
     },
     {
-        "en": "phone",
-        "eg": "\ufedb\ufe77\ufe92\ufef4\ufee8\ufe77\ufe94",
-        "transliteration": "kabeena"
-    },
-    {
-        "en": "pickles",
-        "eg": "\ufec3\ufe79\ufeae\ufeb7\ufef2",
-        "transliteration": "Turshi"
-    },
-    {
         "en": "picnic",
         "eg": "\ufee7\ufe79\ufeb0\ufeeb\ufe77\ufe94",
         "transliteration": "nuzha"
-    },
-    {
-        "en": "pie",
-        "eg": "\ufed3\ufe7b\ufec4\ufef4\ufeae\ufe76\ufe93",
-        "transliteration": "fiTeera"
     },
     {
         "en": "pierce",
@@ -3543,16 +1593,6 @@
         "en": "pig",
         "eg": "\ufea3\ufe77\ufee0\ufeee\ufed1",
         "transliteration": "haloof"
-    },
-    {
-        "en": "pigeon",
-        "eg": "hamaem",
-        "transliteration": "burg"
-    },
-    {
-        "en": "pimp",
-        "eg": "\ufee3\ufe79\ufecc\ufe77\ufeae\ufe76\ufeb9",
-        "transliteration": "muAaraS"
     },
     {
         "en": "pimple",
@@ -3580,39 +1620,14 @@
         "transliteration": "tartar"
     },
     {
-        "en": "piston",
-        "eg": "ilbistoon",
-        "transliteration": "binz"
-    },
-    {
         "en": "pit",
         "eg": "\ufe9f\ufeee\ufead\ufe76\ufe93",
         "transliteration": "goora"
     },
     {
-        "en": "placed",
-        "eg": "\ufee3\ufe77\ufea4\ufec4\ufeee\ufec1",
-        "transliteration": "mahTooT"
-    },
-    {
-        "en": "placing",
-        "eg": "\ufea3\ufe77\ufec2\ufe7c",
-        "transliteration": "haTT"
-    },
-    {
         "en": "plank",
         "eg": "\ufedf\ufeee\ufea1",
         "transliteration": "looh"
-    },
-    {
-        "en": "playful",
-        "eg": "\ufeb7\ufe77\ufed8\ufef2",
-        "transliteration": "sha'i"
-    },
-    {
-        "en": "pleased",
-        "eg": "\ufee3\ufe77\ufe92\ufeb4\ufeee\ufec1",
-        "transliteration": "mabsooT"
     },
     {
         "en": "plenty",
@@ -3630,19 +1645,9 @@
         "transliteration": "nataf"
     },
     {
-        "en": "plumber",
-        "eg": "\ufeb3\ufe77\ufe92\ufe7d\ufe8e\ufe76\ufed9",
-        "transliteration": "sabbaek"
-    },
-    {
         "en": "poke",
         "eg": "\ufeaf\ufe76\ufecf\ufe77\ufeaa",
         "transliteration": "zaGad"
-    },
-    {
-        "en": "pomp",
-        "eg": "\ufe83\ufe78\ufe91\ufe7d\ufe77\ufeec\ufe77\ufe94",
-        "transliteration": "'ubbaha"
     },
     {
         "en": "pony",
@@ -3655,34 +1660,9 @@
         "transliteration": "kaaka"
     },
     {
-        "en": "pope",
-        "eg": "\ufe8d\ufe7a\ufedf\ufe92\ufe8e\ufe76\ufe91\ufe8e\ufe76",
-        "transliteration": "ilbaaba"
-    },
-    {
-        "en": "poppy",
-        "eg": "ilnoom",
-        "transliteration": "'abw"
-    },
-    {
         "en": "porch",
         "eg": "\ufe97\ufe7b\ufeae\ufe8d\ufe76\ufeb1\ufe7c",
         "transliteration": "tirass"
-    },
-    {
-        "en": "pork",
-        "eg": "Kanzeer",
-        "transliteration": "lahma"
-    },
-    {
-        "en": "postage",
-        "eg": "busTa",
-        "transliteration": "TaabiA"
-    },
-    {
-        "en": "postman",
-        "eg": "\ufe91\ufe79\ufeb4\ufec4\ufe77\ufea0\ufef2",
-        "transliteration": "busTagi"
     },
     {
         "en": "pour",
@@ -3695,59 +1675,9 @@
         "transliteration": "booz"
     },
     {
-        "en": "poverty",
-        "eg": "\ufed3\ufe77\ufed8\ufeae",
-        "transliteration": "fa'r"
-    },
-    {
         "en": "pray",
         "eg": "\ufea9\ufe76\ufecb\ufef0",
         "transliteration": "daAa"
-    },
-    {
-        "en": "dawn",
-        "eg": "ilfagr",
-        "transliteration": "Salaait"
-    },
-    {
-        "en": "noon",
-        "eg": "ilZuhr",
-        "transliteration": "Salaait"
-    },
-    {
-        "en": "sunset",
-        "eg": "ilmaGrib",
-        "transliteration": "Salaait"
-    },
-    {
-        "en": "evening",
-        "eg": "ilAish'a",
-        "transliteration": "Salaait"
-    },
-    {
-        "en": "presser",
-        "eg": "\ufee3\ufe77\ufedc\ufeee\ufe76\ufe9f\ufef2",
-        "transliteration": "makwagi"
-    },
-    {
-        "en": "pretend",
-        "eg": "nafsuh",
-        "transliteration": "Aamal"
-    },
-    {
-        "en": "pride",
-        "eg": "\ufedb\ufe77\ufeae\ufe8d\ufe76\ufee3\ufe77\ufe94",
-        "transliteration": "karaama"
-    },
-    {
-        "en": "process",
-        "eg": "\ufecb\ufe8e\ufe76\ufedf\ufe7b\ufe9e",
-        "transliteration": "Aaelig"
-    },
-    {
-        "en": "product",
-        "eg": "\ufee3\ufe79\ufee8\ufe98\ufe77\ufe9e",
-        "transliteration": "muntag"
     },
     {
         "en": "prove",
@@ -3755,34 +1685,9 @@
         "transliteration": "bayyin"
     },
     {
-        "en": "prune",
-        "eg": "\ufed7\ufe77\ufeae\ufe8d\ufe76\ufebb\ufef4\ufe8e\ufe76",
-        "transliteration": "'araSya"
-    },
-    {
-        "en": "puberty",
-        "eg": "\ufe91\ufe79\ufee0\ufeee\ufecd",
-        "transliteration": "bulooG"
-    },
-    {
-        "en": "publish",
-        "eg": "\ufeab\ufe8d\ufe76\ufec9",
-        "transliteration": "zaeA"
-    },
-    {
-        "en": "pumpkin",
-        "eg": "Aasali",
-        "transliteration": "'araA"
-    },
-    {
         "en": "punish",
         "eg": "\ufe9f\ufe8e\ufe76\ufeaf\ufef1",
         "transliteration": "gaezi"
-    },
-    {
-        "en": "puppy",
-        "eg": "SuGayar",
-        "transliteration": "kalb"
     },
     {
         "en": "pure",
@@ -3790,64 +1695,9 @@
         "transliteration": "naQi"
     },
     {
-        "en": "purity",
-        "eg": "\ufe83\ufebb\ufe8e\ufe76\ufedf\ufe77\ufe94",
-        "transliteration": "'aSaala"
-    },
-    {
-        "en": "pushing",
-        "eg": "\ufeaf\ufe76\ufed5\ufe7c",
-        "transliteration": "za''"
-    },
-    {
-        "en": "pustule",
-        "eg": "\ufe9f\ufe77\ufeaa\ufe76\ufead",
-        "transliteration": "gadar"
-    },
-    {
-        "en": "putting",
-        "eg": "\ufea3\ufe77\ufec2\ufe7c",
-        "transliteration": "haTT"
-    },
-    {
-        "en": "putup",
-        "eg": "\ufe81\ufeed\ufeef",
-        "transliteration": "'ewa"
-    },
-    {
-        "en": "qualify",
-        "eg": "\ufe97\ufe84\ufe76\ufeeb\ufe77\ufede",
-        "transliteration": "t'aahal"
-    },
-    {
-        "en": "quickly",
-        "eg": "\ufe83\ufeed\ufe8d\ufe76\ufee1",
-        "transliteration": "'awaem"
-    },
-    {
         "en": "quit",
         "eg": "\ufe91\ufe77\ufec4\ufe7d\ufe77\ufede",
         "transliteration": "baTTal"
-    },
-    {
-        "en": "rabid",
-        "eg": "\ufeb3\ufe77\ufecc\ufeae\ufe8d\ufe76\ufee5",
-        "transliteration": "saAraan"
-    },
-    {
-        "en": "rabies",
-        "eg": "ilkalb",
-        "transliteration": "maraD"
-    },
-    {
-        "en": "racist",
-        "eg": "\ufecb\ufe79\ufee8\ufebc\ufe79\ufeae\ufef1",
-        "transliteration": "AunSuri"
-    },
-    {
-        "en": "rack",
-        "eg": "\ufee3\ufe77\ufee8\ufeb8\ufe77\ufeae",
-        "transliteration": "manshar"
     },
     {
         "en": "raffle",
@@ -3865,11 +1715,6 @@
         "transliteration": "mumTar"
     },
     {
-        "en": "rampart",
-        "eg": "\ufee3\ufe7b\ufe98\ufeae\ufe7a\ufeb1",
-        "transliteration": "mitris"
-    },
-    {
         "en": "rarely",
         "eg": "\ufee7\ufe8e\ufe76\ufea9\ufe7a\ufead",
         "transliteration": "naedir"
@@ -3878,11 +1723,6 @@
         "en": "rarity",
         "eg": "\ufe97\ufe79\ufea4\ufed4\ufe77\ufe94",
         "transliteration": "tuhfa"
-    },
-    {
-        "en": "ration",
-        "eg": "\ufe97\ufe77\ufee4\ufeee\ufef3\ufee6",
-        "transliteration": "tamween"
     },
     {
         "en": "raw",
@@ -3895,64 +1735,14 @@
         "transliteration": "tala"
     },
     {
-        "en": "reading",
-        "eg": "\ufed7\ufe7b\ufeae\ufe8d\ufe76\ufef3\ufe77\ufe94",
-        "transliteration": "'iraeya"
-    },
-    {
-        "en": "really?",
-        "eg": "salaem",
-        "transliteration": "ya"
-    },
-    {
-        "en": "receipt",
-        "eg": "\ufeed\ufe76\ufebb\ufede",
-        "transliteration": "waSl"
-    },
-    {
-        "en": "reclaim",
-        "eg": "ilshunaT",
-        "transliteration": "tasleem"
-    },
-    {
         "en": "reed",
         "eg": "\ufe91\ufeee\ufeb9",
         "transliteration": "booS"
     },
     {
-        "en": "reef",
-        "eg": "murganya",
-        "transliteration": "shuAb"
-    },
-    {
-        "en": "refer",
-        "eg": "maAa",
-        "transliteration": "raegiA"
-    },
-    {
         "en": "refuge",
         "eg": "\ufee3\ufe77\ufee0\ufea0\ufe77\ufe8a",
         "transliteration": "malga'"
-    },
-    {
-        "en": "rejoice",
-        "eg": "\ufeeb\ufe77\ufef4\ufe7d\ufe77\ufeba",
-        "transliteration": "hayyaS"
-    },
-    {
-        "en": "relieve",
-        "eg": "\ufead\ufe76\ufef3\ufe7d\ufe77\ufea2",
-        "transliteration": "rayyah"
-    },
-    {
-        "en": "remedy",
-        "eg": "\ufe83\ufeb3\ufe8e\ufe76\ufe80",
-        "transliteration": "'asa'"
-    },
-    {
-        "en": "removal",
-        "eg": "\ufeb7\ufef4\ufede",
-        "transliteration": "sheel"
     },
     {
         "en": "remove",
@@ -3963,11 +1753,6 @@
         "en": "repent",
         "eg": "\ufe97\ufe8e\ufe76\ufe8f",
         "transliteration": "taeb"
-    },
-    {
-        "en": "replace",
-        "eg": "\ufe91\ufe77\ufeaa\ufe7c\ufe7a\ufedd",
-        "transliteration": "baddil"
     },
     {
         "en": "rescue",
@@ -3985,11 +1770,6 @@
         "transliteration": "maSyaf"
     },
     {
-        "en": "respond",
-        "eg": "\ufead\ufe76\ufea9\ufe7c",
-        "transliteration": "radd"
-    },
-    {
         "en": "resume",
         "eg": "\ufedb\ufe77\ufee4\ufe7d\ufe7b\ufede",
         "transliteration": "kammil"
@@ -3998,21 +1778,6 @@
         "en": "retail",
         "eg": "\ufe91\ufef4\ufe77\ufeca",
         "transliteration": "byaA"
-    },
-    {
-        "en": "retire",
-        "eg": "Aala",
-        "transliteration": "'ithael"
-    },
-    {
-        "en": "retired",
-        "eg": "ilmaAaesh",
-        "transliteration": "Aala"
-    },
-    {
-        "en": "revenue",
-        "eg": "\ufea9\ufe76\ufee3\ufed0\ufe77\ufe94",
-        "transliteration": "damGa"
     },
     {
         "en": "rhythm",
@@ -4028,11 +1793,6 @@
         "en": "rice",
         "eg": "\ufead\ufe78\ufeaf\ufe7c",
         "transliteration": "ruzz"
-    },
-    {
-        "en": "riddle",
-        "eg": "\ufed3\ufe77\ufeb0\ufeed\ufead\ufe76\ufe93",
-        "transliteration": "fazoora"
     },
     {
         "en": "riding",
@@ -4055,19 +1815,9 @@
         "transliteration": "hu'oo'"
     },
     {
-        "en": "ringing",
-        "eg": "\ufead\ufe76\ufee5\ufe7c",
-        "transliteration": "rann"
-    },
-    {
         "en": "rip",
         "eg": "\ufed3\ufe77\ufeb8\ufe77\ufea6",
         "transliteration": "fashaK"
-    },
-    {
-        "en": "robber",
-        "eg": "\ufea3\ufe77\ufeae\ufe8d\ufe76\ufee3\ufef2",
-        "transliteration": "haraami"
     },
     {
         "en": "rock",
@@ -4100,11 +1850,6 @@
         "transliteration": "rooj"
     },
     {
-        "en": "roughly",
-        "eg": "\ufe91\ufe7b\ufecc\ufe79\ufee8\ufed2",
-        "transliteration": "biAunf"
-    },
-    {
         "en": "route",
         "eg": "\ufeb3\ufef4\ufeae",
         "transliteration": "seer"
@@ -4120,11 +1865,6 @@
         "transliteration": "baladi"
     },
     {
-        "en": "rusty",
-        "eg": "\ufee3\ufe7b\ufebc\ufe77\ufeaa\ufe7c\ufef1",
-        "transliteration": "miSaddi"
-    },
-    {
         "en": "sadly",
         "eg": "\ufe91\ufe7b\ufea4\ufe79\ufeb0\ufee5",
         "transliteration": "bihuzn"
@@ -4133,11 +1873,6 @@
         "en": "saint",
         "eg": "\ufed7\ufe7b\ufeb2\ufe7c",
         "transliteration": "Qiss"
-    },
-    {
-        "en": "salary",
-        "eg": "\ufee3\ufe77\ufeec\ufe7b\ufef4\ufe7d\ufe77\ufe94",
-        "transliteration": "mahiyya"
     },
     {
         "en": "sales",
@@ -4150,39 +1885,9 @@
         "transliteration": "haedi'"
     },
     {
-        "en": "sapling",
-        "eg": "\ufe9f\ufe77\ufeec\ufeaa\ufe76\ufec9",
-        "transliteration": "gahdaA"
-    },
-    {
-        "en": "saucer",
-        "eg": "ilfingaen",
-        "transliteration": "Taba'"
-    },
-    {
-        "en": "sausage",
-        "eg": "\ufeb3\ufeee\ufeb3\ufef4\ufeb2",
-        "transliteration": "soosees"
-    },
-    {
-        "en": "savoury",
-        "eg": "\ufea3\ufe8e\ufe76\ufea9\ufe7a\ufed5",
-        "transliteration": "haadi'"
-    },
-    {
         "en": "saw",
         "eg": "\ufeb3\ufe7b\ufeae\ufe8d\ufe76\ufed9",
         "transliteration": "siraak"
-    },
-    {
-        "en": "scandal",
-        "eg": "\ufed3\ufe7b\ufec0\ufef4\ufea4\ufe77\ufe94",
-        "transliteration": "fiDeeha"
-    },
-    {
-        "en": "scarce",
-        "eg": "\ufeb7\ufe8e\ufe76\ufea3\ufe7b\ufea2",
-        "transliteration": "shaehih"
     },
     {
         "en": "scent",
@@ -4200,11 +1905,6 @@
         "transliteration": "hakk"
     },
     {
-        "en": "screw",
-        "eg": "'alaewuwZ",
-        "transliteration": "musmaar"
-    },
-    {
         "en": "scrub",
         "eg": "\ufea9\ufe76\ufecb\ufe77\ufeda",
         "transliteration": "daAak"
@@ -4213,16 +1913,6 @@
         "en": "sea",
         "eg": "\ufeed\ufe76\ufed7\ufe8e\ufe76\ufead",
         "transliteration": "wa'aar"
-    },
-    {
-        "en": "seam",
-        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
-        "transliteration": "KiyaaTa"
-    },
-    {
-        "en": "used",
-        "eg": "biDaaAa",
-        "transliteration": "mahal"
     },
     {
         "en": "seduce",
@@ -4235,26 +1925,6 @@
         "transliteration": "shaef"
     },
     {
-        "en": "\ufe97\ufe77\ufed8\ufe8e\ufe76\ufeed\ufef1",
-        "eg": "banaeti",
-        "transliteration": "Ainab"
-    },
-    {
-        "en": "seeming",
-        "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufee6",
-        "transliteration": "baeyin"
-    },
-    {
-        "en": "seems",
-        "eg": "kida",
-        "transliteration": "yiZhar"
-    },
-    {
-        "en": "seizure",
-        "eg": "\ufee3\ufe77\ufeb4\ufeda",
-        "transliteration": "mask"
-    },
-    {
         "en": "seldom",
         "eg": "\ufee7\ufe8e\ufe76\ufea9\ufe7a\ufead",
         "transliteration": "naedir"
@@ -4263,11 +1933,6 @@
         "en": "select",
         "eg": "\ufee7\ufe77\ufed8\ufe7d\ufef0",
         "transliteration": "na''a"
-    },
-    {
-        "en": "selfish",
-        "eg": "\ufecf\ufe77\ufeee\ufef3\ufec2",
-        "transliteration": "GaweeT"
     },
     {
         "en": "seller",
@@ -4280,19 +1945,9 @@
         "transliteration": "laban"
     },
     {
-        "en": "sender",
-        "eg": "\ufe91\ufe8e\ufe76\ufecb\ufef4\ufe9a",
-        "transliteration": "baAeeth"
-    },
-    {
         "en": "server",
         "eg": "\ufea7\ufe8e\ufe76\ufea9\ufe7a\ufee1",
         "transliteration": "Kaadim"
-    },
-    {
-        "en": "session",
-        "eg": "\ufe9f\ufe77\ufee0\ufeb4\ufe77\ufe94",
-        "transliteration": "galsa"
     },
     {
         "en": "start",
@@ -4300,34 +1955,9 @@
         "transliteration": "Aadal"
     },
     {
-        "en": "seventh",
-        "eg": "\ufeb3\ufe8e\ufe76\ufe91\ufe7b\ufeca",
-        "transliteration": "saebiA"
-    },
-    {
-        "en": "seventy",
-        "eg": "\ufeb3\ufe77\ufe92\ufecc\ufef4\ufee6",
-        "transliteration": "sabAeen"
-    },
-    {
         "en": "sew",
         "eg": "\ufea7\ufe77\ufef4\ufe7d\ufe77\ufec2",
         "transliteration": "KayyaT"
-    },
-    {
-        "en": "sewage",
-        "eg": "Sarf",
-        "transliteration": "mayaat"
-    },
-    {
-        "en": "sewer",
-        "eg": "\ufee3\ufe77\ufea0\ufe8e\ufe76\ufead\ufef1",
-        "transliteration": "magaeri"
-    },
-    {
-        "en": "sewing",
-        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
-        "transliteration": "KiyaaTa"
     },
     {
         "en": "sexy",
@@ -4338,11 +1968,6 @@
         "en": "shadow",
         "eg": "\ufea7\ufe77\ufef4\ufe8e\ufe76\ufedd",
         "transliteration": "Kayael"
-    },
-    {
-        "en": "sharply",
-        "eg": "\ufea3\ufe8e\ufe76\ufea9\ufe76\ufe93",
-        "transliteration": "haeda"
     },
     {
         "en": "shave",
@@ -4360,24 +1985,9 @@
         "transliteration": "gazz"
     },
     {
-        "en": "shisha",
-        "eg": "\ufeb7\ufef4\ufeb8\ufe77\ufe94",
-        "transliteration": "sheesha"
-    },
-    {
         "en": "shoe",
         "eg": "\ufe9f\ufe77\ufeb0\ufee3\ufe77\ufe94",
         "transliteration": "gazma"
-    },
-    {
-        "en": "short",
-        "eg": "kahrabae'i",
-        "transliteration": "maes"
-    },
-    {
-        "en": "should",
-        "eg": "\ufee3\ufe77\ufed4\ufeae\ufeed\ufebd",
-        "transliteration": "mafrooD"
     },
     {
         "en": "shout",
@@ -4395,34 +2005,9 @@
         "transliteration": "kashsh"
     },
     {
-        "en": "shutter",
-        "eg": "\ufeb7\ufef4\ufeb6",
-        "transliteration": "sheesh"
-    },
-    {
-        "en": "sibling",
-        "eg": "\ufe87\ufea7\ufeee\ufe8d\ufe76\ufe95",
-        "transliteration": "'iKwaet"
-    },
-    {
         "en": "side",
         "eg": "\ufee7\ufe8e\ufe76\ufea3\ufef4\ufe77\ufe94",
         "transliteration": "nahya"
-    },
-    {
-        "en": "sighted",
-        "eg": "\ufe91\ufe77\ufebc\ufe7b\ufeae",
-        "transliteration": "baSir"
-    },
-    {
-        "en": "silence",
-        "eg": "\ufebb\ufe77\ufee4\ufe96",
-        "transliteration": "Samt"
-    },
-    {
-        "en": "similar",
-        "eg": "\ufeb7\ufe77\ufe92\ufef4\ufeea",
-        "transliteration": "shabeeh"
     },
     {
         "en": "Sinai",
@@ -4430,44 +2015,9 @@
         "transliteration": "seena'"
     },
     {
-        "en": "sincere",
-        "eg": "\ufe83\ufebb\ufef4\ufede",
-        "transliteration": "'aSeel"
-    },
-    {
-        "en": "singer",
-        "eg": "\ufee3\ufe79\ufed0\ufe77\ufee8\ufe7d\ufef2",
-        "transliteration": "muGanni"
-    },
-    {
-        "en": "singing",
-        "eg": "\ufecf\ufe79\ufee8\ufef0",
-        "transliteration": "Guna"
-    },
-    {
-        "en": "sit",
-        "eg": "\ufed7\ufe77\ufecc\ufe77\ufeaa",
-        "transliteration": "'aAad"
-    },
-    {
         "en": "site",
         "eg": "\ufee3\ufe77\ufeee\ufed7\ufe77\ufeca",
         "transliteration": "mawQaA"
-    },
-    {
-        "en": "situate",
-        "eg": "maw'aAan",
-        "transliteration": "Aayin"
-    },
-    {
-        "en": "sixty",
-        "eg": "\ufeb3\ufe7b\ufe98\ufe7d\ufef4\ufee6",
-        "transliteration": "sitteen"
-    },
-    {
-        "en": "skilled",
-        "eg": "\ufee3\ufe8e\ufe76\ufeeb\ufe7b\ufeae",
-        "transliteration": "maehir"
     },
     {
         "en": "skip",
@@ -4480,19 +2030,9 @@
         "transliteration": "jeeba"
     },
     {
-        "en": "skull",
-        "eg": "\ufe9f\ufe79\ufee4\ufea0\ufe79\ufee4\ufe77\ufe94",
-        "transliteration": "gumguma"
-    },
-    {
         "en": "slam",
         "eg": "\ufead\ufe76\ufeaf\ufe76\ufec9",
         "transliteration": "razaA"
-    },
-    {
-        "en": "slander",
-        "eg": "\ufe9f\ufe77\ufea4\ufe77\ufed2",
-        "transliteration": "gahaf"
     },
     {
         "en": "sleeve",
@@ -4515,19 +2055,9 @@
         "transliteration": "la'eem"
     },
     {
-        "en": "small",
-        "eg": "\ufebb\ufe79\ufed0\ufe77\ufef4\ufe77\ufeae",
-        "transliteration": "SuGayar"
-    },
-    {
         "en": "smelly",
         "eg": "\ufee7\ufe7b\ufe98\ufe7d\ufe7b\ufee6",
         "transliteration": "nittin"
-    },
-    {
-        "en": "smuggle",
-        "eg": "\ufeeb\ufe77\ufeae\ufe7c\ufe76\ufe8f",
-        "transliteration": "harrab"
     },
     {
         "en": "sneaky",
@@ -4550,49 +2080,14 @@
         "transliteration": "talg"
     },
     {
-        "en": "so...",
-        "eg": "baAd",
-        "transliteration": "illi"
-    },
-    {
-        "en": "soaked",
-        "eg": "\ufee3\ufe77\ufe92\ufee0\ufeee\ufedd",
-        "transliteration": "mablool"
-    },
-    {
-        "en": "soccer",
-        "eg": "il'adam",
-        "transliteration": "kurit"
-    },
-    {
-        "en": "sock",
-        "eg": "\ufeb7\ufe77\ufeae\ufe8d\ufe76\ufe8f",
-        "transliteration": "sharaab"
-    },
-    {
         "en": "soiree",
         "eg": "\ufeb3\ufe77\ufeec\ufeae\ufe76\ufe93",
         "transliteration": "sahra"
     },
     {
-        "en": "soldier",
-        "eg": "\ufe9f\ufe79\ufee8\ufeaa\ufef1",
-        "transliteration": "gundi"
-    },
-    {
         "en": "solid",
         "eg": "\ufebb\ufe77\ufee0\ufe90",
         "transliteration": "Salb"
-    },
-    {
-        "en": "somehow",
-        "eg": "'aw",
-        "transliteration": "kidah"
-    },
-    {
-        "en": "someone",
-        "eg": "\ufea3\ufe77\ufeaa\ufe7c",
-        "transliteration": "hadd"
     },
     {
         "en": "song",
@@ -4601,33 +2096,13 @@
     },
     {
         "en": "soon",
-        "eg": "'areeb",
+        "eg": "'areeb \ufecb\ufe77\ufee6 \ufed7\ufe77\ufeae\ufef3\ufe90",
         "transliteration": "Aan"
-    },
-    {
-        "en": "spade",
-        "eg": "\ufedb\ufeee\ufead\ufef3\ufeda",
-        "transliteration": "kooreek"
     },
     {
         "en": "spank",
         "eg": "\ufecb\ufe77\ufe92\ufe77\ufec2",
         "transliteration": "AabaT"
-    },
-    {
-        "en": "spanner",
-        "eg": "\ufee3\ufe79\ufed4\ufe98\ufe8e\ufe76\ufea1",
-        "transliteration": "muftaeh"
-    },
-    {
-        "en": "spare",
-        "eg": "\ufe87\ufeb3\ufe98\ufe7b\ufe92\ufee6",
-        "transliteration": "'istibn"
-    },
-    {
-        "en": "spice",
-        "eg": "\ufecb\ufe77\ufec4\ufe7d\ufe8e\ufe76\ufead",
-        "transliteration": "AaTTaar"
     },
     {
         "en": "spill",
@@ -4640,11 +2115,6 @@
         "transliteration": "taff"
     },
     {
-        "en": "spittle",
-        "eg": "\ufe91\ufe79\ufebc\ufe8e\ufe76\ufed5",
-        "transliteration": "buSaaQ"
-    },
-    {
         "en": "split",
         "eg": "\ufeb7\ufe77\ufed6\ufe7c",
         "transliteration": "sha''"
@@ -4653,11 +2123,6 @@
         "en": "spoke",
         "eg": "\ufe91\ufe77\ufeae\ufee3\ufe77\ufe94",
         "transliteration": "barma"
-    },
-    {
-        "en": "sponge",
-        "eg": "\ufeb3\ufe77\ufed4\ufe7b\ufee8\ufea0\ufe77\ufe94",
-        "transliteration": "safinga"
     },
     {
         "en": "spout",
@@ -4700,11 +2165,6 @@
         "transliteration": "TaAn"
     },
     {
-        "en": "stag",
-        "eg": "\ufe83\ufef3\ufede",
-        "transliteration": "'aeel"
-    },
-    {
         "en": "stair",
         "eg": "\ufeb3\ufe7b\ufee0\ufe7d\ufe7b\ufee2",
         "transliteration": "sillim"
@@ -4715,34 +2175,9 @@
         "transliteration": "baeyit"
     },
     {
-        "en": "stalk",
-        "eg": "\ufecb\ufe77\ufee8\ufed8\ufeee\ufea9",
-        "transliteration": "Aan'ood"
-    },
-    {
-        "en": "stamped",
-        "eg": "\ufee3\ufe77\ufe92\ufebc\ufeee\ufee1",
-        "transliteration": "mabSoom"
-    },
-    {
         "en": "stare",
         "eg": "\ufe91\ufe77\ufea4\ufee0\ufe77\ufed6",
         "transliteration": "bahla'"
-    },
-    {
-        "en": "statute",
-        "eg": "\ufed7\ufe8e\ufe76\ufee7\ufeee\ufee5",
-        "transliteration": "Qanoon"
-    },
-    {
-        "en": "staying",
-        "eg": "\ufeb3\ufe77\ufeec\ufe77\ufeae",
-        "transliteration": "sahar"
-    },
-    {
-        "en": "steel",
-        "eg": "\ufed3\ufeee\ufefb\ufeab",
-        "transliteration": "foolaez"
     },
     {
         "en": "stew",
@@ -4750,39 +2185,14 @@
         "transliteration": "yaKna"
     },
     {
-        "en": "stiff",
-        "eg": "\ufee7\ufe8e\ufe76\ufeb7\ufe7b\ufed2",
-        "transliteration": "naeshif"
-    },
-    {
         "en": "stingy",
         "eg": "\ufee7\ufe7b\ufe98\ufe7d\ufe7b\ufee6",
         "transliteration": "nittin"
     },
     {
-        "en": "stir",
-        "eg": "\ufed7\ufe77\ufee0\ufe7d\ufe7b\ufe90",
-        "transliteration": "'allib"
-    },
-    {
-        "en": "stirrer",
-        "eg": "\ufea3\ufe79\ufed8\ufee8\ufe77\ufe94",
-        "transliteration": "hu'na"
-    },
-    {
-        "en": "stitch",
-        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufec3\ufe77\ufe94",
-        "transliteration": "KiyaaTa"
-    },
-    {
         "en": "stoned",
         "eg": "\ufeb3\ufe79\ufec4\ufe77\ufede",
         "transliteration": "suTal"
-    },
-    {
-        "en": "honest",
-        "eg": "mustaQeem",
-        "transliteration": "raagil"
     },
     {
         "en": "stream",
@@ -4800,21 +2210,6 @@
         "transliteration": "shall"
     },
     {
-        "en": "stupor",
-        "eg": "\ufe91\ufe77\ufeec\ufe8e\ufe76\ufee3\ufe77\ufe94",
-        "transliteration": "bahaema"
-    },
-    {
-        "en": "stutter",
-        "eg": "\ufe97\ufe84\ufe97\ufe84",
-        "transliteration": "t'at'a"
-    },
-    {
-        "en": "stylish",
-        "eg": "\ufeb7\ufef4\ufe8e\ufe76\ufedb\ufe77\ufe94",
-        "transliteration": "shyaeka"
-    },
-    {
         "en": "such",
         "eg": "\ufeaf\ufe76\ufef1\ufe7c",
         "transliteration": "zayi"
@@ -4825,34 +2220,9 @@
         "transliteration": "maSS"
     },
     {
-        "en": "sultana",
-        "eg": "'iswid",
-        "transliteration": "zibeeb"
-    },
-    {
         "en": "summon",
         "eg": "\ufea9\ufe76\ufecb\ufef0",
         "transliteration": "daAa"
-    },
-    {
-        "en": "Sunday",
-        "eg": "soori",
-        "transliteration": "libb"
-    },
-    {
-        "en": "sunrise",
-        "eg": "ilshams",
-        "transliteration": "TulooA"
-    },
-    {
-        "en": "survive",
-        "eg": "\ufee7\ufe77\ufea0\ufe8e\ufe76",
-        "transliteration": "naga"
-    },
-    {
-        "en": "suspect",
-        "eg": "\ufeb7\ufe77\ufeda\ufe7c",
-        "transliteration": "shakk"
     },
     {
         "en": "swan",
@@ -4865,39 +2235,9 @@
         "transliteration": "Aaem"
     },
     {
-        "en": "symptom",
-        "eg": "\ufe83\ufee3\ufe8e\ufe76\ufead\ufe76\ufe93",
-        "transliteration": "'amaara"
-    },
-    {
-        "en": "syringe",
-        "eg": "\ufeb3\ufe7b\ufeae\ufe7a\ufee7\ufea0\ufe77\ufe94",
-        "transliteration": "siringa"
-    },
-    {
-        "en": "taboo",
-        "eg": "\ufee3\ufe77\ufea4\ufec8\ufeee\ufead",
-        "transliteration": "mahZoor"
-    },
-    {
         "en": "tailor",
         "eg": "\ufe97\ufe77\ufeae\ufeaf\ufef1",
         "transliteration": "tarzi"
-    },
-    {
-        "en": "social",
-        "eg": "\ufe87\ufe97\ufed4\ufe77\ufeda\ufe7c",
-        "transliteration": "'itfakk"
-    },
-    {
-        "en": "talent",
-        "eg": "\ufe91\ufe77\ufeae\ufe8d\ufe76\ufecb\ufe77\ufe94",
-        "transliteration": "baraaAa"
-    },
-    {
-        "en": "tampon",
-        "eg": "\ufe97\ufe77\ufee4\ufe92\ufeee\ufee5",
-        "transliteration": "tamboon"
     },
     {
         "en": "tank",
@@ -4910,29 +2250,9 @@
         "transliteration": "KabbaT"
     },
     {
-        "en": "taster",
-        "eg": "\ufeab\ufe76\ufeed\ufe7c\ufe8d\ufe76\ufed5",
-        "transliteration": "zawwaaQ"
-    },
-    {
-        "en": "tea",
-        "eg": "ziyaeda",
-        "transliteration": "shaei"
-    },
-    {
-        "en": "tearing",
-        "eg": "\ufed7\ufe77\ufec4\ufeca",
-        "transliteration": "'aTA"
-    },
-    {
         "en": "tease",
         "eg": "\ufecf\ufe8e\ufe76\ufec5",
         "transliteration": "GaaZ"
-    },
-    {
-        "en": "teasing",
-        "eg": "\ufee3\ufe7b\ufecc\ufe77\ufedc\ufeb4\ufe8e\ufe76",
-        "transliteration": "miAaksa"
     },
     {
         "en": "teat",
@@ -4940,19 +2260,9 @@
         "transliteration": "bizz"
     },
     {
-        "en": "ten",
-        "eg": "\ufe91\ufe77\ufeae\ufef3\ufeb0\ufe76\ufe93",
-        "transliteration": "bareeza"
-    },
-    {
         "en": "\ufe78\ufedf\ufe7d\ufe7b\ufee8\ufe9e",
         "eg": "\ufe9f\ufe77\ufeae\ufe7c",
         "transliteration": "garr"
-    },
-    {
-        "en": "terrace",
-        "eg": "\ufe97\ufe7b\ufeae\ufe8d\ufe76\ufeb1",
-        "transliteration": "tiraas"
     },
     {
         "en": "terror",
@@ -4970,39 +2280,14 @@
         "transliteration": "ha"
     },
     {
-        "en": "theme",
-        "eg": "\ufee3\ufe77\ufeee\ufebf\ufeee\ufe76\ufec9",
-        "transliteration": "mawDwaA"
-    },
-    {
-        "en": "there's",
-        "eg": "\ufee3\ufe77\ufed4\ufef4\ufeb6",
-        "transliteration": "mafeesh"
-    },
-    {
-        "en": "thereby",
-        "eg": "ilTareeQa",
-        "transliteration": "bihazah"
-    },
-    {
         "en": "they",
         "eg": "\ufe79\ufeec\ufe79\ufee2",
         "transliteration": "uhum"
     },
     {
-        "en": "thief",
-        "eg": "\ufea3\ufe77\ufeae\ufe8d\ufe76\ufee3\ufef2",
-        "transliteration": "haraami"
-    },
-    {
         "en": "thing",
         "eg": "\ufea3\ufe8e\ufe76\ufe9f\ufe77\ufe94",
         "transliteration": "haega"
-    },
-    {
-        "en": "thinner",
-        "eg": "\ufe97\ufe7b\ufee8\ufe77\ufeae",
-        "transliteration": "tinar"
     },
     {
         "en": "those",
@@ -5015,34 +2300,9 @@
         "transliteration": "fatla"
     },
     {
-        "en": "three",
-        "eg": "\ufe97\ufe77\ufefc\ufe97\ufe77\ufe94",
-        "transliteration": "talaeta"
-    },
-    {
         "en": "thresh",
         "eg": "\ufe9f\ufe79\ufeae\ufee5",
         "transliteration": "gurn"
-    },
-    {
-        "en": "throat",
-        "eg": "\ufe91\ufe79\ufee0\ufecc\ufeee\ufee1",
-        "transliteration": "bulAoom"
-    },
-    {
-        "en": "throw",
-        "eg": "\ufe87\ufed7\ufee0\ufe7b\ufe90",
-        "transliteration": "'i'lib"
-    },
-    {
-        "en": "thug",
-        "eg": "\ufe91\ufe77\ufee0\ufec4\ufe77\ufea0\ufef2",
-        "transliteration": "balTagi"
-    },
-    {
-        "en": "thus",
-        "eg": "kida",
-        "transliteration": "zayi"
     },
     {
         "en": "tickle",
@@ -5055,34 +2315,9 @@
         "transliteration": "madd"
     },
     {
-        "en": "tidy",
-        "eg": "\ufe97\ufe77\ufeee\ufebf\ufef4\ufe90",
-        "transliteration": "tawDeeb"
-    },
-    {
-        "en": "tighten",
-        "eg": "kuwayis",
-        "transliteration": "rabaT"
-    },
-    {
-        "en": "tights",
-        "eg": "\ufedb\ufeee\ufedf\ufeee\ufee5",
-        "transliteration": "kooloon"
-    },
-    {
-        "en": "tiny",
-        "eg": "\ufebb\ufe79\ufed0\ufe77\ufef4\ufe77\ufeae",
-        "transliteration": "SuGayar"
-    },
-    {
         "en": "tit",
         "eg": "\ufe91\ufe7b\ufeb0\ufe7c",
         "transliteration": "bizz"
-    },
-    {
-        "en": "tobacco",
-        "eg": "\ufe97\ufe77\ufe92\ufece",
-        "transliteration": "tabG"
     },
     {
         "en": "today",
@@ -5090,34 +2325,9 @@
         "transliteration": "ilyoom"
     },
     {
-        "en": "saeedy",
-        "eg": "rigl",
-        "transliteration": "SubaeA"
-    },
-    {
-        "en": "tomato",
-        "eg": "\ufed7\ufeee\ufec3\ufe77\ufe94",
-        "transliteration": "'ooTa"
-    },
-    {
-        "en": "tongue",
-        "eg": "\ufed3\ufe77\ufeb0\ufeed\ufead\ufe76\ufe93",
-        "transliteration": "fazoora"
-    },
-    {
         "en": "tonne",
         "eg": "\ufec3\ufe7b\ufee6\ufe7c",
         "transliteration": "Tinn"
-    },
-    {
-        "en": "toolbox",
-        "eg": "\ufecb\ufe7b\ufeaa\ufe7c\ufe76\ufe93",
-        "transliteration": "Aidda"
-    },
-    {
-        "en": "toolkit",
-        "eg": "\ufecb\ufe7b\ufeaa\ufe7c\ufe76\ufe93",
-        "transliteration": "Aidda"
     },
     {
         "en": "tooth",
@@ -5125,29 +2335,9 @@
         "transliteration": "sinna"
     },
     {
-        "en": "topic",
-        "eg": "\ufee3\ufe77\ufeee\ufebf\ufeee\ufe76\ufec9",
-        "transliteration": "mawDwaA"
-    },
-    {
-        "en": "totally",
-        "eg": "\ufedb\ufe8e\ufe76\ufee3\ufe7b\ufede",
-        "transliteration": "kaemil"
-    },
-    {
         "en": "tow",
         "eg": "\ufeb7\ufe7b\ufeaa\ufe7c",
         "transliteration": "shidd"
-    },
-    {
-        "en": "toward",
-        "eg": "nahya",
-        "transliteration": "Aala"
-    },
-    {
-        "en": "towel",
-        "eg": "\ufed3\ufe79\ufeee\ufe8d\ufe76\ufec3\ufe77\ufe94",
-        "transliteration": "fuwaaTa"
     },
     {
         "en": "town",
@@ -5155,69 +2345,9 @@
         "transliteration": "Qarya"
     },
     {
-        "en": "tractor",
-        "eg": "\ufe9f\ufe77\ufeae\ufe7c\ufe8d\ufe76\ufead",
-        "transliteration": "garraar"
-    },
-    {
-        "en": "traffic",
-        "eg": "muwaaSalaat",
-        "transliteration": "zahmit"
-    },
-    {
-        "en": "tragedy",
-        "eg": "\ufea9\ufead\ufe8d\ufe76\ufee3\ufe8e\ufe76",
-        "transliteration": "draama"
-    },
-    {
-        "en": "traitor",
-        "eg": "\ufea7\ufe8e\ufe76\ufef3\ufe7b\ufee6",
-        "transliteration": "Kaayin"
-    },
-    {
-        "en": "tram",
-        "eg": "\ufe97\ufe79\ufeae\ufee3\ufe8e\ufe76\ufef1",
-        "transliteration": "turmaai"
-    },
-    {
-        "en": "tramp",
-        "eg": "bidoon",
-        "transliteration": "raagil"
-    },
-    {
-        "en": "tramway",
-        "eg": "\ufe97\ufe79\ufeae\ufee3\ufe8e\ufe76\ufef1",
-        "transliteration": "turmaai"
-    },
-    {
-        "en": "book",
-        "eg": "ilsafar",
-        "transliteration": "dalleel"
-    },
-    {
-        "en": "tray",
-        "eg": "fi",
-        "transliteration": "wi'if"
-    },
-    {
-        "en": "treason",
-        "eg": "\ufea7\ufe7b\ufef4\ufe8e\ufe76\ufee7\ufe77\ufe94",
-        "transliteration": "Kiyaena"
-    },
-    {
-        "en": "trees",
-        "eg": "\ufeb7\ufe77\ufea0\ufe7d\ufe77\ufeae",
-        "transliteration": "shaggar"
-    },
-    {
         "en": "trench",
         "eg": "\ufee3\ufe7b\ufe98\ufeae\ufe7a\ufeb1",
         "transliteration": "mitris"
-    },
-    {
-        "en": "tribal",
-        "eg": "\ufed7\ufe7b\ufe92\ufee0\ufef2",
-        "transliteration": "'ibli"
     },
     {
         "en": "tripup",
@@ -5225,39 +2355,9 @@
         "transliteration": "kaAbil"
     },
     {
-        "en": "trivial",
-        "eg": "\ufe87\ufee7\ufeaa\ufe8d\ufe76\ufeb1",
-        "transliteration": "'indaes"
-    },
-    {
-        "en": "trolley",
-        "eg": "\ufe97\ufeae\ufeed\ufedf\ufe7d\ufef2",
-        "transliteration": "troolli"
-    },
-    {
         "en": "trophy",
         "eg": "\ufedb\ufe8e\ufe76\ufeb1",
         "transliteration": "kaes"
-    },
-    {
-        "en": "trot",
-        "eg": "baTee'",
-        "transliteration": "gara"
-    },
-    {
-        "en": "trumpet",
-        "eg": "\ufe97\ufe79\ufeae\ufe78\ufee3\ufe92\ufe77\ufe94",
-        "transliteration": "turumba"
-    },
-    {
-        "en": "clothes",
-        "eg": "ilma'aes",
-        "transliteration": "garrab"
-    },
-    {
-        "en": "Tuesday",
-        "eg": "ilthulaeth",
-        "transliteration": "yoom"
     },
     {
         "en": "tune",
@@ -5265,17 +2365,7 @@
         "transliteration": "ZabaT"
     },
     {
-        "en": "tune-up",
-        "eg": "\ufecb\ufe77\ufee4\ufeae\ufe76\ufe93",
-        "transliteration": "Aamra"
-    },
-    {
         "en": "Tunis",
-        "eg": "\ufe97\ufeee\ufee7\ufe7b\ufeb2",
-        "transliteration": "toonis"
-    },
-    {
-        "en": "Tunisia",
         "eg": "\ufe97\ufeee\ufee7\ufe7b\ufeb2",
         "transliteration": "toonis"
     },
@@ -5290,11 +2380,6 @@
         "transliteration": "turk"
     },
     {
-        "en": "turning",
-        "eg": "\ufec3\ufe77\ufed4\ufe7d\ufef2",
-        "transliteration": "Taffi"
-    },
-    {
         "en": "turnip",
         "eg": "\ufedf\ufe7b\ufed4\ufe96",
         "transliteration": "lift"
@@ -5303,11 +2388,6 @@
         "en": "two",
         "eg": "\ufef4\ufee6",
         "transliteration": "yn"
-    },
-    {
-        "en": "typhoid",
-        "eg": "\ufe97\ufe77\ufef4\ufed4\ufeee\ufea9",
-        "transliteration": "tayfood"
     },
     {
         "en": "tyre",
@@ -5321,28 +2401,8 @@
     },
     {
         "en": "unable",
-        "eg": "'aedir",
+        "eg": "'aedir \ufee3\ufe7b\ufeb6 \ufed7\ufe8e\ufe76\ufea9\ufe7a\ufead",
         "transliteration": "mish"
-    },
-    {
-        "en": "undress",
-        "eg": "\ufed7\ufe77\ufee0\ufe77\ufeca",
-        "transliteration": "'alaA"
-    },
-    {
-        "en": "unhappy",
-        "eg": "mabsooT",
-        "transliteration": "mish"
-    },
-    {
-        "en": "unknown",
-        "eg": "maAroof",
-        "transliteration": "mish"
-    },
-    {
-        "en": "unless",
-        "eg": "lam",
-        "transliteration": "'inn"
     },
     {
         "en": "unruly",
@@ -5350,34 +2410,14 @@
         "transliteration": "naa'iS"
     },
     {
-        "en": "upper",
-        "eg": "maSr",
-        "transliteration": "SaAeed"
-    },
-    {
         "en": "uproar",
         "eg": "\ufea9\ufe76\ufeed\ufeb7\ufe77\ufe94",
         "transliteration": "dawsha"
     },
     {
-        "en": "upwards",
-        "eg": "\ufed3\ufeee\ufed5",
-        "transliteration": "foo'"
-    },
-    {
         "en": "urgent",
         "eg": "\ufecb\ufe8e\ufe76\ufe9f\ufe7b\ufede",
         "transliteration": "Aaegil"
-    },
-    {
-        "en": "utterly",
-        "eg": "\ufea7\ufe8e\ufe76\ufedf\ufe7b\ufeba",
-        "transliteration": "KaaliS"
-    },
-    {
-        "en": "vaccine",
-        "eg": "\ufee3\ufe77\ufebc\ufede",
-        "transliteration": "maSl"
     },
     {
         "en": "vagina",
@@ -5400,39 +2440,9 @@
         "transliteration": "mahbas"
     },
     {
-        "en": "van",
-        "eg": "na'l",
-        "transliteration": "nuSS"
-    },
-    {
-        "en": "various",
-        "eg": "\ufedb\ufe77\ufeac\ufe8d\ufe76",
-        "transliteration": "kaza"
-    },
-    {
         "en": "vary",
         "eg": "\ufee7\ufe77\ufeee\ufe7c\ufe76\ufec9",
         "transliteration": "nawwaA"
-    },
-    {
-        "en": "vat",
-        "eg": "\ufe91\ufe77\ufeae\ufee3\ufef4\ufede",
-        "transliteration": "barmeel"
-    },
-    {
-        "en": "veal",
-        "eg": "bitillw",
-        "transliteration": "lahma"
-    },
-    {
-        "en": "velvet",
-        "eg": "\ufed7\ufe77\ufec4\ufef4\ufed4\ufe77\ufe94",
-        "transliteration": "'aTeefa"
-    },
-    {
-        "en": "vendor",
-        "eg": "il",
-        "transliteration": "bitaeA"
     },
     {
         "en": "verb",
@@ -5440,59 +2450,14 @@
         "transliteration": "fiAl"
     },
     {
-        "en": "verge",
-        "eg": "ilhadd",
-        "transliteration": "Aala"
-    },
-    {
         "en": "verify",
         "eg": "\ufe97\ufe77\ufee4\ufe7d\ufe7b\ufee2",
         "transliteration": "tammim"
     },
     {
-        "en": "version",
-        "eg": "\ufe87\ufebb\ufeaa\ufe8d\ufe76\ufead",
-        "transliteration": "'iSdaar"
-    },
-    {
-        "en": "vest",
-        "eg": "\ufed3\ufe77\ufee8\ufe7b\ufee0\ufe7d\ufe77\ufe94",
-        "transliteration": "fanilla"
-    },
-    {
-        "en": "vet",
-        "eg": "beeTari",
-        "transliteration": "duktoor"
-    },
-    {
-        "en": "vexed",
-        "eg": "\ufecf\ufe77\ufec0\ufe92\ufe8e\ufe76\ufee5",
-        "transliteration": "GaDbaan"
-    },
-    {
-        "en": "victory",
-        "eg": "\ufe8d\ufe7a\ufedf\ufee8\ufe77\ufebc\ufeae",
-        "transliteration": "ilnaSr"
-    },
-    {
         "en": "vile",
         "eg": "\ufe91\ufe8e\ufe76\ufef3\ufe7b\ufea6",
         "transliteration": "baeyiK"
-    },
-    {
-        "en": "village",
-        "eg": "\ufe91\ufe77\ufee0\ufeaa\ufe76\ufe93",
-        "transliteration": "balda"
-    },
-    {
-        "en": "violin",
-        "eg": "\ufedb\ufe77\ufee4\ufe77\ufee8\ufea0\ufe77\ufe94",
-        "transliteration": "kamanga"
-    },
-    {
-        "en": "virgin",
-        "eg": "binoot",
-        "transliteration": "bint"
     },
     {
         "en": "virtue",
@@ -5505,39 +2470,9 @@
         "transliteration": "veeza"
     },
     {
-        "en": "voucher",
-        "eg": "\ufe91\ufe77\ufef4\ufe8e\ufe76\ufee5",
-        "transliteration": "bayaen"
-    },
-    {
-        "en": "vowel",
-        "eg": "mutharrik",
-        "transliteration": "harf"
-    },
-    {
         "en": "W",
         "eg": "\ufead\ufe78\ufed7\ufe8e\ufe76\ufed5",
         "transliteration": "ru'ae'"
-    },
-    {
-        "en": "wage",
-        "eg": "\ufe83\ufe78\ufe9f\ufeae\ufe76\ufe93",
-        "transliteration": "'ugra"
-    },
-    {
-        "en": "wages",
-        "eg": "\ufee3\ufe77\ufeec\ufe7b\ufef4\ufe7d\ufe77\ufe94",
-        "transliteration": "mahiyya"
-    },
-    {
-        "en": "waiter",
-        "eg": "\ufeb3\ufe79\ufed4\ufeae\ufe76\ufe9f\ufef2",
-        "transliteration": "sufragi"
-    },
-    {
-        "en": "waiter!",
-        "eg": "rayyis",
-        "transliteration": "ya"
     },
     {
         "en": "wake",
@@ -5545,24 +2480,9 @@
         "transliteration": "Sahha"
     },
     {
-        "en": "oneself",
-        "eg": "\ufebb\ufe7b\ufea4\ufef2",
-        "transliteration": "Sihi"
-    },
-    {
-        "en": "walnut",
-        "eg": "gamal",
-        "transliteration": "Aeen"
-    },
-    {
         "en": "want",
         "eg": "\ufe9f\ufe7b\ufeea",
         "transliteration": "gih"
-    },
-    {
-        "en": "wanting",
-        "eg": "\ufecb\ufe8e\ufe76\ufef3\ufe7b\ufeb0",
-        "transliteration": "Aaeyiz"
     },
     {
         "en": "warmth",
