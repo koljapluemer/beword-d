@@ -1,7 +1,7 @@
 extends Node2D
 
-# The Language Stuff
 
+# The Language Stuff
 func load_json_file(file_path:String):
 	if FileAccess.file_exists(file_path):
 		var dataFile = FileAccess.open(file_path, FileAccess.READ)
@@ -203,6 +203,13 @@ func init_piece():
 	var keys = vocab_dict.keys();
 	var random_key = keys[randi() % keys.size()];
 	piece.get_node("word").text = vocab_dict[random_key];
+	# if key is e.g., change font to arabicFont
+	if random_key == "eg":
+		piece.get_node("arabicWord").text = vocab_dict[random_key];
+		# set arabicWord visible
+		piece.get_node("arabicWord").visible = true;
+		piece.get_node("word").visible = false;
+
 	return piece;
 
 func _process(delta):

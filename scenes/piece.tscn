@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://deyy6i17veryl"]
+[gd_scene load_steps=7 format=3 uid="uid://deyy6i17veryl"]
 
 [ext_resource type="Script" path="res://scripts/piece.gd" id="1_h4d8a"]
 [ext_resource type="Texture2D" uid="uid://42o1i8cm6hxm" path="res://assets/pieces/grey.png" id="2_2bq6m"]
+[ext_resource type="FontFile" uid="uid://dkj6ogi83yh7b" path="res://assets/font/NotoSansArabic-VariableFont_wdth,wght.ttf" id="3_hdnm7"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ndt2o"]
 load_path = "res://.godot/imported/row_overlay.png-32de48ca5b7f06d0fe7b9c089992e169.ctex"
@@ -38,6 +39,25 @@ offset_bottom = 7.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "lorem ipsum"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="arabicWord" type="Label" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.0
+offset_top = -27.5
+offset_right = 96.0
+offset_bottom = 9.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hdnm7")
 text = "lorem ipsum"
 horizontal_alignment = 1
 vertical_alignment = 1
