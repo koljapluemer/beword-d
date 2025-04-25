@@ -3,7 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://dvmumuiiobfd2" path="res://scenes/piece_jelly.tscn" id="1_0om2i"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dwoea"]
-load_path = "res://.godot/imported/Locks.png-ed1a8d401604ddf9abcaa2708ac5ce6d.ctex"
 
 [node name="piece_jelly" instance=ExtResource("1_0om2i")]
 

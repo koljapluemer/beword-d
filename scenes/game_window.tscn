@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://37racrrwxuti"]
 
 [ext_resource type="Texture2D" uid="uid://cmarw2nkl1xdq" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Background/Vector/Default.png" id="1_uxef0"]
-[ext_resource type="Script" path="res://scripts/grid.gd" id="4_3cfgc"]
-[ext_resource type="Script" path="res://scripts/special_grid.gd" id="5_s8l0m"]
-[ext_resource type="Script" path="res://scripts/holder_lock.gd" id="6_20di2"]
-[ext_resource type="Script" path="res://scripts/game_manager.gd" id="6_owwt3"]
-[ext_resource type="Script" path="res://scripts/holder_stone.gd" id="7_tryyb"]
+[ext_resource type="Script" uid="uid://cccydyd5c0j5n" path="res://scripts/grid.gd" id="4_3cfgc"]
+[ext_resource type="Script" uid="uid://cfkut13d6lwsb" path="res://scripts/special_grid.gd" id="5_s8l0m"]
+[ext_resource type="Script" uid="uid://46ak1d71qpyd" path="res://scripts/holder_lock.gd" id="6_20di2"]
+[ext_resource type="Script" uid="uid://5hao5wxcpfcx" path="res://scripts/game_manager.gd" id="6_owwt3"]
+[ext_resource type="Script" uid="uid://deex5tg2dig8u" path="res://scripts/holder_stone.gd" id="7_tryyb"]
 
 [node name="game_window" type="Node2D"]
 

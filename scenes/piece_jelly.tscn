@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dvmumuiiobfd2"]
 
-[ext_resource type="Script" path="res://scripts/piece_jelly.gd" id="1_hbat3"]
+[ext_resource type="Script" uid="uid://cw88wwbjyujh1" path="res://scripts/piece_jelly.gd" id="1_hbat3"]
 [ext_resource type="Texture2D" uid="uid://bgmmma75rd7b" path="res://assets/pieces/ice.png" id="2_m28qe"]
 
 [node name="piece_jelly" type="Node2D"]

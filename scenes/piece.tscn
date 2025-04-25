@@ -1,17 +1,14 @@
 [gd_scene load_steps=7 format=3 uid="uid://deyy6i17veryl"]
 
-[ext_resource type="Script" path="res://scripts/piece.gd" id="1_h4d8a"]
+[ext_resource type="Script" uid="uid://ble6lpe3casp7" path="res://scripts/piece.gd" id="1_h4d8a"]
 [ext_resource type="Texture2D" uid="uid://42o1i8cm6hxm" path="res://assets/pieces/grey.png" id="2_2bq6m"]
 [ext_resource type="FontFile" uid="uid://dkj6ogi83yh7b" path="res://assets/font/NotoSansArabic-VariableFont_wdth,wght.ttf" id="3_hdnm7"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ndt2o"]
-load_path = "res://.godot/imported/row_overlay.png-32de48ca5b7f06d0fe7b9c089992e169.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cii67"]
-load_path = "res://.godot/imported/col_overlay.png-6d6d963be2a39d3c31e8c4d76aa95083.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u3lqb"]
-load_path = "res://.godot/imported/surround_overlay.png-0f151c833900f6de54e59c0420c97bd4.ctex"
 
 [node name="piece" type="Node2D"]
 script = ExtResource("1_h4d8a")

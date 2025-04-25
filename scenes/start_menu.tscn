@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b7vk71nhpxfdl"]
 
-[ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_hgqku"]
+[ext_resource type="Script" uid="uid://drhucrfc8k4xy" path="res://scripts/start_menu.gd" id="1_hgqku"]
 [ext_resource type="Texture2D" uid="uid://cmarw2nkl1xdq" path="res://assets/Prinbles_Asset_Robin (v 1.1) (9_5_2023)/png/Background/Vector/Default.png" id="1_y3psu"]
 
 [node name="StartMenu" type="Control"]
@@ -42,9 +42,9 @@ horizontal_alignment = 1
 [node name="LanguageSelect" type="OptionButton" parent="VBoxContainer"]
 layout_mode = 2
 alignment = 1
-item_count = 2
 selected = 0
 allow_reselect = true
+item_count = 2
 popup/item_0/text = "English — German"
 popup/item_0/id = 0
 popup/item_1/text = "English — Egyptian Arabic"
